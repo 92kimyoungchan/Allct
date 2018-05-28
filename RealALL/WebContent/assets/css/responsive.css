@@ -1,0 +1,582 @@
+@CHARSET "UTF-8";
+
+@media screen and (min-width:320px) and (max-width:374px) {
+}
+
+@media screen and (max-width:343px) {
+	section:not (.another) {
+		padding: 15px 5% !important;
+	}
+}
+
+@media screen and (min-width:375px) and (max-width:424px) {
+	section.advertisement {
+		min-height: 215px;
+	}
+}
+
+@media screen and (max-width:424px) {
+	section.another p>br {
+		display: contents;
+	}
+	.mobile-about-us {
+		display: block;
+		padding: 15px !important;
+	}
+	.advertisement .adsection-mobile {
+		left: 2.5%;
+	}
+	section.advertisement {
+		
+	}
+	.advertisement .adsection-mobile {
+		left: 0%;
+		width: 100%;
+		padding: 0px 5%;
+	
+	}
+	
+	.advertisement .adsection-mobile h2 {
+		font-size: 23px;
+		margin-bottom: 3px;
+		line-height: 35px;
+	}
+	section:not(.another) {
+		padding: 45px 5%;
+	}
+	.advertisement .adsection {
+		display: none;
+	}
+}
+
+@media screen and (min-width:425px) {
+	
+	.advertisement .adsection-mobile {
+		display: none;
+	}
+}
+
+@media screen and (min-width:425px) and (max-width:645px) {
+	section:not(.another) {
+		padding: 45px 4%;
+	}
+}
+
+@media screen and (max-width:480px) {
+	.mobile_show {
+		display: block;
+	}
+	.owl-carousel .owl-item img {
+		min-height: 180px;
+	}
+	section.incarousel {
+		display: none;
+	}
+}
+
+@media screen and (max-width:575px) {
+	.brand-logo {
+		margin-left: 16px;
+	}
+	.owl-carousel .owl-item img {
+		
+	}
+	.carousel-overlay span>br {
+		display: contents;
+	}
+	.carousel-overlay h2:last-of-type {
+		display: none;
+	}
+	.carousel-overlay h2 {
+		font-size: 26.5px;
+		margin-bottom: 5PX;
+	}
+	.carousel-overlay span {
+		font-size: 14.5px;
+	}
+	div.carousel-overlay-wrap {
+		
+	}
+	div.owl-theme .owl-dots {
+		
+	}
+	div.carousel-overlay-wrap .carousel-overlay {
+		top: calc(40% - 40.5px);
+	}
+
+	/* .img-box .img-set3 {
+		width:100%;
+		padding:0 100px;
+		margin:0;
+	}
+	
+	.img-box h2 {
+		font-size:21px;
+	}
+	
+	.img-box p {
+		font-size:16px;
+	} */
+	.tab-content .tab-pane p {
+		width: 75%;
+		/* display: none; */
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.tab-content .tab-pane span {
+		width: 25%;
+		/* display: none; */
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.slogan-box .slogan .slogan-content {
+		padding: 25px 5px;
+	}
+}
+
+@media screen and (min-width:576px) and (max-width:645px) {
+	div.carousel-overlay-wrap .carousel-overlay {
+	
+	}
+	div.owl-theme .owl-dots {
+		
+		
+	}
+	div.carousel-overlay-wrap {
+		
+	}
+	.carousel-overlay h2 {
+		font-size: 28px;
+	}
+	.carousel-overlay span {
+		font-size: 16px;
+	}
+	div.carousel-overlay-wrap {
+		
+	}
+}
+
+@media screen and (min-width:576px) and (max-width:767px) {
+	.uber-section {
+		width: 540px;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	.uber-section {
+		width: 720px;
+	}
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+	.uber-section {
+		width: 960px;
+	}
+}
+
+@media screen and (min-width:1200px) {
+	.uber-section {
+		width: 1140px;
+	}
+	.hash_info span:last-of-type {
+		display:block;
+	}
+}
+
+@media only screen and (max-width: 645px) {
+
+	section.another {
+		padding: 8% 4% 8%;
+	}
+	section.incarousel {
+		padding: 25px 7% 60px !important;
+	}
+	.carousel-overlay h2:last-of-type {
+		margin-bottom: 8px;
+	}
+	div.owl-theme .owl-dots {
+		bottom: 5%;
+	}
+
+	/*오브젝트 디스플레이*/
+	.img-box .img-set4 {
+		width: 48%;
+	}
+	.img-box .img-set4:nth-of-type(2n) {
+		margin-right: 0;
+	}
+	.advertisement .adsection {
+		left: 0%;
+		width: 100%;
+		padding: 0 5%;
+	}
+	.advertisement .adsection h2 {
+		font-size: 23px;
+		margin-bottom: 3px;
+	}
+	.advertisement .adsection p {
+		
+	}
+	.advertisement .adsection a {
+		
+	}
+}
+
+@media only screen and (min-width: 646px) and (max-width: 767px) {
+	
+	.hash_info .hash:nth-of-type(3) {
+		display:none;
+	}
+	
+	.slogan-box .slogan .slogan-content {
+		padding: 25px 38px;
+	}
+	.advertisement .adsection {
+		top: 50;
+		left: 30%;
+	}
+	div.owl-theme .owl-dots {
+		
+	
+	}
+	div.carousel-overlay-wrap .carousel-overlay {
+		position: relative;
+	
+	}
+	.carousel-overlay h2 {
+		font-size: 31.5px;
+	}
+	.carousel-overlay span {
+		font-size: 16.8px;
+	}
+	.carousel-overlay h2:last-of-type {
+		margin-bottom: 5px;
+	}
+	section.another {
+		padding: 8% 2.5% 8%;
+	}
+}
+
+@media only screen and (min-width: 646px) and (max-width: 991px) {
+	div.carousel-overlay-wrap {
+		
+	}
+		section:not(.another) {
+		padding: 70px 4%;
+	}
+	
+	.item-grid .item-set {
+	width: 48%;
+	margin-right: 2%;
+	float: left;
+	padding-bottom:25px;
+}
+
+.item-grid .item-set:nth-of-type(2n) {
+	margin-right: 0;
+	}
+	
+}
+
+@media only screen and (max-width: 767px) {
+	footer div.content-left {
+		width: 100%;
+		float: left;
+	}
+	footer div.content-right {
+		width: 100%;
+		float: left;
+	}
+	
+	.recruit-list {
+		padding: 0 15px;
+	}
+	.about-us {
+		display: none !important;
+	}
+	section .notice {
+		width: 100%;
+		margin-bottom: 35px;
+	}
+	.row .slogan-box {
+		width: 100%;
+	}
+	.mobile-about-us {
+		display: block;
+		padding: 5%;
+	}
+}
+
+@media only screen and (max-width: 645px) {
+	.recruit-list .search-area {
+		width: 80%;
+	}
+	.recruit-list .search-icon {
+		width: 20%;
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+	
+	
+	footer div.content-left {
+		width: 50%;
+		float: left;
+	}
+	footer div.content-right {
+		width: 50%;
+		float: left;
+	}
+	.carousel-overlay h2 {
+		font-size: 31px;
+	}
+	.carousel-overlay span {
+		font-size: 19.5px;
+	}
+	.advertisement .adsection {
+		left: 40%;
+		top: 50;
+	}
+	div.owl-theme .owl-dots {
+		
+		
+	}
+	div.carousel-overlay-wrap .carousel-overlay {
+		position: relative;
+		
+	}
+	.carousel-overlay h2>strong {
+		
+	}
+
+
+
+	 .tab-content .tab-pane p:nth-of-type(7) {
+		display: block;
+	}
+	.tab-content .tab-pane p:nth-of-type(8) {
+		display: block;
+	}
+	
+	.tab-content .tab-pane span:nth-of-type(7) {
+		display: block;
+	}
+	.tab-content .tab-pane span:nth-of-type(8) {
+		display: block;
+	} 
+}
+
+@media screen and (max-width:991px) {
+	.brand-logo-s {
+		display: none;
+	}
+	footer {
+		padding-top: 0;
+	}
+	footer div>h2 {
+		margin-bottom: 10px;
+	}
+	.slogan-box .slogan .slogan-content p {
+		margin: 0;
+		padding-top: 5px;
+	}
+	.slogan-box .slogan .slogan-content h2 {
+		font-size: 20px;
+		line-height: 32px;
+		margin: 0;
+		padding: 0;
+	}
+
+	.row .slogan-box {
+		padding: 0 10px;
+	}
+	section .notice {
+		padding: 0 10px;
+	}
+	.slogan-box .slogan .slogan-img img {
+		padding: 25px 15px;
+	}
+	.slogan-box .slogan .slogan-content>div {
+		word-break: normal;
+	}
+	.slogan-box .slogan .slogan-content {
+		padding: 25px 8px;
+	}
+	.owlc2 .owl-nav.disabled {
+		display: block !important;
+	}
+	.carousel-overlay h2 {
+		padding-bottom: 3px;
+	}
+	.brand-logo {
+		margin-bottom: 8px;
+	}
+	nav {
+		padding-top: 12px;
+		padding-bottom: 4px;
+	}
+	ul.ul-theory .uber {
+		display: none;
+	}
+	.ul-theory {
+		display: none;
+		padding: 10px 0 0;
+		width: 100%;
+	}
+	.ul-theory>li:hover>ul.drop-menu {
+		display: none;
+	}
+	.ul-theory>li {
+		text-align: center;
+		width: 50%;
+	}
+	#mobilemenu {
+		display: block;
+		float: right;
+		font-size: 30px;
+		padding: 8px 16px;
+		margin-bottom: 8px;
+	}
+	header {
+		display: none !important;
+	}
+	ul.ul-theory .mobile-join {
+		display: block;
+	}
+	
+	
+	
+	
+}
+
+@media screen and (min-width:992px) {
+	section.advertisement {
+		min-height: 300px;
+	}
+	
+	div.carousel-overlay-wrap .carousel-overlay {
+		top:calc(45% - 74px);
+	}
+	
+	.item-grid .item-set:nth-of-type(3n) {
+	margin-right: 0;
+	}
+	.item-grid .item-set {
+	width: 30.666%;
+	margin-right: 4%;
+	float: left;
+	padding-bottom:25px;
+}
+	
+	
+	
+}
+
+@media screen and (min-width:768px) and (max-width:1199px) {
+	.tab-content .tab-pane p {
+		width: 75%;
+		/* display: none; */
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	.tab-content .tab-pane span {
+		width: 25%;
+		/* display: none; */
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		overflow: hidden;
+	}
+	
+	
+}
+
+@media screen and (min-width:992px) and (max-width:1199px) {
+	
+	.slogan-box .slogan .slogan-content > div {
+		word-break:normal;
+	}
+	.slogan-box .slogan .slogan-content h2 {
+		line-height:35px;
+		font-size:23px;
+	}
+	.slogan-box .slogan .slogan-content {
+		padding:25px 20px;
+	}
+	.item-grid .item-set .item-set-in {
+		padding:13px 10px;
+	}
+	section:nth-of-type(3) {
+		padding:65px 15px;
+	}
+	
+	
+}
+
+@charset "utf-8";
+/* CSS Document */
+
+/*************************************************
+ 	
+	노트북 1366 x 768
+	
+*************************************************/
+
+/*************************************************
+ 	
+	타블렛 PC, 아이패드 1204 x 768
+	
+*************************************************/
+@media only screen and (max-width: 1355px) {
+	/* 사이드바와 퀵바*/
+	#floatMenu {
+		display: none;
+	}
+
+	/*오브젝트 디스플레이*/
+
+	/* 최소높이 */
+
+	/* 반응형 웹 메뉴 */
+	.ubermenu-responsive-toggle.ubermenu-responsive-toggle-main {
+		
+	}
+	.ubermenu-skin-vanilla.ubermenu-responsive-toggle {
+		
+	}
+	.ubermenu-responsive-default.ubermenu-responsive.ubermenu .ubermenu-nav
+		{
+		
+	}
+
+	/* 타이틀 */
+
+	/* 사이드바와 퀵바*/
+}
+
+/*************************************************
+
+	* big device
+
+	아이폰 6+  1080 x 1920 [retina] / 414 x 736
+	
+	아이폰 6   750 x 1334 [retina] / 375 x 667
+
+*************************************************/
+@media only screen and (min-width: 361px) and (max-width: 420px) {
+}
+
+/*--------------------------------------------------------------------------------
+
+	* small device
+	
+	갤럭시 S5 / 320 x 568
+	
+	아이폰 5   640 x 1136 [retina] / 320 x 568	
+
+--------------------------------------------------------------------------------*/
+@media only screen and (min-width: 319px) and (max-width: 360px) {
+	/* 탑바 */
+}
