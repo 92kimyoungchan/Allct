@@ -8,6 +8,8 @@
  */
 
 
+@charset "UTF-8";
+
 .owl-carousel .owl-stage {
 	position: relative;
 	-ms-touch-action: pan-Y;

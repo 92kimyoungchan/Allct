@@ -1,13 +1,9 @@
 $( document ).ready( function() {
 
-
-
 	var theoryW = parseInt($('.ul-theory').css('width').replace("px", ""));
 	var calibrate = parseInt(21.5); 
 	var uberMenu = theoryW + calibrate+"px";
 	var widthroot =$(window).width();
-	
-
 	
 	$(".uber-menu").css({
 		width : uberMenu
@@ -25,7 +21,6 @@ $( document ).ready( function() {
 	$(".uber-menu").css({
 		transform : makeTransform
 	});
-	
 	
 
 

@@ -19,13 +19,29 @@
 		<div class="row-noneflex">
 
 			<div class="main">
-				<div class="sub-banner">
-					<div class="overlay-wrap">
-						<div class="overlay"></div>
+				<section class="join">
+					<h2 class="section-header">회원가입</h2>
+					<p class="section-header">Allct에 회원가입을 하시면 모집공고 및 임상시험에 대한 다양한
+						자료들을 열람하실 수 있습니다.</p>
+					<div class="MemberProcedure">
+						<div class="small_navigation">
+						<a><i class="fas fa-home"></i>홈</a><span>><a
+							href="">회원가입</a></span>
 					</div>
-				</div>
+						<div class="article">
+							<a>약관동의와 본인인증</a>
+						</div>
+						<div class="article">
+							<a>회원정보 입력</a>
+						</div>
+						<div class="article">
+							<a>회원가입 완료</a>
+						</div>
+						
+					</div>
+					
 
-				<%@ include file="include/x-sidebar.jsp"%>
+				</section>
 
 			</div>
 
@@ -40,24 +56,28 @@
 	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/pagination.min.js"></script>
 	<script defer src="assets/js/fontawesome-all.js"></script>
-		<script defer src="assets/js/sub-banner.js"></script>
+	<script defer src="assets/js/sub-banner.js"></script>
 	<script type="text/javascript" src="assets/js/select.js"></script>
 	<script type="text/javascript" src="assets/js/structure.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
 
 	<script>
-		$(document).ready(function() {
-			$('#sideContent').find('.is-checked').removeClass('is-checked');
-			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
-			
-			if($('.main').filter('sub-banner')){
-				$('.main').css('padding-top','0');
-			}
-			
-			
+		$(document).ready(
+				function() {
 
-		});
+					$('.MemberProcedure').find('.MemberProcedure .article')
+							.removeClass('selected');
+					$('.MemberProcedure .article:eq(0)').addClass('selected');
+
+					/* 
+					 * 서브배너 재료
+					 */
+					if ($('.main').filter('sub-banner')) {
+						$('.main').css('padding-top', '0');
+					}
+
+				});
 	</script>
 </body>
 
