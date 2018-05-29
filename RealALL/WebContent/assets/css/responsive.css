@@ -341,7 +341,6 @@
 	}
 	div.owl-theme .owl-dots {
 		
-		
 	}
 	div.carousel-overlay-wrap .carousel-overlay {
 		position: relative;
@@ -350,9 +349,6 @@
 	.carousel-overlay h2>strong {
 		
 	}
-
-
-
 	 .tab-content .tab-pane p:nth-of-type(7) {
 		display: block;
 	}
@@ -513,70 +509,4 @@
 	}
 	
 	
-}
-
-@charset "utf-8";
-/* CSS Document */
-
-/*************************************************
- 	
-	노트북 1366 x 768
-	
-*************************************************/
-
-/*************************************************
- 	
-	타블렛 PC, 아이패드 1204 x 768
-	
-*************************************************/
-@media only screen and (max-width: 1355px) {
-	/* 사이드바와 퀵바*/
-	#floatMenu {
-		display: none;
-	}
-
-	/*오브젝트 디스플레이*/
-
-	/* 최소높이 */
-
-	/* 반응형 웹 메뉴 */
-	.ubermenu-responsive-toggle.ubermenu-responsive-toggle-main {
-		
-	}
-	.ubermenu-skin-vanilla.ubermenu-responsive-toggle {
-		
-	}
-	.ubermenu-responsive-default.ubermenu-responsive.ubermenu .ubermenu-nav
-		{
-		
-	}
-
-	/* 타이틀 */
-
-	/* 사이드바와 퀵바*/
-}
-
-/*************************************************
-
-	* big device
-
-	아이폰 6+  1080 x 1920 [retina] / 414 x 736
-	
-	아이폰 6   750 x 1334 [retina] / 375 x 667
-
-*************************************************/
-@media only screen and (min-width: 361px) and (max-width: 420px) {
-}
-
-/*--------------------------------------------------------------------------------
-
-	* small device
-	
-	갤럭시 S5 / 320 x 568
-	
-	아이폰 5   640 x 1136 [retina] / 320 x 568	
-
---------------------------------------------------------------------------------*/
-@media only screen and (min-width: 319px) and (max-width: 360px) {
-	/* 탑바 */
 }
