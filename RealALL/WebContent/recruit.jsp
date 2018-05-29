@@ -24,7 +24,7 @@
 				
 				<div class="subP">
 					<div class="subPage">
-						<h2>김영찬 바보</h2>
+						<h2>김영찬 바보!</h2>
 					</div>
 					<div class="recruit-box-search">
 						<ul class="nav nav-tabs">
