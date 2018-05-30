@@ -5,15 +5,15 @@
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <link rel="stylesheet"
    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<link rel="stylesheet" href="../assets/css/NewFile.css">
-<link rel="stylesheet" href="../assets/css/NewFile-res.css">
+<link rel="stylesheet" href="../../assets/css/doyoung/NewFile.css">
+<link rel="stylesheet" href="../../assets/css/doyoung/NewFile-res.css">
  </head> 
 <body>
    <header>
       <div class="container">
          <nav class="nav">
             <div class="brand-logo" onclick="location.href= 'homework2_.jsp'">
-               <img alt="" src="/RealALL/assets/images/allct-logo.png">
+               <img alt="" src="../../assets/images/practice/*">
             </div>
             <a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
             <ul class="topnav" id="myTopnav">   
@@ -113,7 +113,7 @@
             <div class="img-container">
             <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
-                  src="../assets/images/pre/blue.png">
+                  src="../../assets/images/practice/*">
                <div class="middle">
                   <div class="text">
                      <div class="zoomIn-container">
@@ -141,7 +141,7 @@
             <div class="img-container">
             <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
-                  src="../assets/images/pre/blue.png">
+                  src="../../assets/images/practice/*">
                <div class="middle">
                   <div class="text">
                      <div class="zoomIn-container">
@@ -169,7 +169,7 @@
             <div class="img-container">
             <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
-                  src="../assets/images/pre/blue.png">
+                  src="../../assets/images/practice/*">
                <div class="middle">
                   <div class="text">
                      <div class="zoomIn-container">
@@ -197,7 +197,7 @@
             <div class="img-container">
             <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
-                  src="../assets/images/pre/blue.png">
+                  src="../../assets/images/practice/*">
                <div class="middle">
                   <div class="text">
                      <div class="zoomIn-container">
@@ -286,7 +286,7 @@
    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script defer src="/RealALL/assets/js/fontawesome-all.js"></script>
+<script defer src="../../assets/js/fontawesome-all.js"></script>
 <script type="text/javascript">
    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
    $(function() {

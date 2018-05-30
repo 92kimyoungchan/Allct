@@ -34,6 +34,10 @@ div.col_set .col {
 	margin-right: 0%; 
 }
 
+.portfolio2 .portsub {
+	height:300px;
+}
+
 div.portfolio2 .portsub .port_content h2 {
     font-size: 20px;
 }
@@ -54,10 +58,6 @@ div.portfolio2 .portsub {
 	width: 100%;
 }
 
-div.portfolio2 .portsub img {
-	width: 300px;
-    height: auto;
-}
 
 div.footer .footersub {
     width: 49%;

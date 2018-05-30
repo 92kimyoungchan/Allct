@@ -1,17 +1,16 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link href="https://fonts.googleapis.com/css?family=Amatic+SC|Open+Sans" rel="stylesheet">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive2.css">
+<link rel="stylesheet" href="../../assets/css/sojin/style.css">
+<link rel="stylesheet" href="../../assets/css/sojin/responsive2.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script defer src="assets/js/fontawesome-all.js"></script>
+<script defer src="../../assets/js/fontawesome-all.js"></script>
 </head>
 
 <body>
@@ -20,7 +19,7 @@
 		<nav>
 
 			<a class="brand-logo" href=""><img
-				src="assets/images/ian-logoM.png"></a>
+				src="../../assets/images/practice/*"></a>
 			<ul class="topnav" id="myTopnav">
 				<li><a class="" href="" id="home">HOME</a></li>
 				<li><a class="" href="" id="portfolio">PORTFOLIO</a></li>
@@ -127,7 +126,8 @@
 		<div class="portfolio2">
 			<div class="portsub">
 			<div class="portsub-imgbox">
-				<img src="/test/assets/images/kakaoimage.jpg"></div>
+				<img src="../../assets/images/practice/*"></div>
+				<div class="content-box">
 				<div class="port_content">
 					<h2>BUSINESS CARDS</h2>
 					
@@ -136,12 +136,14 @@
 					<span> Lorem ipsum doloe sit amet da consectetuer adipiscing
 						elit. ad diam nonummy nibh euismodos tincidwnt ut faoreet dolore
 						atir.</span>
-				</div>
+				</div></div>
+				
 			</div>
 
 			<div class="portsub">
 			<div class="portsub-imgbox">
-				<img src="/test/assets/images/kakaoimage.jpg"></div>
+				<img src="../../assets/images/practice/*"></div>
+				<div class="content-box">
 				<div class="port_content">
 					<h2>BUSINESS CARDS</h2>
 					
@@ -150,11 +152,13 @@
 					<span> Lorem ipsum doloe sit amet da consectetuer adipiscing
 						elit. ad diam nonummy nibh euismodos tincidwnt ut faoreet dolore
 						atir.</span>
-				</div>
+				</div></div>
+				
 			</div>
 			<div class="portsub">
 			<div class="portsub-imgbox">
-				<img src="/test/assets/images/kakaoimage.jpg"></div>
+				<img src="../../assets/images/practice/*"></div>
+				<div class="content-box">
 				<div class="port_content">
 					<h2>BUSINESS CARDS</h2>
 					
@@ -163,12 +167,14 @@
 					<span> Lorem ipsum doloe sit amet da consectetuer adipiscing
 						elit. ad diam nonummy nibh euismodos tincidwnt ut faoreet dolore
 						atir.</span>
-				</div>
+				</div></div>
+				
 			</div>
 
 			<div class="portsub">
 			<div class="portsub-imgbox">
-				<img src="/test/assets/images/kakaoimage.jpg"></div>
+				<img src="../../assets/images/practice/*"></div>
+				<div class="content-box">
 				<div class="port_content">
 					<h2>BUSINESS CARDS</h2>
 					
@@ -177,7 +183,8 @@
 					<span> Lorem ipsum doloe sit amet da consectetuer adipiscing
 						elit. ad diam nonummy nibh euismodos tincidwnt ut faoreet dolore
 						atir.</span>
-				</div>
+				</div></div>
+				
 			</div>
 		</div>
 
