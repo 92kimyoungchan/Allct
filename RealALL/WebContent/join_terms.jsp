@@ -82,8 +82,7 @@
 
 								<label class="labelCheck" for="use_consent"><input
 									type="checkbox" id="use_consent" name="use" value="" /> <span
-									class="checkmark"></span>
-								<!-- <i class="far fa-square"></i> -->
+									class="checkmark"></span> <!-- <i class="far fa-square"></i> -->
 									<span>이용약관에 동의합니다.</span></label>
 							</div>
 						</div>
@@ -125,8 +124,7 @@
 
 								<label class="labelCheck" for="info_consent"><input
 									type="checkbox" id="info_consent" name="use" value="" /> <span
-									class="checkmark"></span>
-								<!-- <i class="far fa-square"></i> -->
+									class="checkmark"></span> <!-- <i class="far fa-square"></i> -->
 									<span>이용약관에 동의합니다.</span></label>
 							</div>
 						</div>
@@ -134,17 +132,18 @@
 						<div class="all-consent">
 							<h2>이용약관 및 개인정보이용에 모두 동의하십니까?</h2>
 							<label class="labelCheck" for="success_consent"><input
-								type="radio" id="success_consent" name="success" value="" /> <span
-								class="checkmark"></span>
-							<!-- <i class="far fa-square"></i> -->
+								type="radio" id="success_consent" name="consent" value="success" />
+								<span class="checkmark"></span> <!-- <i class="far fa-square"></i> -->
 								<span>이용약관에 동의합니다.</span></label><label class="labelCheck"
-								for="fail_consent"><input type="radio"
-								id="fail_consent" name="fail" value="" /> <span class="checkmark"></span>
-							<!-- <i class="far fa-square"></i> -->
-								<span>이용약관에 동의합니다.</span></label>
+								for="fail_consent"><input type="radio" id="fail_consent"
+								name="consent" value="success" /> <span class="checkmark"></span>
+								<!-- <i class="far fa-square"></i> --> <span>이용약관에 동의합니다.</span></label>
 						</div>
-						
-						<div class="identity"><h2>본인인증</h2></div>
+
+						<div class="identity">
+							<h2>본인인증</h2>
+							<hr>
+						</div>
 
 					</div>
 
