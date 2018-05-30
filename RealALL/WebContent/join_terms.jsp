@@ -140,9 +140,9 @@
 								<!-- <i class="far fa-square"></i> --> <span>이용약관에 동의합니다.</span></label>
 						</div>
 
-						<div class="identity">
-							<h2>본인인증</h2>
-							<hr>
+
+						<div class="button-box">
+							<button>동의</button><button>취소</button>
 						</div>
 
 					</div>

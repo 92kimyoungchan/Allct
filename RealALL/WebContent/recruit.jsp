@@ -229,7 +229,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark2">
 									<td class="text-center">
@@ -258,7 +258,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark3">
 									<td class="text-center">
@@ -287,7 +287,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark4">
 									<td class="text-center">
@@ -316,7 +316,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark5">
 									<td class="text-center">
@@ -345,7 +345,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark6">
 									<td class="text-center">
@@ -374,7 +374,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark7">
 									<td class="text-center">
@@ -403,7 +403,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark8">
 									<td class="text-center">
@@ -432,7 +432,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark9">
 									<td class="text-center">
@@ -461,7 +461,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 								<tr id="bookmark10">
 									<td class="text-center">
@@ -490,7 +490,7 @@
 												</ul>
 											</div>
 										</div></td>
-									<td class="text-center"><div class="td-button"><a href="">바로 신청하기</a></div></td>
+									<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
 								</tr>
 							</tbody>
 						</table>

@@ -500,7 +500,10 @@ section>h2.section-header {
 	text-align: center;
 	margin: 0;
 }
-
+section.join>h2.section-header {
+	text-align: center;
+	margin: 30px 0 0;
+}
 section>p.section-header {
 	text-align: center;
 }
@@ -1447,18 +1450,24 @@ div.tab-content .filter-area:last-child {
 	float: left;
 }
 
-.recruit-box .table .td-button {
+.recruit-box .table .button-box {
 	
 }
 
-.recruit-box .table .td-button>a {
+
+.button-box > button {
 	padding: 9PX 17PX;
 	background: #1c9035;
 	color: white;
 	font-size: 13.6px;
 	font-weight: bold;
+	border:none;
 }
 
+.button-box > button:focus {
+	outline:none;
+}	
+	
 .text-center .firstBox {
 	
 }
@@ -1588,8 +1597,8 @@ section.join {
 }
 
 .memberProcedure {
-	padding: 0px 40px 10px;
-	margin-top: 30px;
+	
+	margin: 30px 0;
 }
 
 .memberProcedure:after {
@@ -1686,7 +1695,7 @@ section.join .small_navigation {
 }
 
 .join .terms {
-	
+	padding:50px 0;
 }
 
 .join .terms h2 {
@@ -1718,11 +1727,21 @@ section.join .small_navigation {
 	text-align:center;
 	padding:40px 0;
 	background:#e6ffef;
+	margin-bottom:55px;
 }
 
-.join .terms .identity {
-	
+.join .terms .button-box {
+	text-align:center;
+	margin-bottom:30px;
 }
+
+.join .terms .button-box button {
+	margin:0 25px;
+	padding:17px 29px;
+	font-size:18px;
+}
+
+
 
 .all-consent .labelCheck:first-of-type  {
 	margin-right:40px;
@@ -1815,6 +1834,14 @@ section.join .small_navigation {
 }
 
 .join .terms .all-concent {
+	
+}
+
+section.join .join-done {
+	text-align:center;
+}
+
+.join-done img {
 	
 }
 
