@@ -24,22 +24,36 @@
 					<p class="section-header">Allct에 회원가입을 하시면 모집공고 및 임상시험에 대한 다양한
 						자료들을 열람하실 수 있습니다.</p>
 					<div class="MemberProcedure">
-						<div class="small_navigation">
+						<!-- <div class="small_navigation">
 						<a><i class="fas fa-home"></i>홈</a><span>><a
 							href="">회원가입</a></span>
+					</div> -->
+						<div class="article">
+							<span><i class="fas fa-check"></i><a>회원가입 선택</a></span>
+						</div>
+						<div class="article">
+							<span><i class="fas fa-check"></i><a>약관동의와 본인인증</a></span>
+						</div>
+						<div class="article">
+							<span><i class="fas fa-check"></i><a>회원정보 입력</a></span>
+						</div>
+						<div class="article">
+							<span><i class="fas fa-check"></i><a>회원가입 완료</a></span>
+						</div>
+
 					</div>
-						<div class="article">
-							<a>약관동의와 본인인증</a>
+
+					<div class="join-type">
+						<div>
+							<img src="assets/images/pre/blue.png">
+							<h2>일반 회원가입</h2>
 						</div>
-						<div class="article">
-							<a>회원정보 입력</a>
+						<div>
+							<img src="assets/images/pre/blue.png">
+							<h2>의뢰자 회원가입</h2>
 						</div>
-						<div class="article">
-							<a>회원가입 완료</a>
-						</div>
-						
 					</div>
-					
+
 
 				</section>
 
