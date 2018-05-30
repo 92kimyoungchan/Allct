@@ -120,10 +120,10 @@ body>div.wrapper>div>div>div>h1 {
 }
 
 .row-3 {
-	width: 32.666%;
+	width: 30.666%;
 	float: left;
-	/* margin-right: 4%; */
-	height: 110px;
+	margin-right: 4%;
+	position: relative;
 	/* float: left; */
 }
 
@@ -137,6 +137,7 @@ body>div.wrapper>div>div>div>h1 {
 .icon {
 	font-size: 40px;
 	color: #339595;
+	height: 100%;
 }
 
 i {
@@ -147,12 +148,13 @@ i {
 	float: left;
 	margin-right: 10px;
 	width: 45px;
-	height: 100%;
+	height: 110px;
 }
 
 .r-2 {
-	height: 100%;
-	margin-right: 4%;
+	height: 110px;
+	float: left;
+	width: calc(100% - 55px);
 }
 
 .content {
@@ -272,7 +274,7 @@ footer:after {
 	width: 100%;
 	opacity: 1;
 	display: block;
-	height:100%;
+	
 	}
 
 .middle {
@@ -345,6 +347,10 @@ footer:after {
 	font-size: 36px;
 	top: calc(50% - 18px);
 }
+
+
+
+
 
 
 body>div.wrapper>div>div>div>p {
