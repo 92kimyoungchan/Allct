@@ -1842,9 +1842,42 @@ section.join .join-done {
 }
 
 .join-done img {
-	
+	width:105px;
 }
 
+.join-done .complate {
+	margin:30px 0;
+}
+
+.join-done .complate h2 {
+	margin-bottom:0;
+	font-size:32px;
+	font-weight:300;
+	letter-spacing:2.13px;
+}
+
+.join-done .complate h2 > strong{
+	font-weight:bold;
+	padding-left:4px;
+}
+
+.join-done .complate p {
+	font-size:17px;
+}
+
+.join-done .complate .button-box {
+	padding:20px 0;
+}
+.join-done .complate .button-box button {
+	padding:17px 49px;
+}
+.join-done .complate .button-box button:first-of-type {
+	color:gray;
+	margin-right:25px;
+	background:white;
+	border:1px solid #212529;
+}
+	
 /* 플로팅 메뉴 */
 #floatMenu {
 	position: absolute;

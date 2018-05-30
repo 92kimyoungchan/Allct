@@ -41,10 +41,20 @@
 						</div>
 					</div>
 					<div class="join-done">
-					<i class="far fa-check-circle"></i>
+						<img src="assets/images/check-icon.png">
+						<div class="complate">
+							<h2>
+								Allct<strong>회원가입이 완료</strong>되었습니다.
+							</h2>
+							<p>Allct에 회원가입을 하시면 모집공고를 열람 하실 수 있습니다.</p>
+							<div class="button-box">
+								<button>메인으로</button>
+								<button>로그인하기</button>
+							</div>
+						</div>
 
 
-					
+
 					</div>
 				</section>
 
