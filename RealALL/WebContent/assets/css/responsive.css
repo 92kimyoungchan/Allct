@@ -14,7 +14,7 @@
 		min-height: 215px;
 	}
 }
-
+	
 @media screen and (max-width:424px) {
 	section.another p>br {
 		display: contents;

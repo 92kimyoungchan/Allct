@@ -1,5 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <html>
 <head>
 <title>수정본</title>
@@ -14,10 +13,10 @@
       <div class="container">
          <nav class="nav">
             <div class="brand-logo" onclick="location.href= 'homework2_.jsp'">
-               <img alt="" src="assets/images/fine-logo.png">
+               <img alt="" src="/RealALL/assets/images/allct-logo.png">
             </div>
             <a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
-            <ul class="topnav" id="myTopnav">
+            <ul class="topnav" id="myTopnav">   
                <li><a href="#">HOME</a></li>
                <li><a href="#">PORTFOLIO</a></li>
                <li><a href="#">BLOG</a></li>
@@ -111,8 +110,8 @@
       </div>
 
       <div class="sc-row">
-      
             <div class="img-container">
+            <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
                   src="../assets/images/pre/blue.png">
                <div class="middle">
@@ -124,6 +123,7 @@
                      </div>
             
                </div>
+            </div>
             </div>
             <div class="sc-protfolio-Explanation">
                <h4>BUSINESS CARDS</h4>
@@ -139,6 +139,7 @@
         
    
             <div class="img-container">
+            <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
                   src="../assets/images/pre/blue.png">
                <div class="middle">
@@ -149,7 +150,7 @@
                         </div>
                      </div>
                   </div>
-            
+            </div>
             </div>
             <div class="sc-protfolio-Explanation">
                <h4>BUSINESS CARDS</h4>
@@ -166,6 +167,7 @@
       <div class="sc-row">
       
             <div class="img-container">
+            <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
                   src="../assets/images/pre/blue.png">
                <div class="middle">
@@ -174,6 +176,7 @@
                         <div class="zoomIn">
                            <span class="glyphicon glyphicon-zoom-in plus-in"></span>
                         </div>
+                     </div>
                      </div>
             
                </div>
@@ -192,6 +195,7 @@
         
    
             <div class="img-container">
+            <div class ="middle-wrap">
                <img alt="portfolio" class="sc-portfolio-img"
                   src="../assets/images/pre/blue.png">
                <div class="middle">
@@ -201,6 +205,7 @@
                            <span class="glyphicon glyphicon-zoom-in plus-in"></span>
                         </div>
                      </div>
+                  </div>
                   </div>
             
             </div>
@@ -281,17 +286,14 @@
    src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script
    src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-<script defer src="assets/js/fontawesome-all.js"></script>
+<script defer src="/RealALL/assets/js/fontawesome-all.js"></script>
 <script type="text/javascript">
    /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
    $(function() {
       var mobilemenu = $('#mobilemenu');
       menu = $('nav ul');
-
       $(mobilemenu).on('click', function(e) {
-
          e.preventDefault();
-
          menu.slideToggle();
       });
    });

@@ -20,7 +20,6 @@ body {
 ul {
 	padding: 0px;
 	margin: 0px;
-	height: 53px;
 	list-style: none;
 	overflow: hidden;
 }
@@ -56,7 +55,6 @@ header {
 }
 
 nav>ul>li {
-	height: 100%;
 	padding: 20px 10px 10px 20px;
 }
 
@@ -125,7 +123,7 @@ body>div.wrapper>div>div>div>h1 {
 	width: 32.666%;
 	float: left;
 	/* margin-right: 4%; */
-	height: 100px;
+	height: 110px;
 	/* float: left; */
 }
 
@@ -291,15 +289,15 @@ footer:after {
 	top: 50%;
 }
 
-.img-container:hover .sc-portfolio-img {
+.middle-wrap:hover .sc-portfolio-img {
 	opacity: 0.3;
 }
 
-.img-container:hover .img-container {
+.middle-wrap:hover .img-container {
 	background-color: black;
 }
 
-.img-container:hover .middle {
+.middle-wrap:hover .middle {
 	opacity: 1;
 }
 
@@ -334,19 +332,20 @@ footer:after {
 
 .zoomIn-container {
 	border: 1px solid white;
-	border-radius: 50%;
-	width: 90px;
-	height: 90px;
-	top: calc(50% - 44px);
-	margin: 0 auto;
-	position: relative;
-	background-color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    top: calc(50% - 40px);
+    margin: 0 auto;
+    position: relative;
+    background-color: white;
 }
 
 .plus-in {
 	font-size: 36px;
 	top: calc(50% - 18px);
 }
+
 
 body>div.wrapper>div>div>div>p {
 	line-height: 30px;
@@ -361,5 +360,8 @@ body>div:nth-child(3)>div.flex>div>div>div>div:nth-of-type(3) {
 }
 
 .sc-Explanation-btn {
-	margin-bottom: 20px;
+	margin-bottom: 20px;  
+}
+.middle-wrap{
+	position: relative;
 }
