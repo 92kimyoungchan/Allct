@@ -50,7 +50,7 @@
 						</div>
 						<div>
 							<img src="assets/images/pre/blue.png">
-							<h2>의뢰자 회원가입</h2>
+							<h2>병원/제약사 회원가입</h2>
 						</div>
 					</div>
 
