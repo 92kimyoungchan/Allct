@@ -14,21 +14,32 @@
 <body>
 
 	<%@ include file="include/header_widget.jsp"%>
+	<div class="main-banner">
+		<div class="overlay">
+			<div class="overlay-box">
+				<div class="overlay-item">
+				<div class="header"><h2>로그인</h2>
+					<p>Allct에 오신 것을 환영합니다.</p></div>
+					
+					<div class="input-area">
+						<input type="text" name="ID">
+					</div>
+					<div class="input-area">
+						<input type="text" name="PW">
+					</div>
+					<div class="button-box">
+						<button class="wide" href="">로그인</button>
 
-	<div class="container">
-		<div class="row-noneflex">
-			<div class="overlay">
-			<h2></h2>
+					</div>
+					<div class="button-box divide">
+						<button>회원가입</button>
+						<button>아이디/비밀번호 찾기</button>
+					</div>
+				</div>
 			</div>
-			<div class="main">
-				
-
-			</div>
-
-
 		</div>
-
 	</div>
+
 
 	<%@ include file="include/footer.jsp"%>
 
@@ -43,10 +54,7 @@
 
 
 	<script>
-		$(document).ready(
-		
-
-				});
+	
 	</script>
 </body>
 
