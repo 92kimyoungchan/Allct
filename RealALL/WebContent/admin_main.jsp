@@ -4,42 +4,41 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
-<title>ALLCT</title>
+<title>ALLCT2</title>
 <link rel="stylesheet" href="assets/css/bootstrap.css">
 <link rel="stylesheet" href="assets/css/owl.carousel.css">
 <link rel="stylesheet" href="assets/css/style.css">
 <link rel="stylesheet" href="assets/css/responsive.css">
 
+
+
 </head>
 <body>
 
-	<%@ include file="include/header-widget.jsp"%>
-	<div class="main-banner">
-		<div class="overlay">
-			<div class="overlay-box">
-				<div class="overlay-item">
-				<div class="header"><h2>로그인</h2>
-					<p>Allct에 오신 것을 환영합니다.</p></div>
-					
-					<div class="input-area">
-						<input type="text" name="ID">
-					</div>
-					<div class="input-area">
-						<input type="text" name="PW">
-					</div>
-					<div class="button-box">
-						<button class="wide" href="">로그인</button>
+	<%@ include file="include/admin_header-widget.jsp"%>
 
-					</div>
-					<div class="button-box divide">
-						<button>회원가입</button>
-						<button>아이디/비밀번호 찾기</button>
-					</div>
+
+	<div class="container">
+		<div class="row-noneflex">
+			<div class="main no-padding">
+					<%@ include file="include/admin_x-sidebar.jsp"%>
+				<div class="subP_admin">
+						<%@ include file="include/admin_menu-header.jsp"%>
+						<div class="admin"></div>
 				</div>
+
+			
 			</div>
 		</div>
-	</div>
 
+
+
+	</div>
+	<footer class="admin_footer">
+		<div class="container">
+			<div class="row-noneflex"></div>
+		</div>
+	</footer>
 
 	<%@ include file="include/footer.jsp"%>
 
@@ -47,15 +46,19 @@
 	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="assets/js/pagination.min.js"></script>
 	<script defer src="assets/js/fontawesome-all.js"></script>
-	<script defer src="assets/js/sub-banner.js"></script>
+	<script type="text/javascript" src="assets/js/recruit.js"></script>
 	<script type="text/javascript" src="assets/js/select.js"></script>
 	<script type="text/javascript" src="assets/js/structure.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
-
+	<!-- 
 	<script>
-	
-	</script>
+		$(document).ready(function() {
+			$('#sideContent').find('.is-checked').removeClass('is-checked');
+			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
+
+		});
+	</script> -->
 </body>
 
 

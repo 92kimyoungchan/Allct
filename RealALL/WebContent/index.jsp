@@ -12,7 +12,7 @@
 </head>
 <body>
 
-	<%@ include file="include/header_widget.jsp"%>
+	<%@ include file="include/header-widget.jsp"%>
 	<div id="owl-demo" class="owl-carousel owl-theme">
 		<div class="item">
 			<div class="carousel-overlay-wrap">

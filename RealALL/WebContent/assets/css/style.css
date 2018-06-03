@@ -186,7 +186,7 @@ ul {
 
 .sub-banner {
 	background:
-		url(http://demo.themeton.com/onetheme/wp-content/themes/one-wp/images/banner.jpg);
+		url(http://demo.themeton.com/onetheme/wp-content/uploads/sites/72/2016/09/banner-1.jpg);
 	background-size: cover;
 	height: 190px;
 	left: 50%;
@@ -277,9 +277,54 @@ header .container .content-icon::after {
 	position: absolute;
 }
 
-.top-area {
+.admin-top-area {
 	
+padding: 20px 65px;
 }
+
+.admin-top-area:after {
+	clear:both;
+	display:block;
+	content:"";
+}
+.admin-top-area .brand-logo {
+	height:auto;
+}
+
+.admin-top-area .admin-welcome {
+	
+height: 46px;
+	
+float: right;
+}
+
+.admin-top-area .admin-welcome p {
+
+margin-bottom: 0;
+
+font-size: 17px;
+
+padding: 10.5px 0;
+}
+
+
+.admin-top-area .admin-welcome a:before {
+    content: "|";
+    padding-right: 10px;
+}
+.admin-top-area .admin-welcome a {
+	
+padding: 0 10px;
+}
+
+.admin-top-area .admin-welcome span {
+
+padding-left: 25px;
+}
+
+
+.admin-top-area .admin-welcome svg {vertical-align: middle;margin-right: 10px;}
+
 
 nav {
 	padding: 16px 0 0;
@@ -862,7 +907,7 @@ section.another p.mgb-30 {
 .subPage-withsmallNav .small_navigation {
 	text-align: right;
 	padding-bottom:8px;
-	border-bottom:1px solid #807575;
+	border-bottom:1px solid #807575 !important;
 }
 
 .subPage-withsmallNav p {
@@ -928,6 +973,17 @@ h2 {
 }
 
 .recruit-header {
+	padding-bottom: 15px;
+}
+
+.select-header:after {
+	clear:both;
+	display:block;
+	content:"";
+}
+
+
+.select-header {
 	padding-bottom: 15px;
 }
 
@@ -1084,9 +1140,7 @@ h2 {
 	float: right;
 }
 
-.recruit-box .select-group .input-search-box {
-	display: inline-flex;
-}
+
 
 .recruit-box .select-group .input-search {
 	border: 1.4px solid #ded8d8;
@@ -1494,37 +1548,39 @@ input[type="radio"], input[type="checkbox"] {
 	margin-bottom: 15px;
 }
 
-.recruit-box .select-group {
+ .select-group {
 	height: 43px;
 	float: right;
 }
 
-.recruit-box .select-group .input-search-box {
-	display: inline-flex;
-}
+ .select-group .input-search-box {float: left;}
 
-.recruit-box .select-group .input-search {
+ .select-group .input-search {
 	border: 1.4px solid #ded8d8;
 	color: #a29c9c;
 	background-color: transparent;
 	padding: 8px 40px 8px 18px;
+	float: left;
 }
 
-.recruit-box .select-group .input-search input {
+ .select-group .input-search input {
 	margin: 0;
 	padding: 0;
 	border: none;
 	background: transparent;
 	outline: none;
+	float: left;
 }
 
-.recruit-box .search-icon {
+ .search-icon {
 	border: 1.4px solid #1c9035;
 	background: #1c9035;
 	width: 42px;
+	float: left;
+	height: 42.78px;
 }
 
-.recruit-box .search-icon svg {
+.search-icon svg {
 	color: white;
 }
 
@@ -1774,6 +1830,9 @@ div.tab-content .filter-area:last-child {
 	
 }
 
+
+
+
 .overlay-item .button-box:after {
 	content:"";
 	display:block;
@@ -1999,7 +2058,7 @@ section.join {
 	vertical-align: middle;
 }
 
-section.join .small_navigation {
+.small_navigation {
 	border: none !important;
 	text-align: right;
 	margin-bottom: 10px;
@@ -2376,4 +2435,125 @@ a.scrollTop>svg {
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
     background:  #f1f1f1cf; 
+}
+
+/* 공지사항 , FAQ 테이블 */
+
+.table-admin thead th {
+	padding:15px 23px; 
+}
+
+.table-admin td {
+	padding:15px 23px; 
+	border:none;
+}
+
+.table-admin tbody>tr {
+	border-bottom:1px solid #ddd;
+}
+
+
+/* 관리자 페이지   */
+.admin_x-sidebar {
+	
+float: left;
+	
+width: 190px;
+	
+text-align: center;
+	
+height: 100%;
+	
+background: #808080;
+}
+
+.admin-header {
+	
+padding: 35px 0;
+	
+color: white;
+	
+background: #525252;
+	
+font-weight: bold;
+	
+height: 101px;
+}
+
+.admin-header span {
+		
+font-size: 21px;
+}
+
+.admin_x-sidebar .admin_x-sidebar-header {
+
+padding: 10px 0;
+
+color: white;
+
+background: #525252;
+
+border-top: 4px solid white;
+
+font-weight: bold;
+
+border-bottom: 4px solid white;
+}
+
+
+.admin_x-sidebar .admin_x-sidebar-header span {
+
+font-size: 17px;
+}
+
+.admin_x-sidebar ul {
+	
+background: gray;
+	
+margin-bottom: 0;
+}
+
+.admin_x-sidebar ul > li {
+	
+padding: 10px 0;
+}
+
+
+.admin_x-sidebar ul > li > a {
+	
+color: white;
+	
+font-size: 17px;
+}
+
+.subP_admin {
+	
+float: left;
+	
+width: calc(100% - 190px);
+	
+height: 100%;
+	
+background: ghostwhite;
+}
+
+.subP_admin .menu-header {padding: 35px;background: gainsboro;margin-bottom: 0;height: 101px;}
+
+.subP_admin .menu-header li {
+	padding:1.5px 0;
+display: inline-block;
+}
+
+.subP_admin .menu-header li > a {
+	
+padding: 0 25px;
+	
+font-size: 18px;
+	
+color: white;
+	
+font-weight: bold;
+}
+.no-padding {
+	padding:0 !Important;
 }
