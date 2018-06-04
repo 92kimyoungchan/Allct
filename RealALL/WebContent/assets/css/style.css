@@ -876,6 +876,7 @@ section.another p.mgb-30 {
 .subPage h2 {
 	float: left;
 	font-size: 27px;
+	color: #32b76e;
 }
 
 .subPage p {
@@ -1356,7 +1357,7 @@ section .notice li>a, div .recruit-box-search li>a {
 	width: 0;
 	height: 0;
 	border: 7px solid transparent;
-	border-color: #4d51ea transparent transparent transparent;
+	border-color: #1c9035 transparent transparent transparent;
 	position: absolute;
 	top: 16px;
 	right: 15px;
@@ -1441,7 +1442,7 @@ section .notice li>a, div .recruit-box-search li>a {
 }
 
 #sideContent>.contentElement.is-checked>a {
-	color: blue !important;
+	color: #32b76e !important
 }
 
 #sideContent>.contentElement>a {
@@ -1936,6 +1937,8 @@ div.tab-content .filter-area:last-child {
 
 .table .table-header {
 	border: 1px solid #dee2e6;
+	text-align: center;
+	background-color: #e2f3ee;
 }
 
 .table .info {
@@ -2450,6 +2453,7 @@ a.scrollTop>svg {
 
 .table-admin tbody>tr {
 	border-bottom:1px solid #ddd;
+	text-align: center;
 }
 
 
@@ -2556,4 +2560,79 @@ font-weight: bold;
 }
 .no-padding {
 	padding:0 !Important;
+}
+
+/* board_academy.jsp 학술정보 리스트 */
+
+div.subP-academy {
+	width: 72%;
+	float: right;
+}
+
+div.supP-academy .small_navigation {
+	border: none !important;
+    text-align: right;
+    margin-bottom: 170px;
+}
+
+#sideContent-academy>.contentElement {
+	padding: 5px;
+	border: 0px solid #5f4d4d3d;
+	border-width: 0 1px 1px 1px;
+
+}
+
+#sideContent-academy>.contentElement:nth-of-type(1) {
+	padding: 18px 20px;
+}
+
+#sideContent-academy>.contentElement:nth-of-type(2) {
+	padding: 18px 20px;
+}
+
+.select-header-academy {
+	padding-bottom: 22px;
+	padding-top: 182px;
+}
+
+.input-choice-box > input[type="button"] {
+    padding: 6px 14px;
+    color: black;
+    background: transparent;
+    border: 1.4px solid #ded8d8;
+    height: 43px;
+    float: left;
+}
+
+.table-academy {
+	border: 1px solid #dee2e6;
+	width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+.table-academy .table-header {
+	height: 40px;
+}
+
+.academy-select-group .select-styled {
+	border: 1.4px solid #ded8d8;
+	color: #a29c9c;
+	background-color: transparent;
+	padding: 5px 51px 5px 10px;
+	margin: 0px;
+}
+
+#sideContent-academy>.contentElement {
+	padding: 18px 20px;
+	border: 0px solid #5f4d4d3d;
+	border-width: 0 1px 1px 1px;
+}
+
+#sideContent-academy>.contentElement.is-checked>a {
+	color: #32b76e !important
+}
+
+#sideContent-academy>.contentElement>a {
+	color: black;
 }
