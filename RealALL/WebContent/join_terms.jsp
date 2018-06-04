@@ -142,7 +142,8 @@
 
 
 						<div class="button-box">
-							<button>동의</button><button>취소</button>
+							<button>동의</button>
+							<button>취소</button>
 						</div>
 
 					</div>

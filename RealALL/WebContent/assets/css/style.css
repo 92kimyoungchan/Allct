@@ -2453,6 +2453,8 @@ a.scrollTop>svg {
 }
 
 
+
+
 /* 관리자 페이지   */
 .admin_x-sidebar {
 	
@@ -2463,8 +2465,8 @@ width: 190px;
 text-align: center;
 	
 height: 100%;
-	
-background: #808080;
+	 
+background: #2c5682;
 }
 
 .admin-header {
@@ -2473,7 +2475,7 @@ padding: 35px 0;
 	
 color: white;
 	
-background: #525252;
+background-color: #22af2d;
 	
 font-weight: bold;
 	
@@ -2491,13 +2493,10 @@ padding: 10px 0;
 
 color: white;
 
-background: #525252;
-
-border-top: 4px solid white;
+background: #061856;
 
 font-weight: bold;
 
-border-bottom: 4px solid white;
 }
 
 
@@ -2508,7 +2507,7 @@ font-size: 17px;
 
 .admin_x-sidebar ul {
 	
-background: gray;
+background: #2c5682; 
 	
 margin-bottom: 0;
 }
@@ -2537,7 +2536,8 @@ height: 100%;
 background: ghostwhite;
 }
 
-.subP_admin .menu-header {padding: 35px;background: gainsboro;margin-bottom: 0;height: 101px;}
+.subP_admin .menu-header {
+	padding: 35px;background-color: #22af2d;margin-bottom: 0;height: 101px;}
 
 .subP_admin .menu-header li {
 	padding:1.5px 0;
