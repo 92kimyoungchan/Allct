@@ -6,14 +6,14 @@
 		<div class="row-noneflex">
 			<div class="brand-logo-s">
 				<div class="img-pmaker">
-					<img src="assets/images/allct-logo.png">
+					<img src="/RealALL/assets/images/allct-logo.png">
 				</div>
 			</div>
 			<div class="content-left">
 				<div class="mobile">
 					<div class="brand-logo-s">
 						<div class="img-pmaker">
-							<img src="assets/images/allct-logo.png">
+							<img src="/RealALL/assets/images/allct-logo.png">
 						</div>
 					</div>
 				</div>
