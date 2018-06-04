@@ -64,11 +64,9 @@ button.btn.btn-search {
 }
 
 .ab-container {
-	height: 1200px;
 }
 
 div.container.ab-container>div>div {
-	max-height: 1200px;
 }
 
 .admin {
@@ -78,7 +76,6 @@ div.container.ab-container>div>div {
 
 .content {
 	padding: 50px;
-	height: calc(100% - 101px);
 }
 
 .am-h-btn {
@@ -159,7 +156,6 @@ ul.am-h-state {
 }
 
 .am-ab-table-wrap {
-	height: 510px;
 }
 
 div.am-ab-t-set>button {

@@ -188,8 +188,8 @@
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-3"> <input
-															type="checkbox" id="ad-tr-4" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -204,6 +204,105 @@
 												<td>생동성</td>
 												<td>시험진행중</td>
 											</tr>
+											
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>30</td>
+												<td>베스티안 추천병원</td>
+												<td>생동성</td>
+												<td>시험진행중</td>
+											</tr>
+											
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>30</td>
+												<td>베스티안 추천병원</td>
+												<td>생동성</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>30</td>
+												<td>베스티안 추천병원</td>
+												<td>생동성</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>30</td>
+												<td>베스티안 추천병원</td>
+												<td>생동성</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>30</td>
+												<td>베스티안 추천병원</td>
+												<td>생동성</td>
+												<td>시험진행중</td>
+											</tr>
+											
+											
 										</tbody>
 									</table>
 
@@ -232,16 +331,8 @@
 
 
 
-
-
-	<footer class="admin_footer">
-		<div class="container">
-			<div class="row-noneflex"></div>
-		</div>
-	</footer>
-
-	<%@ include file="../include/footer.jsp"%>
-
+<%@ include file="../include/footer.jsp"%>
+	
 
 	
 		<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
