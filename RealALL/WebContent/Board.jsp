@@ -25,10 +25,11 @@
 				<div class="subP">
 					<div class="subPage">
 						<h2>공지사항</h2>
-					</div>
 						<div class="small_navigation">
 						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a href="">회원정보수정</a></span>
 					</div>
+					</div>
+						
 					
 					
 		

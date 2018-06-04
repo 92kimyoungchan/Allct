@@ -24,12 +24,11 @@
 				<%@ include file="include/x-sidebar.jsp"%>
 
 				<div class="subP">
-					<div class="subPage-withsmallNav">
-						<h2>모집공고</h2>
+					<div class="subPage b-bottom">
+						<h2>공지사항</h2>
 						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">지원하기</a></span><span>><a
-								href="">모집공고</a></span>
-						</div>
+						<a><i class="fas fa-home"></i>홈</a><span>><a href="">지원하기</a></span><span>><a href="">모집공고</a></span>
+					</div>
 					</div>
 					<div class="recruit-detail">
 						<h2>3형 [사포그릴테이트(공복)]</h2>
