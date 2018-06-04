@@ -23,6 +23,7 @@
 
 div.am-h-title > h1{ 
 	float: left;
+	
 }
 div#am-h-htn-form:after {
     content: "";
@@ -145,6 +146,11 @@ div.am-ab-t-set>button {
 	padding: 5px 10px 5px 10px;
 	color: white;
 	background-color: #888585;
+}
+
+ul.am-h-state {
+    float: left;
+    padding-left: 20px;
 }
 
 /* am-h end */
