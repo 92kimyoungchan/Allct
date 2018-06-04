@@ -19,6 +19,22 @@
 	background-color: #abababb0;
 }
 /* am-h 부분*/
+
+
+div.am-h-title > h1{ 
+	float: left;
+}
+div#am-h-htn-form:after {
+    content: "";
+    display:  block;
+    clear: both;
+}
+
+div#am-h-htn-form {
+    width: auto;
+    float: right;
+}
+
 button.btn.btn-search {
 	background-color: #a7a1a1;
 	height: 40px;
@@ -88,14 +104,20 @@ div.container.ab-container>div>div {
 .labelCheck span:nth-child(3n) {
 	margin-left: 35px;
 }
-
+  
 .am-h-state li input[type="checkbox"] {
 	display: inline;
-}
+}  
 
 .am-h-state li {
-	padding: 0px 50px 0px 15px;
+	width: 90px;
 	float: left;
+}
+
+ul.am-h-state:after {
+    content: "";
+    display:  block;
+    clear: both;
 }
 
 .am-h-state-wrap:after {
