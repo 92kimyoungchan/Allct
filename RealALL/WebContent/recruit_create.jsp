@@ -149,8 +149,8 @@
 									<h2>나이</h2>
 								</div>
 								<div class="range-info">
-									<label></label><input type="text" name=""><span>세</span><span>~</span><input
-										type="text" name="ageF"><span>세</span><label
+									<p><input type="text" name=""><span>세</span><span>~</span><input
+										type="text" name="ageF"><span>세</span></p><label
 										class="labelCheck"> <input type="checkbox" id=""
 										name="ageL" /><span class="checkmark"></span><span>상관없음</span></label>
 								</div>

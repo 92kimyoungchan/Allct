@@ -2,9 +2,9 @@
 	pageEncoding="UTF-8"%>
 <div id="floatMenu">
 	<ul>
-		<li><a href=""><img src="assets/images/icn_quick1.png"><span>메뉴1</span></a></li>
-		<li><a href=""><img src="assets/images/icn_quick4.png"><span>메뉴2</span></a></li>
-		<li><a href=""><img src="assets/images/icn_quick5.png"><span>메뉴3</span></a></li>
+		<li><a href=""><img src="/RealALL/assets/images/icn_quick1.png"><span>메뉴1</span></a></li>
+		<li><a href=""><img src="/RealALL/assets/images/icn_quick4.png"><span>메뉴2</span></a></li>
+		<li><a href=""><img src="/RealALL/assets/images/icn_quick5.png"><span>메뉴3</span></a></li>
 	</ul>
 
 </div>
@@ -20,7 +20,7 @@
 			<div class="row-noneflex">
 				<!-- 1.오버레이 2.전경/배경  3.유지보수 -->
 
-				<div class="brand-logo"><img src="assets/images/allct-logo.png"></div>
+				<div class="brand-logo"><img src="/RealALL/assets/images/allct-logo.png"></div>
 				<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
 				<ul class="ul-theory">
 					<li><a href="" class="">임상정보</a>
