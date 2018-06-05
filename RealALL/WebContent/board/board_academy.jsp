@@ -9,8 +9,6 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 
-
-
 </head>
 <body>
 
@@ -21,23 +19,25 @@
 			<div class="main">
 				<%@ include file="../include/service_x-sidebar.jsp"%>
 				
-				<div class="subP">
+				<div class="subP-academy">
 					<div class="subPage">
-						<h2>교육 및 뉴스</h2>
+						<h2>학술정보</h2>
 					</div>
-						<div class="small_navigation">
-						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a href="">회원정보수정</a></span>
+					<div class="small_navigation">
+						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a
+							href="">회원정보수정</a></span>
 					</div>
-					
-					
-		
-					<div class="select-header">
-					<div class="select-group">
+
+
+
+					<div class="select-header-academy">
+
+						<div class="recruit-header">
+							<button>
+								<i class="fas fa-check"></i>관심공고담기
+							</button>
+							<div class="select-group">
 								<select id="">
-									<option value="hide">최신순</option>
-									<option value="" rel="icon-temperature">최신순</option>
-									<option value="" rel="icon-temperature">마감임박순</option>
-								</select><select id="">
 									<option value="hide">20개씩</option>
 									<option value="">10개씩</option>
 									<option value="">20개씩</option>
@@ -45,6 +45,7 @@
 									<option value="">40개씩</option>
 									<option value="">50개씩</option>
 								</select>
+
 								<div class="input-search-box">
 									<div class="input-search">
 										<input type="text" name="" value=""
@@ -53,102 +54,333 @@
 									<button type="submit" value="" class="search-icon">
 										<i class="fas fa-search"></i>
 									</button>
-								</div></div></div>
-								
-								
-								
-								<table class="table table-admin">
+								</div>
+							</div>
+						</div>
+
+						<div class="academy-select-group">
+							<select id="">
+								<option value="hide">정확도순</option>
+							</select> <select id="">
+								<option value="hide">인기도순</option>
+							</select> <select id="">
+								<option value="hide">연도순</option>
+							</select> <select id="">
+								<option value="hide">제목순</option>
+							</select> <select id="">
+								<option value="hide">저자순</option>
+							</select> <select id="">
+								<option value="hide">발행처순</option>
+							</select> <select id="">
+								<option value="hide">10개씩 보기</option>
+								<option value="">10개씩</option>
+								<option value="">20개씩</option>
+								<option value="">30개씩</option>
+								<option value="">40개씩</option>
+								<option value="">50개씩</option>
+							</select>
+						</div>
+
+						<table class="table table-academy">
 							<thead>
 								<tr class="table-header">
-									<th>글번호</th>
-									<th>제목</th>
-									<th>작성자</th>
-									<th>첨부파일</th>
-									<th>날짜</th>
+									<td>
+										<div class="consent">
+
+											<label class="labelCheck" for="use_consent"><input
+												type="checkbox" id="use_consent" name="use" value="" /> <span
+												class="checkmark"></span></label>
+										</div>
+	
+									<th>모집공고</th>
+									<th>마감일</th>
 									
-									
+
+
 								</tr>
 							</thead>
 							<tbody>
+
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
 								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								
+									<td class="text-center">
+									<div class="consent">
+											<label class="labelCheck" for="use_consent"> <input
+												type="checkbox" id="use_consent" name="use" value="" /> 
+												<span class="checkmark"></span>
+											</label>
+						
+										</div></td>
+									<td>
+									<div class="secondBox">
+									<div class="clear">
+									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
+									</a>
+									<div class="nameText-box">
+										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										</div>
+										</div>
+										</div>
+										</td>
+									
+									<td class="text-center">
+									<div class="button-box">
+									<button>원문 바로가기</button>
+									
+									</div>
+									</td></tr>
+
 							</tbody>
 						</table>
-							
-							
-					
 
 
-<ul id="pagination-demo" class="pagination-sm"></ul>
+
+
+
+						<ul id="pagination-demo" class="pagination-sm"></ul>
+					</div>
 				</div>
 			</div>
 
@@ -173,173 +405,6 @@
 		$(document).ready(function() {
 			$('#sideContent').find('.is-checked').removeClass('is-checked');
 			$('#sideContent>.contentElement:eq(1)').addClass('is-checked');
-
-		});
-	</script>
-</body>
-
-
-
-</html>
-				
-				<div class="subP-academy">
-					<div class="subPage">
-						<h2>학술정보</h2>
-					</div>
-						<div class="small_navigation">
-						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a href="">회원정보수정</a></span>
-					</div>
-					
-					
-		
-					<div class="select-header-academy">
-					
-					<div class="recruit-header">
-							<button>
-								<i class="fas fa-check"></i>관심공고담기
-							</button>
-					<div class="select-group">
-								<select id="">
-									<option value="hide">20개씩</option>
-									<option value="">10개씩</option>
-									<option value="">20개씩</option>
-									<option value="">30개씩</option>
-									<option value="">40개씩</option>
-									<option value="">50개씩</option>
-								</select>
-							
-								<div class="input-search-box">
-									<div class="input-search">
-										<input type="text" name="" value=""
-											placeholder="기업명, 공고제목 등 검색">
-									</div>
-									<button type="submit" value="" class="search-icon">
-										<i class="fas fa-search"></i>
-									</button>
-								</div></div></div>
-								
-								<div class="academy-select-group">
-								<select id="">
-									<option value="hide">정확도순</option></select>
-								<select id="">
-									<option value="hide">인기도순</option></select>
-								<select id="">
-									<option value="hide">연도순</option></select>
-								<select id="">
-									<option value="hide">제목순</option></select>
-								<select id="">
-									<option value="hide">저자순</option></select>
-								<select id="">
-									<option value="hide">발행처순</option></select>
-								<select id="">
-									<option value="hide">10개씩 보기</option>
-									<option value="">10개씩</option>
-									<option value="">20개씩</option>
-									<option value="">30개씩</option>
-									<option value="">40개씩</option>
-									<option value="">50개씩</option>
-									</select>
-								</div>
-								
-								<table class="table table-admin">
-							<thead>
-								<tr class="table-header">
-									<th><input id="checkbox-academy" id="use_consent" name="use" value=""/>
-									 <span class="checkmark"></span></th>
-									<th>모집공고</th>
-									<th>마감일</th>
-									
-									
-								</tr>
-							</thead>
-							<tbody>
-								
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-								</tr>
-							
-							</tbody>
-						</table>
-							
-							
-					
-
-
-<ul id="pagination-demo" class="pagination-sm"></ul>
-				</div>
-			</div>
-
-
-		</div>
-
-	</div>
-	</div>
-
-	<%@ include file="../include/footer.jsp"%>
-
-
-	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
-	<script type="text/javascript" src="../assets/js/recruit.js"></script>
-	<script type="text/javascript" src="../assets/js/select.js"></script>
-	<script type="text/javascript" src="../assets/js/structure.js"></script>
-	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
-
-
-	<script>
-		$(document).ready(function() {
-			$('#sideContent-academy').find('.is-checked').removeClass('is-checked');
-			$('#sideContent-academy>.contentElement:eq(1)').addClass('is-checked');
-			$('#sideContent-academy>.contentElement:eq(2)').addClass('is-checked');
-			$('#academy-select-group.select.select-styled:eq(0)').addClass('is-checked');
 
 		});
 	</script>
