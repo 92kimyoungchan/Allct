@@ -45,19 +45,41 @@
 
 
 							</div>
-							<!--Announcement Board  -->
 
-							<div>
+							<div class ="blackList-title">
+							
 								<div class="am-ab-title">
 									<label>총 공고 20개</label>
 								</div>
+								
+								<div class ="am-ab-title-right">
+								<div class ="am-ab-title-selectForm">
+								<select>
+								       <option>10개씩</option>
+								       <option>20개씩</option>
+								       <option>30개씩</option>
+								       <option>50개씩</option>
+								       <option>100개씩</option>
+								</select>
+								</div>
+								<div class ="am-ab-title-searchForm">
+								<input type ="text" placeholder="기업명,공고제목 등 검색">
+									<button type="submit" value="" class="btn btn-search">
+										<svg class="svg-inline--fa fa-search fa-w-16"
+										aria-hidden="true" data-prefix="fas" data-icon="search"
+										role="img" xmlns="http://www.w3.org/2000/svg"
+										viewBox="0 0 512 512" data-fa-i2svg="">
+										<path fill="currentColor"
+										d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"></path></svg>
+									</button>
+								</div>
+								
 								<div class="am-ab-t-set">
 									<button class="btn-setting">
 										<i class="fas fa-cog"></i>설정
 									</button>
 								</div>
-								
-								
+								</div>
 								<div class="am-ab-table-wrap">
 									<table class="ab-table">
 										<thead>
@@ -108,7 +130,7 @@
 												<td>1회</td>
 												<td>시험진행중</td>
 											</tr>
-											<tr class="ad-table-body">
+											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-2"> <input
@@ -133,7 +155,7 @@
 												<td>1회</td>
 												<td>시험진행중</td>
 											</tr>
-											<tr class="ad-table-body">
+											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-2"> <input
@@ -158,7 +180,157 @@
 												<td>1회</td>
 												<td>시험진행중</td>
 											</tr>
-											<tr class="ad-table-body">
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-2"> <input

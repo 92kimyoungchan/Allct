@@ -72,6 +72,7 @@ div.container.ab-container>div>div {
 .admin {
 	background-color: #eaeaea;
 	/* height: calc(100% - 101px); */
+	min-height:704px;
 }
 
 .content {
@@ -194,9 +195,14 @@ tr.ad-table-body td {
 	font-weight: 800;
 }
 
-tr.blackListTableBody td{
+.blackListTableBody{
+		border-bottom: 1px solid #cccccc;
+		background-color: #ffffff;
+}
+
+.blackListTableBody td{
 	padding: 8px 10px 8px 10px;
-	
+	text-align: center;
 }
 
 button.ad-m-btn {
@@ -239,5 +245,29 @@ div.am-ab-mani>div>button:nth-child(3) {
 } 
 
 .select-styled:active:after, .select-styled.active:after{
-	    border-color: transparent transparent #0769f0 transparent;
+	    border-color: transparent transparent #9a9494 transparent;
+}
+
+.select:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.am-ab-title-right {
+    width: auto;
+    float: right;
+    display: inline-flex;
+}
+
+div.am-ab-title-searchForm > button{
+	float: right;
+    height: 44px !important;
+    border: none;
+    border-radius: 0px;
+    margin : 0px !important;
+}
+
+div.am-ab-title-searchForm > input[type="text"]{
+	padding: 8px 40px 8px 18px;
 }

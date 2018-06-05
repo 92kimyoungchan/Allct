@@ -17,7 +17,7 @@ $('#pagination-demo').twbsPagination({
 
 var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
 var SameHeight = BigHeight +"px";
-
+console.log("Height",BigHeight);
 $('.admin_x-sidebar').css({
 	height:SameHeight
 });

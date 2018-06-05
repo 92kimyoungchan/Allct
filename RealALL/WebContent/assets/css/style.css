@@ -2712,7 +2712,7 @@ width: 190px;
 	
 text-align: center;
 	
-height: 100%;
+min-height: 805px;
 	 
 background: #2c5682;
 }
@@ -2778,6 +2778,7 @@ font-size: 17px;
 float: left;
 	
 width: calc(100% - 190px);
+min-height:805px;
 	
 
 	
