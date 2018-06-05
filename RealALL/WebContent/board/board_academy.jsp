@@ -104,8 +104,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent1"> <input
+												type="checkbox" id="use_consent1" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -131,8 +131,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent2"> <input
+												type="checkbox" id="use_consent2" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -158,8 +158,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent3"> <input
+												type="checkbox" id="use_consent3" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -185,8 +185,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent4"> <input
+												type="checkbox" id="use_consent4" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -212,8 +212,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent5"> <input
+												type="checkbox" id="use_consent5" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -239,8 +239,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent6"> <input
+												type="checkbox" id="use_consent6" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -266,8 +266,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent7"> <input
+												type="checkbox" id="use_consent7" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -293,8 +293,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent8"> <input
+												type="checkbox" id="use_consent8" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -320,8 +320,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent9"> <input
+												type="checkbox" id="use_consent9" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						
@@ -347,8 +347,8 @@
 								<tr id="">
 									<td class="text-center">
 									<div class="consent">
-											<label class="labelCheck" for="use_consent"> <input
-												type="checkbox" id="use_consent" name="use" value="" /> 
+											<label class="labelCheck" for="use_consent10"> <input
+												type="checkbox" id="use_consent10" name="use" value="" /> 
 												<span class="checkmark"></span>
 											</label>
 						

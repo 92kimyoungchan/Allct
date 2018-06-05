@@ -102,12 +102,6 @@ div.subPage-header2-viewButton > button:active {
     width: auto;
 }
 
-div.Add_announcement > button{
-	padding: 8px 10px 8px 50px;
-    font-size: 27px;
-    font-weight: 600;
-}
-
 
 .jobSearchInfo {
     border-top: 3px solid #4b8cda;
