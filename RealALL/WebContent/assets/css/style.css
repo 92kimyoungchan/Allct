@@ -642,6 +642,12 @@ section>p.section-header {
 	text-align: center;
 }
 
+.terms h2.section-header {
+	
+}
+
+
+
 section.notice {
 	padding: 25px 35px 60px;
 }
@@ -1227,7 +1233,7 @@ div .recruit-box-search ul:first-child {
 }
 
 
-.recruit-create {
+.recruit-create , .join-form {
 	
 padding: 25px;
 	
@@ -1244,13 +1250,10 @@ letter-spacing: 0.41px;
 	margin:50px 0;
 }
 
-.recruit-create .article {
-
-	
+.recruit-create .article, .join-form .article {
 padding: 10px 0;
 }
-
-.recruit-create .article h2 {
+.recruit-create .article h2 , .join-form .article h2{
 	
 min-width: 120px;
 	
@@ -1263,13 +1266,13 @@ margin-bottom: 0;
 padding-bottom: 8px;
 }
 
-.recruit-create .article:after {
+.recruit-create .article:after, .join-form .article:after {
 	clear:both;
 	display:block;
 	content:"";
 	}
 
-.recruit-create .article label:not(.labelCheck) {
+.recruit-create .article label:not(.labelCheck) , .join-form .article label:not(.labelCheck) {
 	
 margin-bottom: 0;
 	
@@ -1307,7 +1310,7 @@ letter-spacing: 0.41px;
 }
 
 
-.recruit-create .labelCheck input {
+.recruit-create .labelCheck input  {
 	position:absolute;
 	opacity:0;
 	cursor:pointer
@@ -1321,16 +1324,16 @@ letter-spacing: 0.41px;
 }
 
 
-.recruit-create label > span {
+.recruit-create label > span , .join-form lable > span {
 	font-weight:bold;
 	font-size:16px;
 }
 
-.recruit-create label > span:last-child {
+.recruit-create label > span:last-child , .join-form label > span:last-child {
 	margin-left: 35px;
 }
 
-.recruit-create .article p {
+.recruit-create .article p  {
 	
 float: left;
 font-size:18px;
@@ -1339,7 +1342,7 @@ width: calc(100% - 180px);
 	
 margin-bottom: 0;
 }
-.recruit-create .select-styled {
+.recruit-create .select-styled , .join-form .select-styled {
 	height:31px;
 	padding: 3px 36px 3px 12px;
 	/* text-align: center; */
@@ -1349,7 +1352,7 @@ margin-bottom: 0;
 	background: white;
 }
 
-.recruit-create .select-styled:after {
+.recruit-create .select-styled:after , .join-form .select-styled:after{
 	content: "";
 	width: 0;
 	height: 0;
@@ -1367,7 +1370,7 @@ margin-bottom: 0;
 
 .recruit-create .article .multiple {width:auto;background: white;outline: 1px solid #ded8d8;margin: 0 5px;}
 
-.recruit-create .article p > span {
+.recruit-create .article p > span , .join-form .article p > span {
 	float: left;
 	
 font-size: 18px;
@@ -1377,7 +1380,10 @@ padding: 3px 0;
 margin: 0 5px;
 }
 
-.recruit-create input[type=text].phone {
+.recruit-create input , .join-form input {
+	outline:none;
+}
+.recruit-create input[type=text].phone , .join-form input[type=text].phone {
 	width:110px;
 	margin: 0 5px;
 }
@@ -1401,12 +1407,12 @@ margin: 0 5px;
 	margin-left:5px;
 }
 
-.recruit-create .article  input {
+.recruit-create .article  input , .join-form .article input {
 		height: 31px;
 		border: 1px solid #ded8d8;
 		display: block;
 		float: left;
-		padding:0;
+		padding: 0 0 0 12px;
 }
 
 input#inputCheck {}
@@ -2356,7 +2362,7 @@ section.join {
 	
 }
 
-.join .terms hr {
+.join .terms hr,.join-form hr {
 	margin:10px 0 20px;
 	border-top:1px solid #a5a5a5;
 }
@@ -2807,7 +2813,7 @@ font-weight: bold;
 	padding:0 !Important;
 }
 
-<<<<<<< HEAD
+
 /* board_academy.jsp 학술정보 리스트 */
 
 div.subP-academy {
@@ -2878,8 +2884,9 @@ div.supP-academy .small_navigation {
 }
 
 #checkbox-academy {
-	
-=======
+
+}
+
 .b-bottom {
 	 border-bottom:1px solid #e7e7e7;
 	 margin-bottom: 15px;
@@ -2918,7 +2925,7 @@ overflow: hidden;
 	
 background: white;
 	
-margin-top: 40px;
+margin: 40px 0;
 }
 
 .recruit-create .range-article .article-set:first-of-type {
@@ -2931,7 +2938,7 @@ float: left;
 
 width: 50%;
 
-padding: 20px 30px;
+padding: 20px 0 20px 30px;
 }
 .range-article .article-set .title {
 	
@@ -2975,19 +2982,20 @@ border: none;
 border-bottom: 1px solid #e0e0e0;
 	
 font-size: 16px;
+margin-right:5px;
 }
 
 .range-article .article-set .range-info p > span:nth-of-type(1) {
 }
 
-
 .range-article .article-set .range-info p > span:nth-of-type(2) {
 	
-margin: 0 12px;
 }
-
-
 .range-article .article-set .range-info p > span:nth-of-type(3) {
+	
+	margin: 0 12px;
+}
+.range-article .article-set .range-info p > span:nth-of-type(4) {
 	
 }
 
@@ -2995,9 +3003,6 @@ margin: 0 12px;
 	
 font-size: 16px;
 }
-
-
-
 
 .range-article .labelCheck {
 	border:none;
@@ -3021,6 +3026,100 @@ font-size: 16px;
 
 .range-article label > span:last-child {
 	margin-left: 35px;
->>>>>>> branch 'master' of https://github.com/92kimyoungchan/Allct.git
 }
 
+/* 첨부파일 버튼-레이블 */
+.fileBox .fileName {display:inline-block;margin-right: 28px;line-height:30px;border:1px solid #aaa;background-color:#fff;vertical-align:middle;width: calc(100% - 268px);}
+.fileBox .btn_file {display:inline-block;height: 31px;line-height:30px;text-align:center;vertical-align:middle;background: #8080802e; text-align:center;}
+.fileBox input[type="file"] {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+
+
+/* 회원가입폼  */
+
+.join-form {
+	
+}
+
+.join-form h2 {
+	
+}
+.join-form .article label:not(.labelCheck) {
+	
+margin-bottom: 0;
+	
+min-width: 120px;
+	
+float: left;
+	
+font-size: 15px;
+	
+padding: 4.5px 0;
+	
+font-weight: bold;
+	
+letter-spacing: 0.41px;
+}
+
+.join-form .article {
+padding: 0 0 10px 0;
+}
+
+.join-form .article:last-of-type {
+ 	
+ }
+ 
+.join-form .article .input-block  > span {
+	float: left;
+	font-size: 12.5px;
+	padding: 6.5px 0;
+	margin: 0 8px;
+	color:gray;
+}
+
+.join-form .article .input-block  {
+	
+float: left;
+font-size:18px;
+	
+width: calc(100% - 180px);
+	
+margin-bottom: 0;
+}
+
+.article .divider {
+	padding:0;
+	background:transparent;
+}
+
+.join-form .article p  {
+clear:both;
+font-size:14px;
+margin-bottom: 0;
+color:red;
+}
+
+.input-block input[type=text].password {
+	border: none;
+	background: transparent;
+	background: url(../images/lock.png);
+	background-position:right 10px center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	width: inherit;
+}
+.join-form .article .multiple {font-size:18px !important; width: 203px;background: white;outline: 1px solid #ded8d8;height: 31px; float:left;}
+
+ .input-block input.phone:first-of-type {
+ margin:0 !important;
+ }
+
+ 
+ .join-form input[type=text].email {
+ 	width:170px;
+ 	margin:0 5px;
+ 	
+ }
+ 
+  .join-form input[type=text].email:first-of-type {
+  margin:0 5px 0 0 !important;
+ }
