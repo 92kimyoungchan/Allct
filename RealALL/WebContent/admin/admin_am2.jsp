@@ -331,6 +331,15 @@
 
 
 
+	<footer class="admin_footer">
+		<div class="container">
+			<div class="row-noneflex"></div>
+		</div>
+	</footer>
+
+	<%@ include file="../include/footer.jsp"%>
+	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 <%@ include file="../include/footer.jsp"%>
 	
 
@@ -338,11 +347,11 @@
 		<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 			<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-		<script type="text/javascript" src="../assets/js/admin-check.js"></script>
+	<script type="text/javascript" src="../assets/js/admin-check.js"></script>
 	<script defer src="../assets/js/fontawesome-all.js"></script>
 
 	<script type="text/javascript" src="../assets/js/select.js"></script>
-
+	
 
 </body>
 </html>

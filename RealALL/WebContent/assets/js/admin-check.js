@@ -15,20 +15,29 @@ $('#pagination-demo').twbsPagination({
         }
     });  
 
-var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
-var SameHeight = BigHeight +"px";
 
-$('.admin_x-sidebar').css({
-	height:SameHeight
+
 });
 
+window.onload = function () {
+	var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
 
-$(window).resize(function(){
+	var SameHeight = BigHeight +"px";
+	console.log("Height",BigHeight);
 	$('.admin_x-sidebar').css({
 		height:SameHeight
 	});
 
-});
+
+	$(window).resize(function(){
+		$('.admin_x-sidebar').css({
+			height:SameHeight
+		});
+
+	});
+}
+
+
 
 
 
@@ -67,5 +76,3 @@ $(window).resize(function(){
 	});*/
 	
 	
-
-});

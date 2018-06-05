@@ -35,12 +35,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<div id="am-h-htn-form">
-										<button class="am-h-btn">
-											<strong>엑셀로저장</strong>
-										</button>
-									</div>
-									<h1>블랙리스트</h1>
+									<h1>회원목록</h1>
 								</div>
 
 
@@ -49,7 +44,9 @@
 							<div class ="blackList-title">
 							
 								<div class="am-ab-title">
-									<label>총 공고 20개</label>
+									<label>총 20 명,</label>
+									<label>차단 0 명,</label>
+									<label>탈퇴 0 명</label>
 								</div>
 								
 								<div class ="am-ab-title-right">
@@ -62,8 +59,17 @@
 								       <option>100개씩</option>
 								</select>
 								</div>
+								<div class ="am-ab-title-selectForm">
+								<select>
+								       <option>아이디</option>
+								       <option>이름</option>
+								       <option>등급</option>
+								       <option>가입일</option>
+								       <option>현재상태</option>
+								</select>
+								</div>
 								<div class ="am-ab-title-searchForm">
-								<input type ="text" placeholder="기업명,공고제목 등 검색">
+								<input type ="text" placeholder="검색하기">
 									<button type="submit" value="" class="btn btn-search">
 										<svg class="svg-inline--fa fa-search fa-w-16"
 										aria-hidden="true" data-prefix="fas" data-icon="search"
@@ -83,7 +89,7 @@
 								<div class="am-ab-table-wrap">
 									<table class="ab-table">
 										<thead>
-											<tr class="ad-table-header">
+											<tr class="ad-table-header memberList-table-header">
 												<th>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="all"> <input
@@ -92,7 +98,7 @@
 														</label>
 													</div>
 												</th>
-													<th>admin72</th>
+													<th>아이디</th>
 												<th>이름</th>
 												<th>등급</th>
 												<th>포인트</th>
