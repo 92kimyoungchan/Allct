@@ -47,7 +47,7 @@
 							</div>
 							<!--Announcement Board  -->
 
-							<div class="am-ab blackList">
+							<div>
 								<div class="am-ab-title">
 									<label>총 공고 20개</label>
 								</div>
@@ -83,7 +83,7 @@
 											</tr>
 										</thead>
 										<tbody>
-											<tr class="ad-table-body">
+											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-1"> <input
@@ -101,6 +101,56 @@
 										        <option>100</option>
 										        <option>0</option></select></td>
 												<td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>1</td>
+												<td>4회</td>
+												<td>1회</td>
+												<td>시험진행중</td>
+											</tr>
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김바라기</td>
+												<td><select>
+										        <option>400</option>
+										        <option>300</option>
+										        <option>200</option>
+										        <option>100</option>
+										        <option>0</option></select></td>
+										        <td>400</td>
 												<td>18-05-10</td>
 												<td>18-02-24</td>
 												<td>1</td>

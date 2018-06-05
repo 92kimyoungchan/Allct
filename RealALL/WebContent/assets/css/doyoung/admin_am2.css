@@ -64,11 +64,9 @@ button.btn.btn-search {
 }
 
 .ab-container {
-	height: 1200px;
 }
 
 div.container.ab-container>div>div {
-	max-height: 1200px;
 }
 
 .admin {
@@ -78,7 +76,6 @@ div.container.ab-container>div>div {
 
 .content {
 	padding: 50px;
-	height: calc(100% - 101px);
 }
 
 .am-h-btn {
@@ -159,7 +156,6 @@ ul.am-h-state {
 }
 
 .am-ab-table-wrap {
-	height: 510px;
 }
 
 div.am-ab-t-set>button {
@@ -198,6 +194,11 @@ tr.ad-table-body td {
 	font-weight: 800;
 }
 
+tr.blackListTableBody td{
+	padding: 8px 10px 8px 10px;
+	
+}
+
 button.ad-m-btn {
 	background-color: #9a9494;
 	color: white;
@@ -220,13 +221,23 @@ div.am-ab-mani>div>button:nth-child(3) {
 	margin-bottom: 20px;
 }
 
+.am-ab-title {
+    width:  auto;
+    float: left;
+    margin-bottom: 20px;
+}
 
-
+.am-ab-t-set {
+    width: auto;
+    float: right;
+    margin-top: 10px;
+}
 
 /*blackList*/
-.blackList{
-	margin : 0px;
-}
 .select-styled:after{
-	background-color: #9a9494 !important;
+	border-color: #9a9494 transparent transparent transparent;
 } 
+
+.select-styled:active:after, .select-styled.active:after{
+	    border-color: transparent transparent #0769f0 transparent;
+}
