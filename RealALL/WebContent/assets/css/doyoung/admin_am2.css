@@ -201,8 +201,10 @@ tr.ad-table-body td {
 }
 
 .blackListTableBody td{
-	padding: 8px 10px 8px 10px;
-	text-align: center;
+    padding: 8px 10px 8px 10px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 15px;
 }
 
 button.ad-m-btn {
@@ -269,10 +271,19 @@ div.am-ab-title-searchForm > button{
 }
 
 div.am-ab-title-searchForm > input[type="text"]{
-	padding: 8px 40px 6px 18px
+	padding: 8px 40px 6px 18px;
 }
+
+
 
 div.am-ab-title-selectForm > div > div{
 	background: white;
 	border: 1px solid #a9a9a9;
+}
+
+/*memberList*/
+
+.memberList-table-header{
+	background-color: #5bca64 !important;
+	color: black !important;
 }
