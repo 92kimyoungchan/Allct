@@ -81,7 +81,7 @@ div.container.ab-container>div>div {
 
 .am-h-btn {
 	background: white;
-	padding: 5px 20px 5px 20px;
+	padding: 9px 38px 9px 38px;
 }
 
 .am-h-title:after {
@@ -224,7 +224,7 @@ div.am-ab-mani>div>button:nth-child(3) {
 }
 
 .am-ab-btn-form {
-	margin-bottom: 20px;
+	margin: 30px 0 80px 0px;
 }
 
 .am-ab-title {
@@ -262,12 +262,17 @@ div.am-ab-mani>div>button:nth-child(3) {
 
 div.am-ab-title-searchForm > button{
 	float: right;
-    height: 44px !important;
+    height: 42px  !important;
     border: none;
     border-radius: 0px;
     margin : 0px !important;
 }
 
 div.am-ab-title-searchForm > input[type="text"]{
-	padding: 8px 40px 8px 18px;
+	padding: 8px 40px 6px 18px
+}
+
+div.am-ab-title-selectForm > div > div{
+	background: white;
+	border: 1px solid #a9a9a9;
 }
