@@ -53,11 +53,11 @@
 							<div class="calendar-set">
 								<span>시작</span>
 								<p class="multiple">
-									<input type="text" class="datepicker separate">
+									<input type="text" class="datepicker_first separate">
 								</p>
 								<span>~</span><span>종료</span>
 								<p class="multiple">
-									<input type="text" class="datepicker separate">
+									<input type="text" class="datepicker_last separate">
 								</p>
 							</div>
 						</div>
@@ -137,8 +137,8 @@
 								</div>
 								<div class="range-info">
 									<p>
-										<input type="text" name=""><span>%</span><span>~</span><input
-											type="text" name="bmiF"><span>%</span>
+										<span>최소: </span><input type="text" name=""><span>%</span><span>~</span><span>최대:
+										</span><input type="text" name="bmiF"><span>%</span>
 									</p>
 									<label class="labelCheck"> <input type="checkbox" id=""
 										name="bmiL" /><span class="checkmark"></span><span>상관없음</span></label>
@@ -149,12 +149,24 @@
 									<h2>나이</h2>
 								</div>
 								<div class="range-info">
-									<p><input type="text" name=""><span>세</span><span>~</span><input
-										type="text" name="ageF"><span>세</span></p><label
-										class="labelCheck"> <input type="checkbox" id=""
+									<p>
+										<span>최소: </span><input type="text" name=""><span>세</span><span>~</span><span>최대:
+										</span><input type="text" name="ageF"><span>세</span>
+									</p>
+									<label class="labelCheck"> <input type="checkbox" id=""
 										name="ageL" /><span class="checkmark"></span><span>상관없음</span></label>
 								</div>
 							</div>
+						</div>
+
+						<div class="article">
+							<h2 style="padding: 5px 0;">첨부파일</h2>
+							<div class="fileBox">
+								<input type="text" id="" class="fileName" name="upload" value=""
+									readonly="readonly" /> <label for="uploadBtn" class="btn_file">찾아보기</label>
+								<input type="file" id="uploadBtn" class="uploadBtn">
+							</div>
+
 						</div>
 
 					</div>
@@ -176,8 +188,8 @@
 	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
 	<script type="text/javascript" src="assets/js/datepicker.js"></script>
 	<script type="text/javascript" src="assets/js/select.js"></script>
-	<script type="text/javascript" src="assets/js/structure.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="assets/js/recruit_input.js"></script>
 
 
 	<script>

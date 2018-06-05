@@ -81,8 +81,7 @@
 		$(document).ready(
 				function() {
 
-					$('.MemberProcedure').find('.MemberProcedure .article')
-							.removeClass('selected');
+					$('.MemberProcedure').find('.MemberProcedure .article').removeClass('selected');
 					$('.MemberProcedure .article:eq(3)').addClass('selected');
 
 					/* 
@@ -92,7 +91,8 @@
 						$('.main').css('padding-top', '0');
 					}
 
-				});
+				}
+		);
 	</script>
 </body>
 
