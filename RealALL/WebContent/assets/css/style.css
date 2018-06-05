@@ -2818,7 +2818,7 @@ font-weight: bold;
 
 div.subP-academy {
 	width: 72%;
-	float: right;
+    float: right;
 }
 
 div.supP-academy .small_navigation {
@@ -2875,6 +2875,14 @@ div.supP-academy .small_navigation {
 	height: 40px;
 }
 
+.table-academy thead > tr > td .consent {
+	margin: 5px 0 0 7px;
+}
+
+.table-academy tbody > tr > td .consent {
+    margin: 0 0 42px 5px;
+}
+
 .academy-select-group .select-styled {
 	border: 1.4px solid #ded8d8;
 	color: #a29c9c;
@@ -2883,9 +2891,67 @@ div.supP-academy .small_navigation {
 	margin: 0px;
 }
 
+
 #checkbox-academy {
 
 }
+
+
+/* board_academy 테이블 */
+
+div.select-header-academy thead > tr > th:nth-of-type(1) {
+	float: left;
+    padding-left: 192px;
+}
+
+
+
+.table-academy thead th {
+	padding: 20px 22px; 
+}
+
+.table-academy tbody td {
+	padding: 25px 22px; 
+	border: none;
+	vertical-align: middle;
+}
+
+.table-academy tbody>tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.table-academy tbody>tr .text-center {
+	position: relative
+}
+
+.table-academy tbody>tr>td .secondBox .nameText-box {
+	float: left;
+}
+
+.table-academy tbody>tr>td .secondBox .nameText-box {
+	float: left;
+	font-size: 14px;
+}
+
+.table-academy tbody>tr>td .secondBox .clear h6 {
+	margin-bottom: 6px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	word-wrap: break-word;
+	font-size: 20px;
+	line-height: 1.5em;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.table-academy .secondBox {
+	padding-left: 40px;
+	float: left;
+}
+
+
 
 .b-bottom {
 	 border-bottom:1px solid #e7e7e7;
