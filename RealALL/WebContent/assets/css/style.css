@@ -2840,6 +2840,18 @@ background: white;
 margin-top: 40px;
 }
 
+.recruit-create .range-article .article-set:first-of-type {
+	outline: 1px solid #e0e0e0;
+}
+
+.recruit-create .range-article .article-set {
+
+float: left;
+
+width: 50%;
+
+padding: 20px 30px;
+}
 .range-article .article-set .title {
 	
 width: 105px;
@@ -2851,11 +2863,15 @@ float: left;
 .range-article .article-set .title h2 {
 	
 font-size: 18px;
+	
+margin-bottom: 0;
+	
+padding: 5px 0;
 }
 
 .range-article .article-set .range-info {
 	
-width: calc(50% - 105px);
+width: calc(100% - 105px);
 	
 float: left;
 }
