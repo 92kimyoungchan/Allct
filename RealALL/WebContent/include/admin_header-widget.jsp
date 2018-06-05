@@ -5,9 +5,8 @@
 	<div class="row-noneflex">
 		<div class="admin-top-area">
 
-
 			<div class="brand-logo">
-				<img src="assets/images/allct-logo.png">
+				<img src="/RealALL/assets/images/allct-logo.png"> 
 			</div>
 			<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
 			<div class="admin-welcome">

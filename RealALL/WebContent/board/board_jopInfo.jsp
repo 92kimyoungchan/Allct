@@ -5,31 +5,30 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>ALLCT2</title>
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/owl.carousel.css">
+<link rel="stylesheet" href="../assets/css/info-style.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
 
 
 
 </head>
 <body>
 
-	<%@ include file="include/header-widget.jsp"%>
+	<%@ include file="../include/header-widget.jsp"%>
 
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar.jsp"%>
+				<%@ include file="../include/info_x-sidebar.jsp"%>
 				
 				<div class="subP">
 					<div class="subPage">
-						<h2>공지사항</h2>
+						<h2>학술정보</h2>
+					</div>
 						<div class="small_navigation">
 						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a href="">회원정보수정</a></span>
 					</div>
-					</div>
-						
 					
 					
 		
@@ -72,56 +71,78 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>인비스정지원자를 모집합니다..</td>
-									<td>베스티안병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
 								
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+								<tr id="">
+									<td>12</td>
+									<td>새로운 소식 안내드립니다.</td>
+									<td>베스티안부천병원</td>
+									<td><i class="fas fa-file-archive"></i></td>
+									<td>2018.12.31</td>
+								</tr>
+							
 							</tbody>
 						</table>
 							
@@ -138,16 +159,16 @@
 
 	</div>
 
-	<%@ include file="include/footer.jsp"%>
+	<%@ include file="../include/footer.jsp"%>
 
 
-	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
-	<script type="text/javascript" src="assets/js/pagination.min.js"></script>
-	<script defer src="assets/js/fontawesome-all.js"></script>
-	<script type="text/javascript" src="assets/js/recruit.js"></script>
-	<script type="text/javascript" src="assets/js/select.js"></script>
-	<script type="text/javascript" src="assets/js/structure.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
+	<script defer src="../assets/js/fontawesome-all.js"></script>
+	<script type="text/javascript" src="../assets/js/recruit.js"></script>
+	<script type="text/javascript" src="../assets/js/select.js"></script>
+	<script type="text/javascript" src="../assets/js/structure.js"></script>
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
 	<script>
