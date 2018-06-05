@@ -1,0 +1,114 @@
+@charset "UTF-8";
+.subPage-headeer:after {
+    content: "";
+}
+
+.subPage-headeer:after {
+    content: "";
+    display:  block;
+    clear: both;
+}
+
+.subPage-headeer {
+    margin-bottom:  20px;
+}
+
+header2-left > button {
+    background-color:  white;
+}
+
+div.subPage-header2-left > button {
+    background-color:  white;
+    padding: 1px 15px 1px 15px;
+}
+
+.subPage-header2-viewButton {
+    float: left;
+}
+
+.subPage-header2-filter {
+    float: left;
+}
+
+.subPage-resultCount {
+    float: left;
+    width: auto;
+}
+
+.subPage-headeer2:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+span#subPage-resultCount {
+    color:  coral;
+    font-weight:  800;
+}
+
+div.subPage-header2-viewButton > button:nth-child(2) {
+    float: left;
+}
+
+button {}
+
+.subSearchP{
+	width: 75% !important;
+}
+
+.subPage-header2-left {
+    float: left;
+    width: auto;
+	margin-right: 20px;
+    
+}
+
+.subPage-header2-right:after {
+    content: "";
+    display:  block;
+    clear: both;
+}
+
+.subPage-header2-right {
+    float: right;
+}
+.jobSearch-btn{
+	background: white;
+    border: 1px solid #9e9a9a;
+}
+
+div.subPage-header2-viewButton > button {
+    /* background-color:  white; */
+    background: white;
+    border: 1px solid #9e9a9a;
+}
+
+div.subPage-header2-viewButton > button:active {
+    background-color: #a2a0a0;
+}
+
+
+.Add_announcement {
+    float: left;
+    width: auto;
+}
+
+.subPage-resultCount {
+    line-height: 32px;
+}
+
+.select-header {
+    float: right;
+    width: auto;
+}
+
+div.Add_announcement > button{
+	padding: 8px 10px 8px 50px;
+    font-size: 27px;
+    font-weight: 600;
+}
+
+
+.jobSearchInfo {
+    border-top: 3px solid #4b8cda;
+}
