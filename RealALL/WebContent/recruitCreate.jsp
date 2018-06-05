@@ -33,7 +33,7 @@
 						</div>
 
 					</div>
-					<h2 class="subtitle">제목</h2>
+					<div class="input-title"><input type="text" placeholder="제목"></div>
 					<div class="recruit-create">
 						<h2>공고정보</h2>
 						<div class="article">
@@ -81,12 +81,8 @@
 						</div>
 						<div class="article">
 							<label>의뢰자 연락처</label>
-							<p>
-								<select id="">
-									<option value="hide">최신순</option>
-									<option value="" rel="icon-temperature">최신순</option>
-									<option value="" rel="icon-temperature">마감임박순</option>
-								</select><span>-</span><input class="phone" type="text"><span>-</span><input
+							<p><input class="phone" type="text">
+								<span>-</span><input class="phone" type="text"><span>-</span><input
 									class="phone" type="text">
 							</p>
 						</div>
@@ -118,16 +114,16 @@
 						</div>
 						<div class="article">
 							<h2>대상</h2>
-							<label class="labelCheck"> <input type="checkbox" id=""
+							<label class="labelRadio"> <input type="radio" id=""
 								name="recipient" value="건강인" /><span class="checkmark"></span><span>건강인</span></label><label
-								class="labelCheck"> <input type="checkbox" id=""
+								class="labelRadio"> <input type="radio" id=""
 								name="recipient" value="질환인" /><span class="checkmark"></span><span>질환인</span></label>
 						</div>
 						<div class="article">
 							<h2>시험종류</h2>
-							<label class="labelCheck"> <input type="checkbox" id=""
+							<label class="labelRadio"> <input type="radio" id=""
 								name="type" value="임상시험" /><span class="checkmark"></span><span>임상시험</span></label><label
-								class="labelCheck"> <input type="checkbox" id=""
+								class="labelRadio"> <input type="radio" id=""
 								name="type" value="생동성시험" /><span class="checkmark"></span><span>생동성시험</span></label>
 						</div>
 						<div class="range-article">
@@ -196,6 +192,7 @@
 		$(document).ready(function() {
 			$('#sideContent').find('.is-checked').removeClass('is-checked');
 			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
+			$('.input-title input').focus();
 
 		});
 	</script>

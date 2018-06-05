@@ -80,7 +80,8 @@
 						<div class="article">
 							<label>이름</label>
 							<div class="input-block">
-								<input type="text">
+								<input type="text"><div class="divider"></div>
+								<p class="hidden"></p>
 
 							</div>
 						</div>
@@ -89,7 +90,8 @@
 							<div class="input-block">
 								<input class="phone" type="text"><span>-</span><input
 									class="phone" type="text"><span>-</span><input
-									class="phone" type="text">
+									class="phone" type="text"><div class="divider"></div>
+								<p class="hidden"></p>
 
 							</div>
 						</div>
@@ -100,8 +102,9 @@
 							<label>이메일</label>
 							<div class="input-block">
 								<input class="email_first" type="text"><span>@</span><input
-									class="email_last" type="text"> <select id="selectEmail">
-									<option value="1">직접입력</option>
+									class="email_last" type="text" style="margin-right: 8px;"><select
+									id="selectEmail">
+									<option value="">직접입력</option>
 									<option value="naver.com" selected>naver.com</option>
 									<option value="hanmail.net">hanmail.net</option>
 									<option value="hotmail.com">hotmail.com</option>
@@ -115,7 +118,8 @@
 									<option value="gmail.com">gmail.com</option>
 									<option value="hanmir.com">hanmir.com</option>
 									<option value="paran.com">paran.com</option>
-								</select>
+								</select><div class="divider"></div>
+								<p class="hidden"></p>
 							</div>
 						</div>
 					</div>
@@ -139,8 +143,9 @@
 	<script type="text/javascript" src="assets/js/pagination.min.js"></script>
 	<script defer src="assets/js/fontawesome-all.js"></script>
 	<script defer src="assets/js/sub-banner.js"></script>
-	<script type="text/javascript" src="assets/js/select.js"></script>
-	<script type="text/javascript" src="assets/js/select.js"></script>
+	<script type="text/javascript" src="assets/js/selectEmail.js"></script>
+	<!-- 	<script type="text/javascript" src="assets/js/emailSelect.js"></script>
+ -->
 	<script type="text/javascript" src="assets/js/structure.js"></script>
 	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
 
@@ -158,30 +163,10 @@
 					 */
 					if ($('.main').filter('sub-banner')) {
 						$('.main').css('padding-top', '0');
-						
-						
+
 					}
 
 				});
-		
-		$('#selectEmail').change(function(){
-			$("#selectEmail option:selected").each(function () {
-				if($(this).val()== '1'){ //직접입력일 경우
-					$(".input-block input.email_last").val(''); //값 초기화
-					$(".input-block input.email_last").attr("disabled",false); //활성화
-				}else{ //직접입력이 아닐경우
-					$(".input-block input.email_last").val($(this).text()); //선택값 입력
-					$(".input-block input.email_last").attr("disabled",true); //비활성화
-				}
-			   });
-			});
-					
-				
-				
-				
-				
-			
-		
 	</script>
 </body>
 

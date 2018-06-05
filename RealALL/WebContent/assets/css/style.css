@@ -893,13 +893,16 @@ section.another p.mgb-30 {
 .subPage h2 {
 	float: left;
 	font-size: 27px;
-<<<<<<< HEAD
+<<<<<<<
+	HEAD
 	color: #32b76e;
 =======
 	margin-bottom: 0;
 	padding-bottom: 10px;
 	color: #1c90356b;
->>>>>>> branch 'master' of https://github.com/92kimyoungchan/Allct.git
+>>>>>>>
+	branch 'master' of https://github.com/92kimyoungchan/Allct.git;
+	margin-bottom: 4px;
 }
 
 .subPage p {
@@ -1342,7 +1345,7 @@ width: calc(100% - 180px);
 	
 margin-bottom: 0;
 }
-.recruit-create .select-styled , .join-form .select-styled {
+.recruit-create .select-styled  {
 	height:31px;
 	padding: 3px 36px 3px 12px;
 	/* text-align: center; */
@@ -1597,6 +1600,8 @@ section .notice li>a, div .recruit-box-search li>a {
 	z-index: 999;
 	margin: 0 3px;
 	padding: 0;
+	height:147px;
+	overflow-y:scroll;
 	list-style: none;
 	background-color: #f7f7f7;
 }
@@ -2954,8 +2959,8 @@ div.select-header-academy thead > tr > th:nth-of-type(1) {
 
 
 .b-bottom {
-	 border-bottom:1px solid #e7e7e7;
-	 margin-bottom: 15px;
+	 border-bottom: 2px solid #d2d2d2;
+	 margin-bottom: 20px;
 }
 
 .recruit-create input[type=text].full {
@@ -3189,3 +3194,45 @@ color:red;
   .join-form input[type=text].email:first-of-type {
   margin:0 5px 0 0 !important;
  }
+ 
+ .join-form .select-styled {
+	height:31px;
+	padding: 3px 36px 3px 12px;
+	/* text-align: center; */
+	font-size: 18px;
+	width: 160px;
+	margin: 0 5px 0 0;
+	background: white;
+}
+
+.subP .input-title {
+	width:100%;
+	border-bottom: 1px solid #e7e7e7;
+	margin-bottom: 28px;
+	padding-bottom: 10px;
+	
+}
+
+.input-title input {
+
+border: none;
+
+height: 31px;
+
+font-size: 23px;
+
+outline: none;
+
+width: 100%;
+
+letter-spacing: 2.21px;
+
+font-weight: bold;
+
+
+}
+
+.hidden {
+	visibility:hidden;
+	height:10px;
+}
