@@ -99,7 +99,7 @@ div.container.ab-container>div>div {
 .am-h-content-wrapper {
 	border: 1px solid;
 	background: #ffffff;
-	padding: 30px 0px 55px 50px;
+	padding: 30px;
 }
 
 .labelCheck span:nth-child(3n) {
@@ -209,7 +209,7 @@ div.am-ab-title>label
 	{
 	font-size: 24px;
 	margin: 0;
-	color: #808080;
+	color: #808080;  
 }
 
 div.am-ab-mani>div>button:nth-child(3) {
@@ -219,3 +219,14 @@ div.am-ab-mani>div>button:nth-child(3) {
 .am-ab-btn-form {
 	margin-bottom: 20px;
 }
+
+
+
+
+/*blackList*/
+.blackList{
+	margin : 0px;
+}
+.select-styled:after{
+	background-color: #9a9494 !important;
+} 
