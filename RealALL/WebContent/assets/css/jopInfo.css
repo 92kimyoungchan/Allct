@@ -20,7 +20,7 @@ header2-left > button {
 }
 
 div.supP-jopInfo-header2 {
-	display: inline-flex;
+   display: inline-flex;
 }
 
 div.subP-jopInfo-header2 > button {
@@ -56,7 +56,7 @@ span#jopInfo-searchCount {
 
 
 .jobInfo-btn{
-	background: white;
+   background: white;
     border: 1px solid #ddd;
     padding: 4px 6px 4px 6px;
 }
@@ -78,56 +78,56 @@ span#jopInfo-searchCount {
 
 
 .jopInfo .select {
-	cursor: pointer;
-	float: left;
-	position: relative;
-	font-size: 16px;
+   cursor: pointer;
+   float: left;
+   position: relative;
+   font-size: 16px;
 }
 
 
 .jopInfo-filter .select-styled {
-	border: 1.4px solid #ded8d8;
-	color: #a29c9c;
-	background-color: transparent;
-	padding: 6px 40px 3px 18px;
-	margin: 0 3px 10px;
+   border: 1.4px solid #ded8d8;
+   color: #a29c9c;
+   background-color: transparent;
+   padding: 6px 40px 3px 18px;
+   margin: 0 3px 10px;
 }
 
 .jopInfo-filter .select-styled:after {
-	content: "";
-	width: 0;
-	height: 0;
-	border: 7px solid transparent;
-	border-color: #1c9035 transparent transparent transparent;
-	position: absolute;
-	top: 16px;
-	right: 15px;
+   content: "";
+   width: 0;
+   height: 0;
+   border: 7px solid transparent;
+   border-color: #1c9035 transparent transparent transparent;
+   position: absolute;
+   top: 16px;
+   right: 15px;
 }
 
 .jopInfo-filter .select-styled:active:after, .select-styled.active:after {
-	top: 6px !important;
-	border-color: transparent transparent #0769f0 transparent;
+   top: 6px !important;
+   border-color: transparent transparent #0769f0 transparent;
 }
 
 
 .jobInfo-table {
-	width: 100%;
+   width: 100%;
     max-width: 100%;
     border-bottom: 1px solid #ddd;
 }
 
 .jobInfo-table thead {
-	background-color: #f7f7f7;
-	text-align: center;
+   background-color: #f7f7f7;
+   text-align: center;
 }
 
 .jobInfo-table thead > tr {
-	height: 40px;
+   height: 40px;
     border-bottom: 1px solid #ddd;
 }
 
 .jobInfo-table thead > tr > th {
-	font-size: 15px;
+   font-size: 15px;
 }
 
 .jobInfo-table thead > tr > th:nth-of-type(3) {
@@ -144,22 +144,22 @@ span#jopInfo-searchCount {
 }
 
 .jobInfo-table tbody {
-	font-size: 13px;
+   font-size: 13px;
 }
 
 .jobInfo-table tbody > tr > td:first-of-type {
-	width: 110px;
+   width: 110px;
 }
 
 .jobInfo-table tbody > tr > td:nth-of-type(2) {
-	padding: 13px 30px 13px 50px;
+   padding: 13px 30px 13px;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;    
 }
 
 .jobInfo-table > tbody > tr {
-	border-bottom: 2px solid #ddd;
+   border-bottom: 2px solid #ddd;
 }
 
 .jobInfo-table > tbody > tr > td > p {
@@ -167,7 +167,7 @@ span#jopInfo-searchCount {
     font-weight: 300;
     line-height: 20px;
     margin-top: 5px;
-    word-spacing: 1px;	
+    word-spacing: 1px;   
 }
 
 .jobInfo-table > tbody > tr > td > p:first-of-type {
@@ -195,13 +195,13 @@ span#jopInfo-searchCount {
 }
 
 .jopInfo-table-btn > p {
-	font-size: 11px;
+   font-size: 11px;
     letter-spacing: -0.9px;
     text-align: center;
 }
 
 .jopInfo-table-btn .btn-sal button {
-	padding: 0 1px 0 1px;
+   padding: 0 1px 0 1px;
     font-size: 10px;
     background-color: #0384b3;
     border-color: #0384b3;
@@ -236,9 +236,9 @@ span#jopInfo-searchCount {
 }
 
 .jopInfo-table-btn {
-	
+   
 }
 
 .jopInfo-table-btn2 {
-	text-align: center;
+   text-align: center;
 }
