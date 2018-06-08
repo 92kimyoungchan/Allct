@@ -1,7 +1,7 @@
 	$(document).ready(function() {
 
 
-		   var dateI = 2;
+		   var dateI = 1;
 		   var addDateCnt = 1;
 		   var addTimeCnt = 1;
 		   
@@ -31,10 +31,10 @@
 		                     '<input type ="hidden" value="1" id ="timeHidden'+dateI+'" name="timeHidden'+dateI+'">'+
 		                  '</div>';
 		                  
-		      if(dateI < 4){
+		      if(dateI < 3){
 		         $('.dateContainer').append(ElementPath);
-		         $('#dateHidden').val(dateI)
 		         dateI++;
+		         $('#dateHidden').val(dateI)
 		         datepicker();
 		      }else{
 		         alert("날짜를 더이상 추가 할 수 없습니다.");
@@ -73,14 +73,19 @@
 		   }); 
 		   
 		   $(document).on("click",".deleteDate",function() {
-		      var $parent = $(this).parent();
-		      $parent.remove();
-		      dateI--;
+			      var $parent = $(this).parent();
+			      $parent.remove();
+			      dateI--;
+			      $('#dateHidden').val(dateI)
 
-		   });
-		   $(document).on("click",".deleteTime",function() {
-		      var $parent = $(this).parent();
-		      $parent.remove();
-		      $lastbroVal--;
-		   });
+			   });
+			   $(document).on("click",".deleteTime",function() {
+			      var $parent = $(this).parent();
+			      var $parents = $(this).parent().parent();
+			      var $parentsVal = $parents.attr("data-cnt")
+			      $parent.remove();
+			      var timeHiddenVal = $('#timeHidden'+$parentsVal).val();
+			      timeHiddenVal--;
+			      $('#timeHidden'+$parentsVal).val(timeHiddenVal);
+			   });
 		});

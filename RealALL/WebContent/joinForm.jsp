@@ -156,7 +156,7 @@
 
 					$('.MemberProcedure').find('.MemberProcedure .article')
 							.removeClass('selected');
-					$('.MemberProcedure .article:eq(1)').addClass('selected');
+					$('.MemberProcedure .article:eq(2)').addClass('selected');
 
 					/* 
 					 * 서브배너 재료
