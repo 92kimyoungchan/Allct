@@ -21,7 +21,7 @@
 						<strong>All of Clinical Trials</strong>
 					</h2>
 					<h2>Allct가 그려가는 건강한 미래</h2>
-					<span>임상시험을 통해 더 많은 환자들에게 새로운 기회를 줄 수 있습니다.<br>건강하고 새로운
+					<span>임상시험을 통해 더 많은 환자56들에게 새로운 기회를 줄 수 있습니다.<br>건강하고 새로운
 						삶을 위한 가능성을 여는 Allct입니다.
 					</span>
 				</div>

@@ -74,7 +74,7 @@ ul {
 .main {
 	width: 100%;
 	margin: 0 0 0 auto;
-	padding-top: 40px;
+	padding-top: 55px;
 }
 
 .main:after {
@@ -216,7 +216,7 @@ h1 {
 
 h2 {
 	color: black;
-	font-size: 25px;
+	font-size: 23px;
 	padding-bottom: 10px;
 }
 
@@ -739,13 +739,13 @@ p.attachment-p strong {
 }
 
 div.subP .recruit-detail:before {
-content: "생동";background: green;color:white;text-align: center;padding: 4px 17px;border-radius: 12px;float: left; margin-top:20px;
+content: "생동";background: green;color:white;text-align: center;padding: 4px 17px;border-radius: 12px;float: left; margin-top:20px; width:62px;
 }
 
 .recruit-detail h2 {
 	text-align:center;
 	margin: 15px 0;
-	padding:20px 0;
+	padding:20px 62px 20px 0;
 }
 
 .recruit-detail .content-header {
@@ -1184,13 +1184,14 @@ h2 {
 	border: 1.4px solid #1c9035;
 	background: #1c9035;
 	width: 42px;
+	height: 42.78px;
 }
 
 .recruit-box .search-icon svg {
 	color: white;
 }
 
-div .recruit-box-search ul:first-child {
+div .recruit-box-search ul:first-child , div .recruit-apply ul:first-child {
 	width: 100%;
 	border: 1px solid #a7a7a7;
 	display: inline-block;
@@ -1231,7 +1232,7 @@ div .recruit-box-search ul:first-child {
 }
 
 
-.recruit-create , .join-form {
+.recruit-create {
 	
 padding: 25px;
 	
@@ -1248,10 +1249,10 @@ letter-spacing: 0.41px;
 	margin:50px 0;
 }
 
-.recruit-create .article, .join-form .article {
+.recruit-create .article, .form .article {
 padding: 10px 0;
 }
-.recruit-create .article h2 , .join-form .article h2{
+.recruit-create .article h2 , .form .article h2{
 	
 min-width: 120px;
 	
@@ -1264,13 +1265,13 @@ margin-bottom: 0;
 padding-bottom: 8px;
 }
 
-.recruit-create .article:after, .join-form .article:after {
+.recruit-create .article:after, .form .article:after {
 	clear:both;
 	display:block;
 	content:"";
 	}
 
-.recruit-create .article label:not(.labelCheck) , .join-form .article label:not(.labelCheck) {
+.recruit-create .article label:not(.labelCheck) , .form .article label:not(.labelCheck) {
 	
 margin-bottom: 0;
 	
@@ -1322,12 +1323,12 @@ letter-spacing: 0.41px;
 }
 
 
-.recruit-create label > span , .join-form lable > span {
+.recruit-create label > span , .form lable > span {
 	font-weight:bold;
 	font-size:16px;
 }
 
-.recruit-create label > span:last-child , .join-form label > span:last-child {
+.recruit-create label > span:last-child , .form label > span:last-child {
 	margin-left: 35px;
 }
 
@@ -1350,7 +1351,7 @@ margin-bottom: 0;
 	background: white;
 }
 
-.recruit-create .select-styled:after , .join-form .select-styled:after{
+.recruit-create .select-styled:after , .form .select-styled:after{
 	content: "";
 	width: 0;
 	height: 0;
@@ -1366,9 +1367,9 @@ margin-bottom: 0;
 	border-color: transparent transparent #0769f0 transparent;
 }
 
-.recruit-create .article .multiple {width:auto;background: white;outline: 1px solid #ded8d8;margin: 0 5px;}
+.recruit-create .article .multiple {width:auto; background: white; margin: 0 5px 0 0;}
 
-.recruit-create .article p > span , .join-form .article p > span {
+.recruit-create .article p > span , .form .article p > span {
 	float: left;
 	
 font-size: 18px;
@@ -1378,34 +1379,73 @@ padding: 3px 0;
 margin: 0 5px;
 }
 
-.recruit-create input , .join-form input {
+.recruit-create input , .form input {
 	outline:none;
 }
-.recruit-create input[type=text].phone , .join-form input[type=text].phone {
+.recruit-create input[type=text].phone , .form input[type=text].phone {
 	width:110px;
 	margin: 0 5px;
 }
 
-
 .article .calendar-set {
-	
+	margin-bottom:10px;
 }
 
-.article .calendar-set span {
-	float:left;
+.article .calendar-set:after {
+	clear:both;
+	content:"";
+	display
+}
+
+.article .calendar-set .addTime {
+		float:left;
+		font-size: 18px;
+		padding: 2px 18px;
+		margin: 0 8px;
+		background: transparent;
+		height: 31px;
+		color: black;
+		font-weight: bold;
+		background: #dadada;
+		border: none;
+		outline: 1px solid #ded8d8;
+}
+
+.article .calendar-set .addTime.big {
+
+	width:202px;
+}
+
+.article .calendar-set .deleteTime {
+		float:left;
+		font-size: 18px;
+		padding: 2px 18px;
+		margin: 0 0 0 8px;
+		background: transparent;
+		height: 31px;
+		color: black;
+		font-weight: bold;
+		background: #dadada;
+		border: none;
+		outline: 1px solid #ded8d8;
+}
+
+.article .calendar-set .addDate {
+		float:left;
 	font-size: 18px;
-	padding: 2px 0;
+	padding: 2px 18px;
 	margin: 0 8px;
+	background: transparent;
+	height: 31px;
+	border: none;
+	outline: 1px solid #ded8d8;
 }
 
 .article .calendar-set span:last-of-type {
-	padding:2px 12px;
-	background:red;
-	margin:0;
-	margin-left:5px;
+	
 }
 
-.recruit-create .article  input , .join-form .article input {
+.recruit-create .article  input , .form .article input {
 		height: 31px;
 		border: 1px solid #ded8d8;
 		display: block;
@@ -1790,7 +1830,7 @@ input[type="radio"], input[type="checkbox"] {
 	background: #1c9035;
 	width: 42px;
 	float: left;
-	height: 42.78px;
+	
 }
 
 .search-icon svg {
@@ -2362,7 +2402,7 @@ section.join {
 	
 }
 
-.join .terms hr,.join-form hr {
+.join .terms hr,.form hr {
 	margin:10px 0 20px;
 	border-top:1px solid #a5a5a5;
 }
@@ -2649,6 +2689,11 @@ a.scrollTop>svg {
 .divider {
 	background: #1c9035;
 	padding: 2.5%;
+}
+
+.divider_transparent {
+	background: transparent;
+	clear:both;
 }
 
 .vertical-container {
@@ -3095,24 +3140,7 @@ span#jopInfo-searchCount {
 	width:100%;
 }
 
-.recruit-create input[type=text].separate {
-	border: none;
-	background: transparent;
-	background: url(../images/calendar.png);
-	background-position:right 10px center;
-	background-repeat:no-repeat;
-	background-size:contain;
-	padding-left:12px;
-}
-.article .calendar-set span:nth-of-type(2) {
-    margin: 0 10px;
-    font-weight: bold;
-}
-.article .calendar-set span:first-of-type {
-    margin: 0 0px 0 0;
-    background: green;
-    padding: 2px 12px;
-}
+
 
 .combine input {
 	margin-right:8px;
@@ -3235,14 +3263,15 @@ font-size: 16px;
 
 /* 회원가입폼  */
 
-.join-form {
-	
+.form {
+	margin-bottom:45px;
 }
 
-.join-form h2 {
-	
+.form h2 {
+	border-bottom:1px solid #d2d2d2;
+	margin-bottom:35px;
 }
-.join-form .article label:not(.labelCheck) {
+.form .article label:not(.labelCheck) {
 	
 margin-bottom: 0;
 	
@@ -3259,15 +3288,15 @@ font-weight: bold;
 letter-spacing: 0.41px;
 }
 
-.join-form .article {
+.form .article {
 padding: 0 0 10px 0;
 }
 
-.join-form .article:last-of-type {
+.form .article:last-of-type {
  	
  }
  
-.join-form .article .input-block  > span {
+.form .article .input-block  > span {
 	float: left;
 	font-size: 12.5px;
 	padding: 6.5px 0;
@@ -3275,7 +3304,7 @@ padding: 0 0 10px 0;
 	color:gray;
 }
 
-.join-form .article .input-block  {
+.form .article .input-block  {
 	
 float: left;
 font-size:18px;
@@ -3290,7 +3319,7 @@ margin-bottom: 0;
 	background:transparent;
 }
 
-.join-form .article p  {
+.form .article p  {
 clear:both;
 font-size:14px;
 margin-bottom: 0;
@@ -3306,24 +3335,24 @@ color:red;
 	background-size:contain;
 	width: inherit;
 }
-.join-form .article .multiple {font-size:18px !important; width: 203px;background: white;outline: 1px solid #ded8d8;height: 31px; float:left;}
+.form .article .multiple {font-size:18px !important; width: 203px;background: white;outline: 1px solid #ded8d8;height: 31px; float:left;}
 
  .input-block input.phone:first-of-type {
  margin:0 !important;
  }
 
  
- .join-form input[type=text].email {
+ .form input[type=text].email {
  	width:170px;
  	margin:0 5px;
  	
  }
  
-  .join-form input[type=text].email:first-of-type {
+  .form input[type=text].email:first-of-type {
   margin:0 5px 0 0 !important;
  }
  
- .join-form .select-styled {
+ .form .select-styled {
 	height:31px;
 	padding: 3px 36px 3px 12px;
 	/* text-align: center; */
@@ -3364,3 +3393,273 @@ font-weight: bold;
 	visibility:hidden;
 	height:10px;
 }
+
+.hidden2 {
+	visibility:hidden;
+	
+}
+
+.recruit-create .hidden {
+	height:auto !important;
+	visibility:hidden;
+}
+
+.recruit-create .button-box {
+	text-align:center;
+	margin:30px 0;
+}
+
+
+.recruit-create .button-box button {
+	margin:0 5px;
+	padding:14px 19px;
+	font-size:18px;
+	width:165px;
+	background:#6cd073;
+	
+}
+
+.recruit-create .button-box span:first-of-type {
+	text-align:center;
+	margin-bottom:30px;
+}
+
+
+.recruit-create .button-box button:first-of-type  {
+	background:#80808042 !important;
+}
+
+/* 신청 */
+
+.recruit-apply .menu-header {
+	text-align:center;
+	margin: 15px 0 45px 0;
+	padding:20px 62px 20px 0;
+}
+
+div .recruit-apply ul.nav-tabs {
+	width: 100%;
+	display: inline-block;
+	border-bottom: 0;
+	margin-bottom:30px;
+}
+
+div .recruit-apply ul.nav-tabs > li {
+	width: 50%;
+	text-align: center;
+	float: left;
+	padding: 14px 0;
+	font-weight: bold;
+	border: 1px solid #a7a7a7;
+} 
+
+div .recruit-apply ul.nav-tabs > li:first-of-type {
+
+	border-right:none !important;
+}
+div.recruit-apply ul>li>a.active {
+	color: #1c9035;
+}
+
+div .recruit-apply li.green {
+	box-shadow: 0px 0 0 0 #c3c3c3 inset, 0 -8px 0 0 #16712a inset, 0px 0px 0 0 #c3c3c3 inset, 0px 0 0 0 #c3c3c3 inset, 0 0px 0 0 #c3c3c3 inset;
+		
+}
+
+div .recruit-apply li>a {
+	display: inline-block;
+	width: 100%;
+}
+
+
+div.subP .recruit-apply:before {
+content: "신청";background: green;color:white;text-align: center;padding: 4px 17px;border-radius: 12px;float: left; margin-top:20px; width:62px;
+}
+
+div .recruit-apply .apply-form {
+	
+}
+
+.recruit-create .article .dateContainer .addDate {
+	
+}
+
+.recruit-create .article .dateContainer {
+	
+}
+
+.recruit-create .article  .add {
+	clear:both;
+	text-align:center;
+	margin:25px 0;
+}
+
+.recruit-create .article  .add button {font-size: 18px;padding: 2px 18px;margin: 0 8px;background: #dadada;font-weight: bold;color: black;height: 31px;border: none;outline: 1px solid #ded8d8;}
+
+.recruit-create .article  .add < button {
+	
+}
+
+
+.recruit-create .article .dateContainer input {
+	
+}
+
+.recruit-create .article .dateContainer input.separate {
+	background: transparent;
+	background: url(../images/calendar.png);
+	background-position:right 10px center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	padding-left:12px;
+}
+.article .calendar-set span:nth-of-type(2) {
+   
+    
+}
+.article .calendar-set span{
+    margin: 0;
+   
+    padding: 2px 12px;
+    float:left;
+    height:31px;
+}
+.recruit-create .article .dateContainer input:not(.separate) {
+	width:70px;
+}
+
+.article .calendar-time {
+	margin:10px 0;
+}
+.heightAuto .select-options {
+	height:auto !important;
+	margin:0;
+	overflow-y:unset;
+}
+
+.heightAuto .select-styled {
+	margin:0 !important;
+	text-align:center;
+	width:90px;
+	font-size:16px;
+	padding:3px 28px 3px 12px;
+}
+
+
+ .form .heightAuto .select-styled:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-color: #4d51ea transparent transparent transparent;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+}
+
+.form input.phoneForm {
+	width:90px;
+	text-align:center;
+	padding:0;
+	font-size:15px;
+}
+
+.mglIn15 .select-styled  {
+	margin-left:15px;
+}
+
+.mglIn15  .select-options {
+	margin-left:15px;
+}
+
+.form .article .spanButton {
+	outline: 1px solid #ded8d8;
+	
+margin: 0 !important;
+	
+font-size: 15px !important;
+	
+padding: 4.5px 14px !important;
+}
+
+
+.form .labelRadio {
+	border:none;
+	position:relative;
+	margin: 0 5px;
+	width: 105px !important;
+	min-width: unset !important;
+	padding: 2px 0 !important;
+}
+
+.form .labelRadio input[type="radio"]{
+	display:none !Important;
+}
+.form .article input.nameInput{
+	width:90px !important;
+}
+.form .article input.caculator{
+	width:140px !important;
+}
+
+.input-block.marginNo .labelRadio{
+	margin:0 5px 0 0!important
+}
+
+/* .applyForm .article {
+	margin:0 0 13px 0;
+} */
+
+.applyForm .article .calcu > span {
+	font-size:15px;
+	padding:4.5px 0;
+}
+
+
+.applyForm .button-box {
+	text-align:center;
+	margin:30px 0;
+}
+
+.applyForm  .button-box button {
+	margin:0 5px;
+	padding:14px 19px;
+	font-size:18px;
+	width:165px;
+	background:#6cd073;
+	
+}
+
+.applyForm  .button-box span:first-of-type {
+	text-align:center;
+	margin-bottom:30px 0 45px 0;
+}
+
+.timeRow:before {
+	width:328px;
+	display:block;
+	height:31px;
+	content:"";
+	float:left;
+}
+
+.timeRow {
+	margin:10px 0;
+}
+
+
+.article .calendar-set .deleteDate {
+		float:left;
+		font-size: 18px;
+		padding: 2px 18px;
+		margin: 0 8px 0 0;
+		background: transparent;
+		height: 31px;
+		color: black;
+		font-weight: bold;
+		background: #dadada;
+		border: none;
+		outline: 1px solid #ded8d8;
+}
+
+

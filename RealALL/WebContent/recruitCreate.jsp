@@ -49,17 +49,23 @@
 							</p>
 						</div>
 						<div class="article">
-							<label>스크리닝기간</label>
-							<div class="calendar-set">
-								<span>시작</span>
-								<p class="multiple">
-									<input type="text" class="datepicker_first separate">
-								</p>
-								<span>~</span><span>종료</span>
-								<p class="multiple">
-									<input type="text" class="datepicker_last separate">
-								</p>
+							
+							<div class="dateContainer">
+						
+							<input type ="hidden" value="1" id ="dateHidden" name="dateHidden">
+								<div class="calendar-set" data-cnt ="1">
+									<label>스크리닝기간</label>
+									<p class="multiple">
+										<input class="datepicker separate" name="date1">
+									</p>
+									<input type="text" name ="date1H1" data-time-cnt ="1"> <span>시</span>
+	      							<input type="text" name ="date1M1" data-time-cnt ="1"> <span>분</span>
+									<button class="addTime big">시간추가</button>
+									<div class="divider_transparent"></div>
+									<input type ="hidden" value="1" id ="timeHidden1" name="timeHidden1">
+								</div>
 							</div>
+							<div class="add"><button type ="button" class="addDate">날짜추가</button></div>
 						</div>
 						<div class="article">
 							<label>사례금</label>
@@ -163,6 +169,10 @@
 								<input type="file" id="uploadBtn" class="uploadBtn">
 							</div>
 
+						</div>
+							<div class="button-box">
+						<button>임시저장</button>
+						<button>등록하기</button>
 						</div>
 
 					</div>

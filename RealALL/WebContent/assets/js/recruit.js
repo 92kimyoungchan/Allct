@@ -137,10 +137,9 @@ $('.labelCheck').on('click',function() {
 	
 
 	
-	$('input[type="checkbox"][name="period"]').click(function(){
 
-		$('section .recruit-box li>a').on('click',function(){
-			$('section .recruit-box ul > li > a.active').parent().removeClass('green');
+		$('div.recruit-box-search li>a').on('click',function(){
+			$('div.recruit-box-search ul > li > a.active').parent().removeClass('green');
 			$(this).parent().addClass('green');
 		});
-	});
+

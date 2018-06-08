@@ -43,9 +43,9 @@
 
 					</div>
 
-					<div class="join-form">
+					<div class="form">
 						<h2>기본정보</h2>
-						<hr>
+						
 						<div class="article">
 							<label>아이디</label>
 							<div class="input-block">
