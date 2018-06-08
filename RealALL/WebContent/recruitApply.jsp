@@ -12,7 +12,11 @@
 <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 
-
+<style>
+div.recruit-apply ul>li>a.active {
+	color:inherit !important;
+}
+</style>
 
 </head>
 <body>
@@ -37,8 +41,8 @@
 						<h2 class="menu-header">시험참여 지원하기</h2>
 						<ul class="nav nav-tabs">
 							<li class="green"><a class="active" data-toggle="tab"
-								href="#Filter">필터검색</a></li>
-							<li><a data-toggle="tab" href="#Period">기간검색</a></li>
+								href="#Filter">개인정보 확인하기</a></li>
+							<li><a data-toggle="tab" href="#Period">설문조사하기</a></li>
 						</ul>
 
 						<div class="form applyForm">
@@ -185,22 +189,10 @@
 
 
 	<script>
-		$(document).ready(
-				function() {
-					$('#sideContent').find('.is-checked').removeClass(
-							'is-checked');
-					$('#sideContent>.contentElement:eq(0)').addClass(
-							'is-checked');
-
-					$('div.recruit-apply li>a').on(
-							'click',
-							function() {
-								$('div.recruit-apply ul > li > a.active')
-										.parent().removeClass('green');
-								$(this).parent().addClass('green');
-							});
-
-				});
+		$(document).ready(function() {
+			$('#sideContent').find('.is-checked').removeClass('is-checked');
+			$('#sideContent>.contentElement:eq(2)').addClass('is-checked');
+		});
 	</script>
 </body>
 
