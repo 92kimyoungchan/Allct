@@ -2987,8 +2987,6 @@ div.select-header-academy thead > tr > th:nth-of-type(1) {
 	float: left;
 }
 
-
-
 /* board_jopInfo.jsp 구직정보 리스트 */
 
 .subP-jopInfo .subPage:after {
@@ -3041,6 +3039,7 @@ span#jopInfo-searchCount {
     color:  coral;
     font-weight:  800;
 }
+<<<<<<< HEAD
 
 
 .jobInfo-btn{
@@ -3129,6 +3128,7 @@ span#jopInfo-searchCount {
 .jobSearchInfo-table tbody > tr > td:nth-of-type(2) {
     padding: 13px 50px 13px 50px;
 }
+
 
 
 .b-bottom {
