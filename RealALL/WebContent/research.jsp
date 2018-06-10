@@ -41,9 +41,9 @@ div.recruit-apply ul>li>a.active {
 					<div class="recruit-research">
 					<h2 class="menu-header">시험참여 지원하기</h2>
 						<ul class="nav nav-tabs">
-							<li class="green"><a class="active" data-toggle="tab"
+							<li><a class="active" data-toggle="tab"
 								href="#Filter">개인정보 확인하기</a></li>
-							<li><a data-toggle="tab" href="#Period">설문조사하기</a></li>
+							<li class="green"><a data-toggle="tab" href="#Period">설문조사하기</a></li>
 						</ul>
 						<h2>설문조사하기</h2>
 						
@@ -77,7 +77,135 @@ div.recruit-apply ul>li>a.active {
 								</tr>
 								<tr>
 									<td>
-										01
+										02
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										03
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										04
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										05
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										06
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										07
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										08
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										09
+									</td>
+									<td>
+									현재 복용중인 약이 있습니까?
+									</td>
+									<td class="radio">
+									<label class="labelRadio"> <input type="radio" id=""
+										name="agreement" value="yes"><span class="checkmark"></span><span>예</span></label>
+									<label class="labelRadio"> <input type="radio" id=""
+										name="refusal" value="no"><span class="checkmark"></span><span>아니오</span></label>
+
+									</td>
+										
+								</tr>
+								<tr>
+									<td>
+										10
 									</td>
 									<td>
 									현재 복용중인 약이 있습니까?
@@ -92,7 +220,7 @@ div.recruit-apply ul>li>a.active {
 										
 								</tr><tr>
 									<td>
-										01
+										11
 									</td>
 									<td>
 									현재 복용중인 약이 있습니까?
@@ -107,7 +235,7 @@ div.recruit-apply ul>li>a.active {
 										
 								</tr><tr>
 									<td>
-										01
+										12
 									</td>
 									<td>
 									현재 복용중인 약이 있습니까?
@@ -124,6 +252,7 @@ div.recruit-apply ul>li>a.active {
 								
 							</tbody>
 						</table>
+						<div class="button-box"><button>최종신청하기</button></div>
 						
 
 

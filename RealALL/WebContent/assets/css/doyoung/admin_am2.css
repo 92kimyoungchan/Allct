@@ -183,6 +183,9 @@ tr.ad-table-header {
 	text-align: center;
 }
 
+.ad-table-header th:first-of-type {
+	text-align:unset !Important;
+}
 tr.ad-table-body {
 	background-color: #ffffff;
 	font-size: 13px;
@@ -205,6 +208,10 @@ tr.ad-table-body td {
     text-align: center;
     font-weight: 600;
     font-size: 15px;
+}
+
+tr.ab-table-body.blackListTableBody >td:first-of-type {
+	text-align:unset !important;
 }
 
 button.ad-m-btn {
@@ -286,4 +293,8 @@ div.am-ab-title-selectForm > div > div{
 .memberList-table-header{
 	background-color: #5bca64 !important;
 	color: black !important;
+}
+
+.ab-table .select-options > li {
+	padding-right:10px;
 }

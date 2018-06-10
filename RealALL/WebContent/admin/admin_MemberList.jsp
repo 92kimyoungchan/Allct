@@ -40,7 +40,7 @@
 
 
 							</div>
-
+								<form name="checkbox">
 							<div class ="blackList-title">
 							
 								<div class="am-ab-title">
@@ -87,6 +87,7 @@
 								</div>
 								</div>
 								<div class="am-ab-table-wrap">
+								
 									<table class="ab-table">
 										<thead>
 											<tr class="ad-table-header memberList-table-header">
@@ -164,8 +165,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-3"> <input
+															type="checkbox" id="ad-tr-3" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -189,8 +190,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-4"> <input
+															type="checkbox" id="ad-tr-4" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -214,8 +215,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-5"> <input
+															type="checkbox" id="ad-tr-5" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -239,8 +240,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-6"> <input
+															type="checkbox" id="ad-tr-6" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -264,8 +265,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-7"> <input
+															type="checkbox" id="ad-tr-7" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -289,8 +290,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-8"> <input
+															type="checkbox" id="ad-tr-8" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -314,8 +315,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-9"> <input
+															type="checkbox" id="ad-tr-9" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -339,8 +340,8 @@
 											<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-10"> <input
+															type="checkbox" id="ad-tr-10" name="use" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -363,6 +364,7 @@
 											</tr>
 										</tbody>
 									</table>
+									
 
 								</div>
 								<!--공고 Manipulation  -->
@@ -379,6 +381,7 @@
 									</ul>
 								</div>
 							</div>
+							</form>
 						</div>
 					</div>
 				</div>

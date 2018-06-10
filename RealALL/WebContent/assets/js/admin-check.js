@@ -1,4 +1,7 @@
 $(document).ready(function() {	
+	
+	var flag = $("input[type='checkbox'][id='all']").is(':checked');
+	
 $('#pagination-demo').twbsPagination({
         totalPages: 10,
         visiblePages: 10,
@@ -15,6 +18,26 @@ $('#pagination-demo').twbsPagination({
         }
     });  
 
+
+/*체크박스 전체선택*/
+
+$("input[type='checkbox'][id='all']").on('click',function(){
+
+	if(flag) {
+		$("input[type=checkbox]").prop("checked",false);
+		flag = false;
+	}else {
+		$("input[type=checkbox]").prop("checked",true);
+		flag = true;
+	}
+	
+});
+	
+/* 개별 체크박스 확인하기 */
+$("input[type='checkbox']").on('click',function(){
+	console.log("치트",$(this).attr('id'));
+	
+});
 
 
 });
@@ -42,7 +65,13 @@ window.onload = function () {
 
 
 
+
+
 /*
+ * 
+ * .consent .labelCheck input
+ * 
+ * 
 	var SloganHeight = parseInt($('.slogan-box .slogan .slogan-img img').css('height').replace("px",""));
 	var calibrate3 = parseInt(50);
 	var setSloganHeight = SloganHeight - calibrate3+"px";
