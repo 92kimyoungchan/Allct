@@ -21,9 +21,9 @@
 		<div class="row-noneflex">
 			<div class="main">
 				<%@ include file="include/x-sidebar.jsp"%>
-				
+
 				<div class="subP">
-					
+
 					<div class="subPage">
 						<h2>공고작성</h2>
 						<div class="small_navigation">
@@ -32,12 +32,12 @@
 						</div>
 
 					</div>
-					
-					
+
+
 
 					<div class="recruit-box">
 
-					
+
 						<div class="recruit-header">
 
 
@@ -51,7 +51,7 @@
 									<option value="" rel="icon-temperature">마감임박순</option>
 									<option value="" rel="icon-temperature">금액순</option>
 								</select>
-								
+
 							</div>
 
 
@@ -61,31 +61,39 @@
 						<table class="table">
 							<thead>
 								<tr class="table-header">
-									<th><div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div></th>
+									<th><div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div></th>
 									<th>시험종류</th>
 									<th>모집공고</th>
-									<th></th>
-									
-									
+									<th>모집정원</th>
+									<th>마감일</th>
+
+
+
 								</tr>
 							</thead>
 							<tbody>
 								<tr id="bookmark1">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -97,22 +105,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark2">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -124,22 +138,27 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
 								</tr>
 								<tr id="bookmark3">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -151,22 +170,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark4">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -178,22 +203,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark5">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -205,22 +236,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark6">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -232,22 +269,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark7">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -259,22 +302,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark8">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -286,22 +335,28 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark9">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -313,30 +368,49 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
-										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 								<tr id="bookmark10">
 									<td class="text-center">
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div>
+										<div class="labelHolder">
+											<label class="labelCheck" for="all"> <input
+												type="checkbox" id="all" value="" /> <span
+												class="checkmark"></span>
+											</label>
+										</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
-										<div class="labelHolder"><label class="labelCheck" for="all"> <input
-															type="checkbox" id="all" value="" /> <span
-															class="checkmark"></span>
-														</label></div></td>
-									<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+										<div class="secondBox">
+											<div class="nameText-box">
+												<label>베스티안부천병원</label>
+											</div>
+											<div class="clear">
+												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
+												<ul class="list-inline">
+													<li><span>건강인</span></li>
+													<li><span>남녀모두</span></li>
+													<li><span>20세~45세</span></li>
+												</ul>
+											</div>
+										</div>
+									</td>
+									<td><div class="table-text"><span>3일전</span></div></td>
+									<td><div class="table-text"><span>27/30</span></div></td>
+
 								</tr>
 							</tbody>
 						</table>
 					</div>
-					
+
 					<ul id="pagination-demo" class="pagination-sm"></ul>
 
 

@@ -64,8 +64,8 @@ $('.labelCheck').on('click',function() {
         visiblePages: 11,
         first:false,
         last:false,
-        next:false,
-        prev:false,
+        next:">",
+        prev:"<",
       /*  next: '<i class="fas fa-angle-right"></i>',
         prev: '<i class="fas fa-angle-left"></i>',*/
         onPageClick: function (event, page) {

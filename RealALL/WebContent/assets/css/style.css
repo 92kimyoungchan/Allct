@@ -74,7 +74,7 @@ ul {
 .main {
 	width: 100%;
 	margin: 0 0 0 auto;
-	padding-top: 55px;
+	padding: 55px 0 10px;
 }
 
 .main:after {
@@ -1308,13 +1308,21 @@ font-weight: bold;
 letter-spacing: 0.41px;
 }
 
-.recruit-create .labelCheck , .labelHolder .labelCheck {
+.recruit-create .labelCheck {
 	border:none;
 	position:relative;
+	width: 105px !important;
+	min-width: unset !important;
 	
-	
-	padding: 0;
+	padding: 2px 0 !important;
+	margin:0 5px;
+	float:left;
 
+}
+
+.labelHolder .labelCheck {
+	border:none;
+	position:relative;
 }
 
 
@@ -2012,6 +2020,7 @@ div.tab-content .filter-area:last-child {
 
 .table td {
 	border: none;
+	/* text-align: center; */
 }
 
 .table tr {
@@ -2026,6 +2035,7 @@ div.tab-content .filter-area:last-child {
 
 .recruit-box .table thead>tr>th:first-of-type {
 	
+	text-align:unset !important;
 }
 
 
@@ -2034,20 +2044,24 @@ div.tab-content .filter-area:last-child {
 	vertical-align: middle;
 	padding: 34px 0px;
 }
+.recruit-box .table tbody>tr>td:not(:nth-of-type(3)) {
+	text-align:center;
 
-.recruit-box .table tbody>tr>td:nth-of-type(2) {
-	text-align: center;
+}
+
+.recruit-box .table tbody>tr>td:nth-of-type(4) , .recruit-box .table tbody>tr>td:nth-of-type(5) {
+	min-width:95px;
 }
 
 .recruit-box .table tbody>tr>td:first-child {
-	width: 80px;
-	vertical-align:middle;
 	
+vertical-align:middle;
+	
+text-align:unset !important;
+	
+min-width: 60px;
 }
 
-.recruit-box .table tbody>tr>td:last-child {
-	width: 180px;
-}
 
 .recruit-box .table tbody>tr>.text-center {
 	position: relative
@@ -2118,10 +2132,18 @@ div.tab-content .filter-area:last-child {
 }
 
 .recruit-box .table .secondBox {
-	padding-left: 12px;
+	padding-left: 20px;
+	width: 100%;
 	float: left;
 }
 
+.table-text {
+	
+}
+
+.table-text span {
+	font-size:16.5px;
+}
 .recruit-box .table .button-box {
 	
 }
@@ -2249,12 +2271,12 @@ div.tab-content .filter-area:last-child {
 }
 
 .table .info .info-article {
-	width: 71px;
-	height: 71px;
+	width: 64px;
+	height: 64px;
 	background: green;
 	border-radius: 50%;
 	display: table;
-	margin: 0 auto;
+	margin: 7 auto;
 }
 
 /* recruit.jsp (모집공고 리스트 페이지 - 페이지네이션) */
@@ -3921,7 +3943,7 @@ outline: 1px solid gray;
 .labelHolder {
 	width:25px;
 	height:25px;
-	
+	margin: 0 auto;
 }
 
 
