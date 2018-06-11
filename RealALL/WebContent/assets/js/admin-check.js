@@ -24,17 +24,32 @@ $('#pagination-demo').twbsPagination({
 $("input[type='checkbox'][id='all']").on('click',function(){
 
 	if(flag) {
-		$("input[type=checkbox]").prop("checked",false);
+		$("input[name=tableInfo]:checkbox").prop("checked",false);
 		flag = false;
 	}else {
-		$("input[type=checkbox]").prop("checked",true);
+		$("input[name=tableInfo]:checkbox").prop("checked",true);
 		flag = true;
 	}
 	
 });
 	
+/*체크박스 헤더 전체선택*/
+$("input[type='checkbox'][id='state-all']").on('click',function(){
+
+	if(flag) {
+		$("input[name=header]:checkbox").prop("checked",false);
+		flag = false;
+	}else {
+		$("input[name=header]:checkbox").prop("checked",true);
+		flag = true;
+	}
+	
+});
+	
+
+
 /* 개별 체크박스 확인하기 */
-$("input[type='checkbox']").on('click',function(){
+$("input[name=tableInfo]:checkbox").on('click',function(){
 	console.log("치트",$(this).attr('id'));
 	
 });

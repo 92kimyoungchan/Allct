@@ -269,6 +269,10 @@ div.am-ab-mani>div>button:nth-child(3) {
     display: inline-flex;
 }
 
+.am-ab-title-right .select .select-options li {
+	padding:12px 0 12px 10px !important;
+}
+
 div.am-ab-title-searchForm > button{
 	float: right;
     height: 42px  !important;

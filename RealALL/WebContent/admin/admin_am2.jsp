@@ -51,7 +51,7 @@
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-all"><input
-																type="checkbox" id="state-all" value="" /><span
+																type="checkbox" id="state-all" value="" name="header"/><span
 																class="checkmark"></span> <span>전체</span> </label>
 
 														</div>
@@ -59,7 +59,7 @@
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-ing"><input
-																type="checkbox" id="state-ing" value="" /> <span
+																type="checkbox" id="state-ing" value="" name="header"/> <span
 																class="checkmark"></span> <span>진행중</span> </label>
 
 														</div>
@@ -67,7 +67,7 @@
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-stop"><input
-																type="checkbox" id="state-stop" value="" /> <span
+																type="checkbox" id="state-stop" value="" name="header"/> <span
 																class="checkmark"></span> <span>중지</span> </label>
 
 														</div>
@@ -75,7 +75,7 @@
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-active"><input
-																type="checkbox" id="state-active" value="" /> <span
+																type="checkbox" id="state-active" value="" name="header" /> <span
 																class="checkmark"></span> <span>모집중</span> </label>
 
 														</div>
@@ -83,7 +83,7 @@
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-complete"><input
-																type="checkbox" id="state-complete" value="" /> <span
+																type="checkbox" id="state-complete" value="" name="header"/> <span
 																class="checkmark"></span> <span>완료</span> </label>
 
 														</div>
@@ -123,7 +123,9 @@
 										<i class="fas fa-cog"></i>설정
 									</button>
 								</div>
+								<form name="tableInfo">
 								<div class="am-ab-table-wrap">
+								
 									<table class="ab-table">
 										<thead>
 											<tr class="ad-table-header">
@@ -151,7 +153,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" value="" /> <span
+															type="checkbox" id="ad-tr-1" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -170,7 +172,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+															type="checkbox" id="ad-tr-2" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -188,28 +190,8 @@
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
-															class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>1형생물학적동등성시험</td>
-												<td>18-05-10</td>
-												<td>18-05-10</td>
-												<td>18-02-24</td>
-												<td>30</td>
-												<td>베스티안 추천병원</td>
-												<td>생동성</td>
-												<td>시험진행중</td>
-											</tr>
-											
-											<tr class="ad-table-body">
-												<td>
-													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-3"> <input
+															type="checkbox" id="ad-tr-3" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -228,8 +210,28 @@
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-4"> <input
+															type="checkbox" id="ad-tr-4" name="tableInfo" value="" /> <span
+															class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>1형생물학적동등성시험</td>
+												<td>18-05-10</td>
+												<td>18-05-10</td>
+												<td>18-02-24</td>
+												<td>30</td>
+												<td>베스티안 추천병원</td>
+												<td>생동성</td>
+												<td>시험진행중</td>
+											</tr>
+											
+											<tr class="ad-table-body">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-5"> <input
+															type="checkbox" id="ad-tr-5" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -247,8 +249,8 @@
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-6"> <input
+															type="checkbox" id="ad-tr-6" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -266,8 +268,8 @@
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-7"> <input
+															type="checkbox" id="ad-tr-7" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -285,8 +287,8 @@
 											<tr class="ad-table-body">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="use" value="" /> <span
+														<label class="labelCheck" for="ad-tr-8"> <input
+															type="checkbox" id="ad-tr-8" name="tableInfo" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -307,6 +309,7 @@
 									</table>
 
 								</div>
+								</form>
 								<!--공고 Manipulation  -->
 								<div class="am-ab-mani">
 									<!--  선택 수정 삭제 추가-->
