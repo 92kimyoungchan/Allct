@@ -207,7 +207,7 @@ checkbox table
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
 												<label class="am-h-label">시험종류</label>
-												<ul class="am-h-state">
+												<ul class="am-h-state test-kinds-ul">
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="clinical"><input
@@ -218,9 +218,9 @@ checkbox table
 													</li>
 													<li>
 														<div class="consent ad-consent">
-															<label class="labelCheck" for="Biological"><input
+										  					<label class="labelCheck" for="Biological"><input
 																type="checkbox" id="Biological" value="" name="test" />
-																<span class="checkmark"></span> <span>생동성시험</span> </label>
+						  										<span class="checkmark"></span> <span>생동성시험</span> </label>
 
 														</div>
 													</li>

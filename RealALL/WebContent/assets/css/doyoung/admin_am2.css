@@ -393,3 +393,7 @@ span.admin-calender-form-span:nth-child(4) {
 .ad-table-body td{
 	text-align: unset !important;
 }
+.test-kinds-ul{  
+	padding: 0;
+	margin-left: -27px;	
+}
