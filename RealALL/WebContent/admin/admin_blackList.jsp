@@ -109,7 +109,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-1" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -134,7 +134,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-2"> <input
-															type="checkbox" id="ad-tr-2" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-2" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -159,7 +159,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-3"> <input
-															type="checkbox" id="ad-tr-3" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-3" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -184,7 +184,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-4"> <input
-															type="checkbox" id="ad-tr-4" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-4" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -209,7 +209,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-5"> <input
-															type="checkbox" id="ad-tr-5" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-5" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -234,7 +234,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-6"> <input
-															type="checkbox" id="ad-tr-6" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-6" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -259,7 +259,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-7"> <input
-															type="checkbox" id="ad-tr-7" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-7" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -284,7 +284,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-8"> <input
-															type="checkbox" id="ad-tr-8" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-8" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -309,7 +309,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-9"> <input
-															type="checkbox" id="ad-tr-9" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-9" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>
@@ -334,7 +334,7 @@
 												<td>
 													<div class="consent ad-consent">
 														<label class="labelCheck" for="ad-tr-10"> <input
-															type="checkbox" id="ad-tr-10" name="tableInfo" value="" /> <span
+															type="checkbox" id="ad-tr-10" name="" class="info" value="" /> <span
 															class="checkmark"></span>
 														</label>
 													</div>

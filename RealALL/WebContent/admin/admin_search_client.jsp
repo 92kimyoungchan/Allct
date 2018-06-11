@@ -63,7 +63,7 @@ super 페이지 span
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-all"><input
-																type="checkbox" id="state-all" value="" name="header" /><span
+																type="checkbox" id="state-all" value="" name="" /><span
 																class="checkmark"></span> <span>전체</span> </label>
 
 														</div>
@@ -71,7 +71,7 @@ super 페이지 span
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-ing"><input
-																type="checkbox" id="state-ing" value="" name="header" />
+																type="checkbox" id="state-ing" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
 
 														</div>
@@ -79,7 +79,7 @@ super 페이지 span
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-stop"><input
-																type="checkbox" id="state-stop" value="" name="header" />
+																type="checkbox" id="state-stop" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>중지</span> </label>
 
 														</div>
@@ -87,7 +87,7 @@ super 페이지 span
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-active"><input
-																type="checkbox" id="state-active" value="" name="header" />
+																type="checkbox" id="state-active" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
 
 														</div>
@@ -96,7 +96,7 @@ super 페이지 span
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
-																name="header" /> <span class="checkmark"></span> <span>완료</span>
+																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
 															</label>
 
 														</div>
@@ -177,7 +177,7 @@ super 페이지 span
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-0"> <input
-														type="checkbox" id="ad-tr-0" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-0" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -199,7 +199,7 @@ super 페이지 span
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-1"> <input
-														type="checkbox" id="ad-tr-1" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-1" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -221,7 +221,7 @@ super 페이지 span
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-2"> <input
-														type="checkbox" id="ad-tr-2" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-2" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -243,7 +243,7 @@ super 페이지 span
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-3"> <input
-														type="checkbox" id="ad-tr-3" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-3" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -265,7 +265,7 @@ super 페이지 span
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-4"> <input
-														type="checkbox" id="ad-tr-4" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-4" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -287,7 +287,7 @@ super 페이지 span
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-5"> <input
-														type="checkbox" id="ad-tr-5" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-5" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>  
