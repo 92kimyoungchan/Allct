@@ -6,10 +6,10 @@
 	height: 25px;
 }
 
-.page-item.active .page-link {
+/* .page-item.active .page-link {
 	background-color: #9a9494;
 	border-color: #9a9494;
-}
+} */
 
 .labelCheck input:checked ~ .checkmark {
 	background-color: #a7a1a1;
@@ -101,7 +101,7 @@ div.container.ab-container>div>div {
 }
 
 .labelCheck span:nth-child(3n) {
-	margin-left: 35px;
+	margin-left: 33px;
 }
   
 .am-h-state li input[type="checkbox"] {
@@ -109,7 +109,7 @@ div.container.ab-container>div>div {
 }  
 
 .am-h-state li {
-	width: 90px;
+	width: 95px;
 	float: left;
 }
 
@@ -127,6 +127,7 @@ ul.am-h-state:after {
 
 .am-h-label {
 	float: left;
+	font-weight: bold;
 }
 
 .am-h-content {
@@ -153,7 +154,7 @@ ul.am-h-state {
 
 /* am-h end */
 .am-ab {
-	margin-top: 60px;
+	padding: 10 48px;
 }
 
 .am-ab-table-wrap {
@@ -179,7 +180,7 @@ tr.ad-table-header {
 }
 
 .ad-table-header th {
-	padding: 20px 10px 20px 10px;
+	padding: 20px 10px 20px 15px;
 	text-align: center;
 }
 
@@ -193,7 +194,7 @@ tr.ad-table-body {
 }
 
 tr.ad-table-body td {
-	padding: 15px 10px 15px 10px;
+	padding: 10px 0px 10px 0px;
 	text-align: center;
 	font-weight: 800;
 }
@@ -301,4 +302,94 @@ div.am-ab-title-selectForm > div > div{
 
 .ab-table .select-options > li {
 	padding-right:10px;
+}
+/*추가 부분*/
+label.am-h-label-calendar {
+    line-height: 38px;
+    float: left;
+    padding-right: 14px;
+    font-weight: bold;
+}
+
+span.admin-calender-form-span {
+    padding: 0px 5px 0px 5px;
+}
+
+.dy-calendar-check {
+    font-size:  x-large;
+    position: absolute;
+    bottom: 5px;
+}
+
+
+.admin-calender-form input[type = "text"] {
+    width: 136px;
+    height: 35px;
+    border: 1.5px solid #cccccc;
+}
+
+
+.doyoung-search-icon{
+	border: 1.9px solid #1c9035;
+    background: #1c9035;
+    padding: 5px;
+    color: white;
+}
+
+
+.doyoung-input-search-input{
+	float: left;
+	width: 300px;
+	
+}
+
+
+span.am-h-title-span {
+    font-size:  38px;
+    font-weight: 100;
+}
+
+
+.am-btn-memberView{
+    background: #1c9035;
+    border-radius: 7.5px;
+    padding: 9px 15px;
+    color: white;
+    border: none;
+}
+.ad-btn {
+    background-color: #cccccc;
+    width: 100px;
+    height: 39px;
+    color: white;
+    border: none;
+}
+
+button.ad-btn.ad-m-btn-delete {
+    background-color: #ff4747;
+}
+
+button.ad-btn.ad-m-btn-create {
+    background-color: #1c9035;
+}
+
+.am-h-content .consent .labelCheck {
+    min-width: 70px;
+}
+
+.admin-calender-form {
+    position:  relative;
+}
+
+
+span.admin-calender-form-span:nth-child(4) {
+    margin-left: 25px;
+}
+
+
+.consent{
+	margin: 0 auto;
+}
+.ad-table-body td{
+	text-align: unset !important;
 }

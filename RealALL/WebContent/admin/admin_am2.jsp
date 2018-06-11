@@ -118,11 +118,6 @@
 								<div class="am-ab-title">
 									<label>총 공고 20개</label>
 								</div>
-								<div class="am-ab-t-set">
-									<button class="btn-setting">
-										<i class="fas fa-cog"></i>설정
-									</button>
-								</div>
 								<form name="tableInfo">
 								<div class="am-ab-table-wrap">
 								

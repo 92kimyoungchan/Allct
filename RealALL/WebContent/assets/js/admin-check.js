@@ -57,7 +57,20 @@ $("input[name=tableInfo]:checkbox").on('click',function(){
 
 });
 
+
+$(function(){
+	
+	setTimeout(function(){
+		$('.admin_x-sidebar').css('height',$('.subP_admin').css('height'));
+		},100)
+	
+}) 
+
+/*
+
 window.onload = function () {
+	
+	console.log($('.subP_admin').css('height'));
 	var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
 
 	var SameHeight = BigHeight +"px";
@@ -70,23 +83,15 @@ window.onload = function () {
 	$(window).resize(function(){
 		$('.admin_x-sidebar').css({
 			height:SameHeight
+			
 		});
-
+		console.log($('.subP_admin').css('height'));
 	});
 }
-
-
-
-
-
-
-
+*/
 
 /*
- * 
  * .consent .labelCheck input
- * 
- * 
 	var SloganHeight = parseInt($('.slogan-box .slogan .slogan-img img').css('height').replace("px",""));
 	var calibrate3 = parseInt(50);
 	var setSloganHeight = SloganHeight - calibrate3+"px";
