@@ -80,11 +80,6 @@
 									</button>
 								</div>
 								
-								<div class="am-ab-t-set">
-									<button class="btn-setting">
-										<i class="fas fa-cog"></i>설정
-									</button>
-								</div>
 								</div>
 								<div class="am-ab-table-wrap">
 								
