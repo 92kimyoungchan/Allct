@@ -29,16 +29,16 @@
 					<div class="memberProcedure">
 
 						<div class="article">
-							<span><i class="fas fa-check"></i><a>회원가입 선택</a></span>
+							<span><a>회원가입 선택</a></span>
 						</div>
 						<div class="article">
-							<span><i class="fas fa-check"></i><a>약관동의와 본인인증</a></span>
+							<span><a>약관동의와 본인인증</a></span>
 						</div>
 						<div class="article">
-							<span><i class="fas fa-check"></i><a>회원정보 입력</a></span>
+							<span><a>회원정보 입력</a></span>
 						</div>
 						<div class="article">
-							<span><i class="fas fa-check"></i><a>회원가입 완료</a></span>
+							<span><a>회원가입 완료</a></span>
 						</div>
 
 					</div>
