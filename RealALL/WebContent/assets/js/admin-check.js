@@ -54,6 +54,13 @@ $("input[name=tableInfo]:checkbox").on('click',function(){
 	
 });
 
+/* tab active 주기 */
+$('.am-tabs li').click(function(){
+	$('.am-tabs li').removeClass("active");
+	$(this).addClass("active");
+	$('.subP_admin').css('min-height',$('.admin_x-sidebar').css('height'));
+})
+
 
 });
 
@@ -66,7 +73,7 @@ $(function(){
 	
 }) 
 
-/*
+
 
 window.onload = function () {
 	
@@ -88,7 +95,6 @@ window.onload = function () {
 		console.log($('.subP_admin').css('height'));
 	});
 }
-*/
 
 /*
  * .consent .labelCheck input

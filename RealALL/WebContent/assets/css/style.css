@@ -2832,10 +2832,7 @@ float: left;
 	
 width: calc(100% - 190px);
 min-height:805px;
-	
-
-	
-background: ghostwhite;
+background: #eaeaea;
 }
 
 .subP_admin .menu-header {
