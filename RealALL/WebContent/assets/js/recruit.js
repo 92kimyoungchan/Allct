@@ -64,8 +64,8 @@ $('.labelCheck').on('click',function() {
         visiblePages: 11,
         first:false,
         last:false,
-        next:false,
-        prev:false,
+        next:">",
+        prev:"<",
       /*  next: '<i class="fas fa-angle-right"></i>',
         prev: '<i class="fas fa-angle-left"></i>',*/
         onPageClick: function (event, page) {
@@ -133,10 +133,12 @@ $('.labelCheck').on('click',function() {
 		}) 
 	}
 	
-	
-	
-
-	
+	if($('.table .info .info-article span').html()=='생동') {
+		$(this).parent().parent().parent().parent().css({
+			background:"pink"
+		})
+	}
+	/*console.log("트루?",$('.table .info .info-article span').html()=='생동');*/
 
 		$('div.recruit-box-search li>a').on('click',function(){
 			$('div.recruit-box-search ul > li > a.active').parent().removeClass('green');

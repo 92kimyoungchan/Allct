@@ -60,7 +60,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-all"><input
-																type="checkbox" id="state-all" value="" name="header" /><span
+																type="checkbox" id="state-all" value="" name="" class="" /><span
 																class="checkmark"></span> <span>전체</span> </label>
 
 														</div>
@@ -68,7 +68,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-ing"><input
-																type="checkbox" id="state-ing" value="" name="header" />
+																type="checkbox" id="state-ing" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
 
 														</div>
@@ -76,7 +76,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-stop"><input
-																type="checkbox" id="state-stop" value="" name="header" />
+																type="checkbox" id="state-stop" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>중지</span> </label>
 
 														</div>
@@ -84,7 +84,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-active"><input
-																type="checkbox" id="state-active" value="" name="header" />
+																type="checkbox" id="state-active" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
 
 														</div>
@@ -93,7 +93,7 @@ checkbox table
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
-																name="header" /> <span class="checkmark"></span> <span>완료</span>
+																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
 															</label>
 
 														</div>
@@ -126,7 +126,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="seaul"><input
-																type="checkbox" id="seaul" value="" name="location" /><span
+																type="checkbox" id="seaul" value="" name="" class="" /><span
 																class="checkmark"></span> <span>서울</span> </label>
 
 														</div>
@@ -134,7 +134,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="gyeonggi"><input
-																type="checkbox" id="gyeonggi" value="" name="location" />
+																type="checkbox" id="gyeonggi" value="" name="" class="" />
 																<span class="checkmark"></span> <span>경기</span> </label>
 
 														</div>
@@ -142,7 +142,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="busan"><input
-																type="checkbox" id="busan" value="" name="location" />
+																type="checkbox" id="busan" value="" name="" class="" />
 																<span class="checkmark"></span> <span>부산</span> </label>
 
 														</div>
@@ -150,7 +150,7 @@ checkbox table
 													<li>
 														<div class="consent ad-consent">
 															<label class="labelCheck" for="location-etc"><input
-																type="checkbox" id="location-etc" value="" name="location" />
+																type="checkbox" id="location-etc" value="" name="" class="" />
 																<span class="checkmark"></span> <span>그 외</span> </label>
 
 														</div>
@@ -164,16 +164,16 @@ checkbox table
 												<ul class="am-h-state">
 													<li>
 														<div class="consent ad-consent">
-															<label class="labelCheck" for="male"><input
-																type="checkbox" id="male" value="" name="gender" /><span
+															<label class="labelRadio gender" for="male"><input
+																type="radio" id="male" value="" name="gender" /><span
 																class="checkmark"></span> <span>남성</span> </label>
 
 														</div>
 													</li>
 													<li>
 														<div class="consent ad-consent">
-															<label class="labelCheck" for="female"><input
-																type="checkbox" id="female" value="" name="gender" />
+															<label class="labelRadio gender" for="female"><input
+																type="radio" id="female" value="" name="gender" />
 																<span class="checkmark"></span> <span>여성</span> </label>
 
 														</div>
@@ -187,16 +187,16 @@ checkbox table
 												<ul class="am-h-state">
 													<li>
 														<div class="consent ad-consent">
-															<label class="labelCheck" for="standard"><input
-																type="checkbox" id="standard" value="" name="target" /><span
+															<label class="labelRadio" for="standard"><input
+																type="radio" id="standard" value="" name="target" /><span
 																class="checkmark"></span> <span>건강인</span> </label>
 
 														</div>
 													</li>
 													<li>
 														<div class="consent ad-consent">
-															<label class="labelCheck" for="disease"><input
-																type="checkbox" id="disease" value="" name="target" />
+															<label class="labelRadio" for="disease"><input
+																type="radio" id="disease" value="" name="target" />
 																<span class="checkmark"></span> <span>질환인</span> </label>
 
 														</div>
@@ -210,16 +210,16 @@ checkbox table
 												<ul class="am-h-state test-kinds-ul">
 													<li>
 														<div class="consent ad-consent">
-															<label class="labelCheck" for="clinical"><input
-																type="checkbox" id="clinical" value="" name="test" /><span
+															<label class="labelRadio" for="clinical"><input
+																type="radio" id="clinical" value="" name="test" /><span
 																class="checkmark"></span> <span>임상시험</span> </label>
 
 														</div>
 													</li>
 													<li>
 														<div class="consent ad-consent">
-										  					<label class="labelCheck" for="Biological"><input
-																type="checkbox" id="Biological" value="" name="test" />
+										  					<label class="labelRadio" for="Biological"><input
+																type="radio" id="Biological" value="" name="test" />
 						  										<span class="checkmark"></span> <span>생동성시험</span> </label>
 
 														</div>
@@ -284,7 +284,7 @@ checkbox table
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-0"> <input
-														type="checkbox" id="ad-tr-0" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-0" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -306,7 +306,7 @@ checkbox table
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-1"> <input
-														type="checkbox" id="ad-tr-1" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-1" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -328,7 +328,7 @@ checkbox table
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-2"> <input
-														type="checkbox" id="ad-tr-2" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-2" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -350,7 +350,7 @@ checkbox table
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-3"> <input
-														type="checkbox" id="ad-tr-3" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-3" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -372,7 +372,7 @@ checkbox table
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-4"> <input
-														type="checkbox" id="ad-tr-4" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-4" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>
@@ -394,7 +394,7 @@ checkbox table
 											<td>
 												<div class="consent ad-consent">
 													<label class="labelCheck" for="ad-tr-5"> <input
-														type="checkbox" id="ad-tr-5" name="tableInfo" value="" />
+														type="checkbox" id="ad-tr-5" name="" class="info" value="" />
 														<span class="checkmark"></span>
 													</label>
 												</div>  

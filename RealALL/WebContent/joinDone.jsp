@@ -19,7 +19,7 @@
 		<div class="row-noneflex">
 
 			<div class="main">
-				<section class="join">
+				<section class="join banner">
 					<h2 class="section-header">회원가입</h2>
 					<p class="section-header">Allct에 회원가입을 하시면 모집공고 및 임상시험에 대한 다양한
 						자료들을 열람하실 수 있습니다.</p>
@@ -56,6 +56,7 @@
 
 
 					</div>
+					<div class="sub-banner"></div>
 				</section>
 
 			</div>

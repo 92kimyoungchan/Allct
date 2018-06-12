@@ -7,11 +7,9 @@ $('#pagination-demo').twbsPagination({
         visiblePages: 10,
         first:false,
         last:false, 
-        next:'>',   
-        prev:'<',
         loop:true,
-      /*  next: '<i class="fas fa-angle-right"></i>',
-        prev: '<i class="fas fa-angle-left"></i>',*/
+       next: '>',
+        prev: '<',
         onPageClick: function (event, page) {
             //fetch content and render here
             $('#page-content').text('Page ' + page) + ' content here';
@@ -24,10 +22,10 @@ $('#pagination-demo').twbsPagination({
 $("input[type='checkbox'][id='all']").on('click',function(){
 
 	if(flag) {
-		$("input[name=tableInfo]:checkbox").prop("checked",false);
+		$("input[type='checkbox'][class='info']").prop("checked",false);
 		flag = false;
 	}else {
-		$("input[name=tableInfo]:checkbox").prop("checked",true);
+		$("input[type='checkbox'][class='info']").prop("checked",true);
 		flag = true;
 	}
 	
@@ -35,12 +33,11 @@ $("input[type='checkbox'][id='all']").on('click',function(){
 	
 /*체크박스 헤더 전체선택*/
 $("input[type='checkbox'][id='state-all']").on('click',function(){
-
 	if(flag) {
-		$("input[name=header]:checkbox").prop("checked",false);
+		$("input[type='checkbox'][class='header']").prop("checked",false);
 		flag = false;
 	}else {
-		$("input[name=header]:checkbox").prop("checked",true);
+		$("input[type='checkbox'][class='header']").prop("checked",true);
 		flag = true;
 	}
 	
@@ -49,7 +46,7 @@ $("input[type='checkbox'][id='state-all']").on('click',function(){
 
 
 /* 개별 체크박스 확인하기 */
-$("input[name=tableInfo]:checkbox").on('click',function(){
+$("input[class*=info]:checkbox").on('click',function(){
 	console.log("치트",$(this).attr('id'));
 	
 });
@@ -60,6 +57,40 @@ $('.am-tabs li').click(function(){
 	$(this).addClass("active");
 	$('.subP_admin').css('min-height',$('.admin_x-sidebar').css('height'));
 })
+
+/*
+라디오버튼 번갈아서 나오기*/
+
+$('.labelRadio').on('click',function() {
+
+
+	
+	var inputid = $(this).attr('for');
+	var flag1 = $("input[type='radio'][id='"+inputid+"']").is(':checked');	
+	
+
+
+	
+	
+	if(flag1){
+		
+		
+		$('.labelRadio').css({
+			background:"transparent",
+			color:"inherit"
+		})
+		$(this).css({
+			background:"green",
+			color:"white"
+		}) 
+	
+		
+	
+	
+	}
+
+});
+
 
 
 });
@@ -72,7 +103,6 @@ $(function(){
 		},100)
 	
 }) 
-
 
 
 window.onload = function () {

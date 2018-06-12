@@ -45,7 +45,7 @@
 
 					<div class="form">
 						<h2>기본정보</h2>
-						
+
 						<div class="article">
 							<label>아이디</label>
 							<div class="input-block">
@@ -78,31 +78,39 @@
 							</div>
 						</div>
 						<div class="article">
-							<label>이름</label>
+							<label>담당 법인명</label>
+							<input type="text">
 							<div class="input-block">
-								<input type="text"><div class="divider"></div>
+								<div class="divider"></div>
+								<p class="hidden"></p>
+							</div>
+						</div>
+						<div class="article">
+							<label>담당 법인주소</label>
+							<div class="input-block">
+								<input type="text">
+								<div class="divider"></div>
+								<p class="hidden"></p>
+
+							</div>
+						</div>
+						
+						<div class="article">
+							<label>담당자 이름</label>
+							<div class="input-block">
+								<input type="text">
+								<div class="divider"></div>
 								<p class="hidden"></p>
 
 							</div>
 						</div>
 						<div class="article">
-							<label>성별</label>
-							<div class="input-block">
-								<label class="labelRadio"> <input type="radio" id=""
-								name="sex" value="남성" /><span class="checkmark"></span><span>남성</span></label>
-							<label class="labelRadio"> <input type="radio" id=""
-								name="sex" value="여성" /><span class="checkmark"></span><span>여성</span></label>
-							<div class="divider"></div>
-								<p class="hidden"></p>
-
-							</div>
-						</div>
-						<div class="article">
-							<label>휴대전화</label>
+							<label>담당자 전화번호</label>
 							<div class="input-block">
 								<input class="phone" type="text"><span>-</span><input
 									class="phone" type="text"><span>-</span><input
-									class="phone" type="text"><div class="divider"></div>
+									class="phone" type="text">
+								<div class="divider"></div>
 								<p class="hidden"></p>
 
 							</div>
@@ -111,7 +119,7 @@
 
 
 						<div class="article">
-							<label>이메일</label>
+							<label>담당자 이메일</label>
 							<div class="input-block">
 								<input class="email_first" type="text"><span>@</span><input
 									class="email_last" type="text" style="margin-right: 8px;"><select
@@ -130,7 +138,8 @@
 									<option value="gmail.com">gmail.com</option>
 									<option value="hanmir.com">hanmir.com</option>
 									<option value="paran.com">paran.com</option>
-								</select><div class="divider"></div>
+								</select>
+								<div class="divider"></div>
 								<p class="hidden"></p>
 							</div>
 						</div>
