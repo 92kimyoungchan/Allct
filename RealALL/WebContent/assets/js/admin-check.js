@@ -51,6 +51,13 @@ $("input[class*=info]:checkbox").on('click',function(){
 	
 });
 
+/* tab active 주기 */
+$('.am-tabs li').click(function(){
+	$('.am-tabs li').removeClass("active");
+	$(this).addClass("active");
+	$('.subP_admin').css('min-height',$('.admin_x-sidebar').css('height'));
+})
+
 /*
 라디오버튼 번갈아서 나오기*/
 
@@ -98,4 +105,59 @@ $(function(){
 }) 
 
 
+window.onload = function () {
+	
+	console.log($('.subP_admin').css('height'));
+	var BigHeight = parseInt($('.subP_admin').css('height').replace("px",""));
+
+	var SameHeight = BigHeight +"px";
+	console.log("Height",BigHeight);
+	$('.admin_x-sidebar').css({
+		height:SameHeight
+	});
+
+
+	$(window).resize(function(){
+		$('.admin_x-sidebar').css({
+			height:SameHeight
+			
+		});
+		console.log($('.subP_admin').css('height'));
+	});
+}
+
+/*
+ * .consent .labelCheck input
+	var SloganHeight = parseInt($('.slogan-box .slogan .slogan-img img').css('height').replace("px",""));
+	var calibrate3 = parseInt(50);
+	var setSloganHeight = SloganHeight - calibrate3+"px";
+	console.log("setSlogan",setSloganHeight);
+	
+	
+	$('.slogan-box .slogan .slogan-content > div').css({
+		
+		height: setSloganHeight
+	});
+	
+	
+	
+	var setNavTop = parseInt($('section .notice ul').css('height').replace("px",""));
+	var noticeHeight = parseInt($('section .notice').css('height').replace("px",""));
+	
+	var setTabContentHeight = noticeHeight - setNavTop+"px";
+	
+
+	$('.tab-content').css({
+		height: setTabContentHeight
+	});
+	$('section .notice li>a').on('click',function(){
+
+		$('section .notice ul > li > a.active').parent().removeClass('green');
+		$(this).parent().addClass('green');
+		
+		
+		
+		
+	});*/
+	
 	
