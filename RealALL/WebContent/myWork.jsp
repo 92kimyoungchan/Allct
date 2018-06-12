@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar.jsp"%>
+				<%@ include file="include/x-sidebar-myWork.jsp"%>
 
 				<div class="subP">
 
