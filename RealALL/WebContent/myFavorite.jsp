@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar.jsp"%>
+				<%@ include file="include/x-sidebar-myWork.jsp"%>
 
 				<div class="subP">
 
@@ -70,6 +70,7 @@
 										</div></th>
 									<th>시험종류</th>
 									<th>모집공고</th>
+									<th>시험기관</th>
 									<th>모집정원</th>
 									<th>마감일</th>
 
@@ -95,9 +96,7 @@
 									<td>
 										<div class="secondBox">
 
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -108,6 +107,7 @@
 											</div>
 										</div>
 									</td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -128,9 +128,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -141,6 +139,7 @@
 											</div>
 										</div>
 									</td>
+											<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 								</tr>
@@ -160,9 +159,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -173,6 +170,7 @@
 											</div>
 										</div>
 									</td>
+											<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -193,9 +191,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -206,6 +202,7 @@
 											</div>
 										</div>
 									</td>
+										<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -226,9 +223,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -239,6 +234,7 @@
 											</div>
 										</div>
 									</td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -259,9 +255,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -272,6 +266,7 @@
 											</div>
 										</div>
 									</td>
+											<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -292,9 +287,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -305,6 +298,7 @@
 											</div>
 										</div>
 									</td>
+											<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -325,9 +319,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -338,6 +330,7 @@
 											</div>
 										</div>
 									</td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -358,9 +351,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -371,6 +362,7 @@
 											</div>
 										</div>
 									</td>
+										<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 
@@ -391,9 +383,7 @@
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+											
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -404,6 +394,7 @@
 											</div>
 										</div>
 									</td>
+											<td><div class="table-text"><span>베스티안부천병원</span></div></td>
 									<td><div class="table-text"><span>3일전</span></div></td>
 									<td><div class="table-text"><span>27/30</span></div></td>
 

@@ -1752,7 +1752,7 @@ content:"";
 }	
 .x-sidebar .userInfo {
 	
-padding: 10px 20px;
+padding: 10px;
 	
 height: 105px;
 	
@@ -1780,7 +1780,7 @@ float: left;
 	
 height: 100%;
 	
-padding: 20px 0px;
+padding: 20.5px 0px;
 }
 
 .x-sidebar .userInfo .info-box h2 {
@@ -1793,7 +1793,7 @@ text-align: left;
 	
 margin-bottom: 0;
 	
-padding-bottom: 5px;
+padding-bottom: 3.5px;
 }
 
 .x-sidebar .userInfo .info-box p {
@@ -1818,7 +1818,7 @@ letter-spacing: -0.42px;
 	
 overflow: hidden;
 	
-padding: 15px 27px;
+padding: 9.5px 27px;
 	
 border: 1px solid #d9d4d4;
 }
@@ -1834,7 +1834,7 @@ margin-bottom: 0;
 	
 padding-bottom: 0;
 	
-font-size: 20px;
+font-size: 18px;
 	
 letter-spacing: 0.41px;
 	
@@ -1875,7 +1875,7 @@ width: 100%;
 	
 height: auto;
 	
-padding: 15px;
+padding: 10px 10px 10px 10px;
 }
 
 
@@ -2235,7 +2235,7 @@ div.tab-content .filter-area:last-child {
 .recruit-box .table thead>tr>th {
 	border-bottom: none;
 	text-align: center;
-	font-size:18px;
+	font-size:15px;
 }
 
 .recruit-box .table thead>tr>th:first-of-type {
@@ -2244,7 +2244,9 @@ div.tab-content .filter-area:last-child {
 }
 
 
-
+.recruit-box .table tbody>tr>td:last-of-type {
+    min-width: 120px;
+}
 .recruit-box .table tbody>tr>td:not(:first-of-type) {
 	vertical-align: middle;
 	padding: 34px 0px;
@@ -2256,6 +2258,10 @@ div.tab-content .filter-area:last-child {
 
 .recruit-box .table tbody>tr>td:nth-of-type(4) , .recruit-box .table tbody>tr>td:nth-of-type(5) {
 	min-width:95px;
+}
+
+.recruit-box .table tbody>tr>td.myWork {
+	min-width:160px !important;
 }
 
 .recruit-box .table tbody>tr>td:first-child {
@@ -2346,6 +2352,13 @@ min-width: 70px;
 .table-text span {
 	font-size: 15px;
 	letter-spacing: -0.19px;
+}
+
+.table-text span.tbButton {
+	background: #3fced5;
+	padding: 10.5px 24px;
+	color: white;
+	font-weight: bold;
 }
 .recruit-box .table .button-box {
 	
@@ -2682,7 +2695,7 @@ margin-bottom: 0;
 }
 
 .terms-area .consent {
-	border:1px solid #c3c3c3;
+	
 	padding:20px;
 	background:#e6ffef;
 } 
@@ -4157,5 +4170,51 @@ outline: 1px solid gray;
 	width:100% !Important;
 }
 
+.center {
+	text-align:center;
+}
 
+.left {
+	text-align:left;
+}
+
+.memberM {
+	
+border-top: 1px solid #d9d4d4;
+	
+border-bottom: 1px solid #d9d4d4;
+}
+
+.memberM .articleM {
+
+}
+
+
+.articleM .titleM {
+	
+width: 150px;
+	
+float: left;
+	
+background: #dcdcdc75;
+	
+padding: 10px 0 10px 25px;
+}
+
+.articleM .titleM p {
+	
+}
+
+.articleM .contentM {
+	
+width: calc(100% - 150px);
+	
+float: left;
+	
+padding: 10px 0 10px 25px;
+}
+
+.articleM .contentM p {
+	
+}
 

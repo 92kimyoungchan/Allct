@@ -62,16 +62,11 @@
 						<table class="table">
 							<thead>
 								<tr class="table-header">
-									<th><div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div></th>
 									<th>시험종류</th>
 									<th>모집공고</th>
-									<th>모집정원</th>
-									<th>마감일</th>
+									<th>시험기관</th>
+									<th>종료일</th>
+									<th>현황</th>
 
 
 
@@ -79,25 +74,15 @@
 							</thead>
 							<tbody>
 								<tr id="bookmark1">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
-									<td><div class="info">
+									<td class="myWork"><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
+										<div class="secondBox left">
 
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -108,29 +93,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark2">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -141,28 +118,20 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 								</tr>
 								<tr id="bookmark3">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -173,29 +142,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark4">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -206,29 +167,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark5">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -239,29 +192,20 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
-
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 								</tr>
 								<tr id="bookmark6">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -272,29 +216,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark7">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -305,29 +241,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark8">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -338,29 +266,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark9">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -371,29 +291,21 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 								<tr id="bookmark10">
-									<td class="text-center">
-										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span>
-											</label>
-										</div>
-									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span class="center">생동</span>
 											</div>
 										</div></td>
 									<td>
-										<div class="secondBox">
-											<div class="nameText-box">
-												<label>베스티안부천병원</label>
-											</div>
+										<div class="secondBox left">
+
+										
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -404,8 +316,9 @@
 											</div>
 										</div>
 									</td>
-									<td><div class="table-text"><span>3일전</span></div></td>
-									<td><div class="table-text"><span>27/30</span></div></td>
+									<td><div class="table-text"><span>베스티안부천병원</span></div></td>
+									<td><div class="table-text"><span>04/11</span></div></td>
+									<td><div class="table-text"><span class="tbButton">완료</span></div></td>
 
 								</tr>
 							</tbody>
