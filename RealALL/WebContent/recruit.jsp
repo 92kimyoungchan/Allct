@@ -21,7 +21,7 @@
 		<div class="row-noneflex">
 			<div class="main">
 				<%@ include file="include/x-sidebar.jsp"%>
-				
+
 				<div class="subP">
 					<div class="subPage">
 						<h2>모집공고 검색</h2>
@@ -159,7 +159,7 @@
 						<div class="recruit-header">
 
 
-							
+
 							<div class="select-group">
 								<select id="">
 									<option value="hide">최신순</option>
@@ -191,30 +191,33 @@
 						<table class="table">
 							<thead>
 								<tr class="table-header">
-									<th></th>
+									<th><div class="firstBox">
+                                 <i class="far fa-star"></i></div></th>
 									<th>시험종류</th>
 									<th>모집공고</th>
-									<th></th>
-									
-									
+									<th>시험일정</th>
+									<th>마감일</th>
+									<th>정원</th>
+
+
+
 								</tr>
 							</thead>
 							<tbody>
 								<tr id="bookmark1">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -226,24 +229,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark2">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -255,24 +267,32 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
 								</tr>
 								<tr id="bookmark3">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -284,24 +304,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark4">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -313,24 +342,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark5">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -342,24 +380,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark6">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -371,24 +418,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark7">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -400,24 +456,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark8">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -429,24 +494,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark9">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -458,24 +532,33 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-										<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 								<tr id="bookmark10">
 									<td class="text-center">
 										<div class="firstBox">
-											<i class="fas fa-star"></i>
-
-
-
-										</div>
+											<i class="far fa-star"></i>
+											</div>
 									</td>
 									<td><div class="info">
-										<div class="info-article"><span>생동</span></div>
+											<div class="info-article">
+												<span>생동</span>
+											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
-											<div class="m-capsule-blue success edited">4/15 ~ 4/20</div>
+
 											<div class="nameText-box">
 												<label>베스티안부천병원</label>
 											</div>
@@ -487,13 +570,23 @@
 													<li><span>20세~45세</span></li>
 												</ul>
 											</div>
+										</div>
+									</td>
+									<td><div class="table-text">
+											<span>04/15 ~ 04/20</span>
 										</div></td>
-									<td class="text-center"><div class="button-box"><button>바로 신청하기</button></div></td>
+									<td><div class="table-text">
+											<span>3일전</span>
+										</div></td>
+									<td><div class="table-text">
+											<span>27/30</span>
+										</div></td>
+
 								</tr>
 							</tbody>
 						</table>
 					</div>
-					
+
 					<ul id="pagination-demo" class="pagination-sm"></ul>
 
 
