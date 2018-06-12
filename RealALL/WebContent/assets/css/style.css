@@ -1752,14 +1752,13 @@ content:"";
 }	
 .x-sidebar .userInfo {
 	
-
 padding: 10px 20px;
-	
-
 	
 height: 105px;
 	
 border: 1px solid #d9d4d4;
+	
+border-bottom: 0;
 }
 
 .x-sidebar .userInfo .img-box {
@@ -1817,6 +1816,36 @@ letter-spacing: -0.42px;
 
 .x-sidebar  .userStat {
 	
+overflow: hidden;
+	
+padding: 15px 27px;
+	
+border: 1px solid #d9d4d4;
+}
+
+.x-sidebar  .userStat div {
+	width:50%;
+	float:left;
+}
+
+.x-sidebar  .userStat div h2 {
+	
+margin-bottom: 0;
+	
+padding-bottom: 0;
+	
+font-size: 20px;
+	
+letter-spacing: 0.41px;
+	
+color: green;
+	
+text-align: center;
+}
+
+.x-sidebar  .userStat div p {
+	
+margin: 0;
 }
 
 .x-sidebar  .userStat .exam {
@@ -1824,6 +1853,8 @@ letter-spacing: -0.42px;
 width: 50%;
 	
 float: left;
+	
+padding-right: 30px;
 }
 
 .x-sidebar  .userStat .favorite {
@@ -1831,16 +1862,11 @@ float: left;
 width: 50%;
 	
 float: left;
-}
-
-.x-sidebar  .userStat h2 {
 	
-}
-
-.x-sidebar  .userStat p {
+text-align: center;
 	
+padding-left: 30px;
 }
-
 
 
 .x-sidebar .userInfo .img-box img {
@@ -2517,6 +2543,10 @@ margin: 0 auto;
 /* Join.jsp (회원가입 페이지 css) */
 section.join.banner {
 	padding-bottom:0 !Important;
+}
+
+section.join .button-box {
+	text-align:center;
 }
 
 .memberProcedure div.selected {

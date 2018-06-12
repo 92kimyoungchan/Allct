@@ -135,6 +135,12 @@
 							</div>
 						</div>
 					</div>
+					
+					<div class="button-box">
+												<button>핫딜달려가기</button>
+							
+			
+					</div>
 
 
 
