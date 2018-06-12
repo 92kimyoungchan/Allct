@@ -287,7 +287,7 @@
 									</td>
 									<td><div class="info">
 											<div class="info-article">
-												<span>생동</span>
+												<span>임상</span>
 											</div>
 										</div></td>
 									<td>

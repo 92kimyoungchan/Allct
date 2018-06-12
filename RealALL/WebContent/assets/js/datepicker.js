@@ -22,7 +22,7 @@
 		    });
 		   
 		   $('.addDate').on('click' , function(){
-		      var ElementPath = '<div class="dateRow calendar-set" data-cnt ="'+dateI+'"><label class="hidden2"></label>'+
+		      var ElementPath = '<div class="dateRow calendar-set" data-cnt ="'+dateI+'"><label class="hidden2 article-title"></label>'+
 		                     '<p class="multiple"><input class="datepicker separate" name ="date'+dateI+'"></p>' +
 		                     '<input type="text" name ="date'+dateI+'H1" data-time-cnt = "1" ><span>시</span>'   +
 		                     '<input type="text" name ="date'+dateI+'M1" data-time-cnt = "1" ><span>분</span>' +

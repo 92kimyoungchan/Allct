@@ -1,5 +1,6 @@
-	
 var flag =true;
+
+
 $('.labelCheck').on('click',function() {
 
 		var inputid = $(this).attr('for');
@@ -27,9 +28,7 @@ $('.labelCheck').on('click',function() {
 		}
 	});
 	
-	
-	
-	
+
 	$('.text-center .firstBox').on('click',function() {
 		
 		var where = $(this).parent().parent().attr("id");
@@ -58,7 +57,6 @@ $('.labelCheck').on('click',function() {
 		
 	});
 	
-	
 	$('#pagination-demo').twbsPagination({
         totalPages: 11,
         visiblePages: 11,
@@ -73,6 +71,7 @@ $('.labelCheck').on('click',function() {
             $('#page-content').text('Page ' + page) + ' content here';
         }
     });
+	
 	$('.labelRadio').on('click',function() {
 
 		var inputid = $(this).attr('for');
@@ -117,8 +116,6 @@ $('.labelCheck').on('click',function() {
 
 	});
 	
-	
-	
 	function deleteFilter(clickId){
 		/*li*/
 		var filterId2 = 'filter_'+clickId;
@@ -133,11 +130,9 @@ $('.labelCheck').on('click',function() {
 		}) 
 	}
 	
-	if($('.table .info .info-article span').html()=='생동') {
-		$(this).parent().parent().parent().parent().css({
-			background:"pink"
-		})
-	}
+	
+
+	
 	/*console.log("트루?",$('.table .info .info-article span').html()=='생동');*/
 
 		$('div.recruit-box-search li>a').on('click',function(){

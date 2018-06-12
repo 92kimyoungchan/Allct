@@ -1252,16 +1252,18 @@ div .recruit-box-search ul:first-child , div .recruit-apply ul:first-child {
 }
 
 
-.recruit-create {
-	
-padding: 25px;
-	
-background: #f5f5f5;
+.recruit-create {margin-top: 35px;}
+
+.recruit-infoBox {
+	background:#f5f5f5;
+	padding: 25PX;
 }
 
 .recruit-create h2 {
 	
 letter-spacing: 0.41px;
+	
+padding-top: 10px;
 }
 
 
@@ -1290,8 +1292,17 @@ padding-bottom: 8px;
 	display:block;
 	content:"";
 	}
-
-.recruit-create .article label:not(.labelCheck) , .form .article label:not(.labelCheck) {
+.article-title {
+	margin-bottom: 0;
+	min-width: 120px;
+	float: left;
+	font-size: 18px;
+	padding: 2px 0;
+	font-weight: bold;
+	letter-spacing: 0.41px;
+	margin-right: 20px;
+}
+ .form .article label:not(.labelCheck) {
 	
 margin-bottom: 0;
 	
@@ -1312,12 +1323,9 @@ letter-spacing: 0.41px;
 	border:none;
 	position:relative;
 	width: 105px !important;
-	min-width: unset !important;
-	
 	padding: 2px 0 !important;
 	margin:0 5px;
 	float:left;
-
 }
 
 .labelHolder .labelCheck {
@@ -1332,8 +1340,8 @@ letter-spacing: 0.41px;
 	position:relative;
 	margin: 0 5px;
 	width: 105px !important;
-	min-width: unset !important;
 	padding: 2px 0 !important;
+	float: left;
 }
 
 
@@ -1430,10 +1438,11 @@ margin: 0 5px;
 	display
 }
 
+
 .article .calendar-set .addTime {
 		float:left;
 		font-size: 18px;
-		padding: 2px 18px;
+		padding: 2px 13px;
 		margin: 0 8px;
 		background: transparent;
 		height: 31px;
@@ -1446,13 +1455,14 @@ margin: 0 5px;
 
 .article .calendar-set .addTime.big {
 
-	width:202px;
+width: 185px;
+margin-right:5px;
 }
 
 .article .calendar-set .deleteTime {
 		float:left;
 		font-size: 18px;
-		padding: 2px 18px;
+		padding: 2px 13px;
 		margin: 0 0 0 8px;
 		background: transparent;
 		height: 31px;
@@ -3230,11 +3240,11 @@ float: left;
 
 width: 50%;
 
-padding: 20px 0 20px 30px;
+padding: 30px 0 30px 30px;
 }
 .range-article .article-set .title {
 	
-width: 105px;
+width: 85px;
 	
 float: left;
 }
@@ -3260,23 +3270,30 @@ float: left;
 	border-right:1px solid black;	
 }	
 
+.range-article .article-set .range-info label:first-of-type {
+    margin-left: 0;
+}
 
+.range-article .article-set .range-info label:last-of-type {
+    margin-right: 0;
+}
 .range-article .article-set .range-info label {
 	
 }
 
 .range-article .article-set .range-info  input{
 	
-width: 48px;
+width: 55.8px;
 	
 border: none;
 	
 border-bottom: 1px solid #e0e0e0;
 	
 font-size: 16px;
-margin-right:5px;
 }
 
+.range-article .article-set .range-info input:first-of-type {
+}
 .range-article .article-set .range-info p > span:nth-of-type(1) {
 }
 
@@ -3285,15 +3302,17 @@ margin-right:5px;
 }
 .range-article .article-set .range-info p > span:nth-of-type(3) {
 	
-	margin: 0 12px;
+margin: 0 9px;
 }
 .range-article .article-set .range-info p > span:nth-of-type(4) {
 	
 }
 
-.range-article .article-set .range-info p {
-	
-font-size: 16px;
+.range-article .article-set .range-info .checkarea {
+
+float: left;
+
+width: 48%;
 }
 
 .range-article .labelCheck {
@@ -3321,8 +3340,8 @@ font-size: 16px;
 }
 
 /* 첨부파일 버튼-레이블 */
-.fileBox .fileName {display:inline-block;margin-right: 28px;line-height:30px;border:1px solid #aaa;background-color:#fff;vertical-align:middle;width: calc(100% - 268px);}
-.fileBox .btn_file {display:inline-block;height: 31px;line-height:30px;text-align:center;vertical-align:middle;background: #808080; text-align:center;}
+.fileBox .fileName {display:inline-block;margin-right: 13px;line-height:30px;border:1px solid #aaa;background-color:#fff;vertical-align:middle;width: calc(100% - 268px);}
+.fileBox .btn_file {display:inline-block;height: 31px;line-height:30px;text-align:center;vertical-align:middle;background: #808080;text-align:center;width: 115px;}
 .fileBox input[type="file"] {position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
 
 
@@ -3430,9 +3449,8 @@ color:red;
 .subP .input-title {
 	width:100%;
 	border-bottom: 1px solid #e7e7e7;
-	margin-bottom: 28px;
+	margin: 35px 0 25px;
 	padding-bottom: 10px;
-	
 }
 
 .input-title input {
@@ -3471,7 +3489,7 @@ font-weight: bold;
 
 .recruit-create .button-box {
 	text-align:center;
-	margin:30px 0;
+	margin: 30px 0 45px;
 }
 
 
@@ -3574,7 +3592,7 @@ div .recruit-apply .apply-form {
 	
 }
 
-.recruit-create .article .dateContainer input.separate {
+.recruit-create .article  input.separate {
 	background: transparent;
 	background: url(../images/calendar.png);
 	background-position:right 10px center;
@@ -3705,7 +3723,7 @@ padding: 4.5px 14px !important;
 }
 
 .timeRow:before {
-	width:328px;
+	width: 348px;
 	display:block;
 	height:31px;
 	content:"";
@@ -3720,7 +3738,7 @@ padding: 4.5px 14px !important;
 .article .calendar-set .deleteDate {
 		float:left;
 		font-size: 18px;
-		padding: 2px 18px;
+		padding: 2px 13px;
 		margin: 0 8px 0 0;
 		background: transparent;
 		height: 31px;
