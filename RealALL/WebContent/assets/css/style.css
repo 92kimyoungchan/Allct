@@ -887,6 +887,8 @@ section.incarousel {
 
 section {
 	padding: 30px 0;
+	width: 80%;
+	margin: 0 auto;
 }
 
 section.another {
@@ -1718,6 +1720,7 @@ margin-top: -2px;
 	margin: 0;
 	padding: 12px 0;
 	text-indent: 15px;
+	font-size: 14px;
 	border-top: 1px solid #77737330;
 	-moz-transition: all 0.15s ease-in;
 	-o-transition: all 0.15s ease-in;
@@ -2530,7 +2533,7 @@ section.join.banner {
 
 .memberProcedure {
 	
-margin: 30px 0;
+margin: 15px 0 50px;
 }
 
 .memberProcedure:after {
@@ -3370,7 +3373,7 @@ span#jopInfo-searchCount {
 
 
 .b-bottom {
-	 border-bottom: 2px solid #d2d2d2;
+	 border-bottom: 1.4px solid #d2d2d2;
 	 margin-bottom: 20px;
 }
 
@@ -3515,8 +3518,9 @@ width: 48%;
 }
 
 .form h2 {
-	border-bottom:1px solid #d2d2d2;
+	border-bottom: 1.4px solid #d2d2d2;
 	margin-bottom:35px;
+	padding: 0 0 15px 0;
 }
 .form .article label:not(.labelCheck) {
 	
@@ -3535,9 +3539,7 @@ font-weight: bold;
 letter-spacing: 0.41px;
 }
 
-.form .article {
-padding: 0 0 10px 0;
-}
+.form .article {padding: 0 0 15px 0;}
 
 .form .article:last-of-type {
  	
@@ -3566,12 +3568,7 @@ margin-bottom: 0;
 	background:transparent;
 }
 
-.form .article p  {
-clear:both;
-font-size:14px;
-margin-bottom: 0;
-color:red;
-}
+.form .article p  {clear:both;font-size:14px;margin-bottom: 0;height: 24.55px;color:red;}
 
 .input-block input[type=text].password {
 	border: none;
@@ -3603,7 +3600,7 @@ color:red;
 	height:31px;
 	padding: 3px 36px 3px 12px;
 	/* text-align: center; */
-	font-size: 18px;
+	font-size: 14px;
 	width: 160px;
 	margin: 0 5px 0 0;
 	background: white;
