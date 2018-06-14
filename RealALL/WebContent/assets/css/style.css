@@ -2946,7 +2946,7 @@ div.supP-academy .small_navigation {
 
 #sideContent-academy>.contentElement {
 	padding: 5px;
-	border: 0px solid #5f4d4d;
+	border: 0px solid #5f4d4d3d;
 	border-width: 0 1px 1px 1px;
 
 }
@@ -2970,6 +2970,10 @@ div.supP-academy .small_navigation {
 .select-header-academy {
 	padding-bottom: 22px;
 	padding-top: 182px;
+}
+
+.academy-select-group>.select>.select-styled.is-checked  {
+	color: #32b76e !important
 }
 
 .table-academy {
@@ -2999,6 +3003,40 @@ div.supP-academy .small_navigation {
 	margin: 0px;
 }
 
+.academy-select-box .academy-select-group .select-options {
+	display: none;
+	position: absolute;
+	top: 100%;
+	right: 0;
+	left: 0;
+	z-index: 999;
+	margin: 0 3px;
+	padding: 0;
+	height: 147px;
+	list-style: none;
+}
+
+.academy-select-group > div:nth-child(2n) > ul {
+	display: none !important;
+}
+
+.academy-select-group > div:nth-child(1) > ul {
+	display: none !important;
+}
+
+.academy-select-group > div:nth-child(3) > ul {
+	display: none !important;
+}
+
+.academy-select-group > div:nth-child(5) > ul {
+	display: none !important;
+}
+
+.academy-select-group > .select-styled.active .select-options:last-of-type {
+	overflow-y: scroll;
+    background-color: #f7f7f7;
+	
+}
 
 #checkbox-academy {
 
@@ -3111,7 +3149,6 @@ span#jopInfo-searchCount {
     color:  coral;
     font-weight:  800;
 }
-<<<<<<< HEAD
 
 
 .jobInfo-btn{

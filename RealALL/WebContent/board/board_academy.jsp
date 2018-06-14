@@ -17,8 +17,8 @@
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="../include/service_x-sidebar.jsp"%>
-				
+				<%@ include file="../include/info2_x-sidebar.jsp"%>
+
 				<div class="subP-academy">
 					<div class="subPage">
 						<h2>학술정보</h2>
@@ -31,29 +31,30 @@
 
 
 					<div class="select-header-academy">
-					<div class="recruit-box">
-						<div class="recruit-header">
-							<button>
-								<i class="fas fa-check"></i>관심공고담기
-							</button>
-							<div class="select-group">
-								<select id="">
-									<option value="hide">20개씩</option>
-									<option value="">10개씩</option>
-									<option value="">20개씩</option>
-									<option value="">30개씩</option>
-									<option value="">40개씩</option>
-									<option value="">50개씩</option>
-								</select>
+						<div class="recruit-box">
+							<div class="recruit-header">
+								<button>
+									<i class="fas fa-check"></i>관심공고담기
+								</button>
+								<div class="select-group">
+									<select id="">
+										<option value="hide">20개씩</option>
+										<option value="">10개씩</option>
+										<option value="">20개씩</option>
+										<option value="">30개씩</option>
+										<option value="">40개씩</option>
+										<option value="">50개씩</option>
+									</select>
 
-								<div class="input-search-box">
-									<div class="input-search">
-										<input type="text" name="" value=""
-											placeholder="기업명, 공고제목 등 검색">
+									<div class="input-search-box">
+										<div class="input-search">
+											<input type="text" name="" value=""
+												placeholder="기업명, 공고제목 등 검색">
+										</div>
+										<button type="submit" value="" class="search-icon">
+											<i class="fas fa-search"></i>
+										</button>
 									</div>
-									<button type="submit" value="" class="search-icon">
-										<i class="fas fa-search"></i>
-									</button>
 								</div>
 							</div>
 						</div>
@@ -80,297 +81,308 @@
 								<option value="">50개씩</option>
 							</select>
 						</div>
-						</div>
+
 						<table class="table table-academy">
 							<thead>
 								<tr class="table-header">
 									<td>
 										<div class="consent">
 
-											<label class="labelCheck" for="use_consent"><input
-												type="checkbox" id="use_consent" name="use" value="" /> <span
+											<label class="labelCheck" for="all"><input
+												type="checkbox" id="all" value="" /> <span
 												class="checkmark"></span></label>
 										</div>
-	
 									<th>모집공고</th>
 									<th>마감일</th>
-									
+
 
 
 								</tr>
+
 							</thead>
+
 							<tbody>
 
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent1"> <input
-												type="checkbox" id="use_consent1" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent1" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent2"> <input
-												type="checkbox" id="use_consent2" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent2" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent3"> <input
-												type="checkbox" id="use_consent3" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent3" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent4"> <input
-												type="checkbox" id="use_consent4" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent4" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent5"> <input
-												type="checkbox" id="use_consent5" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent5" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent6"> <input
-												type="checkbox" id="use_consent6" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent6" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent7"> <input
-												type="checkbox" id="use_consent7" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent7" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent8"> <input
-												type="checkbox" id="use_consent8" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent8" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent9"> <input
-												type="checkbox" id="use_consent9" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent9" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 								<tr id="">
 									<td class="text-center">
-									<div class="consent">
+										<div class="consent">
 											<label class="labelCheck" for="use_consent10"> <input
-												type="checkbox" id="use_consent10" name="use" value="" /> 
-												<span class="checkmark"></span>
+												type="checkbox" id="use_consent10" name="use" value="" /> <span
+												class="checkmark"></span>
 											</label>
-						
-										</div></td>
+
+										</div>
+									</td>
 									<td>
-									<div class="secondBox">
-									<div class="clear">
-									<a><h6>국내외 임상시험 현황과 개선방안 연구</h6>
-									</a>
-									<div class="nameText-box">
-										<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+										<div class="secondBox">
+											<div class="clear">
+												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
+												<div class="nameText-box">
+													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
+												</div>
+											</div>
 										</div>
-										</div>
-										</div>
-										</td>
-									
+									</td>
+
 									<td class="text-center">
-									<div class="button-box">
-									<button>원문 바로가기</button>
-									
-									</div>
-									</td></tr>
+										<div class="button-box">
+											<button>원문 바로가기</button>
+
+										</div>
+									</td>
+								</tr>
 
 							</tbody>
 						</table>
@@ -383,8 +395,6 @@
 					</div>
 				</div>
 			</div>
-
-
 		</div>
 
 	</div>
@@ -402,11 +412,40 @@
 
 
 	<script>
-		$(document).ready(function() {
-			$('#sideContent').find('.is-checked').removeClass('is-checked');
-			$('#sideContent>.contentElement:eq(1)').addClass('is-checked');
+		$(document).ready(
+				function() {
+					$('#sideContent-academy').find('.is-checked').removeClass(
+							'is-checked');
+					$('#sideContent-academy>.contentElement:eq(1)').addClass(
+							'is-checked');
+					$('#sideContent-academy>.contentElement:eq(2)').addClass(
+							'is-checked');
+					$('.academy-select-group').find('.is-checked').removeClass(
+							'is-checked');
+					$('.academy-select-group>.select>.select-styled:eq(0)')
+							.addClass('is-checked');
 
-		});
+					/*체크박스 전체선택*/
+
+					var flag = $("input[type='checkbox'][id='all']").is(
+							':checked');
+
+					$("input[type='checkbox'][id='all']").on(
+							'click',
+							function() {
+
+								if (flag) {
+									$("input[name='use']").prop("checked",
+											false);
+									flag = false;
+								} else {
+									$("input[name='use']")
+											.prop("checked", true);
+									flag = true;
+								}
+
+							});
+				});
 	</script>
 </body>
 

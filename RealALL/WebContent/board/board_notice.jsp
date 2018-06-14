@@ -21,7 +21,7 @@
 		<div class="row-noneflex">
 			<div class="main">
 				<%@ include file="../include/service_x-sidebar.jsp"%>
-				
+
 				<div class="subP">
 
 					<div class="subPage">
@@ -32,10 +32,10 @@
 						</div>
 
 					</div>
-					
-					
-			<div class="recruit-box">
-					<div class="recruit-header">
+
+
+					<div class="recruit-box">
+						<div class="recruit-header">
 
 
 
@@ -65,103 +65,103 @@
 
 
 						</div>
-						</div>
-								
-								
-								
-								<table class="table table-admin">
-							<thead>
-								<tr class="table-header">
-									<th>글번호</th>
-									<th>제목</th>
-									<th>작성자</th>
-									<th>첨부파일</th>
-									<th>날짜</th>
-									
-									
-								</tr>
-							</thead>
-							<tbody>
-								
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-								<tr id="">
-									<td>12</td>
-									<td>새로운 소식 안내드립니다.</td>
-									<td>베스티안부천병원</td>
-									<td><i class="fas fa-file-archive"></i></td>
-									<td>2018.12.31</td>
-								</tr>
-							
-							</tbody>
-						</table>
-							
-							
-					
+					</div>
 
 
-<ul id="pagination-demo" class="pagination-sm"></ul>
+
+					<table class="table table-admin">
+						<thead>
+							<tr class="table-header">
+								<th>글번호</th>
+								<th>제목</th>
+								<th>작성자</th>
+								<th>첨부파일</th>
+								<th>날짜</th>
+
+
+							</tr>
+						</thead>
+						<tbody>
+
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+							<tr id="">
+								<td>12</td>
+								<td>새로운 소식 안내드립니다.</td>
+								<td>베스티안부천병원</td>
+								<td><i class="fas fa-file-archive"></i></td>
+								<td>2018.12.31</td>
+							</tr>
+
+						</tbody>
+					</table>
+
+
+
+
+
+					<ul id="pagination-demo" class="pagination-sm"></ul>
 				</div>
 			</div>
 
