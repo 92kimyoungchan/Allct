@@ -905,6 +905,13 @@ section.another p.mgb-30 {
     margin-bottom: 8px;
    
 }
+
+.subPage .infoMenu {
+	
+}
+.subPage .infoMenu span {
+	
+}
 .subPage:after {
 	display: block;
 	clear: both;
@@ -1423,6 +1430,8 @@ margin: 0 5px;
 .recruit-create input[type=text].phone , .form input[type=text].phone {
 	width:110px;
 	margin: 0 5px;
+	padding:0;
+	text-align:center;
 }
 
 .recruit-create input[type=text].phone:first-of-type , .form input[type=text].phone:first-of-type {
@@ -1494,7 +1503,7 @@ margin-right:5px;
 		border: 1px solid #ded8d8;
 		display: block;
 		float: left;
-		padding: 0 0 0 12px;
+	padding-left:12px;
 }
 
 input#inputCheck {}
@@ -1780,7 +1789,7 @@ float: left;
 	
 height: 100%;
 	
-padding: 20.5px 0px;
+padding: 22.2px 0px;
 }
 
 .x-sidebar .userInfo .info-box h2 {
@@ -4178,6 +4187,12 @@ outline: 1px solid gray;
 	text-align:left;
 }
 
+.memberM:after {
+	clear:both;
+	content:"";
+	display:block;
+}
+
 .memberM {
 	
 border-top: 1px solid #d9d4d4;
@@ -4185,10 +4200,14 @@ border-top: 1px solid #d9d4d4;
 border-bottom: 1px solid #d9d4d4;
 }
 
-.memberM .articleM {
+.memberM.before {
 
 }
-
+.articleM:after {
+	display:block;
+	content:"";
+	clear:both;
+}
 
 .articleM .titleM {
 	
@@ -4203,6 +4222,9 @@ padding: 10px 0 10px 25px;
 
 .articleM .titleM p {
 	
+margin-bottom: 0;
+	
+height: 31px;
 }
 
 .articleM .contentM {
@@ -4215,6 +4237,113 @@ padding: 10px 0 10px 25px;
 }
 
 .articleM .contentM p {
+	height:31px;
+	margin-bottom: 0;
+}
+
+
+.articleM .contentM p  input{
+	height:100%;
+	float:left;
+	width: 166px;
+}
+
+.articleM .contentM p  input.phoneForm{
+	
+	width: 70px;
+	text-align:center;
+	padding:0;
+}
+
+.articleM .contentM  span {
+	float: left;
+	font-size: 12.5px;
+	padding: 3.5px 0;
+	margin: 0 8px;
+	color:gray;
+	height:100%;
+	width: 11px;
+	text-align: center;
+}
+.select-styled
+.articleM .contentM .select {
+	height:100%;
+	float:left;
+}
+
+.articleM .contentM .select .select-styled {
+	height: 100%;
+	border: 1px solid #a9a9a9;
+	padding: 4px 40px 4px 18px;
+	min-width:120px;
+}
+
+ 
+.articleM .contentM .select .select-styled:after {
+	content: "";
+	width: 0;
+	height: 0;
+	border: 7px solid transparent;
+	border-color: #1c9035 transparent transparent transparent;
+	position: absolute;
+	top: 12px;
+	right: 15px;
+}
+
+.articleM .contentM .select .select-styled.active:after {
+	top:12px !important;
+}
+
+.title-anotherF {
+	padding:18px 0 10px 25px !important;
+}
+.title-anotherL {
+	padding:10px 0 18px 25px !important;
+}
+
+
+.articleM .contentM p button {
+	background: #1c9035;
+	color: white;
+	height: 31px;
+	width: 90px;
+	font-size: 13.6px;
+	font-weight: bold;
+	border:none;
+	float: left;
+	margin-left: 12px;
+}
+
+.button-box.modify {
+	text-align:center;
+	margin-top:40px;
+}
+
+.button-box.modify >button {
+	min-width:105px;
+}
+
+.minHeight {
+	min-height:690px;
+}
+
+.articleM:nth-of-type(3) {
+    border-bottom: 1px solid #d9d4d4;
+}
+
+.memberM input {
+	padding-left:12px;
+}
+
+
+.memberM.before .articleM .titleM {
+
+}
+
+.memberM.before .articleM {
 	
 }
 
+.memberM.before .articleM .contentM {
+
+}

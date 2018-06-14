@@ -42,9 +42,7 @@
 						<div class="recruit-header">
 
 
-							<button>
-								<i class="far fa-trash-alt"></i>삭제
-							</button>
+							
 							<div class="select-group">
 								<select id="">
 									<option value="hide">최신순</option>

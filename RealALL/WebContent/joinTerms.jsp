@@ -129,14 +129,14 @@
 							</div>
 						</div>
 						
-						<h2 class="section-header">개인정보 수집 이용 목적</h2>
+						<h2 class="section-header">이벤트 등 프로모션 알림 메일 수신</h2>
 						
 						<div class="terms-area">
 							
 							<div class="consent">
 
-								<label class="labelCheck" for="info_consent"><input
-									type="checkbox" id="info_consent" name="use" value="" /> <span
+								<label class="labelCheck" for="info_consent2"><input
+									type="checkbox" id="info_consent2" name="use" value="" /> <span
 									class="checkmark"></span> <!-- <i class="far fa-square"></i> -->
 									<span>이용약관에 동의합니다.</span></label>
 							</div>
@@ -145,10 +145,7 @@
 
 						<div class="all-consent">
 							<h2>이용약관 및 개인정보이용에 모두 동의하십니까?</h2>
-							<label class="labelCheck" for="success_consent"><input
-								type="radio" id="success_consent" name="consent" value="success" />
-								<span class="checkmark"></span> <!-- <i class="far fa-square"></i> -->
-								<span>이용약관에 동의합니다.</span></label><label class="labelCheck"
+						<label class="labelCheck"
 								for="fail_consent"><input type="radio" id="fail_consent"
 								name="consent" value="success" /> <span class="checkmark"></span>
 								<!-- <i class="far fa-square"></i> --> <span>이용약관에 동의합니다.</span></label>

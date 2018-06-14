@@ -82,8 +82,8 @@
 								<tr id="bookmark1">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-1"> <input
+												type="checkbox" id="mf-1" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -115,8 +115,8 @@
 								<tr id="bookmark2">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-2" > <input
+												type="checkbox" id="mf-2" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -146,8 +146,8 @@
 								<tr id="bookmark3">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-3"> <input
+												type="checkbox" id="mf-3" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -178,8 +178,8 @@
 								<tr id="bookmark4">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-4"> <input
+												type="checkbox" id="mf-4" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -210,8 +210,8 @@
 								<tr id="bookmark5">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-5"> <input
+												type="checkbox" id="mf-5" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -242,8 +242,8 @@
 								<tr id="bookmark6">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-6"> <input
+												type="checkbox" id="mf-6" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -274,8 +274,8 @@
 								<tr id="bookmark7">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-7"> <input
+												type="checkbox" id="mf-7" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -306,8 +306,8 @@
 								<tr id="bookmark8">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-8"> <input
+												type="checkbox" id="mf-8" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -338,8 +338,8 @@
 								<tr id="bookmark9">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-9"> <input
+												type="checkbox" id="mf-9" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
@@ -370,8 +370,8 @@
 								<tr id="bookmark10">
 									<td class="text-center">
 										<div class="labelHolder">
-											<label class="labelCheck" for="all"> <input
-												type="checkbox" id="all" value="" /> <span
+											<label class="labelCheck" for="mf-10"> <input
+												type="checkbox" id="mf-10" value="" class="inputChecking"/> <span
 												class="checkmark"></span>
 											</label>
 										</div>
