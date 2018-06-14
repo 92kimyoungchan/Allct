@@ -23,17 +23,23 @@
 				<%@ include file="../include/service_x-sidebar.jsp"%>
 				
 				<div class="subP">
+
 					<div class="subPage">
 						<h2>공지사항</h2>
-					</div>
 						<div class="small_navigation">
-						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a href="">회원정보수정</a></span>
+							<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a
+								href="">회원정보수정</a></span>
+						</div>
+
 					</div>
 					
 					
-		
-					<div class="select-header">
-					<div class="select-group">
+			<div class="recruit-box">
+					<div class="recruit-header">
+
+
+
+							<div class="select-group">
 								<select id="">
 									<option value="hide">최신순</option>
 									<option value="" rel="icon-temperature">최신순</option>
@@ -54,7 +60,12 @@
 									<button type="submit" value="" class="search-icon">
 										<i class="fas fa-search"></i>
 									</button>
-								</div></div></div>
+								</div>
+							</div>
+
+
+						</div>
+						</div>
 								
 								
 								

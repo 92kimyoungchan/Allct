@@ -31,7 +31,7 @@
 
 
 					<div class="select-header-academy">
-
+					<div class="recruit-box">
 						<div class="recruit-header">
 							<button>
 								<i class="fas fa-check"></i>관심공고담기
@@ -80,7 +80,7 @@
 								<option value="">50개씩</option>
 							</select>
 						</div>
-
+						</div>
 						<table class="table table-academy">
 							<thead>
 								<tr class="table-header">
