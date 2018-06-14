@@ -50,7 +50,7 @@ div.recruit-apply ul>li>a.active {
 							<div class="article">
 								<label>이름</label>
 								<div class="input-block">
-									<input type="text" readonly name="" class="nameInput">
+									<input type="text" readonly name="" class="nameInput" value="브론즈스윗트">
 										<p class="hidden"></p>
 								</div>
 							</div>

@@ -154,30 +154,28 @@ ul {
 }
 
 
-
-.overlay-item div:nth-of-type(2):before {
-	content:"아이디";
-	float:left;
-	width:80px;
-	height:30px;
-	text-align:left;
-	
-	
-}
-.overlay-item div:nth-of-type(3):before {
-	content:"비밀번호";
-	float:left;
-	width:80px;
-	height:30px;
-	text-align:left;
-	
-	
-}
 /* .overlay-item .input-area label {
 	text-align:left;
 	float:left;
 	width:80px;
 } */
+
+.overlay-item .input-area.beforeId:before {
+		content:"아이디";
+	float:left;
+	width:80px;
+	height:30px;
+	text-align:left;
+}
+
+.overlay-item .input-area.beforePw:before {
+	content:"비밀번호";
+	float:left;
+	width:80px;
+	height:30px;
+	text-align:left;
+}
+
 
 .overlay-item .input-area input {
 	float:left;
@@ -674,6 +672,7 @@ section.notice {
 div.subP {
 	width: 73.5%;
 	float: right;
+	min-height:630px;
 }
 
 .subP .subtitle {
@@ -1506,7 +1505,9 @@ margin-right:5px;
 		border: 1px solid #ded8d8;
 		display: block;
 		float: left;
-	padding-left:12px;
+		padding-left:12px;
+		padding-right:12px;
+		font-size: 14.3px;
 }
 
 input#inputCheck {}
@@ -1682,10 +1683,10 @@ margin-top: -2px;
 }
 
 .select-styled {
-	border: 1.4px solid #ded8d8;
+	border:1px solid #ded8d8;
 	color: #a29c9c;
 	background-color: transparent;
-	padding: 8px 40px 8px 18px;
+	/* padding: 8px 40px 8px 18px; */
 	margin: 0 3px;
 }
 
@@ -3665,7 +3666,6 @@ margin-bottom: 0;
  .form .select-styled {
 	height:31px;
 	padding: 3px 36px 3px 12px;
-	/* text-align: center; */
 	font-size: 14px;
 	width: 160px;
 	margin: 0 5px 0 0;
@@ -3854,8 +3854,8 @@ div .recruit-apply .apply-form {
 	margin:0 !important;
 	text-align:center;
 	width:90px;
-	font-size:16px;
-	padding:3px 28px 3px 12px;
+	font-size: 14.3px;
+	padding: 3px 22px 3px 12px;
 }
 
 
@@ -3863,18 +3863,17 @@ div .recruit-apply .apply-form {
 	content: "";
 	width: 0;
 	height: 0;
-	border: 7px solid transparent;
+	border: 6px solid transparent;
 	border-color: #4d51ea transparent transparent transparent;
 	position: absolute;
 	top: 12px;
-	right: 15px;
+	right: 8.5px;
 }
 
 .form input.phoneForm {
 	width:90px;
 	text-align:center;
 	padding:0;
-	font-size:15px;
 }
 
 .mglIn15 .select-styled  {
@@ -3924,9 +3923,12 @@ padding: 4.5px 14px !important;
 
 .form .article input.nameInput{
 	width:90px !important;
+	border:none;
+	font-size:16px;
 }
 .form .article input.caculator{
 	width:140px !important;
+	text-align:right;
 }
 
 .input-block.marginNo .labelRadio{
@@ -4350,9 +4352,6 @@ padding: 10px 0 10px 25px;
 	min-width:105px;
 }
 
-.minHeight {
-	min-height: 630px;
-}
 
 .articleM:nth-of-type(3) {
     border-bottom: 1px solid #d9d4d4;

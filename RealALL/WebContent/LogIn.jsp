@@ -21,10 +21,10 @@
 				<div class="header"><h2>로그인</h2>
 					<p>Allct에 오신 것을 환영합니다.</p></div>
 					
-					<div class="input-area">
+					<div class="input-area beforeId">
 						<input type="text" name="ID">
 					</div>
-					<div class="input-area">
+					<div class="input-area beforePw">
 						<input type="text" name="PW">
 					</div>
 					<div class="button-box">
