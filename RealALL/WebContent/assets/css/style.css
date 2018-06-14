@@ -74,7 +74,7 @@ ul {
 .main {
 	width: 100%;
 	margin: 0 0 0 auto;
-	padding: 55px 0 10px;
+	padding: 55px 0 0px;
 }
 
 .main:after {
@@ -2446,6 +2446,7 @@ min-width: 70px;
 	font-size: 13.6px;
 	font-weight: bold;
 	border:none;
+	min-width: 105px;
 }
 
 .button-box > button:focus {
@@ -2764,6 +2765,16 @@ margin-bottom: 0;
     
 }
 
+.checkmark.custom{
+    position: absolute;
+    top: 14.9px;
+    left: 0;
+    height: 25px;
+    border-radius:5px;
+    width: 25px;
+    border:1px solid #c3c3c3;
+    background-color: white;
+}
 
 /* On mouse-over, add a grey background color */
 .labelCheck:hover input ~ .checkmark {
@@ -3894,9 +3905,23 @@ padding: 4.5px 14px !important;
 	padding: 2px 0 !important;
 }
 
+ .form .labelCheck{
+	border:none;
+	position:relative;
+	padding: 15px 0 0!important;
+	display: block;
+	clear: both;
+}
+
+
 .form .labelRadio input[type="radio"]{
 	display:none !Important;
 }
+
+.form .labelCheck input[type="checkbox"]{
+	display:none !Important;
+}
+
 .form .article input.nameInput{
 	width:90px !important;
 }
@@ -4319,7 +4344,6 @@ padding: 10px 0 10px 25px;
 
 .button-box.modify {
 	text-align:center;
-	margin-top:40px;
 }
 
 .button-box.modify >button {
@@ -4366,4 +4390,10 @@ margin-right: 8px;
 }
 .articleM .repeatModify p input {
 	
+}
+
+p.button-top {
+	text-align:center;
+	font-size: 16px;
+	margin: 30px 0 18px;
 }

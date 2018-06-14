@@ -102,7 +102,8 @@
 							<div class="input-block">
 								<input class="phone" type="text"><span>-</span><input
 									class="phone" type="text"><span>-</span><input
-									class="phone" type="text"><div class="divider"></div>
+									class="phone" type="text"><label class="labelCheck"> <input type="checkbox" id=""
+								name="" value="" /><span class="checkmark custom"></span><span>SMS 수신 동의(선택)</span></label><div class="divider"></div>
 								<p class="hidden"></p>
 
 							</div>
@@ -130,14 +131,18 @@
 									<option value="gmail.com">gmail.com</option>
 									<option value="hanmir.com">hanmir.com</option>
 									<option value="paran.com">paran.com</option>
-								</select><div class="divider"></div>
+								</select>
+								<label class="labelCheck"> <input type="checkbox" id=""
+								name="" value="" /><span class="checkmark custom"></span><span>이벤트 이메일 수신 동의(선택)</span></label><div class="divider"></div>
 								<p class="hidden"></p>
 							</div>
 						</div>
+						
+						
 					</div>
 					
 					<div class="button-box">
-												<button>핫딜달려가기</button>
+												<button>회원가입</button>
 							
 			
 					</div>
