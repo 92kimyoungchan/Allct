@@ -42,13 +42,8 @@
 					</div>
 					<div class="memberM before">
 						<div class="articleM">
-							<div class="titleM title-anotherL">
-								<p>새 비밀번호 확인</p>
-							</div>
-							<div class="contentM title-anotherL">
-								<p>
-									<input>
-								</p>
+							<div class="repeatModify">
+							<p><span>비밀번호</span><input></p>
 							</div>
 						</div>
 
@@ -56,8 +51,12 @@
 
 
 
-
+ 
 					</div>
+					<div class="button-box modify">
+							<button>확인</button>
+							
+						</div>
 				</div>
 			</div>
 
