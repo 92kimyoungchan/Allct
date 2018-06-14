@@ -687,7 +687,7 @@ div.subP .recruit-detail {
 }
 .recruit-detail .detail-header {
 	border-top:1px solid gray;
-	border-bottom:1px solid gray;
+	
 }
 .recruit-detail .detail-header:after  {
 	clear:both;
@@ -766,17 +766,6 @@ content: "생동";background: green;color:white;text-align: center;padding: 4px 
 	padding:20px 62px 20px 0;
 }
 
-.recruit-detail .content-header {
-	padding:10px 0 35px; 
-	border-bottom:1px solid gray;
-}
-
-.recruit-detail .content-header:after { 
-	display:block;
-	clear:both;
-	content:"";
-	
-}
 
 
 .recruit-detail h2.content-h {
@@ -788,36 +777,11 @@ content: "생동";background: green;color:white;text-align: center;padding: 4px 
 }
 
 
-.recruit-detail .content-header .label-set {
-
-}
-	
-.recruit-detail .content-header .label-set:after {
-	clear:both;
-	display:block;
-	content:"";
-}
-
-.recruit-detail .content-header .label-area {
-	width:140px;
-	float:left;
-	padding-bottom:4px;
-}
-
 .long-length {
 	width:100% !important;
 }
 
 
-.label-area label {
-	margin-bottom:0;
-	font-weight:bold;
-	margin-right:4px;
-}
-
-.label-area span {
-	
-}
 
 .recruit-detail .content {
 	margin:35px 0 40px;
@@ -877,6 +841,57 @@ content: "생동";background: green;color:white;text-align: center;padding: 4px 
 
 .recruit-detail .button-box button:first-of-type  {
 	background:#808080 !important;
+}
+
+
+.recruit-detail .infoArea {
+	
+}
+
+.infoArea .infoSet {
+}
+
+
+.infoArea .infoSet:first-of-type {
+	height:120px;
+}
+
+.infoArea .infoSet:last-of-type {
+	height:240px;
+}
+.infoSet .detailHeader {
+	
+float: left;
+	
+width: 140px;
+	
+background: green;
+}
+
+.detailHeader h2 {
+	
+}
+
+.infoSet .infoContent {
+	
+float: left;
+	
+width: calc(100% - 140px);
+	
+height: 100%;
+}
+
+.infoContent p {
+	
+margin-bottom: 0;
+}
+
+.infoContent p label {
+	
+}
+
+.infoContent p span {
+	
 }
 
 
@@ -1686,7 +1701,7 @@ margin-top: -2px;
 	border:1px solid #ded8d8;
 	color: #a29c9c;
 	background-color: transparent;
-	/* padding: 8px 40px 8px 18px; */
+	 padding: 8px 40px 8px 18px; 
 	margin: 0 3px;
 }
 

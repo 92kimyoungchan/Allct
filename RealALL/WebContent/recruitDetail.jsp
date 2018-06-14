@@ -44,40 +44,34 @@
 								<strong>첨부:</strong><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란?.pdf</span><span>사포그릴레이트란2?.pdf</span>
 							</p>
 						</div>
-
-						<div class="content-header">
-							<h2 class="content-h">지원대상</h2>
-							<div class="label-set">
-								<div class="label-area">
-									<label>지역:</label><span>서울</span>
-								</div>
-								<div class="label-area">
-									<label>대상:</label><span>건강인</span>
-								</div>
-							</div>
-							<div class="label-set">
-								<div class="label-area">
-									<label>성별:</label><span>남</span>
-								</div>
-								<div class="label-area">
-									<label>나이:</label><span>19~50</span>
-								</div>
-								<div class="label-area">
-									<label>BMI:</label><span>22.7</span>
-								</div>
-								<div class="label-area">
-									<label>흡연여부:</label><span>비흡연자</span>
-								</div>
-							</div>
-
-							<h2 class="content-h">사례금과 연구기간</h2>
-							<div class="label-area long-length">
-								<label>사례금:</label><span>216 만원 (세금 6.6%포함)</span>
-							</div>
-							<div class="label-area long-length">
-								<label>연구기간:</label><span>2018.06.19 ~ 2018.12.31</span>
-							</div>
+						<div class="infoArea">
+						<div class="infoSet">
+						<div class="detailHeader">
+							<h2>공고정보</h2>
 						</div>
+						<div class="infoContent">
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							</div>
+						</div>	
+						<div class="infoSet">
+						<div class="detailHeader">
+							<h2>공고정보</h2>
+						</div>
+						<div class="infoContent">
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							<p><label>총 모집인원: </label><span>30명</span></p>
+							</div>
+						</div>	
+						
+						
+						</div>	
+						
 						<div class="content">
 
 							<h2 class="content-h">3형 [사포그릴레이트 (공복)] 생동성 시험 안내</h2>
