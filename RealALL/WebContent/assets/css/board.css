@@ -267,8 +267,8 @@ span#jopInfo-searchCount {
     font-size: 13px;
     font-weight: bold;
     line-height: 20px;
-    margin-top: 5px;
-    word-spacing: 1px;   
+    margin: 5px 0 10px 0;
+    word-spacing: 1px;
 }
 
 .jobInfo-table > tbody > tr > td > p:first-of-type {
@@ -300,6 +300,8 @@ span#jopInfo-searchCount {
     text-align: center;
     font-size: 14px;
 	font-weight: bold;
+	margin-bottom: 4px;
+    line-height: 20px;
 }
 
 .jopInfo-content-pay {
