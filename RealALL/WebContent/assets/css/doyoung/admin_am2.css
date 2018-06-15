@@ -80,7 +80,10 @@ div.container.ab-container>div>div {
 
 .am-h-btn {
 	background: white;
-	padding: 9px 38px 9px 38px;
+	color: green;
+	border: 1.4px solid green;
+	text-align:  center;
+	padding: 8px 18px 8px 18px;
 }
 
 .am-h-title:after {
@@ -537,4 +540,8 @@ button.ad-blackList-btn {
 
 .ad-grid-container:last-child {
     height: 70px;
+}
+
+.ad-marginTop {
+    margin-top: 50px;
 }
