@@ -21,7 +21,7 @@
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar-myWork.jsp"%>
+				<%@ include file="include/x-sidebar-myMenu.jsp"%>
 
 				<div class="subP minHeight">
 

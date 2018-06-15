@@ -684,10 +684,10 @@ div.subP {
 
 div.subP .recruit-detail {
 
+margin-bottom: 65px;
 }
 .recruit-detail .detail-header {
-	border-top:1px solid gray;
-	
+	border-top: 1px solid #d9d4d4;
 }
 .recruit-detail .detail-header:after  {
 	clear:both;
@@ -698,7 +698,7 @@ div.subP .recruit-detail {
 .recruit-detail .detail-header p {
 	margin-bottom:0;
 	padding:6px 0;
-	border-top:1px solid gray;
+	border-top: 1px solid #d9d4d4;
 	border-bottom:1px solid gray;
 }
 
@@ -813,7 +813,7 @@ content: "생동";background: green;color:white;text-align: center;padding: 4px 
 
 .recruit-detail .button-box {
 	text-align:center;
-	margin-bottom:30px;
+	margin: 45px 0 68px;
 }
 
 
@@ -833,7 +833,7 @@ content: "생동";background: green;color:white;text-align: center;padding: 4px 
 
 
 .recruit-detail .button-box svg {
-	color:gray;
+	color:#ffe000;
 	font-size:18px;
 	margin-left:10px;
 }
@@ -846,39 +846,49 @@ content: "생동";background: green;color:white;text-align: center;padding: 4px 
 
 .recruit-detail .infoArea {
 	
+border: 1px solid #d9d4d4;
+margin-top:35px;
 }
 
-.infoArea .infoSet {
-}
+.infoArea .infoSet {display: table; width:100%;}
 
 
-.infoArea .infoSet:first-of-type {
-	height:120px;
-}
+.infoArea .infoSet:first-of-type {border-bottom: 1px solid #d9d4d4;}
 
-.infoArea .infoSet:last-of-type {
-	height:240px;
-}
+.infoArea .infoSet:last-of-type {border-bottom: 1px solid #d9d4d4;}
 .infoSet .detailHeader {
-	
-float: left;
 	
 width: 140px;
 	
-background: green;
+background: #e0ffe0;
+	
+vertical-align: middle;
+	
+display: table-cell;
+	
+padding: 13px 27px;
+	
+border-right: 1px solid #d9d4d4;
 }
 
 .detailHeader h2 {
 	
+padding: 0;
+	
+margin: 0;
+	
+font-size: 16px;
+	
+color: #568456;
 }
 
 .infoSet .infoContent {
 	
-float: left;
-	
 width: calc(100% - 140px);
 	
-height: 100%;
+display: table-cell;
+	
+padding: 13px 27px;
 }
 
 .infoContent p {
@@ -888,6 +898,15 @@ margin-bottom: 0;
 
 .infoContent p label {
 	
+font-weight: bold;
+	
+margin-right:6px;
+	
+width: 80px;
+}
+
+.infoContent p label.last {
+	margin-bottom:0;
 }
 
 .infoContent p span {
@@ -924,10 +943,11 @@ section.another p.mgb-30 {
 	
 clear: both;
 	
-padding: 5px 0 15px;
+padding: 5px 0 20px;
 }
 .subPage .infoMenu span {
 	
+font-size: 16px;
 }
 .subPage:after {
 	display: block;
@@ -1860,7 +1880,7 @@ border: 1px solid #d9d4d4;
 	
 margin-bottom: 0;
 	
-padding-bottom: 0;
+padding:5px 0;
 	
 font-size: 18px;
 	
@@ -3455,7 +3475,7 @@ span#jopInfo-searchCount {
 
 
 .b-bottom {
-	 border-bottom: 1.4px solid #d2d2d2;
+	 border-bottom: 1.4px solid #d9d4d4;
 	 margin-bottom: 20px;
 }
 
@@ -3661,7 +3681,7 @@ margin-bottom: 0;
 	background-size:contain;
 	width: inherit;
 }
-.form .article .multiple {font-size:18px !important; width: 203px;background: white;outline: 1px solid #ded8d8;height: 31px; float:left;}
+.form .article .multiple {font-size:18px !important; background: white;outline: 1px solid #ded8d8;height: 31px; float:left;}
 
  .input-block input.phone:first-of-type {
  margin:0 !important;
@@ -4070,6 +4090,16 @@ width: 85px !important;
 	width:18%;
 }
 
+.table-research tbody > tr.appendTr > td:nth-of-type(3) {
+	
+padding: 7.2px 15px;
+}
+
+.table-research tbody > tr.appendTr > td:nth-of-type(3) > input {
+	
+height: 35px;
+}
+
 .table-research tbody > tr > td  {
 	
 }
@@ -4239,14 +4269,14 @@ outline: 1px solid gray;
 }
 
 .memberM {
-	
+margin-bottom:35px;	
 border-top: 1px solid #d9d4d4;
 	
 border-bottom: 1px solid #d9d4d4;
 }
 
 .memberM.before {
-
+	margin-bottom:30px;
 }
 .articleM:after {
 	display:block;
@@ -4411,3 +4441,101 @@ p.button-top {
 	font-size: 16px;
 	margin: 30px 0 18px;
 }
+
+/* 종뚞 */
+
+.form .article input.address {
+   width: 325px;
+   margin-right: 20px;
+}
+
+.form .article input.addressDetail {
+   width: 450px;
+   clear: both;
+   margin-top: 15px;
+}                                                  
+
+.businessCard {
+	
+display: table;
+	
+border: 1px solid #d9d4d4;
+	
+height: 120px;
+}
+
+.businessCard .companyImg {
+	
+display: table-cell;
+	
+height: 100%;
+	
+width: 240px;
+	
+float: left;
+	
+padding: 55px 20px;
+	
+border-right: 1px solid #d9d4d4;
+}
+
+.businessCard .companyImg img {
+	
+width: 100%;
+	
+height: auto;
+}
+
+.businessCard .companyInfo {
+	
+display: table-cell;
+	
+height: 100%;
+	
+float: left;
+	
+padding: 17px 27px;
+	
+width: calc(100% - 240px);
+}
+
+.companyInfo p {
+
+float: left;
+
+margin-bottom: 8px;
+
+width: 50%;
+}
+.companyInfo p.last {
+	margin-bottom:0;
+}
+
+.companyInfo p.last label {
+	margin-bottom:0;
+}
+
+.companyInfo p label {
+
+font-weight: bold;
+
+width: 47px;
+
+margin: 0 6px 0 0;
+
+color: green;
+}
+
+.companyInfo p span {
+
+font-weight: bold;
+}
+
+.beforeNone {
+	margin-top:35px;
+}
+
+.beforeNone:before {
+	display:none !important;
+}
+
