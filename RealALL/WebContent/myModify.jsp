@@ -48,7 +48,7 @@
 							</div>
 							<div class="contentM">
 								<p>
-									<input>
+									<input><span class="side">김종찬 돌잔치 2번 3번가게됨</span>
 								</p>
 							</div>
 						</div>

@@ -4317,6 +4317,15 @@ padding: 10px 0 10px 25px;
 }
 
 
+.articleM .contentM p span.side {
+	float: left;
+	font-size: 12.5px;
+	margin: 0 8px;
+	color:gray;
+	height:100%;
+
+}
+
 .articleM .contentM p  input{
 	height:100%;
 	float:left;
@@ -4330,7 +4339,7 @@ padding: 10px 0 10px 25px;
 	padding:0;
 }
 
-.articleM .contentM  span {
+.articleM .contentM  span:not(.side) {
 	float: left;
 	font-size: 12.5px;
 	padding: 3.5px 0;
