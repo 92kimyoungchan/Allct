@@ -136,6 +136,12 @@
 	}
 }
 
+@media screen and (min-width:576px) {
+	.containerBox {
+    max-width: 540px;
+  }
+}
+
 @media screen and (min-width:576px) and (max-width:645px) {
 	div.carousel-overlay-wrap .carousel-overlay {
 	
@@ -164,12 +170,24 @@
 	}
 }
 
+@media screen and (min-width:768px) {
+	  .containerBox {
+    max-width: 720px;
+  }
+}
+
 @media screen and (min-width:768px) and (max-width:991px) {
 	.uber-section {
 		width: 720px;
 	}
 }
 
+@media screen and (min-width:992px) {
+	.containerBox {
+		max-width:960px;
+	}
+	
+}
 @media screen and (min-width:992px) and (max-width:1199px) {
 	.uber-section {
 		width: 960px;
@@ -182,6 +200,9 @@
 	}
 	.hash_info span:last-of-type {
 		display:block;
+	}
+	.containerBox {
+		max-width:1140px;
 	}
 }
 
@@ -465,7 +486,6 @@
 	float: left;
 	padding-bottom:25px;
 }
-	
 	
 	
 }

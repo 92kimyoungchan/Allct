@@ -628,7 +628,9 @@ section {
 
 section:nth-of-type(3) {
 	background: #139a43;
-	padding: 65px 40px;
+	position: relative;
+	transform: translateX(-50%);
+	left: 50%;
 }
 
 section>h2.section-header {
@@ -920,12 +922,11 @@ section.incarousel {
 
 section {
 	padding: 30px 0;
-	width: 80%;
-	margin: 0 auto;
+
 }
 
 section.another {
-	padding: 8% 10% 8% !important;
+	padding: 5.8% 10% 5.8% !important;
 	background: transparent;
 	overflow: hidden;
 }
@@ -2174,6 +2175,7 @@ div.tab-content .filter-area:last-child {
 
 .item-grid {
 	padding: 10px 0px;
+	margin: 35px 0;
 }
 
 .item-grid:after {
@@ -4546,5 +4548,14 @@ font-weight: bold;
 
 .beforeNone:before {
 	display:none !important;
+}
+
+.containerBox {
+	margin:0 auto;
+	padding: 60px 50px;
+}
+
+.containerBox .section-header {
+	text-align:center;
 }
 

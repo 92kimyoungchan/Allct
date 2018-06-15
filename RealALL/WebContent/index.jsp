@@ -21,7 +21,7 @@
 						<strong>All of Clinical Trials</strong>
 					</h2>
 					<h2>Allct가 그려가는 건강한 미래</h2>
-					<span>임상시험을 통해 더 많은 환자56들에게 새로운 기회를 줄 수 있습니다.<br>건강하고 새로운
+					<span>임상시험을 통해 더 많은 환자들에게 새로운 기회를 줄 수 있습니다.<br>건강하고 새로운
 						삶을 위한 가능성을 여는 Allct입니다.
 					</span>
 				</div>
@@ -162,7 +162,7 @@
 
 				<section>
 
-
+					<div class="containerBox">
 
 					<h2 class="section-header">모집 중인 공고</h2>
 					<p class="section-header">자세히보기 버튼 클릭시 모집공고 페이지로 이동합니다.</p>
@@ -281,6 +281,7 @@
 
 					</div>
 					<a class="link_another">자세히보기</a>
+					</div>
 
 				</section>
 
