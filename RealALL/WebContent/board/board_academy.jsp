@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 
 </head>
@@ -17,25 +18,23 @@
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="../include/info2_x-sidebar.jsp"%>
+				<%@ include file="../include/info_x-sidebar.jsp"%>
 
 				<div class="subP-academy">
-					<div class="subPage">
+					<div class="subPage b-bottom">
 						<h2>학술정보</h2>
-					<div class="small_navigation">
-						<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a
-							href="">회원정보수정</a></span>
+						<div class="small_navigation">
+							<a><i class="fas fa-home"></i>홈</a><span>><a href="">정보안내</a></span><span>><a
+								href="">학술정보</a></span>
+						</div>
 					</div>
-					</div>
+					<div class="subP-jopInfo-header">
 
-
-
-					<div class="select-header-academy">
 						<div class="recruit-box">
 							<div class="recruit-header">
-								<button>
-									<i class="fas fa-check"></i>관심공고담기
-								</button>
+
+
+
 								<div class="select-group">
 									<select id="">
 										<option value="hide">20개씩</option>
@@ -45,7 +44,6 @@
 										<option value="">40개씩</option>
 										<option value="">50개씩</option>
 									</select>
-
 									<div class="input-search-box">
 										<div class="input-search">
 											<input type="text" name="" value=""
@@ -56,342 +54,124 @@
 										</button>
 									</div>
 								</div>
-							</div>
-						</div>
 
-						<div class="academy-select-group">
-							<select id="">
-								<option value="hide">정확도순</option>
-							</select> <select id="">
-								<option value="hide">인기도순</option>
-							</select> <select id="">
-								<option value="hide">연도순</option>
-							</select> <select id="">
-								<option value="hide">제목순</option>
-							</select> <select id="">
-								<option value="hide">저자순</option>
-							</select> <select id="">
-								<option value="hide">발행처순</option>
-							</select> <select id="">
-								<option value="hide">10개씩 보기</option>
-								<option value="">10개씩</option>
-								<option value="">20개씩</option>
-								<option value="">30개씩</option>
-								<option value="">40개씩</option>
-								<option value="">50개씩</option>
-							</select>
+
+							</div>
 						</div>
 
 						<table class="table table-academy">
 							<thead>
-								<tr class="table-header">
-									<td>
-										<div class="consent">
-
-											<label class="labelCheck" for="all"><input
-												type="checkbox" id="all" value="" /> <span
-												class="checkmark"></span></label>
-										</div>
-									<th>모집공고</th>
-									<th>마감일</th>
-
-
-
+								<tr class="academy-table-header">		
+									<th>학위논문(2,619)</th>
 								</tr>
-
 							</thead>
-
 							<tbody>
-
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent1"> <input
-												type="checkbox" id="use_consent1" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent2"> <input
-												type="checkbox" id="use_consent2" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent3"> <input
-												type="checkbox" id="use_consent3" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent4"> <input
-												type="checkbox" id="use_consent4" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent5"> <input
-												type="checkbox" id="use_consent5" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent6"> <input
-												type="checkbox" id="use_consent6" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent7"> <input
-												type="checkbox" id="use_consent7" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent8"> <input
-												type="checkbox" id="use_consent8" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent9"> <input
-												type="checkbox" id="use_consent9" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
-								<tr id="">
-									<td class="text-center">
-										<div class="consent">
-											<label class="labelCheck" for="use_consent10"> <input
-												type="checkbox" id="use_consent10" name="use" value="" /> <span
-												class="checkmark"></span>
-											</label>
-
-										</div>
-									</td>
-									<td>
-										<div class="secondBox">
-											<div class="clear">
-												<a><h6>국내외 임상시험 현황과 개선방안 연구</h6> </a>
-												<div class="nameText-box">
-													<label>김지연, 숙명여자대학교 임상약학대학원,[2003] [국내석사]</label>
-												</div>
-											</div>
-										</div>
-									</td>
-
-									<td class="text-center">
-										<div class="button-box">
-											<button>원문 바로가기</button>
-
-										</div>
-									</td>
-								</tr>
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+							
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+							
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
 
 							</tbody>
 						</table>
+						
+						<table class="table table-academy">
+							<thead>
+								<tr class="academy-table-header">		
+									<th>국내학술지논문 (2,619)</th>
+								</tr>
+							</thead>
+							<tbody>
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+							
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+							
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+
+							</tbody>
+						</table>
+						
+						<table class="table table-academy">
+							<thead>
+								<tr class="academy-table-header">		
+									<th>국내학술지논문 (2,619)</th>
+								</tr>
+							</thead>
+							<tbody>
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+							
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+							
+							<tr class="academy-table-body">
+							<td><strong>연구자주도임상시험(IIT)의 기업 지원 여부에 따른 유형별 특성 분석:
+							연구중심병원 10개 기관 중심으로</strong>
+							<p>김용석, 성균관대학교 일반대학원, [2017] [국내석사]</p>
+							<p>간략보기 | 원문보기 | 목차검색조회</p>
+							</td>
+							</tr>
+
+							</tbody>
+						</table>
+						
+						<div class="academy-trash-btn">
+						<button>
+								<i class="far fa-trash-alt"></i>삭제
+							</button>
+							</div>
 
 
 
-
-
+						<div class="academy-paging">
 						<ul id="pagination-demo" class="pagination-sm"></ul>
+					</div>
 					</div>
 				</div>
 			</div>
@@ -412,20 +192,22 @@
 
 
 	<script>
-		$(document).ready(
-				function() {
-					$('#sideContent-academy').find('.is-checked').removeClass(
-							'is-checked');
-					$('#sideContent-academy>.contentElement:eq(1)').addClass(
-							'is-checked');
-					$('#sideContent-academy>.contentElement:eq(2)').addClass(
+	 $(document).ready(function() {
+         $('#sideContent-academy').find('.is-checked').removeClass('is-checked');
+         $('#sideContent-academy>.contentElement:eq(1)').addClass('is-checked');
+
+      });
+					 
+					 
+					/* $('#sideContent-academy>.contentElement:eq(2)').addClass(
 							'is-checked');
 					$('.academy-select-group').find('.is-checked').removeClass(
 							'is-checked');
 					$('.academy-select-group>.select>.select-styled:eq(0)')
 							.addClass('is-checked');
+							
 
-					/*체크박스 전체선택*/
+					체크박스 전체선택
 
 					var flag = $("input[type='checkbox'][id='all']").is(
 							':checked');
@@ -445,7 +227,8 @@
 								}
 
 							});
-				});
+				}); */
+				
 	</script>
 </body>
 
