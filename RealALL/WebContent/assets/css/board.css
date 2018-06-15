@@ -250,6 +250,7 @@ span#jopInfo-searchCount {
     width: 135px;
     text-align: center;
     font-weight: bold;
+    padding-left: 10px;
 }
 
 .jobInfo-table tbody > tr > td:nth-of-type(2) {
