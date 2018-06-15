@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="../assets/css/clinical.css">
+<link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 </head>
 <body>

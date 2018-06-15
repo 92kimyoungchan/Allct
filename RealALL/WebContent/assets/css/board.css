@@ -318,6 +318,7 @@ span#jopInfo-searchCount {
 div.subP-clinical-title {
     width: 72%;
     float: right;
+	margin-bottom: 155px;
 }
 
 div.subP-clinical {
@@ -327,6 +328,7 @@ div.subP-clinical {
 div.subP-clinical > h2 {
     margin-bottom: 50px;
     padding: 0;
+    letter-spacing: 2px;
 }
 
 .clinical_content_box .info-article {
@@ -348,6 +350,7 @@ div.clinical_content_box {
 div.clinical_content_head h2 {
 	color: #32b76e;
 	padding: 0;
+	letter-spacing: 2px;
 }
 
 .clinical_content_box .info-article span{
@@ -396,6 +399,7 @@ div.clinical_imgBox > img {
 div.clinical_info_content_box h2 {
     margin-top: 25px;
     padding: 0;
+    letter-spacing: 2.5;
 }
 
 div.clinical_info_content_box p {
@@ -403,6 +407,7 @@ div.clinical_info_content_box p {
     line-height: 33px;
     font-size: 15.5px;
     word-spacing: 3px;
+    margin-bottom: 30px;
 }
 
 div.clinical_justice h2 {
@@ -419,4 +424,28 @@ div.clinical_content_justice {
 
 div.clinical_bio_justice {
 	
+}
+
+/* board_clinical_allct.jsp 임상시험과 Allct 페이지 */
+
+div.subP-clinical-allct h2 {
+    margin-top: 40px;
+	letter-spacing: 2px;
+	padding: 0;
+}
+
+div.clinical_content_allct p {
+    margin: 40px 0 auto 0;
+}
+
+/* board_clinical_qualify.jsp 임상시험 참여자가 고려할 사항 페이지 */
+
+div.subP-clinical-qualify h2 {
+    margin-top: 40px;
+	letter-spacing: 2px;
+	padding: 0;
+}
+
+div.clinical_content_qualify p {
+    margin: 25px 0 40px 0;
 }

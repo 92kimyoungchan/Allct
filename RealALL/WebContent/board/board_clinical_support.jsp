@@ -24,6 +24,12 @@
 				<div class="subP-clinical-title">
 					<div class="subPage b-bottom">
 						<h2>임상시험의 참여방법</h2>
+					
+					
+					<div class="small_navigation">
+							<a><i class="fas fa-home"></i>홈</a><span>><a href="">임상시험이란?</a></span><span>><a
+								href="">임상시험 참여방법</a></span>
+						</div>
 					</div>
 					<div class="subP-clinical">
 						<h2>임상시험 참여방법과 절차</h2>
