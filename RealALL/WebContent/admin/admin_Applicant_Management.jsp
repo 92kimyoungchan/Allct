@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
-<!-- 김도영 공고관리 (Announcement Management)  -->
+<!-- 김도영 지원자 관리 (Application Management)  -->
 <style type="text/css">
 .menu-header {
 	background-color: #22af2d;
@@ -110,11 +110,47 @@
 											</tr>
 										</thead>
 										<tbody>
-														<tr class="ab-table-body blackListTableBody">
+														<tr class="ab-table-body blackListTableBody"> 
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-13"> <input
+															type="checkbox" id="ad-tr-13" name="" class="info inputChecking" 
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												
+											</tr>				<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-12"> <input
+															type="checkbox" id="ad-tr-12" name="" class="info"
+															value="" /> <span class="checkmark"></span>
+														</label>
+													</div>
+												</td>
+												<td>admin72</td>
+												<td>김민수</td>
+												<td>남성</td>
+												<td>만27세</td>
+												<td>시험진행중</td>
+												<td>O</td>
+												<td>4회</td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												
+											</tr>				<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent ad-consent">
+														<label class="labelCheck" for="ad-tr-11"> <input
+															type="checkbox" id="ad-tr-11" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -149,8 +185,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-2"> <input
+															type="checkbox" id="ad-tr-2" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -167,8 +203,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-3"> <input
+															type="checkbox" id="ad-tr-3" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -185,8 +221,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-4"> <input
+															type="checkbox" id="ad-tr-4" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -203,8 +239,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-5"> <input
+															type="checkbox" id="ad-tr-5" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -221,8 +257,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-6"> <input
+															type="checkbox" id="ad-tr-6" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -239,8 +275,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-7"> <input
+															type="checkbox" id="ad-tr-7" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -257,8 +293,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-8"> <input
+															type="checkbox" id="ad-tr-8" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -275,8 +311,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-9"> <input
+															type="checkbox" id="ad-tr-9" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -293,44 +329,8 @@
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
 													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
+														<label class="labelCheck" for="ad-tr-10"> <input
+															type="checkbox" id="ad-tr-10" name="" class="info"
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>

@@ -20,6 +20,7 @@ $('#pagination-demo').twbsPagination({
 /*체크박스 전체선택*/
 
 $("input[type='checkbox'][id='all']").on('click',function(){
+	alert("asd");
 
 	if(flag) {
 		$("input[type='checkbox'][class='inputChecking']").prop("checked",false);
@@ -67,9 +68,6 @@ $('.labelRadio').on('click',function() {
 	
 	var inputid = $(this).attr('for');
 	var flag1 = $("input[type='radio'][id='"+inputid+"']").is(':checked');	
-	
-
-
 	
 	
 	if(flag1){

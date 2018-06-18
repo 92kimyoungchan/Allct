@@ -10,10 +10,6 @@
 	background-color: #9a9494;
 	border-color: #9a9494;
 } */
-.labelCheck input:checked ~ .checkmark {
-	background-color: #a7a1a1;
-}
-
 .labelCheck:hover input ~ .checkmark {
 	background-color: #abababb0;
 }
