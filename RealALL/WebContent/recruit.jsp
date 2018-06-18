@@ -203,8 +203,6 @@
 									<th>마감일</th>
 									<th>정원</th>
 
-
-
 								</tr>
 							</thead>
 							<tbody>

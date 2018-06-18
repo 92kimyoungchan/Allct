@@ -20,18 +20,37 @@ $('#pagination-demo').twbsPagination({
 /*체크박스 전체선택*/
 
 $("input[type='checkbox'][id='all']").on('click',function(){
-	alert("asd");
 
 	if(flag) {
-		$("input[type='checkbox'][class='inputChecking']").prop("checked",false);
+		$("input[type='checkbox'][class='info']").prop("checked",false);
+		admin_checkBoxTrColorChange($("input[type='checkbox'][class='info']"));
 		flag = false;
 	}else {
-		$("input[type='checkbox'][class='inputChecking']").prop("checked",true);
+		$("input[type='checkbox'][class='info']").prop("checked",true);
+		admin_checkBoxTrColorChange($("input[type='checkbox'][class='info']"));
 		flag = true;
 	}
-	
 });
+
+
+/*체크 박스 선택했을때 background-color 변경*/
+$("table.ab-table").on('change','.ab-table-body .info',function(){
+	admin_checkBoxTrColorChange($(this));
 	
+})
+
+ function admin_checkBoxTrColorChange(getCheckBox){
+	
+	checkBoxValue =  getCheckBox.is(":checked");
+	var row = getCheckBox.parent().parent().parent().parent();
+	if(checkBoxValue){
+		row.css("background-color","#fbf8f8");		
+	}else{
+		row.css("background-color","rgb(255, 255, 255)");	
+	}	
+}
+
+
 /*체크박스 헤더 전체선택*/
 $("input[type='checkbox'][id='state-all']").on('click',function(){
 	if(flag) {

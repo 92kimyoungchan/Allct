@@ -11,10 +11,10 @@
 	border-color: #9a9494;
 } */
 .labelCheck:hover input ~ .checkmark {
-	background-color: #abababb0;
+	background-color: #3ae660;
 }
 /* am-h Ã«Â¶â‚¬Ã«Â¶â€ž*/
-div.am-h-title>h1 {
+div.am-h-title>h1 { 
 	float: left;
 }
 
@@ -132,7 +132,11 @@ ul.am-h-state:after {
 .am-h-content {
 	margin-bottom: 15px;
 }
-
+.am-label-wrap {
+    margin-right: 20px;
+    height: 30px;
+    float:  left;
+}
 tr td input[type="checkbox"], tr th input[type="checkbox"] {
 	display: inline;
 }
@@ -148,7 +152,6 @@ div.am-ab-t-set>button {
 
 ul.am-h-state {
 	float: left;
-	padding-left: 20px;
 }
 
 /* am-h end */
@@ -284,13 +287,35 @@ div.am-ab-title-searchForm>button {
 
 div.am-ab-title-searchForm>input[type="text"] {
 	padding: 8px 40px 6px 18px;
+	width: 200px;
+	height: 41px;
 }
 
 div.am-ab-title-selectForm>div>div {
 	background: white;
 	border: 1px solid #a9a9a9;
 }
+/*  asd */
+.am-h-row-left:after {
+    content: "";
+    display:  block;
+    clear: both;
+}
 
+.am-h-row-left {
+    float: left;
+    width: 100px;
+}
+
+.am-h-row-right {
+    height:  32px;
+    width: calc(100% - 100px);
+}
+
+.am-h-label-wrap {
+    display:  inline-block;
+    width: 100%;
+}
 /*memberList*/
 .memberList-table-header {
 	background-color: #5bca64 !important;
@@ -334,6 +359,7 @@ span.admin-calender-form-span {
 .doyoung-input-search-input {
 	float: left;
 	width: 300px;
+	height: 30px;
 }
 
 span.am-h-title-span {
@@ -387,14 +413,12 @@ span.admin-calender-form-span:nth-child(4) {
 
 .test-kinds-ul {
 	padding: 0;
-	margin-left: -27px;
 }
 
 .am-tabs {
 	margin-bottom: 33px;
 }
-
-.am-tabs li a {
+.am-tabs li a {   
 	font-size: 21px;
 	transition: 0.3s;
 	font-weight: bold;
@@ -458,10 +482,7 @@ ul.am-tabs li.active {
 }
 
 div.ad-grid-container>div>span {
-	/* position: absolute; */
 	font-weight: bold;
-	/* bottom: 10px; */
-	/* left: 15px; */
 }
 
 .ad-grid-container:first-child, .ad-grid-container:last-child {
@@ -540,4 +561,138 @@ button.ad-blackList-btn {
 
 .ad-marginTop {
     margin-top: 50px;
+}
+
+button.ad-review-btn.btn {
+    background-color: #2ab848;
+    color: white;
+    border-radius: 15%;
+    padding: 8px 11px;
+}
+
+/*MODAL*/
+
+div#admin-review ~ div {
+    opacity: 0;
+}
+
+.cancel-btn-form {
+    /* width: auto; */
+    width: 100%;
+    float: right;
+}
+
+.modal-header.admin-modal-header {
+    display:  inline-block;
+    border: none;
+    
+}
+
+.admin-header-text {
+    text-align:  center;
+    font-weight:  bold;
+    font-size:  15px;
+    padding: 15px;
+}
+.admin-header-text hr{
+    font-weight: bold;
+    border: 0;
+    height: 2px;
+    background: #ccc;
+    margin-bottom: 0px;
+	margin-top: 8px;
+}
+
+.admin-modal-title{
+	margin: 0px;	
+}
+
+.modal-content.admin-modal-content:before {
+    content: "";
+    background: #1c9035;
+    height: 14px;
+    width: 100%;
+    border: 9px solid #1c9035;
+}
+
+
+.modal-body.admin-modal-body {
+    padding: 0px 28px;
+}
+
+.admin-modal-footer{
+	width: calc(100% - 186px);
+	position:relative;
+	border: none;
+}
+
+
+.modal-cancel-btn{
+	text-align: center;
+    padding: 9px 36px;
+    background-color: #22af2d;
+    border: none;
+    color: white;
+}
+
+.admin-modal-content {
+    width: 100%;
+    font-weight:  bold;
+}
+
+
+.admin-modal-contents{
+	display:inline-flex;
+	display: -ms-inline-flexbox;	
+}
+
+.admin-reviewScoreBox svg{
+	height: 25px;
+}
+
+
+.admin-modal-contents {
+	padding: 5px 15px 5px 25px;
+    width: 100%;
+    font-weight: bold;
+}
+
+
+.admin-review-subject {
+    width: 80px;
+}
+
+.admin-review-score {
+    width: calc(100% - 100px);
+}
+
+textarea.admin-review-content-textarea {
+    background-color: #f4f4f4;
+    width: 100%;
+    height:  100px;
+}
+
+
+.consent.admin-modal-consent {
+    width: calc((100% - 100px)/2);
+    margin: 0px;
+    float: left;
+    margin-right: 40px;
+    margin-bottom: 10px;
+} 
+
+
+.content-etc input[type="text"] {
+    border:  none;
+    border-bottom: 2px solid #cccccc;
+}
+
+.admin-review-content {
+    margin-top: 20px;
+}
+
+.admin-consent{
+	
+	height: 25px;
+    width: 25px;
 }

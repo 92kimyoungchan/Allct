@@ -38,7 +38,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>신청자 정보</h1> 
+									<h1>신청자 관리</h1> 
 								</div>  
 								<div class="am-h-title">
 									<span class="am-h-title-span">생동성시험: 1험 인비스정</span>
@@ -76,7 +76,7 @@
 										</select>
 									</div>
 									<div class="am-ab-title-searchForm">
-										<input type="text" placeholder="검색하기">
+										<input type="text" placeholder="검색하기" >
 										<button type="submit" value="" class="btn btn-search">
 											<svg class="svg-inline--fa fa-search fa-w-16"
 												aria-hidden="true" data-prefix="fas" data-icon="search"
@@ -92,7 +92,7 @@
 										<thead>
 											<tr class="ad-table-header">
 												<th>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="all"> <input
 															type="checkbox" id="all" value="" /> <span
 															class="checkmark"></span>
@@ -106,15 +106,15 @@
 												<th>현재상태</th>
 												<th>수신동의여부</th>
 												<th>참여횟수</th>
-												<th></th>
+												<th>기능</th>
 											</tr>
 										</thead>
 										<tbody>
-														<tr class="ab-table-body blackListTableBody"> 
+											<tr class="ab-table-body blackListTableBody"> 
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-13"> <input
-															type="checkbox" id="ad-tr-13" name="" class="info inputChecking" 
+															type="checkbox" id="ad-tr-13" name="" class="info" 
 															value="" /> <span class="checkmark"></span>
 														</label>
 													</div>
@@ -126,11 +126,14 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
-												
-											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+												<button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												
+											</tr>
+											<tr class="ab-table-body blackListTableBody">
+												<td>
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-12"> <input
 															type="checkbox" id="ad-tr-12" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -144,11 +147,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-11"> <input
 															type="checkbox" id="ad-tr-11" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -162,11 +166,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-1"> <input
 															type="checkbox" id="ad-tr-1" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -180,11 +185,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-2"> <input
 															type="checkbox" id="ad-tr-2" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -198,11 +204,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-3"> <input
 															type="checkbox" id="ad-tr-3" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -216,11 +223,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-4"> <input
 															type="checkbox" id="ad-tr-4" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -234,11 +242,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-5"> <input
 															type="checkbox" id="ad-tr-5" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -252,11 +261,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-6"> <input
 															type="checkbox" id="ad-tr-6" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -270,11 +280,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-7"> <input
 															type="checkbox" id="ad-tr-7" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -288,11 +299,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-8"> <input
 															type="checkbox" id="ad-tr-8" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -306,11 +318,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-9"> <input
 															type="checkbox" id="ad-tr-9" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -324,11 +337,12 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>				<tr class="ab-table-body blackListTableBody">
 												<td>
-													<div class="consent ad-consent">
+													<div class="consent admin-consent">
 														<label class="labelCheck" for="ad-tr-10"> <input
 															type="checkbox" id="ad-tr-10" name="" class="info"
 															value="" /> <span class="checkmark"></span>
@@ -342,7 +356,8 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
+												<td><button class ="ad-review-btn btn"  data-toggle="modal" data-target="#admin-review">후기보기</button>
+												<button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 												
 											</tr>
 										</tbody>
@@ -395,9 +410,157 @@
 
 	<script type="text/javascript" src="../assets/js/select.js"></script>
 
+<!-- Modal -->
+<div id="admin-review" class="modal fade admin-modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content admin-modal-content">
+      <div class="modal-header admin-modal-header">
+      <div class ="cancel-btn-form">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        </div>
+        <div class ="admin-header-text">
+        <h2 class="admin-modal-title"><span id ="">김민수</span> 님의 후기</h2>
+        <span>생동성시험: <span id ="">1형 인비스정</span></span>
+        <hr>
+        </div>
+      </div>
+      <div class="modal-body admin-modal-body">
+		<div class ="admin-modal-contents">
+		<div class ="admin-review-subject"><span>서비스:</span></div>
+		<div class ="admin-review-score">
+		<div class="firstBox admin-reviewScoreBox">
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i></div>
+		</div>
+		</div>      
+		<div class ="admin-modal-contents">
+		<div class ="admin-review-subject"><span>시설:</span></div>
+		<div class ="admin-review-score">
+		<div class="firstBox admin-reviewScoreBox">
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i></div>
+		</div>
+		</div>      
+		<div class ="admin-modal-contents">
+		<div class ="admin-review-subject"><span>안전성:</span></div>
+		<div class ="admin-review-score">
+		<div class="firstBox admin-reviewScoreBox">
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i></div>		
+		</div>
+		</div>      
+		<div class ="admin-modal-contents">
+		<div class ="admin-review-subject"><span>이상반응:</span></div>
+		<div class ="admin-review-score">
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-head"><input
+				type="checkbox" id="state-head" value="" name="" class="header" /> <span class="checkmark"></span> <span>두통</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-diarrhea"><input
+				type="checkbox" id="state-diarrhea" value="" name="" class="header" /> <span class="checkmark"></span> <span>설사</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-sickness"><input
+				type="checkbox" id="state-sickness" value="" name="" class="header" /> <span class="checkmark"></span> <span>매스꺼움</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-Fever"><input
+				type="checkbox" id="state-Fever" value="" name="" class="header" /> <span class="checkmark"></span> <span>발열</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-throw-up"><input
+				type="checkbox" id="state-throw-up" value="" name="" class="header" /> <span class="checkmark"></span> <span>구토</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-chills"><input
+				type="checkbox" id="state-chills" value="" name="" class="header" /> <span class="checkmark"></span> <span>오한</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-whirl"><input
+				type="checkbox" id="state-whirl" value="" name="" class="header" /> <span class="checkmark"></span> <span>어지러움</span>
+			</label>
+		</div>
+		<div class="consent admin-modal-consent">
+			<label class="labelCheck" for="state-Muscle-pain"><input
+				type="checkbox" id="state-Muscle-pain" value="" name="" class="header" /> <span class="checkmark"></span> <span>근육통증</span>
+			</label>
+		</div>
+		<div class="consent">
+		<div class ="content-etc">
+			<label class="labelCheck" for="state-etc"><input
+				type="checkbox" id="state-etc" value="" name="" class="header" /> <span class="checkmark"></span> <span>기타</span>
+			</label>
+			<input type ="text" id ="" readonly="readonly">
+		</div>
+		</div>
+		</div>
+		</div>
+		
+		<div class ="admin-review-content">
+		<textarea class ="admin-review-content-textarea" readonly="readonly">나쁘지 않았습니다.</textarea>
+		</div>      
+      
+      </div>
+      <div class="modal-footer admin-modal-footer">
+        <button type="button" class="modal-cancel-btn" data-dismiss="modal">닫기</button>
+      </div>
+    </div>
+
+  </div>
+</div>
 
 </body>
 </html>
+ <!--  
+ 
+ 
+.admin-modal-contents {
+    padding: 10px 15px;
+    width: 100%;
+    font-weight: bold;
+}
 
+
+.admin-review-subject {
+    width: 80px;
+}
+
+.admin-review-score {
+    width: calc(100% - 100px);
+}
+
+textarea.admin-review-content-textarea {
+    background-color: #f4f4f4;
+    width: 100%;
+    height:  100px;
+}
+
+
+.consent.admin-modal-consent {
+    width: calc((100% - 100px)/2);
+    margin: 0px;
+    float: left;
+    margin-right: 40px;
+}
+ 
+ -->
 
 
