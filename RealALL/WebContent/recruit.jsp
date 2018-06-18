@@ -30,7 +30,7 @@
 						<ul class="nav nav-tabs">
 							<li class="green full"><a class="active" data-toggle="tab"
 								href="#Filter">필터검색</a></li>
-							
+
 						</ul>
 						<div class="tab-content apply-recruit">
 
@@ -143,7 +143,9 @@
 
 									</ul>
 									<div class="searchRecruit">
-									<p>	<i class="fas fa-search"></i>검색</p>
+										<p>
+											<i class="fas fa-search"></i>검색
+										</p>
 									</div>
 								</div>
 
@@ -162,7 +164,18 @@
 						<div class="recruit-header">
 
 
-
+							<button>
+								<i class="far fa-edit"></i>공고작성
+							</button>
+							<div class="input-search-box">
+								<div class="input-search">
+									<input type="text" name="" value=""
+										placeholder="기업명, 공고제목 등 검색">
+								</div>
+								<button type="submit" value="" class="search-icon">
+									<i class="fas fa-search"></i>
+								</button>
+							</div>
 							<div class="select-group">
 								<select id="">
 									<option value="hide">최신순</option>
@@ -176,17 +189,9 @@
 									<option value="">40개씩</option>
 									<option value="">50개씩</option>
 								</select>
-								
+
 							</div>
-							<div class="input-search-box">
-									<div class="input-search">
-										<input type="text" name="" value=""
-											placeholder="기업명, 공고제목 등 검색">
-									</div>
-									<button type="submit" value="" class="search-icon">
-										<i class="fas fa-search"></i>
-									</button>
-								</div>
+
 
 
 						</div>
@@ -196,12 +201,13 @@
 							<thead>
 								<tr class="table-header">
 									<th><div class="firstBox">
-                                 <i class="far fa-star"></i></div></th>
+											<i class="far fa-star"></i>
+										</div></th>
 									<th>시험종류</th>
 									<th>모집공고</th>
 									<th>기관명</th>
 									<th>마감일</th>
-									<th>정원</th>
+								
 
 
 
@@ -212,17 +218,17 @@
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -236,29 +242,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark2">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -272,28 +278,28 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 								</tr>
 								<tr id="bookmark3">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
-												<span>임상</span>
+											<div class="info-article other">
+												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -307,29 +313,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark4">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -343,29 +349,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark5">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -379,29 +385,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark6">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
-									<div class="secondBox">
+										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -415,29 +421,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark7">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -451,29 +457,28 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
-
+									
 								</tr>
 								<tr id="bookmark8">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -487,29 +492,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark9">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -523,29 +528,29 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 								<tr id="bookmark10">
 									<td class="text-center">
 										<div class="firstBox">
 											<i class="far fa-star"></i>
-											</div>
+										</div>
 									</td>
 									<td><div class="info">
-											<div class="info-article">
+											<div class="info-article other">
 												<span>생동</span>
 											</div>
 										</div></td>
 									<td>
 										<div class="secondBox">
 
-											
+
 											<div class="clear">
 												<a><h6>생물학적 동등성평가를 위한 건강한 성인시험대상자 모집</h6></a>
 												<ul class="list-inline">
@@ -559,12 +564,12 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>3일전</span>
+									<td><div class="table-text date">
+											<span>2016-06-07</span>
+											<div class="spanSeparate"></div>
+											<span>10일전</span>
 										</div></td>
-									<td><div class="table-text">
-											<span>27/30</span>
-										</div></td>
+									
 
 								</tr>
 							</tbody>
@@ -574,7 +579,7 @@
 					<ul id="pagination-demo" class="pagination-sm"></ul>
 
 
-</div>
+				</div>
 			</div>
 
 

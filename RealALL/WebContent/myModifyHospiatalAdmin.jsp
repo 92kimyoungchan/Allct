@@ -48,7 +48,7 @@
 							</div>
 							<div class="contentM">
 								<p>
-									<input><span class="side">김종찬 돌잔치 2번 3번가게됨</span>
+									<input><span class="side">ㅁㄴㅇㅇ 돌잔치 2번 3번가게됨</span>
 								</p>
 							</div>
 						</div>
@@ -62,9 +62,30 @@
 								</p>
 							</div>
 						</div>
+							<div class="articleM">
+							<div class="titleM title-anotherF">
+								<p>법인명</p>
+							</div><div class="contentM title-anotherF">
+								<p>
+								<input>
+								</p>
+							</div></div>
+							<div class="articleM">
+							<div class="titleM title-anotherL">
+								<p>법인소재지</p>
+							</div><div class="contentM title-anotherL">
+								<p>
+									<!-- 슈퍼관리자 -> 의뢰자리스트 -> 의뢰자회원정보 수정 루트로 들어오면
+									<input> -->
+										
+									<input class="address"> <button>번호인증</button>
+								</p>
+							</div></div>
+						
+						
 						<div class="articleM">
 							<div class="titleM title-anotherF">
-								<p>이름</p>
+								<p>담당자명</p>
 							</div>
 							<div class="contentM title-anotherF">
 								<p>김민수</p>
@@ -111,22 +132,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="articleM">
-							<div class="titleM">
-								<p>생년월일</p>
-							</div>
-							<div class="contentM">
-								<p>1991-01-01</p>
-							</div>
-						</div>
-						<div class="articleM">
-							<div class="titleM title-anotherL">
-								<p>나이</p>
-							</div>
-							<div class="contentM title-anotherL">
-								<p>만27세</p>
-							</div>
-						</div>
+					
 
 
 

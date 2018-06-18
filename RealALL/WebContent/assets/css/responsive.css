@@ -16,6 +16,11 @@
 }
 	
 @media screen and (max-width:424px) {
+	
+	.containerBox {
+		padding:22px 0px;
+	}
+	
 	section.another p>br {
 		display: contents;
 	}
@@ -44,11 +49,36 @@
 	section:not(.another) {
 		padding: 45px 5%;
 	}
+	
+		section.hoverDiv {
+		padding: 45px 0;
+	}
+	
 	.advertisement .adsection {
 		display: none;
 	}
 }
 
+@media screen and (max-width:425px) {
+.img-box .img-set3 {
+		width:100%;
+		margin-right:0;
+		margin-bottom:15px;
+		padding:0 8%;
+		
+	}
+	.overlay-wrap {
+		width:84%;
+	}
+	
+	.hoverDiv .img-box .img-set3 img {
+		padding:0;
+	}
+	.img-set3 .overlay-wrap .overlay-item {
+		top:calc(47.5% - 92px);
+	}
+	
+}
 @media screen and (min-width:425px) {
 	
 	.advertisement .adsection-mobile {
@@ -60,6 +90,42 @@
 	section:not(.another) {
 		padding: 45px 4%;
 	}
+		section.hoverDiv {
+		padding: 45px 0;
+	}
+	
+	
+	.hoverDiv .img-box {
+		padding:0 20px;
+	}
+	.hoverDiv .img-box .img-set3 img {
+		padding:0;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item img {
+		padding:0;
+		width:60px;
+		margin-bottom:8px;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item {
+		top:calc(50% - 68px);
+		padding:0 5px;
+	}
+	.img-set3 .overlay-wrap .overlay-item h2.mobile {
+		font-size:16px;
+		margin-bottom:5px;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item span.mobile {
+		font-size:12px;
+	}
+	
+	
+	
+	
+	
+	
 }
 
 @media screen and (max-width:480px) {
@@ -177,14 +243,32 @@
 }
 
 @media screen and (min-width:768px) and (max-width:991px) {
+	
+	.img-set3 .overlay-wrap .overlay-item {
+		padding:0;
+		top:calc(55% - 91px);
+	}
+	.img-set3 .overlay-wrap .overlay-item h2 {
+		font-size:16px;
+		margin-bottom:7px;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item span {
+		font-size:14px;
+	}
 	.uber-section {
 		width: 720px;
+	}
+	
+	.advertisement .adsection.num2 {
+		padding-left:5%;
 	}
 }
 
 @media screen and (min-width:992px) {
 	.containerBox {
 		max-width:960px;
+		padding:22px 0;
 	}
 	
 }
@@ -208,6 +292,8 @@
 
 @media only screen and (max-width: 645px) {
 
+	
+	
 	section.another {
 		padding: 8% 4% 8%;
 	}
@@ -247,6 +333,27 @@
 
 @media only screen and (min-width: 646px) and (max-width: 767px) {
 	
+		
+		.img-set3 .overlay-wrap .overlay-item {
+      padding:0;
+      top:calc(50% - 86px);
+   }
+   .img-set3 .overlay-wrap .overlay-item h2 {
+      font-size:14px;
+      margin-bottom:4px;
+   }
+   
+   .img-set3 .overlay-wrap .overlay-item span {
+      font-size:13px;
+   }
+		
+		.advertisement .adsection.num2 {
+		left:27%;
+	}
+	.containerBox {
+		padding:22px 0px;
+	}
+	
 	.hash_info .hash:nth-of-type(3) {
 		display:none;
 	}
@@ -281,11 +388,16 @@
 }
 
 @media only screen and (min-width: 646px) and (max-width: 991px) {
+	
 	div.carousel-overlay-wrap {
 		
 	}
 		section:not(.another) {
 		padding: 70px 4%;
+	}
+	
+		section.hoverDiv {
+		padding: 70px 0;
 	}
 	
 	.item-grid .item-set {
@@ -301,7 +413,35 @@
 	
 }
 
+@media screen and (min-width:425px) and (max-width:1483px) {
+	.advertisement .adsection h2 > br {
+		display:block;
+	}
+	
+	.advertisement .adsection h2 {
+		line-height:1.41;
+	}
+
+}
+
 @media only screen and (max-width: 767px) {
+	.img-set3 .overlay-wrap .overlay-item span.mobile {
+		display:block;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item span.normal {
+	display:none;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item h2.mobile {
+		display:block;
+	}
+	
+	.img-set3 .overlay-wrap .overlay-item h2.normal {
+	display:none;
+	}
+	
+	
 	footer div.content-left {
 		width: 100%;
 		float: left;
@@ -337,8 +477,23 @@
 	.recruit-list .search-icon {
 		width: 20%;
 	}
+	
+	
+	.item-grid .item-set {
+		margin-bottom:25px;
+	}
+	
+	.item-grid .item-set.mobile {
+		display:none;
+	}
 }
 
+
+@media only screen and (min-width: 646px) {
+	section.advertisement {
+		min-height: 300px;
+	}
+}
 @media screen and (min-width:768px) and (max-width:991px) {
 	
 	
@@ -469,9 +624,7 @@
 }
 
 @media screen and (min-width:992px) {
-	section.advertisement {
-		min-height: 300px;
-	}
+
 	
 	div.carousel-overlay-wrap .carousel-overlay {
 		top:calc(45% - 74px);
@@ -486,8 +639,14 @@
 	float: left;
 	padding-bottom:25px;
 }
+
+
+section.another {
+	padding: 5.8% 17% 5.8%;
 	
-	
+}
+
+
 }
 
 @media screen and (min-width:768px) and (max-width:1199px) {
@@ -528,5 +687,17 @@
 		padding:65px 15px;
 	}
 	
+	.img-set3 .overlay-wrap .overlay-item {
+			top:calc(57.5% - 92px);
+			padding:0px 10px;
+	}
+	
+	
+
+}
+	@media screen and (min-width:1199px) {
+	.advertisement .adsection {
+		padding:0 45px;
+	}
 	
 }

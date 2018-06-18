@@ -1,4 +1,5 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -164,127 +165,209 @@
 
 					<div class="containerBox">
 
-					<h2 class="section-header">모집 중인 공고</h2>
-					<p class="section-header">자세히보기 버튼 클릭시 모집공고 페이지로 이동합니다.</p>
+						<h2 class="section-header">모집 중인 공고</h2>
+						<p class="section-header">자세히보기 버튼 클릭시 모집공고 페이지로 이동합니다.</p>
 
-					<div class="item-grid">
-						<div class="item-set">
-							<div class="item-set-in">
+						<div class="item-grid">
+							<div class="item-set">
+								<div class="item-set-in">
 
-								<div class="item-content">
-									<div class="item-header">
-										<p>4/15 ~ 4/20</p>
-										<i class="fas fa-star"></i>
-									</div>
+									<div class="item-content">
+										<div class="item-header">
+											<p>4/15 ~ 4/20</p>
+											<i class="fas fa-star"></i>
+										</div>
 
-									<h2>인비스정 지원자를 모집합니다.</h2>
-									<p>베스티안부천병원</p>
-									<div class="hash_info">
-										<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-											class="hash">#친구와함께</span> <span class="left-span">생동</span>
-									</div>
-								</div>
-							</div>
-						</div>
-
-						<div class="item-set">
-							<div class="item-set-in">
-
-								<div class="item-content">
-									<div class="item-header">
-										<p>4/15 ~ 4/20</p>
-										<i class="fas fa-star"></i>
-									</div>
-
-									<h2>인비스정 지원자를 모집합니다.</h2>
-									<p>베스티안부천병원</p>
-									<div class="hash_info">
-										<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-											class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										<h2>인비스정 지원자를 모집합니다.</h2>
+										<p>베스티안부천병원</p>
+										<div class="hash_info">
+											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
+												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="item-set">
-							<div class="item-set-in">
 
-								<div class="item-content">
-									<div class="item-header">
-										<p>4/15 ~ 4/20</p>
-										<i class="fas fa-star"></i>
-									</div>
+							<div class="item-set">
+								<div class="item-set-in">
 
-									<h2>인비스정 지원자를 모집합니다.</h2>
-									<p>베스티안부천병원</p>
-									<div class="hash_info">
-										<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-											class="hash">#친구와함께</span> <span class="left-span">생동</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-set">
-							<div class="item-set-in">
+									<div class="item-content">
+										<div class="item-header">
+											<p>4/15 ~ 4/20</p>
+											<i class="fas fa-star"></i>
+										</div>
 
-								<div class="item-content">
-									<div class="item-header">
-										<p>4/15 ~ 4/20</p>
-										<i class="fas fa-star"></i>
-									</div>
-
-									<h2>인비스정 지원자를 모집합니다.</h2>
-									<p>베스티안부천병원</p>
-									<div class="hash_info">
-										<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-											class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										<h2>인비스정 지원자를 모집합니다.</h2>
+										<p>베스티안부천병원</p>
+										<div class="hash_info">
+											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
+												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										</div>
 									</div>
 								</div>
 							</div>
-						</div>
-						<div class="item-set">
-							<div class="item-set-in">
+							<div class="item-set">
+								<div class="item-set-in">
 
-								<div class="item-content">
-									<div class="item-header">
-										<p>4/15 ~ 4/20</p>
-										<i class="fas fa-star"></i>
-									</div>
+									<div class="item-content">
+										<div class="item-header">
+											<p>4/15 ~ 4/20</p>
+											<i class="fas fa-star"></i>
+										</div>
 
-									<h2>인비스정 지원자를 모집합니다.</h2>
-									<p>베스티안부천병원</p>
-									<div class="hash_info">
-										<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-											class="hash">#친구와함께</span> <span class="left-span">생동</span>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="item-set">
-							<div class="item-set-in">
-
-								<div class="item-content">
-									<div class="item-header">
-										<p>4/15 ~ 4/20</p>
-										<i class="fas fa-star"></i>
-									</div>
-
-									<h2>인비스정 지원자를 모집합니다.</h2>
-									<p>베스티안부천병원</p>
-									<div class="hash_info">
-										<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
-											class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										<h2>인비스정 지원자를 모집합니다.</h2>
+										<p>베스티안부천병원</p>
+										<div class="hash_info">
+											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
+												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										</div>
 									</div>
 								</div>
 							</div>
+							<div class="item-set mobile">
+								<div class="item-set-in">
+
+									<div class="item-content">
+										<div class="item-header">
+											<p>4/15 ~ 4/20</p>
+											<i class="fas fa-star"></i>
+										</div>
+
+										<h2>인비스정 지원자를 모집합니다.</h2>
+										<p>베스티안부천병원</p>
+										<div class="hash_info">
+											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
+												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-set mobile">
+								<div class="item-set-in">
+
+									<div class="item-content">
+										<div class="item-header">
+											<p>4/15 ~ 4/20</p>
+											<i class="fas fa-star"></i>
+										</div>
+
+										<h2>인비스정 지원자를 모집합니다.</h2>
+										<p>베스티안부천병원</p>
+										<div class="hash_info">
+											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
+												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="item-set mobile">
+								<div class="item-set-in">
+
+									<div class="item-content">
+										<div class="item-header">
+											<p>4/15 ~ 4/20</p>
+											<i class="fas fa-star"></i>
+										</div>
+
+										<h2>인비스정 지원자를 모집합니다.</h2>
+										<p>베스티안부천병원</p>
+										<div class="hash_info">
+											<span class="hash">#주말짧은</span><span class="hash">#신검</span><span
+												class="hash">#친구와함께</span> <span class="left-span">생동</span>
+										</div>
+									</div>
+								</div>
+							</div>
+
+
 						</div>
-
-
-					</div>
-					<a class="link_another">자세히보기</a>
+						<a class="link_another">자세히보기</a>
 					</div>
 
 				</section>
+				<section class="advertisement">
+					<div class="adsection num2">
+						<h2>
+							대한민국 의학연구에 <br> 이바지하는 ALLCT
+						</h2>
+						<p>임상시험을 통해 인류에 기여하고 있습니다.</p>
+						<a class="link_another">자세히 보기</a>
+					</div>
+					<div class="adsection-mobile">
+						<h2>임상시험이란 무엇일까요?</h2>
+						<p>
+							왜 임상시험을 시행할까요?<br>어려움을 겪는 환자에게 희망주는 임상시험!<br>안전하고 윤리적인
+							임상시험 절차를 알려드립니다.
+						</p>
+						<a>자세히보기</a>
+					</div>
+				</section>
+				<section class="hoverDiv">
+					<h2 class="section-header">All of Clinical Trials</h2>
+					<p class="section-header">
+						임상시험으로 참여자와 건강한 미래를 만들어나가는 Allct<br>더 많은 생명을 살릴 수 있는 기회, 더 많은
+						꿈을 이룰 수 있게 하는 가능성입니다.
+					</p>
 
+
+					
+					<!--  -->
+					<div class="img-box">
+						<div class="img-set3">
+							<img src="assets/images/icon-02.png">
+							<div class="overlay-wrap">
+								<div class="overlay-item">
+									<img src="assets/images/practice/circleM.png">
+									<h2 class="normal">임상시험 학술정보</h2>
+										<h2 class="mobile">임상학술정보</h2>
+									<span class="normal">임상시험에 대해 더욱 심도있게<br>알아볼 수
+										있습니다.
+									</span>
+									<span class="mobile">임상시험에 대해<br>자세히 알아볼 수
+										있습니다.
+									</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="img-set3">
+							<img src="assets/images/icon-02.png">
+							<div class="overlay-wrap">
+								<div class="overlay-item">
+									<img src="assets/images/practice/circleM.png">
+									<h2 class="normal">임상시험 학술정보</h2>
+										<h2 class="mobile">임상학술정보</h2>
+									<span class="normal">임상시험에 대해 더욱 심도있게<br>알아볼 수
+										있습니다.
+									</span>
+									<span class="mobile">임상시험에 대해<br>자세히 알아볼 수
+										있습니다.
+									</span>
+								</div>
+							</div>
+
+						</div>
+						<div class="img-set3">
+							<img src="assets/images/icon-02.png">
+							<div class="overlay-wrap">
+								<div class="overlay-item">
+									<img src="assets/images/practice/circleM.png">
+									<h2 class="normal">임상시험 학술정보</h2>
+										<h2 class="mobile">임상학술정보</h2>
+									<span class="normal">임상시험에 대해 더욱 심도있게<br>알아볼 수
+										있습니다.
+									</span>
+									<span class="mobile">임상시험에 대해<br>자세히 알아볼 수
+										있습니다.
+									</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+					<!--  -->
+
+				</section>
 				<section class="incarousel">
 
 					<h2 class="section-header">Allct의 파트너</h2>

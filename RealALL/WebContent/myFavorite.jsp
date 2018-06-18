@@ -16,8 +16,7 @@
 <body>
 
 	<%@ include file="include/header-widget.jsp"%>
-		<div class="sub-banner"></div>
-
+			<%@ include file="include/sub-banner.jsp"%>
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">

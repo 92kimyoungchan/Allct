@@ -145,7 +145,11 @@
 						</div>
 					</div>
 
+<div class="button-box">
+						<button>수정</button>
 
+
+					</div>
 
 
 				</section>

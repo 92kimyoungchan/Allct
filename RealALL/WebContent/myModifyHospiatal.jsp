@@ -48,7 +48,7 @@
 							</div>
 							<div class="contentM">
 								<p>
-									<input><span class="side">김종찬 돌잔치 2번 3번가게됨</span>
+									<input><span class="side">ㅁㄴㅇㅇ 돌잔치 2번 3번가게됨</span>
 								</p>
 							</div>
 						</div>
@@ -62,9 +62,27 @@
 								</p>
 							</div>
 						</div>
+							<div class="articleM">
+							<div class="titleM title-anotherF">
+								<p>법인명</p>
+							</div><div class="contentM title-anotherF">
+								<p>
+								파인인사이트
+								</p>
+							</div></div>
+							<div class="articleM">
+							<div class="titleM title-anotherL">
+								<p>법인소재지</p>
+							</div><div class="contentM title-anotherL">
+								<p>
+									서울시 성동구 성수이로 22길 37 507호
+								</p>
+							</div></div>
+						
+						
 						<div class="articleM">
 							<div class="titleM title-anotherF">
-								<p>이름</p>
+								<p>담당자명</p>
 							</div>
 							<div class="contentM title-anotherF">
 								<p>김민수</p>
@@ -111,22 +129,7 @@
 								</p>
 							</div>
 						</div>
-						<div class="articleM">
-							<div class="titleM">
-								<p>생년월일</p>
-							</div>
-							<div class="contentM">
-								<p>1991-01-01</p>
-							</div>
-						</div>
-						<div class="articleM">
-							<div class="titleM title-anotherL">
-								<p>나이</p>
-							</div>
-							<div class="contentM title-anotherL">
-								<p>만27세</p>
-							</div>
-						</div>
+					
 
 
 
