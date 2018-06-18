@@ -98,7 +98,6 @@ super 페이지 span
 																type="checkbox" id="state-complete" value=""
 																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
 															</label>
-
 														</div>
 													</li>
 
@@ -123,7 +122,9 @@ super 페이지 span
 								</div>
 
 								<div class="am-h-content">
+								<div class ="am-label-wrap">
 									<label class="am-h-label">기관검색</label>
+								</div>
 									<div class="input-search-box">
 										<div class="input-search">
 											<input type="text" name="" value=""

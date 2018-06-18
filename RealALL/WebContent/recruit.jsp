@@ -209,8 +209,6 @@
 									<th>마감일</th>
 								
 
-
-
 								</tr>
 							</thead>
 							<tbody>

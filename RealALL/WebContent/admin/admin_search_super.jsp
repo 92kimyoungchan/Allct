@@ -5,7 +5,7 @@
 calendar icon 
 checkbox table 
 -->
-<html>
+<html>  
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
@@ -54,11 +54,14 @@ checkbox table
 								<div class="am-h-content-wrapper">
 									<form action="">
 										<div class="am-h-content">
-											<div class="am-h-state-wrap">
+											<div class="am-h-label-wrap">
+											 <div class ="am-h-row-left">
 												<label class="am-h-label">진행상태</label>
+											 </div>
+											 <div class ="am-h-row-right">
 												<ul class="am-h-state">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-all"><input
 																type="checkbox" id="state-all" value="" name="" class="" /><span
 																class="checkmark"></span> <span>전체</span> </label>
@@ -66,7 +69,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-ing"><input
 																type="checkbox" id="state-ing" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>진행중</span> </label>
@@ -74,7 +77,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-stop"><input
 																type="checkbox" id="state-stop" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>중지</span> </label>
@@ -82,7 +85,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-active"><input
 																type="checkbox" id="state-active" value="" name="" class="header" />
 																<span class="checkmark"></span> <span>모집중</span> </label>
@@ -90,7 +93,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="state-complete"><input
 																type="checkbox" id="state-complete" value=""
 																name="" class="header" /> <span class="checkmark"></span> <span>완료</span>
@@ -101,10 +104,14 @@ checkbox table
 
 												</ul>
 											</div>
+											</div>
 										</div>
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
+												<div class="am-h-row-left">
 												<label class="am-h-label-calendar">게시날짜</label>
+												</div>
+												<div class="am-h-row-right">
 												<div class="admin-calender-form">
 													<span class="admin-calender-form-span">시작</span> <input
 														type="text" name="" id=""> <span class="admin-calender-form-span"> <i
@@ -117,14 +124,18 @@ checkbox table
 														 </span>
 												</div>
 											</div>
+											</div>
 										</div>
 										
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
+											<div class ="am-h-row-left">
 												<label class="am-h-label">지역</label>
+											</div>
+											<div class ="am-h-row-right">
 												<ul class="am-h-state">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="seaul"><input
 																type="checkbox" id="seaul" value="" name="" class="" /><span
 																class="checkmark"></span> <span>서울</span> </label>
@@ -132,7 +143,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="gyeonggi"><input
 																type="checkbox" id="gyeonggi" value="" name="" class="" />
 																<span class="checkmark"></span> <span>경기</span> </label>
@@ -140,7 +151,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="busan"><input
 																type="checkbox" id="busan" value="" name="" class="" />
 																<span class="checkmark"></span> <span>부산</span> </label>
@@ -148,7 +159,7 @@ checkbox table
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelCheck" for="location-etc"><input
 																type="checkbox" id="location-etc" value="" name="" class="" />
 																<span class="checkmark"></span> <span>그 외</span> </label>
@@ -156,80 +167,93 @@ checkbox table
 														</div>
 													</li>
 												</ul>
+												</div>
 											</div>
 										</div>
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
+											<div class ="am-h-row-left">
 												<label class="am-h-label">성별</label>
+												</div>
+												<div class ="am-h-row-right">
 												<ul class="am-h-state">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelRadio gender" for="male"><input
-																type="radio" id="male" value="" name="gender" /><span
-																class="checkmark"></span> <span>남성</span> </label>
+																type="radio" id="male" value="" name="gender" />
+																<span>남성</span> </label>
 
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelRadio gender" for="female"><input
 																type="radio" id="female" value="" name="gender" />
-																<span class="checkmark"></span> <span>여성</span> </label>
+																 <span>여성</span> </label>
 
 														</div>
 													</li>
 												</ul>
+												</div>
 											</div>
 										</div>
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
+											<div class ="am-h-row-left">
 												<label class="am-h-label">대상</label>
+											</div>
+											<div class ="am-h-row-right">
 												<ul class="am-h-state">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelRadio" for="standard"><input
-																type="radio" id="standard" value="" name="target" /><span
-																class="checkmark"></span> <span>건강인</span> </label>
+																type="radio" id="standard" value="" name="target" /> <span>건강인</span> </label>
 
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelRadio" for="disease"><input
 																type="radio" id="disease" value="" name="target" />
-																<span class="checkmark"></span> <span>질환인</span> </label>
+															 <span>질환인</span> </label>
 
 														</div>
 													</li>
 												</ul>
+												</div>
 											</div>
 										</div>
 										<div class="am-h-content">
 											<div class="am-h-state-wrap">
+											<div class ="am-h-row-left">
 												<label class="am-h-label">시험종류</label>
+											</div>
+											<div class ="am-h-row-right">
 												<ul class="am-h-state test-kinds-ul">
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 															<label class="labelRadio" for="clinical"><input
-																type="radio" id="clinical" value="" name="test" /><span
-																class="checkmark"></span> <span>임상시험</span> </label>
+																type="radio" id="clinical" value="" name="test" /> <span>임상시험</span> </label>
 
 														</div>
 													</li>
 													<li>
-														<div class="consent ad-consent">
+														<div class="consent">
 										  					<label class="labelRadio" for="Biological"><input
 																type="radio" id="Biological" value="" name="test" />
-						  										<span class="checkmark"></span> <span>생동성시험</span> </label>
-
+						  								 <span>생동성시험</span> </label>
 														</div>
 													</li>
 												</ul>
+												</div>
 											</div>
 										</div>
 							
 								<div class="am-h-content">
+								<div class ="am-h-row-left">
 									<label class="am-h-label">기관검색</label>
+								</div>
+								<div class ="am-h-row-right">
 									<div class="input-search-box">
 										<div class="input-search">
 											<input type="text" name="" value=""
@@ -238,6 +262,7 @@ checkbox table
 												<i class="fas fa-search"></i>
 											</button>
 										</div>
+									</div>
 									</div>
 								</div>
 								</form>
@@ -388,7 +413,7 @@ checkbox table
 											<td><button class="am-btn-memberView">명단보기</button></td>
 										</tr>
 
-
+ 
 
 										<tr class="ad-table-body">
 											<td>

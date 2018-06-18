@@ -11,7 +11,8 @@
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
-<!-- 김도영 공고관리 (Announcement Management)  -->  
+<!-- 김도영 블랙리스트 (Black List)  -->  
+
 <style type="text/css">  
 .menu-header {
 	background-color: #22af2d;
