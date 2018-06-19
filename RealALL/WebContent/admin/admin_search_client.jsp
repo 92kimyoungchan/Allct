@@ -190,7 +190,7 @@ super 페이지 span
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-ing">시험진행중</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
 										</tr>
 
@@ -212,7 +212,7 @@ super 페이지 span
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-complete">완료</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
 										</tr>
 
@@ -234,7 +234,7 @@ super 페이지 span
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-Recruiting">모집중</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
 										</tr>
 
@@ -256,7 +256,7 @@ super 페이지 span
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-recruited">모집완료</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
 										</tr>
 
