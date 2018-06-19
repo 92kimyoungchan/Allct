@@ -39,7 +39,7 @@
 					</div>
 					
 					<div class="clinical_imgBox">
-						<img src="../assets/images/clinical_info.jpg">
+						<img src="../assets/images/clinical_info1.png">
 					</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content_allct">
