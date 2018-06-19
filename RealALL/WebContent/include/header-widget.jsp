@@ -23,29 +23,28 @@
 				<div class="brand-logo"><img src="/RealALL/assets/images/allct-logo.png"></div>
 				<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
 				<ul class="ul-theory">
-					<li><a href="" class="">임상정보</a>
+					<li><a href="" class="">allct</a>
 						<ul class="drop-menu">
-							<li><a href="">Link 1</a></li>
-							<li><a href="">Link 2</a></li>
-							<li><a href="">Link 3</a></li>
+							<li><a href="">임상시험이란?</a></li>
+							<li><a href="">임상시험 참여법</a></li>
+							<li><a href="">참여자 고려사항</a></li>
+							<li><a href="">임상시험과 allct</a></li>
 						</ul></li>
 					<li><a href="" class="">모집공고</a>
 						<ul class="drop-menu">
-							<li><a href="">Link 1</a></li>
-							<li><a href="">Link 2</a></li>
-							<li><a href="">Link 3</a></li>
+							<li><a href="">공고보기</a></li>
+							
 						</ul></li>
-					<li><a href="" class="">구직정보</a>
+					<li><a href="" class="">정보안내</a>
 						<ul class="drop-menu">
-							<li><a href="">Link 1</a></li>
-							<li><a href="">Link 2</a></li>
-							<li><a href="">Link 3</a></li>
+							<li><a href="">구직공고</a></li>
+							<li><a href="">학술정보</a></li>
 						</ul></li>
 					<li><a href="" class="">고객센터</a>
 						<ul class="drop-menu">
-							<li><a href="">Link 1</a></li>
-							<li><a href="">Link 2</a></li>
-							<li><a href="">Link 3</a></li>
+							<li><a href="">공지사항</a></li>
+							<li><a href="">문의 및 상담</a></li>
+							<li><a href="">자주하는 질문</a></li>
 						</ul></li>
 					<li class="uber"><a class="uberbtn"><i
 							class="fas fa-align-justify"></i></a>
@@ -57,42 +56,43 @@
 								<li class="uber-column">
 									<ul>
 										<li><div>
-												<p>Category 1</p>
+												<p>임상시험이란?</p>
 											</div></li>
-										<li><a href="#">Link 1</a></li>
-										<li><a href="#">Link 2</a></li>
-										<li><a href="#">Link 3</a></li>
+										<li><a href="#">임상시험이란?</a></li>
+										<li><a href="#">임상시험 참여법</a></li>
+										<li><a href="#">참여자 고려사항</a></li>
+										<li><a href="#">임상시험과 allct</a></li>
 									</ul>
 								</li>
 								<li class="uber-column">
 									<ul>
 										<li><div>
-												<p>Category 2</p>
+												<p>공고보기</p>
 											</div></li>
-										<li><a href="#">Link 1</a></li>
-										<li><a href="#">Link 2</a></li>
-										<li><a href="#">Link 3</a></li>
+										<li><a href="#">공고보기</a></li>
+										
+									
 									</ul>
 								</li>
 								<li class="uber-column">
 									<ul>
 										<li><div>
-												<p>Category 3</p>
+												<p>구직공고</p>
 											</div></li>
-										<li><a href="#">Link 1</a></li>
-										<li><a href="#">Link 2</a></li>
-										<li><a href="#">Link 3</a></li>
+										<li><a href="#">구직공고</a></li>
+										<li><a href="#">학술정보</a></li>
+										
 									</ul>
 								</li>
 								<li class="uber-column">
 									<ul>
 										<li><div>
-												<p>Category 1</p>
+												<p>공지사항</p>
 
 											</div></li>
-										<li><a href="#">Link 1</a></li>
-										<li><a href="#">Link 2</a></li>
-										<li><a href="#">Link 3</a></li>
+										<li><a href="#">공지사항</a></li>
+										<li><a href="#">문의 및 상담</a></li>
+										<li><a href="#">자주하는 질문</a></li>
 									</ul>
 								</li>
 

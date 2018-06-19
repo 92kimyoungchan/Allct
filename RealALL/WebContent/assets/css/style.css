@@ -428,12 +428,18 @@ ul.drop-menu>li {
 
 ul.drop-menu>li>a {
 	width: 100%;
-	padding: 14px 16px !important;
+	padding: 14px 12px !important;
 	text-align: initial;
+	font-size:14px;
 }
 
 ul.ul-theory {
 	
+}
+
+ul.ul-theory li > a {
+	width:100%;
+	text-align:left;
 }
 
 ul.ul-theory .mobile-join {
@@ -442,6 +448,7 @@ ul.ul-theory .mobile-join {
 
 ul.ul-theory>li {
 	float: left;
+
 }
 
 ul.ul-theory>li:not(.uber) {
@@ -487,6 +494,9 @@ nav ul>li:hover>a, .uber i {
 
 .uber:hover>.uber-section {
 	display: block;
+	border-top: 1.4px solid #52e07eb8;
+	padding-bottom: 15px;
+	background: #f9f9f9;
 }
 
 .ul-theory>li>ul:not(.uber-menu){
@@ -507,7 +517,7 @@ nav ul>li>ul:not(.uber-menu) > a {
 
 .uber-menu {
 	width: 609px;
-	box-shadow: -1px 0px 0px 0px #e5e5e5;
+	background: #f9f9f9;
 }
 
 .uber-section {
@@ -523,6 +533,12 @@ nav ul>li>ul:not(.uber-menu) > a {
 .uber-menu>li>ul {
 	display: inline-block;
 	width: 100%;
+	
+}
+
+.uber-menu>li>ul li {
+	
+background: #f9f9f9;
 }
 
 .uber-menu>li>ul>li:nth-of-type(1) {
@@ -532,12 +548,13 @@ nav ul>li>ul:not(.uber-menu) > a {
 .uber-column {
 	float: left;
 	min-width: 140px;
-	box-shadow: -1px 0px 0px 0px #e5e5e5, 1px 0px 0px 0px #e5e5e5;
-	border-top: 1px solid #e5e5e5;
+	
+	
 }
 
 .uber-column a {
-	
+	padding:17px 12px !important;
+	font-size: 13px;
 }
 
 .uber-column div {
@@ -549,8 +566,11 @@ nav ul>li>ul:not(.uber-menu) > a {
 }
 
 .uber-column div>p {
-	padding: 14px 16px;
+	padding: 17px 12px;
 	margin: 0;
+	color: #27c57c;
+	font-weight: bold;
+	font-size: 15px;
 }
 
 /* Owl Carousel */
@@ -3469,7 +3489,7 @@ span#jopInfo-searchCount {
     color:  coral;
     font-weight:  800;
 }
-<<<<<<< HEAD
+
 
 
 .jobInfo-btn{

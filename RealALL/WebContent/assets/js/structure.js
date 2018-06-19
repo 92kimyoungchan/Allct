@@ -71,6 +71,26 @@ $(window).scroll(function() {
 
 }).scroll();
 
+
+/*
+$('.uber').hover(function() {
+
+	$('nav').css({
+		'box-shadow' : 'none',
+		'margin-bottom' : '0'
+			});
+	
+	
+});
+
+$('.uber').mouseleave(function() {
+	$('nav').css({
+		'box-shadow' : '0px 4px 0px 0px rgba(217, 212, 212, 0.48)',
+		'margin-bottom' : '4px'
+			});
+	
+	
+});*/
 /*스크롤*/
 
 $( window ).scroll( function() {
