@@ -8,9 +8,8 @@
 	</div>
 	
 	<ul id="sideContent">
-		<li class="contentElement"><a href="recruit.jsp">모집공고 검색</a></li>
-		<li class="contentElement"><a href="recruit2.jsp">검사 이력</a></li>
-		<li class="contentElement"><a href="recruit3.jsp">회원정보수정</a></li>
+		<li class="contentElement"><a href="/RealALL/recruit/recruit.jsp">모집공고 </a></li>
+		
 		
 	</ul>
 	<div class="divider"></div>

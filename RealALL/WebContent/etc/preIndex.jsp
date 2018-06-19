@@ -5,15 +5,15 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>ALLCT 김영찬 </title>
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/owl.carousel.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
 
 </head>
 <body>
 
-	<%@ include file="include/header-widget.jsp"%>
+	<%@ include file="../include/header-widget.jsp"%>
 	<div id="owl-demo" class="owl-carousel owl-theme">
 		<div class="item">
 			<div class="carousel-overlay-wrap">
@@ -27,7 +27,7 @@
 					</span>
 				</div>
 			</div>
-			<img src="assets/images/carousel-1.png" alt="messi">
+			<img src="../assets/images/carousel-1.png" alt="messi">
 		</div>
 		<div class="item">
 			<div class="carousel-overlay-wrap">
@@ -41,7 +41,7 @@
 					</span>
 				</div>
 			</div>
-			<img src="assets/images/carousel-2.png" alt="ronaldo">
+			<img src="../assets/images/carousel-2.png" alt="ronaldo">
 		</div>
 		<div class="item">
 			<div class="carousel-overlay-wrap">
@@ -55,7 +55,7 @@
 					</span>
 				</div>
 			</div>
-			<img src="assets/images/carousel-3.png" alt="parker">
+			<img src="../assets/images/carousel-3.png" alt="parker">
 		</div>
 
 	</div>
@@ -73,22 +73,22 @@
 					
 					
 					<div class="mobile-about-us">
-						<img src="assets/images/messi.png">
+						<img src="../assets/images/messi.png">
 					</div>
 					<!--  -->
 					<div class="img-box about-us">
 						<div class="img-set3">
-							<img src="assets/images/icon-02.png">
+							<img src="../assets/images/icon-02.png">
 							<h2>TRUST</h2>
 							<p>믿을 수 있습니다.</p>
 						</div>
 						<div class="img-set3">
-							<img src="assets/images/icon-02.png">
+							<img src="../assets/images/icon-02.png">
 							<h2>SAFE</h2>
 							<p>안전합니다.</p>
 						</div>
 						<div class="img-set3">
-							<img src="assets/images/icon-02.png">
+							<img src="../assets/images/icon-02.png">
 							<h2>TRUST</h2>
 							<p>가능성을 발견합니다.</p>
 						</div>
@@ -137,19 +137,19 @@
 						</div>
 						<div class="img-box">
 							<div class="img-set4">
-								<img src="assets/images/icon-02.png">
+								<img src="../assets/images/icon-02.png">
 								<p>건강인대상</p>
 							</div>
 							<div class="img-set4">
-								<img src="assets/images/icon-03.png">
+								<img src="../assets/images/icon-03.png">
 								<p>질환자대상</p>
 							</div>
 							<div class="img-set4">
-								<img src="assets/images/icon-04.png">
+								<img src="../assets/images/icon-04.png">
 								<p>수행기관별</p>
 							</div>
 							<div class="img-set4">
-								<img src="assets/images/icon-05.png">
+								<img src="../assets/images/icon-05.png">
 								<p>기간별</p>
 							</div>
 						
@@ -237,7 +237,7 @@
 						<div class="slogan-box">
 							<div class="slogan">
 								<div class="slogan-img">
-									<img src="assets/images/pre/blue.png">
+									<img src="../assets/images/pre/blue.png">
 
 								</div>
 								<div class="slogan-content">
@@ -249,7 +249,7 @@
 							</div>
 							<div class="slogan">
 								<div class="slogan-img">
-									<img src="assets/images/pre/blue.png">
+									<img src="../assets/images/pre/blue.png">
 
 								</div>
 								<div class="slogan-content">
@@ -275,47 +275,47 @@
 					<div id="owl-demo" class="owlc2 owl-carousel owl-theme">
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 						<div class="item">
 
-							<img src="assets/images/carousel-1.png" alt="messi">
+							<img src="../assets/images/carousel-1.png" alt="messi">
 						</div>
 					</div>
 				</section>
@@ -325,16 +325,16 @@
 			</div>
 		</div>
 	</div>
-	<%@ include file="include/footer.jsp"%>
+	<%@ include file="../include/footer.jsp"%>
 
-<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
-<script defer src="assets/js/fontawesome-all.js"></script>
-<script type="text/javascript" src="assets/js/index_source.js"></script>
-<script type="text/javascript" src="assets/js/structure.js"></script>
-<script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
-<script type="text/javascript" src="assets/js/owl.js"></script>
-<script type="text/javascript" src="assets/js/owl2.js"></script>
-<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+<script defer src="../assets/js/fontawesome-all.js"></script>
+<script type="text/javascript" src="../assets/js/index_source.js"></script>
+<script type="text/javascript" src="../assets/js/structure.js"></script>
+<script type="text/javascript" src="../assets/js/owl.carousel.min.js"></script>
+<script type="text/javascript" src="../assets/js/owl.js"></script>
+<script type="text/javascript" src="../assets/js/owl2.js"></script>
+<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
 </body>

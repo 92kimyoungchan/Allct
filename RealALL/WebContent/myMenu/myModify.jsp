@@ -5,23 +5,23 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>ALLCT2</title>
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/owl.carousel.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
 
 
 
 </head>
 <body>
 
-	<%@ include file="include/header-widget.jsp"%>
+	<%@ include file="../include/header-widget.jsp"%>
 	<div class="sub-banner"></div>
 
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar-myMenu.jsp"%>
+				<%@ include file="../include/myMenu_x-sidebar.jsp"%>
 
 				<div class="subP minHeight">
 
@@ -48,7 +48,7 @@
 							</div>
 							<div class="contentM">
 								<p>
-									<input><span class="side">ㅁㄴㅇㅇ 돌잔치 2번 3번가게됨</span>
+									<input><span class="side">김종찬 돌잔치 2번 3번가게됨</span>
 								</p>
 							</div>
 						</div>
@@ -62,27 +62,9 @@
 								</p>
 							</div>
 						</div>
-							<div class="articleM">
-							<div class="titleM title-anotherF">
-								<p>법인명</p>
-							</div><div class="contentM title-anotherF">
-								<p>
-								파인인사이트
-								</p>
-							</div></div>
-							<div class="articleM">
-							<div class="titleM title-anotherL">
-								<p>법인소재지</p>
-							</div><div class="contentM title-anotherL">
-								<p>
-									서울시 성동구 성수이로 22길 37 507호
-								</p>
-							</div></div>
-						
-						
 						<div class="articleM">
 							<div class="titleM title-anotherF">
-								<p>담당자명</p>
+								<p>이름</p>
 							</div>
 							<div class="contentM title-anotherF">
 								<p>김민수</p>
@@ -129,7 +111,22 @@
 								</p>
 							</div>
 						</div>
-					
+						<div class="articleM">
+							<div class="titleM">
+								<p>생년월일</p>
+							</div>
+							<div class="contentM">
+								<p>1991-01-01</p>
+							</div>
+						</div>
+						<div class="articleM">
+							<div class="titleM title-anotherL">
+								<p>나이</p>
+							</div>
+							<div class="contentM title-anotherL">
+								<p>만27세</p>
+							</div>
+						</div>
 
 
 
@@ -154,20 +151,20 @@
 
 	</div>
 
-	<%@ include file="include/footer.jsp"%>
+	<%@ include file="../include/footer.jsp"%>
 
 
-	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="assets/js/fontawesome-all.js"></script>
-	<script type="text/javascript" src="assets/js/selectEmail.js"></script>
-	<script type="text/javascript" src="assets/js/structure.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	<script defer src="../assets/js/fontawesome-all.js"></script>
+	<script type="text/javascript" src="../assets/js/selectEmail.js"></script>
+	<script type="text/javascript" src="../assets/js/structure.js"></script>
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
 	<script>
 		$(document).ready(function() {
 			$('#sideContent').find('.is-checked').removeClass('is-checked');
-			$('#sideContent>.contentElement:eq(0)').addClass('is-checked');
+			$('#sideContent>.contentElement:eq(2)').addClass('is-checked');
 
 		});
 	</script>

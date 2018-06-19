@@ -5,10 +5,10 @@
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta content="width=device-width, initial-scale=1" name="viewport">
 <title>ALLCT2</title>
-<link rel="stylesheet" href="assets/css/bootstrap.css">
-<link rel="stylesheet" href="assets/css/owl.carousel.css">
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/bootstrap.css">
+<link rel="stylesheet" href="../assets/css/owl.carousel.css">
+<link rel="stylesheet" href="../assets/css/style.css">
+<link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet"
 	href="//code.jquery.com/ui/1.12.1/themes/smoothness/jquery-ui.css">
 
@@ -21,12 +21,12 @@ div.recruit-apply ul>li>a.active {
 </head>
 <body>
 
-	<%@ include file="include/header-widget.jsp"%>
+	<%@ include file="../include/header-widget.jsp"%>
 
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar-myMenu.jsp"%>
+				<%@ include file="../include/myMenu_x-sidebar.jsp"%>
 
 				<div class="subP minHeight">
 					<div class="subPage b-bottom">
@@ -125,21 +125,21 @@ div.recruit-apply ul>li>a.active {
 
 	</div>
 
-	<%@ include file="include/footer.jsp"%>
+	<%@ include file="../include/footer.jsp"%>
 
 
-	<script type="text/javascript" src="assets/js/jquery-1.9.1.min.js"></script>
-	<script defer src="assets/js/fontawesome-all.js"></script>
+	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
+	<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script src="//code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-	<script type="text/javascript" src="assets/js/datepicker.js"></script>
-	<script type="text/javascript" src="assets/js/select_apply.js"></script>
-	<script type="text/javascript" src="assets/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="../assets/js/datepicker.js"></script>
+	<script type="text/javascript" src="../assets/js/select_apply.js"></script>
+	<script type="text/javascript" src="../assets/js/bootstrap.min.js"></script>
 
 
 	<script>
 		$(document).ready(function() {
 			$('#sideContent').find('.is-checked').removeClass('is-checked');
-			$('#sideContent>.contentElement:eq(2)').addClass('is-checked');
+			$('#sideContent>.contentElement:eq(1)').addClass('is-checked');
 		});
 	</script>
 </body>

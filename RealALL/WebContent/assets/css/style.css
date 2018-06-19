@@ -10,7 +10,7 @@ html, body {
 	padding: 0;
 	position: relative;
 	text-transform: initial;
-	background: transparent;
+	background: hsl(0,0%,100%) !important;
 }
 
 body {
@@ -319,6 +319,7 @@ a:hover, a:focus {
 /* 헤더태그 , 네비게이션, uber-menu */
 header {
 	
+box-shadow: 0px 2.4px 0px 0px rgba(217, 212, 212, 0.48);
 }
 
 header .container {
@@ -387,9 +388,8 @@ padding-left: 25px;
 
 nav {
 	padding: 16px 0 0;
-	border-top: 1.5px solid #d5d5d5;
-	box-shadow: 0px 4px 0px 0px rgba(217, 212, 212, 0.48);
-	margin-bottom: 4px;
+	box-shadow: 0px 2.4px 0px 0px #ddd;
+	margin-bottom: 2.4px;
 }
 
 nav .container {
@@ -409,6 +409,10 @@ nav ul {
 .brand-logo {
 	float: left;
 	height: 62px;
+}
+
+.brand-logo a {
+	padding:0 !important;
 }
 
 .brand-logo img {
@@ -494,7 +498,7 @@ nav ul>li:hover>a, .uber i {
 
 .uber:hover>.uber-section {
 	display: block;
-	border-top: 1.4px solid #52e07eb8;
+	border-top: 2.4px solid #52e07eb8;
 	padding-bottom: 15px;
 	background: #f9f9f9;
 }
@@ -561,8 +565,8 @@ background: #f9f9f9;
 	
 }
 
-.uber-column div:hover>p {
-	color: blue;
+.uber-column div:hover>p a {
+	color: #27c57c;
 }
 
 .uber-column div>p {
@@ -571,6 +575,15 @@ background: #f9f9f9;
 	color: #27c57c;
 	font-weight: bold;
 	font-size: 15px;
+}
+
+.uber-column div>p a {
+	
+padding: 0 !important;
+	
+font-size: inherit;
+	
+color: #27c57c;
 }
 
 /* Owl Carousel */
@@ -1727,15 +1740,15 @@ section .notice li>a, div .recruit-box-search li>a {
 
 .tab-hashtag {
 	display:flex;
-	border-bottom: 1px solid #a7a7a7;
-	border-top: 1px solid #a7a7a7;
 }
 
 .tab-hashtag ul {
 	margin: 0;
 	padding: 6px 10px;
 	float:left;
+	border-top: 1px solid #a7a7a7;
 	width: calc(100% - 240px);
+	border-bottom: 1px solid #a7a7a7;
 }
 
 .tab-hashtag .searchRecruit {
@@ -2373,20 +2386,29 @@ div.tab-content .filter-area:last-child {
 	border: none;
 }
 
+.table tr.appendTr {
+	background:pink;
+}
+
 .recruit-box .table thead>tr>th {
 	border-bottom: none;
 	text-align: center;
 	font-size:15px;
+	vertical-align:middle;
 }
 
 .recruit-box .table thead>tr>th:first-of-type {
-	
 	text-align:unset !important;
+	
 }
 
 
+.recruit-box .table tbody>tr>td:first-of-type {
+   padding:34px 16px !important
+}
+ 
 .recruit-box .table tbody>tr>td:last-of-type {
-    min-width: 120px;
+   padding:34px 16px !important
 }
 .recruit-box .table tbody>tr>td:not(:first-of-type) {
 	vertical-align: middle;
@@ -2402,7 +2424,7 @@ div.tab-content .filter-area:last-child {
 }
 
 .recruit-box .table tbody>tr>td.myWork {
-	min-width:160px !important;
+	
 }
 
 .recruit-box .table tbody>tr>td:first-child {
@@ -2420,7 +2442,7 @@ min-width: 70px;
 }
 
 .recruit-box .table tbody>tr {
-	border-bottom: 1px solid #ddd
+	border-bottom: 1px solid #ddd;
 }
 
 .recruit-box .table tbody>tr>td .mark {
@@ -2621,7 +2643,6 @@ margin: 0 auto;
 }
 
 .table .table-header {
-	border: 1px solid #dee2e6;
 	text-align: center;
 	background-color: #e2f3ee;
 }
@@ -4669,3 +4690,6 @@ font-weight: bold;
 	text-align:center;
 }
 
+button.red {
+	background:red !important;
+}
