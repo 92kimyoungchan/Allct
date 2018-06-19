@@ -462,6 +462,18 @@ div.subP-clinical-qualify h2 {
 	padding: 0;
 }
 
+div.subP-clinical-qualify h2 {
+    margin: 35px 0;
+	letter-spacing: 2px;
+	padding: 0;
+}
+
+div.clinical_qualify_imgBox .clinical_imgBox > img {
+    width: 100%;
+    height: 24%;
+}
+
 div.clinical_content_qualify p {
-    margin: 25px 0 40px 0;
+    margin: 25px 0 33px 0;
+    color: black;
 }

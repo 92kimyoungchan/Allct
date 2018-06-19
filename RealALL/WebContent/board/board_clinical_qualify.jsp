@@ -34,12 +34,14 @@
 						</div>
 					</div>
 					
-					<div class="subP-clinical-allct">
+					<div class="subP-clinical-qualify">
 						<h2>임상시험 대상자의 권리</h2>
 					</div>
 					
+					<div class="clinical_qualify_imgBox">
 					<div class="clinical_imgBox">
-						<img src="../assets/images/clinical_info.jpg">
+						<img src="../assets/images/clinical_qualify_img.png">
+					</div>
 					</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content_qualify">
@@ -59,9 +61,6 @@
 					</div>
 					
 					
-					<div class="clinical_imgBox">
-						<img src="../assets/images/clinical_info.jpg">
-					</div>
 					<div class="clinical_info_content_box">
 						<div class="clinical_content_qualify">
 							<p>
@@ -70,7 +69,7 @@
 								행사하기 어려운 대상자가 참여하는 임상시험에 대해서는 임상시험 허용 여부를 결정하는
 								임상시험심사위원회(IRB)가 보다 엄격히 심사합니다. 그리고 연구 참여에 대한
 								본인의 승낙 외에 대리인의 동의를 추가로 받도록 하는 등 추가적인 조치를 통해
-								대상자가 특별히 보호될 수 있도록 합니다. 임상시험 관련 사항에 대해 언제든지
+								대상자가 특별히 보호될 수 있도록 합니다.<br>임상시험 관련 사항에 대해 언제든지
 								문의할 수 있습니다. 임상시험 참여 도중이나 임상시험 참여 종료 후에도
 								임상시험 관련 문의사항, 특히 대상자의 권리와 관련해 궁금한 사항은 연구자,
 								연구대상자보호센터, 임상시험심사위원회(IRB)에 문의하실 수 있습니다.
