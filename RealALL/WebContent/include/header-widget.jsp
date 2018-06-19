@@ -32,6 +32,7 @@
 					<li><a href="" class="">allct</a>
 						<ul class="drop-menu">
 							<li><a href="/RealALL/board/board_clinical_info.jsp">임상시험이란?</a></li>
+							<li><a href="/RealALL/board/board_clinical_status.jsp">임상시험의 현황</a></li>
 							<li><a href="/RealALL/board/board_clinical_support.jsp">임상시험
 									참여방법</a></li>
 							<li><a href="/RealALL/board/board_clinical_qualify.jsp">참여자
