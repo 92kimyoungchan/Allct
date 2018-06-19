@@ -1,0 +1,457 @@
+@charset "UTF-8";
+
+/* board_academy.jsp 학술정보 리스트 */
+
+div.subP-academy {
+	width: 72%;
+    float: right;
+    margin-bottom: 75px;
+}
+
+div.supP-academy .small_navigation {
+	border: none !important;
+    text-align: right;
+    margin-bottom: 170px;
+}
+
+#sideContent-academy>.contentElement {
+	padding: 5px;
+	border: 0px solid #5f4d4d3d;
+	border-width: 0 1px 1px 1px;
+
+}
+
+#sideContent-academy>.contentElement {
+	padding: 18px 20px;
+}
+
+#sideContent-academy>.contentElement.is-checked>a {
+	color: #32b76e !important
+}
+
+#sideContent-academy>.contentElement>a {
+	color: black;
+}
+
+.select-header-academy {
+	padding-bottom: 22px;
+	padding-top: 182px;
+}
+
+.table-academy {
+	border: 1px solid #dee2e6;
+	width: 100%;
+    max-width: 100%;
+    background-color: transparent;
+    margin-bottom: 33px;
+}
+
+.table-academy:last-of-type {
+	margin-bottom: 70px;
+}
+
+.academy-table-header {
+	height: 40px;
+	text-align: left;
+    background-color: #cef3e06b;
+}
+
+.academy-mobile-header {
+	 display: none;
+}
+
+
+
+/* board_academy 테이블 */
+
+div.select-header-academy thead > tr > th:nth-of-type(1) {
+	float: left;
+    padding-left: 192px;
+}
+
+.table-academy thead th {
+	padding: 13px 22px; 
+}
+
+.table-academy tbody td {
+	padding: 25px 22px 12px; 
+	border: none;
+	vertical-align: middle;
+}
+
+.table-academy tbody>tr {
+	border-bottom: 1px solid #ddd;
+}
+
+.academy-table-body > td > p {
+	font-size: 14px;
+    font-weight: bold;
+    line-height: 2.2;
+}
+
+.academy-table-body > td > p:last-of-type {
+	color: #32b76e;
+	margin-bottom: 0;
+} 
+
+.academy-trash-btn button {
+	padding: 6px 14px;
+	color: black;
+	background: transparent;
+	border: 1.4px solid #ded8d8;
+	height: 43px;
+	float: left;
+	outline:none;
+}
+
+.academy-trash-btn button>svg {
+	margin: -1px 8px 0 0px;
+	vertical-align: middle;
+	color: #ded8d8;
+}
+
+.academy-paging {
+	margin-top: 113px;
+}
+
+
+/* board_jopInfo.jsp 구직정보 리스트 */
+
+.subP-jopInfo .subPage:after {
+    content: "";
+}
+
+.subPage-header:after {
+    content: "";
+    display:  block;
+    clear: both;
+}
+
+.subP-jopInfo-header {
+    margin-bottom:  20px;
+}
+
+.jopInfo-filter {
+    float: left;
+    margin-left: 363px;
+}
+
+.jopInfo-filter button {
+    width: 42px;
+    height: 34.78px;
+}
+
+.subPage-resultCount {
+    float: left;
+    width: auto;
+}
+
+.subP-jopinfo-header:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+span#jopInfo-searchCount {
+    color:  coral;
+    font-weight:  800;
+}
+
+
+.jobInfo-btn{
+   background: white;
+    border: 1px solid #ddd;
+    padding: 4px 6px 4px 6px;
+}
+
+
+.subPage-resultCount {
+    line-height: 32px;
+}
+
+.select-header {
+    float: right;
+    width: auto;
+}
+
+
+.jobInfo {
+	border: 1px solid #ddd;
+}
+
+
+.jopInfo .select {
+   cursor: pointer;
+   float: left;
+   position: relative;
+   font-size: 16px;
+}
+
+
+.jopInfo-filter .select-styled {
+   border: 1.4px solid #ded8d8;
+   color: #a29c9c;
+   background-color: transparent;
+   padding: 6px 40px 3px 18px;
+   margin: 0 3px 10px;
+}
+
+.jopInfo-filter .select-styled:after {
+   content: "";
+   width: 0;
+   height: 0;
+   border: 7px solid transparent;
+   border-color: #1c9035 transparent transparent transparent;
+   position: absolute;
+   top: 16px;
+   right: 15px;
+}
+
+.jopInfo-filter .select-styled:active:after, .select-styled.active:after {
+   top: 6px !important;
+   border-color: transparent transparent #0769f0 transparent;
+}
+
+
+.jobInfo-table {
+   width: 100%;
+    max-width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.jobInfo-table thead {
+   background-color: #cef3e06b;
+   text-align: center;
+}
+
+.jobInfo-table thead > tr {
+   height: 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+.jobInfo-table thead > tr > th {
+   font-size: 15px;
+}
+
+.jobInfo-table thead > tr > th:nth-of-type(3) {
+    width: 140px;
+}
+
+.jobInfo-table thead > tr > th > svg {
+    width: 2em !important;
+    color: #ea5308;
+}
+
+.jobInfo thead > tr > th:nth-of-type(4) {
+    width: 200px;
+}
+
+.jobInfo-table tbody {
+    font-size: 13px;
+}
+
+.jobInfo-table tbody > tr > td:first-of-type {
+    width: 135px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.jobInfo-table tbody > tr > td:nth-of-type(2) {
+    padding: 13px 30px 13px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;    
+}
+
+.jobInfo-table > tbody > tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.jobInfo-table > tbody > tr > td > p {
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 20px;
+    margin: 5px 0 10px 0;
+    word-spacing: 1px;
+}
+
+.jobInfo-table > tbody > tr > td > p:first-of-type {
+    margin-top: 5px;
+    word-spacing: 1px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 430px;
+    height: 40px;
+    white-space: nowrap;
+}
+
+.jobInfo-table > tbody > tr > td > p:last-of-type {
+    color: #32b76e;
+}
+
+
+.jobInfo-table > tbody > tr > td:nth-of-type(4) {
+    line-height: 2;
+	font-weight: bold;
+	text-align: center;
+}
+
+.jobInfo-table-body > td > strong {
+    font-size: 15px;
+}
+
+.jopInfo-content-sal {
+    text-align: center;
+    font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 4px;
+    line-height: 20px;
+}
+
+.jopInfo-content-pay {
+    line-height: 1.7;
+    font-weight: bold;
+    text-align: center;
+}
+
+.jopInfo-content-pay span:first-of-type {
+    color: #32b76e;
+}
+
+
+/* clinical jsp 임상시험 관련 페이지 */
+
+div.subP-clinical-title {
+    width: 72%;
+    float: right;
+	margin-bottom: 155px;
+}
+
+div.subP-clinical {
+	margin-top: 30px;
+}
+
+div.subP-clinical > h2 {
+    margin-bottom: 50px;
+    padding: 0;
+    letter-spacing: 2px;
+}
+
+.clinical_content_box .info-article {
+    width: 70px;
+    height: 70px;
+	background: green;
+	border-radius: 50%;
+	display: table;
+    margin: 0px 50px 114px 12px;
+    padding-left: 16px;
+	float: left;
+}
+
+div.clinical_content_box {
+	display: inline-block;
+}
+
+div.clinical_content_head h2 {
+	color: #32b76e;
+	padding: 0;
+	letter-spacing: 2px;
+}
+
+.clinical_content_box .info-article span{
+	display: table-cell;
+    color: green;
+    font-weight: bold;
+    vertical-align: middle;
+}
+
+.clinical_content {
+	
+}
+.clinical_content_head {
+	
+}
+
+.clinical_content_body {
+    margin-bottom: 30px;
+}
+
+div.clinical_content_box p {
+	font-weight: bold;
+    line-height: 33px;
+    font-size: 15.5px;
+    word-spacing: 3px;
+}
+
+#sideContent-clinical>.contentElement {
+	padding: 5px;
+	border: 0px solid #5f4d4d;
+	border-width: 0 1px 1px 1px;
+}
+
+
+/* board_clinical_info.jsp 임상시험과 생동성시험 페이지 */
+
+div.clinical_imgBox {
+	margin-top: 30px;
+}
+
+div.clinical_imgBox > img {
+    width: 100%;
+    height: 30%;
+}
+
+div.clinical_info_content_box h2 {
+    margin-top: 25px;
+    padding: 0;
+    letter-spacing: 2.5;
+}
+
+div.clinical_info_content_box p {
+	font-weight: bold;
+    line-height: 33px;
+    font-size: 15.5px;
+    word-spacing: 3px;
+    margin-bottom: 30px;
+}
+
+div.clinical_justice h2 {
+	margin-bottom: 25px;
+}
+
+div.clinical_justice p {
+    margin: 20px 0 40px 0;
+}
+
+div.clinical_content_justice {
+	
+}
+
+div.clinical_bio_justice {
+	
+}
+
+/* board_clinical_allct.jsp 임상시험과 Allct 페이지 */
+
+div.subP-clinical-allct h2 {
+    margin-top: 40px;
+	letter-spacing: 2px;
+	padding: 0;
+}
+
+div.clinical_content_allct p {
+    margin: 40px 0 auto 0;
+}
+
+/* board_clinical_qualify.jsp 임상시험 참여자가 고려할 사항 페이지 */
+
+div.subP-clinical-qualify h2 {
+    margin-top: 40px;
+	letter-spacing: 2px;
+	padding: 0;
+}
+
+div.clinical_content_qualify p {
+    margin: 25px 0 40px 0;
+}

@@ -322,7 +322,7 @@ checkbox table
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
-											<td><button class="am-btn-memberView">명단보기</button></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
 
@@ -344,7 +344,7 @@ checkbox table
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
-											<td><button class="am-btn-memberView">명단보기</button></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
 
@@ -366,7 +366,7 @@ checkbox table
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
-											<td><button class="am-btn-memberView">명단보기</button></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
 
@@ -388,7 +388,7 @@ checkbox table
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
-											<td><button class="am-btn-memberView">명단보기</button></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
 
@@ -410,7 +410,7 @@ checkbox table
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
-											<td><button class="am-btn-memberView">명단보기</button></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
  
@@ -432,7 +432,7 @@ checkbox table
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
 											<td>시험진행중</td>
-											<td><button class="am-btn-memberView">명단보기</button></td>
+											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
 

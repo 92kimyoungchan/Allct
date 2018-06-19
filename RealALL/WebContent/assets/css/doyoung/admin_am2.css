@@ -692,7 +692,20 @@ textarea.admin-review-content-textarea {
 }
 
 .admin-consent{
-	
 	height: 25px;
     width: 25px;
+}
+
+button.super-btn{
+    background-color: #45bcf4;
+}
+span.admin-test-complete {
+    color: aqua;
+}
+span.admin-test-Recruiting {
+    color: blue;
+}
+
+span.admin-test-recruited {
+    color: coral;
 }

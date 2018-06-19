@@ -1,0 +1,146 @@
+@CHARSET "UTF-8";
+
+@media screen and (min-width:320px) and (max-width:374px) {
+	
+}
+
+@media screen and (min-width:375px) and (max-width:424px) {
+	
+}
+
+@media screen and (max-width:424px) {
+
+}
+
+
+
+@media screen and (max-width:480px) {
+	
+}
+
+
+@media only screen and (max-width: 767px) {
+	.clinical_content_box .info-article {
+	    width: 90px;
+    	height: 90px;
+		margin: 0 0 10% 40% !important;
+    	float: none;
+	}
+}
+
+
+
+
+@media screen and (max-width:991px) {
+	
+	/* 구직정보, 학술정보 페이지 */
+	.subP-academy h2 {
+		float: none;
+		text-align: center;
+	}
+	.academy-mobile-header {
+	    text-align: center;
+    	margin: 15px 0 30px;
+    	font-size: 16px;
+    	letter-spacing: 0.5;
+    	display: inline;
+	}
+	.academy-mobile-header p {
+	    font-size: 17px;
+   		font-weight: bold;
+   		margin: 20px 0 30px;
+	}
+	.subP-academy .small_navigation {
+		display: none;
+		}
+	.jobInfo-table-header {
+		display: none;
+		}
+	.jobInfo-table tbody > tr > td:first-of-type {
+    	padding: 25px 0 0 25px;
+    	float: left;
+    	font-size: 15px;
+		}
+	.jobInfo-table tbody > tr > td:nth-of-type(2) {
+	    padding: 13px 25px 0;
+	    float: left;
+		}
+	.jobInfo-table-body > td > strong {
+		font-size: 17px;
+	}
+	.jobInfo-table > tbody > tr > td > p {
+	    margin: 12px 0 0;
+	}
+	.jobInfo-table > tbody > tr > td > p:first-of-type {
+		display: none;
+	}
+	.jopInfo-table-content {
+		display: table;
+	}
+	.jopInfo-content-sal {
+	    padding: 0 0 15px 25px;
+	    margin-bottom: 0;
+	}
+	.jopInfo-content-pay {
+		display: table-cell;
+	}
+	.jopInfo-content-pay span:first-of-type {
+		color: rgba(33, 31, 31, 0.75);
+		margin-left: 10px;
+	}
+	.jopInfo-content-pay span:last-of-type {
+		display: none;
+	}
+	.jobInfo-table > tbody > tr > td:nth-child(3) {
+		float: left;
+	}
+	.jobInfo-table > tbody > tr > td:nth-of-type(4) {
+		color: #ababab;
+	}
+	.jobInfo-table-body > .jopInfo-mobile-date {
+		color: #ababab;
+		padding: 25px 0 0 25px;
+	}
+	
+	/* 임상시험 소개 관련 페이지 */
+	
+	.subP-clinical-title h2 {
+		float: none;
+		text-align: center;
+	}
+	.subP-clinical-title .small_navigation {
+		display: none;
+	}
+	.clinical_content_box .info-article {
+		margin-bottom: 131px;
+	}
+	
+	
+	
+}
+
+
+@media screen and (min-width:992px) {
+	
+}
+	
+	
+@media screen and (min-width:992px) and (max-width:1199px) {
+	.jobInfo-table > tbody > tr > td > p:first-of-type {
+		width: 330px;
+		padding-left: 0;
+	}
+	
+}
+
+
+
+@media screen and (min-width:1200px) {
+	
+}
+
+
+
+
+
+
