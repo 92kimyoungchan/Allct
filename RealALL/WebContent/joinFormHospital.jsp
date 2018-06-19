@@ -88,7 +88,7 @@
 						<div class="article">
 							<label>담당 법인주소</label>
 							<div class="input-block">
-								<input type="text">
+								<input type="text" class="address"><input type="button" value="우편번호 찾기"><input type="text" class="addressDetail">
 								<div class="divider"></div>
 								<p class="hidden"></p>
 
@@ -145,7 +145,11 @@
 						</div>
 					</div>
 
+<div class="button-box">
+						<button>수정</button>
 
+
+					</div>
 
 
 				</section>

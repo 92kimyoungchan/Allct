@@ -11,8 +11,7 @@
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
-<!-- 김도영 블랙리스트 (Black List)  -->  
-
+<!-- 김도영 공고관리 (Announcement Management)  -->  
 <style type="text/css">  
 .menu-header {
 	background-color: #22af2d;
@@ -36,7 +35,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>블랙리스트</h1> 
+									<h1>이상반응 인원관리</h1>
 								</div>
 
 
@@ -118,7 +117,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -136,7 +135,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -154,7 +153,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -172,7 +171,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -190,7 +189,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -208,7 +207,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -226,7 +225,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -244,7 +243,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -262,7 +261,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -280,7 +279,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 											<tr class="ab-table-body blackListTableBody">
 												<td>
@@ -298,25 +297,7 @@
 												<td>시험진행중</td>
 												<td>O</td>
 												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
-											</tr>
-											<tr class="ab-table-body blackListTableBody">
-												<td>
-													<div class="consent ad-consent">
-														<label class="labelCheck" for="ad-tr-1"> <input
-															type="checkbox" id="ad-tr-1" name="" class="info"
-															value="" /> <span class="checkmark"></span>
-														</label>
-													</div>
-												</td>
-												<td>admin72</td>
-												<td>김민수</td>
-												<td>남성</td>
-												<td>만27세</td>
-												<td>시험진행중</td>
-												<td>O</td>
-												<td>4회</td>
-												<td><button class ="ad-table-delete-btn">삭제</button></td>
+												<td><button class ="ad-blackList-btn">블랙리스트 추가</button></td>
 											</tr>
 									
 										</tbody>
@@ -330,19 +311,21 @@
 										<button class="ad-btn ad-m-btn-notice">알림톡전송</button>
 										<button class="ad-btn ad-m-btn-sms">SMS전송</button>
 										<button class="ad-btn ad-m-btn-delete">선택삭제</button>
+										<button class ="ad-btn right">선택 수정</button>
 									</div>
 								</div>
 
 
 
 								<ul id="pagination-demo" class="pagination-sm">
-								</ul>  
+								</ul>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+	</div>
 	</div>
 
 

@@ -26,26 +26,26 @@ div.recruit-apply ul>li>a.active {
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="include/x-sidebar.jsp"%>
+				<%@ include file="include/x-sidebar-myMenu.jsp"%>
 
 				<div class="subP">
-					<div class="subPage b-bottom">
-						<h2>공고작성</h2>
+					<div class="subPage">
+						<h2>사전 설문조사</h2>
 						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">지원하기</a></span><span>><a
-								href="">모집공고</a></span>
+							<a><i class="fas fa-home"></i>홈</a><span>><a href="">내정보</a></span><span>><a
+								href="">사전 설문조사</a></span>
+						</div>
+						<div class="infoMenu">
+							<span>모집공고 신청 전 필수로 작성해야 하는  설문 내역입니다.<br>사실과 다름없이 기입해 주세요.
+							</span>
 						</div>
 
 					</div>
 					
-					<div class="recruit-research">
-					<h2 class="menu-header">시험참여 지원하기</h2>
-						<ul class="nav nav-tabs">
-							<li><a  data-toggle="tab"
-								href="#Filter">개인정보 확인하기</a></li>
-							<li class="green"><a class="active" data-toggle="tab" href="#Period">설문조사하기</a></li>
-						</ul>
-						<h2>설문조사하기</h2>
+					<div class="recruit-research beforeNone">
+				
+						
+					
 						
 						<table class="table table-research">
 							<thead>
@@ -73,15 +73,9 @@ div.recruit-apply ul>li>a.active {
 										name="radio1" value="no"><span class="checkmark"></span><span>아니오</span></label>
 
 									</td>
-									
 										
 								</tr>
-								
-								
-								<!--  -->
-						
-						
-						<tr class="appendTr">
+								<tr class="appendTr">
 									<td>
 										상세질문
 									</td>
@@ -95,11 +89,6 @@ div.recruit-apply ul>li>a.active {
 									
 										
 								</tr>
-						
-						
-								<!--  -->	
-							
-							
 								<tr>
 									<td>
 										02
@@ -277,7 +266,7 @@ div.recruit-apply ul>li>a.active {
 								
 							</tbody>
 						</table>
-						<div class="button-box"><button>최종신청하기</button></div>
+						<div class="button-box"><button>제출하기</button></div>
 						
 
 

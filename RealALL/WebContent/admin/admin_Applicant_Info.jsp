@@ -1,13 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
-<!-- 공고 검색_ 의뢰자   
-calendar icon 
-checkbox table 
-js고장
-super 페이지 span
- 
--->
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -123,8 +116,8 @@ super 페이지 span
 													</div>
 												</div>
 											</div>											
-								</div>
-								<!-- Applicant  Information -->
+								</div>   
+								<!-- Applicant  Information -->  
 										<!--공고 Manipulation  -->
 						<div class="am-ab-mani">
 							<!--  선택 수정 삭제 추가-->

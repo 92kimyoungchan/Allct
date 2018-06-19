@@ -104,7 +104,7 @@
 
 															<label class="labelCheck" for="state-all"><input
 
-																type="checkbox" id="state-all" value="" name="" class="header"/><span
+																type="checkbox" id="state-all" value="" name="" class="inputHeader"/><span
 
 																class="checkmark"></span> <span>전체</span> </label>
 
@@ -120,7 +120,7 @@
 
 															<label class="labelCheck" for="state-ing"><input
 
-																type="checkbox" id="state-ing" value=""  class="header" name=""/> <span
+																type="checkbox" id="state-ing" value=""  class="inputHeader" name=""/> <span
 
 																class="checkmark"></span> <span>진행중</span> </label>
 
@@ -136,7 +136,7 @@
 
 															<label class="labelCheck" for="state-stop"><input
 
-																type="checkbox" id="state-stop" value=""  class="header" name=""/> <span
+																type="checkbox" id="state-stop" value=""  class="inputHeader" name=""/> <span
 
 																class="checkmark"></span> <span>중지</span> </label>
 
@@ -152,7 +152,7 @@
 
 															<label class="labelCheck" for="state-active"><input
 
-																type="checkbox" id="state-active" value=""  class="header" name="" /> <span
+																type="checkbox" id="state-active" value=""  class="inputHeader" name="" /> <span
 
 																class="checkmark"></span> <span>모집중</span> </label>
 
@@ -168,7 +168,7 @@
 
 															<label class="labelCheck" for="state-complete"><input
 
-																type="checkbox" id="state-complete" value=""  class="header" name=""/> <span
+																type="checkbox" id="state-complete" value=""  class="inputHeader" name=""/> <span
 
 																class="checkmark"></span> <span>완료</span> </label>
 
@@ -298,7 +298,7 @@
 
 														<label class="labelCheck" for="ad-tr-1"> <input
 
-															type="checkbox" id="ad-tr-1" name="" value="" class="info" /> <span
+															type="checkbox" id="ad-tr-1" name="" value="" class="inputChecking" /> <span
 
 															class="checkmark"></span>
 
@@ -336,7 +336,7 @@
 
 														<label class="labelCheck" for="ad-tr-2"> <input
 
-															type="checkbox" id="ad-tr-2" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-2" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 
@@ -374,7 +374,7 @@
 
 														<label class="labelCheck" for="ad-tr-3"> <input
 
-															type="checkbox" id="ad-tr-3" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-3" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 
@@ -414,7 +414,7 @@
 
 														<label class="labelCheck" for="ad-tr-4"> <input
 
-															type="checkbox" id="ad-tr-4" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-4" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 
@@ -454,7 +454,7 @@
 
 														<label class="labelCheck" for="ad-tr-5"> <input
 
-															type="checkbox" id="ad-tr-5" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-5" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 
@@ -492,7 +492,7 @@
 
 														<label class="labelCheck" for="ad-tr-6"> <input
 
-															type="checkbox" id="ad-tr-6" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-6" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 
@@ -530,7 +530,7 @@
 
 														<label class="labelCheck" for="ad-tr-7"> <input
 
-															type="checkbox" id="ad-tr-7" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-7" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 
@@ -568,7 +568,7 @@
 
 														<label class="labelCheck" for="ad-tr-8"> <input
 
-															type="checkbox" id="ad-tr-8" name="" class="info" value="" /> <span
+															type="checkbox" id="ad-tr-8" name="" class="inputChecking" value="" /> <span
 
 															class="checkmark"></span>
 

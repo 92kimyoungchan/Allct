@@ -29,6 +29,10 @@ $( document ).ready( function() {
 		width:widthMove
 	})
 	
+	$("section:nth-of-type(3)").css ({
+		width:widthMove
+	})
+	
 	$(window).resize(function(){
 		
 		var widthMove =$(window).width();
@@ -36,6 +40,9 @@ $( document ).ready( function() {
 		$("section.advertisement").css ({
 			width:widthMove
 		})
+		$("section:nth-of-type(3)").css ({
+		width:widthMove
+	})
 		
 		console.log("width!!",widthMove);
 		

@@ -23,21 +23,41 @@ $("input[type='checkbox'][id='all']").on('click',function(){
 
 	if(flag) {
 		$("input[type='checkbox'][class='info']").prop("checked",false);
+		admin_checkBoxTrColorChange($("input[type='checkbox'][class='info']"));
 		flag = false;
 	}else {
 		$("input[type='checkbox'][class='info']").prop("checked",true);
+		admin_checkBoxTrColorChange($("input[type='checkbox'][class='info']"));
 		flag = true;
 	}
-	
 });
+
+
+/*체크 박스 선택했을때 background-color 변경*/
+$("table.ab-table").on('change','.ab-table-body .info',function(){
+	admin_checkBoxTrColorChange($(this));
 	
+})
+
+ function admin_checkBoxTrColorChange(getCheckBox){
+	
+	checkBoxValue =  getCheckBox.is(":checked");
+	var row = getCheckBox.parent().parent().parent().parent();
+	if(checkBoxValue){
+		row.css("background-color","#fbf8f8");		
+	}else{
+		row.css("background-color","rgb(255, 255, 255)");	
+	}	
+}
+
+
 /*체크박스 헤더 전체선택*/
 $("input[type='checkbox'][id='state-all']").on('click',function(){
 	if(flag) {
-		$("input[type='checkbox'][class='header']").prop("checked",false);
+		$("input[type='checkbox'][class='inputHeader']").prop("checked",false);
 		flag = false;
 	}else {
-		$("input[type='checkbox'][class='header']").prop("checked",true);
+		$("input[type='checkbox'][class='inputHeader']").prop("checked",true);
 		flag = true;
 	}
 	
@@ -67,9 +87,6 @@ $('.labelRadio').on('click',function() {
 	
 	var inputid = $(this).attr('for');
 	var flag1 = $("input[type='radio'][id='"+inputid+"']").is(':checked');	
-	
-
-
 	
 	
 	if(flag1){
@@ -126,38 +143,4 @@ window.onload = function () {
 	});
 }
 
-/*
- * .consent .labelCheck input
-	var SloganHeight = parseInt($('.slogan-box .slogan .slogan-img img').css('height').replace("px",""));
-	var calibrate3 = parseInt(50);
-	var setSloganHeight = SloganHeight - calibrate3+"px";
-	console.log("setSlogan",setSloganHeight);
-	
-	
-	$('.slogan-box .slogan .slogan-content > div').css({
-		
-		height: setSloganHeight
-	});
-	
-	
-	
-	var setNavTop = parseInt($('section .notice ul').css('height').replace("px",""));
-	var noticeHeight = parseInt($('section .notice').css('height').replace("px",""));
-	
-	var setTabContentHeight = noticeHeight - setNavTop+"px";
-	
 
-	$('.tab-content').css({
-		height: setTabContentHeight
-	});
-	$('section .notice li>a').on('click',function(){
-
-		$('section .notice ul > li > a.active').parent().removeClass('green');
-		$(this).parent().addClass('green');
-		
-		
-		
-		
-	});*/
-	
-	

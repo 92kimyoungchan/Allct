@@ -5,7 +5,7 @@ $(document).ready(function() {
 	
 
 	$('select').each(function(){
-		var $emailInput = $(".input-block input.email_last")
+		var $emailInput = $("input.email_last")
 	    var $this = $(this), numberOfOptions = $(this).children('option').length;
 	  
 	    $this.addClass('select-hidden'); 
