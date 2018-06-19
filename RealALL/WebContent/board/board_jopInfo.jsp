@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/board_responsive.css">
 
 </head>
 <body>
@@ -23,10 +24,14 @@
 
 				<div class="subP-academy">
 					<div class="subPage b-bottom">
-						<h2>구직정보</h2>
+						<h2>구직공고</h2>
+						<div class="academy-mobile-header">
+						<p>임상시험에 관한 구직정보입니다.<br>
+						최신 구직공고들을 열람하며 일자리를 알아볼 수 있습니다.</p>
+						</div>
 						<div class="small_navigation">
 							<a><i class="fas fa-home"></i>홈</a><span>><a href="">정보안내</a></span><span>><a
-								href="">구직정보</a></span>
+								href="">구직공고</a></span>
 						</div>
 					</div>
 					<div class="subP-jopInfo-header">
@@ -74,6 +79,8 @@
 								<tbody>
 									<tr class="jobInfo-table-body">
 										<td>이병소세무회계사무소</td>
+										<!-- <td class="jopInfo-mobile-date">2018/4/15~2018/4/20
+										</td> -->
 										<td><strong>18년 상반기 건축기사/기획/마케팅/개발 신입사원 모집</strong><br>
 											<p>
 												담당업무: 당사는 종합건설회사로 시행, 시공, 분양대행 업무를 하고 있습니다. <br> 2018년도

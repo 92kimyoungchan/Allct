@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/board_responsive.css">
 </head>
 <body>
 
@@ -23,6 +24,10 @@
 				<div class="subP-clinical-title">
 					<div class="subPage b-bottom">
 						<h2>참여자가 고려할 사항</h2>
+						<div class="academy-mobile-header">
+						<p>Allct에 회원가입을 하시면 모집공고 및 임상시험에 대한
+						다양한 자료들을 열람하실 수 있습니다.</p>
+						</div>
 						<div class="small_navigation">
 							<a><i class="fas fa-home"></i>홈</a><span>><a href="">임상시험이란?</a></span><span>><a
 								href="">참여자가 고려할 사항</a></span>

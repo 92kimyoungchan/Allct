@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/board_responsive.css">
 </head>
 <body>
 
@@ -23,6 +24,10 @@
 				<div class="subP-clinical-title">
 					<div class="subPage b-bottom">
 						<h2>임상시험과 Allct</h2>
+						<div class="academy-mobile-header">
+						<p>Allct는 임상시험을 통해 새로운 비전과<br>
+						건강한 미래를 제안합니다.</p>
+						</div>
 						<div class="small_navigation">
 							<a><i class="fas fa-home"></i>홈</a><span>><a href="">임상시험이란?</a></span><span>><a
 								href="">임상시험과 Allct</a></span>

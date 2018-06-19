@@ -10,6 +10,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/board_responsive.css">
 
 </head>
 <body>
@@ -24,7 +25,10 @@
 				<div class="subP-clinical-title">
 					<div class="subPage b-bottom">
 						<h2>임상시험의 참여방법</h2>
-					
+					<div class="academy-mobile-header">
+						<p>임상시험에는 어떻게 참여할 수 있나요?<br>
+						임상시험 참여방법과 절차에 대해 설명해드립니다.</p>
+						</div>
 					
 					<div class="small_navigation">
 							<a><i class="fas fa-home"></i>홈</a><span>><a href="">임상시험이란?</a></span><span>><a
@@ -37,7 +41,7 @@
 
 						<div class="clinical_content_box">
 							<div class="info-article">
-								<span>임상</span>
+								<span></span>
 							</div>
 							<div class="clinical_content">
 								<div class="clinical_content_head">
@@ -53,7 +57,7 @@
 
 						<div class="clinical_content_box">
 							<div class="info-article">
-								<span>임상</span>
+								<span></span>
 							</div>
 							<div class="clinical_content">
 								<div class="clinical_content_head">
@@ -68,7 +72,7 @@
 
 						<div class="clinical_content_box">
 							<div class="info-article">
-								<span>임상</span>
+								<span></span>
 							</div>
 							<div class="clinical_content">
 								<div class="clinical_content_head">
@@ -83,7 +87,7 @@
 
 						<div class="clinical_content_box">
 							<div class="info-article">
-								<span>임상</span>
+								<span></span>
 							</div>
 							<div class="clinical_content">
 								<div class="clinical_content_head">
@@ -98,7 +102,7 @@
 
 						<div class="clinical_content_box">
 							<div class="info-article">
-								<span>임상</span>
+								<span></span>
 							</div>
 							<div class="clinical_content">
 								<div class="clinical_content_head">

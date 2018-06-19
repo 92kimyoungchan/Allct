@@ -9,6 +9,7 @@
 <link rel="stylesheet" href="../assets/css/style.css">
 <link rel="stylesheet" href="../assets/css/board.css">
 <link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/board_responsive.css">
 
 </head>
 <body>
@@ -23,6 +24,10 @@
 				<div class="subP-academy">
 					<div class="subPage b-bottom">
 						<h2>학술정보</h2>
+						<div class="academy-mobile-header">
+						<p>임상시험에 대한 학술정보입니다.
+						학술정보로 임상시험에 대한 새로운 정보들을 얻어보세요.</p>
+						</div>
 						<div class="small_navigation">
 							<a><i class="fas fa-home"></i>홈</a><span>><a href="">정보안내</a></span><span>><a
 								href="">학술정보</a></span>
@@ -62,7 +67,7 @@
 						<table class="table table-academy">
 							<thead>
 								<tr class="academy-table-header">		
-									<th>학위논문(2,619)</th>
+									<th>학위논문 (2,619)</th>
 								</tr>
 							</thead>
 							<tbody>

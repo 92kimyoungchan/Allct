@@ -56,6 +56,10 @@ div.supP-academy .small_navigation {
     background-color: #cef3e06b;
 }
 
+.academy-mobile-header {
+	 display: none;
+}
+
 
 
 /* board_academy 테이블 */
@@ -340,8 +344,7 @@ div.subP-clinical > h2 {
 	background: green;
 	border-radius: 50%;
 	display: table;
-    margin: 0px 50px 0 12px;
-    margin-bottom: 114px;
+    margin: 0px 50px 114px 12px;
     padding-left: 16px;
 	float: left;
 }
