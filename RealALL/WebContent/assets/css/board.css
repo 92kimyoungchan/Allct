@@ -478,3 +478,57 @@ div.clinical_content_qualify p {
     margin: 25px 0 33px 0;
     color: black;
 }
+
+/* board_clinical_status.jsp 임상시험의 현황 페이지 */
+
+
+div.clinical-status > .jobInfo-table thead > tr {
+    height: 50px;
+}
+
+div.clinical-status > .jobInfo-table thead > tr > th {
+	font-size: 17px;
+}
+
+div.clinical-status > .jobInfo-table tbody > tr > td:first-of-type {
+	width: 85px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0;
+}
+
+div.clinical-status > .jobInfo-table tbody > tr > td:nth-of-type(2) {
+	padding: 13px 30px 13px;
+    text-align: center;
+    font-weight: bold;
+}
+
+div.clinical-status > .jobInfo-table tbody > tr > td {
+	font-size: 15px;
+}
+
+div.status-content {
+	padding: 5px 50px 5px;
+}
+
+div.status-content p {
+	margin-bottom: 0;
+	font-weight: bold;
+	color: black;
+	font-size: 15px;
+}
+
+div.status-content-date {
+	width: 110px;
+}
+
+div.clinical-status table {
+    margin-bottom: 25px;
+    border: 1px solid #ddd;	
+}
+
+div.subP-clinical-status {
+    width: 72%;
+    float: right;
+    margin-bottom: 75px;
+}
