@@ -35,7 +35,7 @@
 					<%@ include file="../include/admin_menu-header.jsp"%>
 					<div class="admin">
 						<!-- CONTENT -->  
-						<div class="content">
+						<div class="content admin-pop_up-content">
 							<div class="am-header">
 								<div class="am-h-title">
 									<h1>팝업관리</h1> 

@@ -67,7 +67,7 @@ div.container.ab-container>div>div {
 .admin {
 	background-color: #eaeaea;
 	/* height: calc(100% - 101px); */
-	min-height: 704px;
+	min-height: 717px;
 }
 
 .content {
@@ -777,6 +777,12 @@ button {
 	clear: both;
     display: block;
 }
+
+th.admin-agree-check:after {
+    content: "수신동의여부";
+}
+
+/* 미디어 태그 시작  */
 @media screen and (max-width:991px) {
 	.subP_admin {
 		width: 100%;
@@ -816,5 +822,31 @@ button {
 	}
 	.content {
     padding: 25px;
-}
+	}
+	button.ad-review-btn.btn {
+    	padding: 5px 11px;
+	}
+
+	th.admin-agree-check:after {
+    	content: "수신동의";
+	}
+	.am-admin-image-wrapper {
+    	height: 150px;
+    	width: 150px;
+	}
+
+	.am-admin-pop_up-left {
+	    width: 150px;
+	}
+	
+	.am-admin-pop_up_content-wrap {
+    	width: 100%;
+    	font-weight: bold;
+    	padding: 11px 0;
+    	font-size: 14px;
+	}
+	
+	.admin-pop_up-content{
+		padding: 11px;
+	}
 }
