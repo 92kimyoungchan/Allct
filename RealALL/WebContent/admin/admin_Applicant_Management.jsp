@@ -87,6 +87,7 @@
 										</button>
 									</div>
 								</div>
+								<div class="admin-clear"></div>
 								<div class="am-ab-table-wrap">
 									<table class="ab-table">
 										<thead>

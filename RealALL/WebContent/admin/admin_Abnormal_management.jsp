@@ -46,7 +46,7 @@
 								<div class="am-ab-title">
 									<label>총 <span id ="">20</span>명</label>
 								</div>
-
+						</div>
 								<div class="am-ab-title-right">
 									<div class="am-ab-title-selectForm">
 										<select id ="">
@@ -325,8 +325,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
 
 
 
