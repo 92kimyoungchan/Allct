@@ -120,9 +120,45 @@
 										</div>
 									</div>
 
+									<div class="filter-area">
+										<div class="filter-article">
+											<a href="">기간</a>
+										</div>
+										
 									
+													
+										
+										<div class="article-item">
+											<label class="labelRadio" for="inputCheck14">주말<input
+												type="radio" id="inputCheck14" name="period" value="주말"/> <span
+												class="checkmark"></span></label> <label class="labelRadio"
+												for="inputCheck15">평일<input type="radio"
+												id="inputCheck15" name="period" value="평일"/> <span
+												class="checkmark"></span></label>
+												<label class="labelRadio" for="inputCheck16">모든요일<input
+												type="radio" id="inputCheck16" name="period" value="모든요일"/> <span
+												class="checkmark"></span></label> 
 
-									
+										</div>
+									</div>
+
+									<div class="filter-area">
+										<div class="filter-article">
+											<a href="">시간</a>
+										</div>
+										<div class="article-item">
+											<input type="checkbox" id="inputCheck17" name="time"
+												value="24시간" /> <label class="labelCheck" for="inputCheck17">24시간</label>
+
+											<input type="checkbox" id="inputCheck18" name="time"
+												value="48시간" /> <label class="labelCheck" for="inputCheck18">48시간</label>
+
+											<input type="checkbox" id="inputCheck19" name="time"
+												value="72시간" /> <label class="labelCheck" for="inputCheck19">72시간</label>
+													<input type="checkbox" id="inputCheck20" name="time"
+												value="96시간" /> <label class="labelCheck" for="inputCheck20">96시간</label>
+										</div>
+									</div>
 								</div>
 
 								<div class="tab-hashtag">

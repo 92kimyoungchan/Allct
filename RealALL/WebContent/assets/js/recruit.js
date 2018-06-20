@@ -89,14 +89,14 @@ $('.labelCheck').on('click',function() {
 		var $ulli = $('#fuck li');
 		/*	라벨 클릭시 DOM 보다 jquery가 먼저 동작해서 반대로 나옴*/
 		if(!flag){
-			$radio_label.css({
+		/*	$radio_label.css({
 				background:"transparent",
 				color:"inherit"
 			})
 			$(this).css({
-				background:"green",
-				color:"white"
-			}) 
+				background:"transparent",
+				color:"inherit"
+			}) */
 		
 			console.log("필터id를 갖고있냐?",$ulli.hasClass(filterId));
 			
@@ -124,10 +124,10 @@ $('.labelCheck').on('click',function() {
 		var $input = $('#'+clickId);
 		$input.prop('checked',false);
 		filter.remove();
-		$input.next().css({
+		/*$input.next().css({
 			background:"transparent",
 			color:"inherit"
-		}) 
+		}) */
 	}
 	
 	

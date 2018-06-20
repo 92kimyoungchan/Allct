@@ -50,7 +50,63 @@ ul {
 	
 }
 
-.labelCheck, .labelRadio {
+
+input[type="checkbox"] {
+	display: none;
+}
+
+
+.labelRadio .checkmark:after {
+		top: 4.25px;
+		left: 4.25px;
+		width: 15.5px;
+		height: 15.5px;
+		border-radius: 50%;
+		background: #81ff41;
+}
+
+
+.labelRadio .checkmark {
+	border-radius:50%;
+	top: 6px;
+	background: #eee;
+	left: 2px;
+	position: absolute;
+	width: 25px;
+	border: none;
+	height: 25px;
+}
+
+.tab-hashtag ul>li>span input[type="radio"] {
+	position:absolute;
+	opacity:0;
+	cursor:pointer;
+}
+
+.labelRadio input[type="radio"] {
+	position:absolute;
+	opacity:0;
+	cursor:pointer;
+}
+.article-item .labelRadio {
+	min-width: 81px;
+}
+.labelRadio {
+  display: block;
+  position: relative;
+  padding: 7px 7px 7px 32px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  margin-bottom: 0;
+  float: left;
+  margin-right: 22px;
+}
+
+.labelCheck{
 	padding: 7px 19px;
 	margin-bottom: 0;
 	border: 1px solid black;
@@ -761,8 +817,6 @@ section>p.section-header {
 	
 }
 
-
-
 section.notice {
 	padding: 25px 35px 60px;
 }
@@ -771,6 +825,31 @@ div.subP {
 	width: 73.5%;
 	float: right;
 	min-height:630px;
+}
+
+div.subP h3 {
+	
+float: left;
+}
+
+div.subP h3:first-of-type {
+    margin-right: 15px;
+}
+
+div.subP h3.pointGreen {
+	
+font-weight: bold;
+	
+color: green;
+	
+border-bottom: 2.2px solid green;
+	
+padding-bottom: 3.5px;
+}
+div.subP.wide {
+	width:80% !important;
+	float:none;
+	margin:auto;
 }
 
 .subP .subtitle {
@@ -1041,15 +1120,21 @@ section.another p.mgb-30 {
    
 }
 
+.subPage.center {
+	margin-bottom:15px;
+}
+
 .subPage .infoMenu {
 	
 clear: both;
 	
-padding: 5px 0 20px;
+padding: 5px 0 35px;
 }
 .subPage .infoMenu span {
 	
 font-size: 16px;
+	
+font-weight: bold;
 }
 .subPage:after {
 	display: block;
@@ -2155,9 +2240,6 @@ footer div>p>strong {
 	height: auto;
 }
 
-input[type="radio"], input[type="checkbox"] {
-	display: none;
-}
 /* recruit  */
 .recruit-box-search {
 	margin-bottom: 30px;
@@ -2919,16 +3001,18 @@ margin-bottom: 0;
 
 .checkmark {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 0px;
+    left: 2px;
     height: 25px;
     border-radius:5px;
     width: 25px;
     border:1px solid #c3c3c3;
     background-color: white;
-    
 }
 
+.hashtag-content .checkmark {
+	display:none !important;
+}
 .checkmark.custom{
     position: absolute;
     top: 14.9px;
@@ -2993,7 +3077,7 @@ margin-bottom: 0;
     display: block;
 }
 
-/* Style the checkmark/indicator */
+/* Style the checkmark/indicator
 .labelRadio .checkmark:after {
     left: 8px;
     top: 5px;
@@ -3005,6 +3089,7 @@ margin-bottom: 0;
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
 }
+ */
 
 
 
@@ -3050,6 +3135,7 @@ section.join .join-done {
 
 .join-done img {
 	width:105px;
+	margin: 20px 0 10px;
 }
 
 .join-done .complate {
@@ -3061,6 +3147,7 @@ section.join .join-done {
 	font-size:32px;
 	font-weight:300;
 	letter-spacing:2.13px;
+	padding-bottom: 8px;
 }
 
 .join-done .complate h2 > strong{
@@ -4386,6 +4473,12 @@ outline: 1px solid gray;
 	text-align:center;
 }
 
+.center h2 {
+	float:none;
+	letter-spacing: 1.71px;
+	padding-bottom: 4px;
+}
+
 .left {
 	text-align:left;
 }
@@ -4530,6 +4623,10 @@ padding: 10px 0 10px 25px;
 	margin-left: 12px;
 }
 
+.wide .button-box.modify {
+	margin-top: 68px;
+}
+
 .button-box.modify {
 	text-align:center;
 }
@@ -4580,8 +4677,9 @@ margin-right: 8px;
 
 p.button-top {
 	text-align:center;
-	font-size: 16px;
-	margin: 30px 0 18px;
+	font-size: 27px;
+	color: #aba7a4;
+	margin: 44px 0 18px;
 }
 
 /* 종뚞 */
@@ -4693,3 +4791,419 @@ font-weight: bold;
 button.red {
 	background:red !important;
 }
+.getInfoWrapper {
+		margin-bottom: 15px;
+		border-top: 1px solid #d9d4d4;
+		border-bottom: 1px solid #d9d4d4;
+		padding: 35px 0;
+}
+
+
+.getInfo:after {
+	clear:both;
+	display:block;
+	content:"";
+}
+
+.getInfo {
+
+width: 60%;
+
+padding: 20px;
+
+margin: 0 auto;
+}
+
+.getInfo div.buttonPrev {
+	
+width: 65%;
+	
+float: left;
+	
+margin-right: 4%;
+}
+
+
+.getInfo.float {
+	padding:20px 94px;
+
+}
+
+.getInfo.floatSpan {
+	
+width: 80%;
+	
+padding: 20px 64px;
+}
+
+.getInfo.floatSpan .article {
+	margin-bottom:20px;
+}
+
+.getInfo.floatSpan .article:after {
+	clear:both;
+	content:"";
+	display:block;
+}
+
+.getInfo div:first-of-type h2 {
+	
+margin-bottom: 7px;
+	
+font-size: 15px;
+	
+letter-spacing: 1.01px;
+	
+margin-bottom: 6px;
+	
+padding: 0;
+}
+
+.getInfo div:first-of-type span {
+	
+font-size: 13px;
+	
+letter-spacing: 0.61px;
+	
+color: #848484;
+	
+float: left;
+}
+
+
+
+.getInfo div.button-box {
+	
+width: 31%;
+	
+float: left;
+
+text-align:center;
+	
+position: relative;
+	
+height: 62px;
+	
+vertical-align: middle;
+	
+padding: 0 0 8px 0;
+}
+
+.getInfo div:last-of-type button {
+	
+height: 100%;
+	
+min-width: 154px;
+}
+
+
+.getInfo .labelDiv {
+	
+width: 100% !important;
+	
+margin-right: 0 !important;
+}
+
+.getInfo .labelDiv label {
+	margin-bottom: 0;
+	vertical-align: middle;
+	height: 31px;
+	padding: 4px 0;
+	margin-right: 25px;
+	float: left;
+}
+
+.getInfo .labelDiv .inline input {
+	height: 31px;
+	border: 1px solid #d9d4d4;
+	margin-bottom: 15px;
+	width: 240px;
+	display: inline;
+}
+
+.getInfo .labelDiv .inline span {
+	color: #737272;
+	font-size: 13px;
+	clear: both;
+}
+
+.getInfo .labelDiv .inline {
+	
+float: left;
+}
+
+.getInfo .labelDiv .inline .divider {
+	clear:both;
+	display:block;
+	background:transparent;
+	padding:0;
+}
+
+
+div.separateBtn {
+	
+clear: both;
+	
+text-align: center;
+	
+margin-top: 70px;
+}
+
+div.separateBtn button {width: 157px;height: 54px;}
+
+
+
+.getInfo .article label:not(.labelCheck) {
+	
+margin-bottom: 0;
+	
+width: 100px;
+	
+float: left;
+	
+font-size: 15px;
+	
+padding: 4.5px 0;
+	
+font-weight: bold;
+	
+letter-spacing: 0.41px;
+}
+
+.getInfo .article .input-block  {
+	
+float: left;
+	
+font-size:18px;
+	
+margin-bottom: 0;
+	
+width: calc(100% - 100px);
+}
+
+.getInfo .article .input-block input {
+		height: 31px;
+		border: 1px solid #ded8d8;
+		float: left;
+		padding-left:12px;
+		padding-right:12px;
+		font-size: 14.3px;
+		width: 240px;
+		margin-bottom: 10px;
+		margin-right: 15px;
+}
+
+
+.getInfo .article .input-block p {
+	clear:both;
+	font-size:14px;
+	margin-bottom:0;
+	height:24.55px;
+	color:#7d7d7d;
+}
+
+.getInfo .article.input-block  > span {
+	float: left;
+	font-size: 12.5px;
+	padding: 6.5px 0;
+	margin: 0 8px;
+	color:gray;
+}
+
+
+.fixedMobile {
+		
+position: fixed;
+		
+padding: 20PX;
+		
+BACKGROUND: GREEN;
+		
+WIDTH: 90%;
+		
+margin-left: 10%;
+		
+z-index: 9999;
+		
+display:none;
+		
+height: 100%;
+		
+overflow-y: scroll;
+}
+
+.fixedMobile .mobileLogin {
+	
+padding: 25px 20px;
+	
+overflow: hidden;
+	
+margin-bottom: 20px;
+}
+
+.fixedMobile .mobileLogin h2 {
+	
+font-size: 19px;
+	
+text-align: center;
+	
+letter-spacing: -1.19px;
+	
+color: white;
+}
+
+.fixedMobile .mobileLogin h3 {
+	
+font-size: 12px;
+	
+letter-spacing: -0.77px;
+	
+float: left;
+	
+color: #b4ffb4;
+}
+
+
+.fixedMobile .mobileLogin h3.pointGreen {
+	
+/* box-shadow: 0px 1.4px 0px -1px #b4ffb4; */
+	
+float: right;
+	
+width: 78px;
+	
+text-align: left;
+	
+padding-left: 5px;
+}
+
+.fixedMobile .mobileLogin input {
+	
+border: none;
+	
+background: transparent;
+	
+border-bottom: 1.4px solid white;
+	
+width: 100%;
+	
+margin-bottom: 5px;
+}
+
+.fixedMobile .mobileLogin .button-box {
+	
+margin-top: 5px;
+}
+
+.fixedMobile .mobileLogin .button-box button {
+	
+width: 100%;
+	
+background: white;
+	
+color: green;
+	
+margin-bottom: 10px;
+}
+
+.fixedMobile .mobileLogin .LoginSpan {margin: 40px 0;/* overflow: hidden; *//* clear: both; */}
+
+.fixedMobile .mobileLogin .LoginSpan span{
+	
+float: left;
+	
+width: calc(100% - 93px);
+	
+letter-spacing: -1.39px;
+	
+font-size: 12px;
+	
+color: white;
+}
+
+.fixedMobile .mobileLogin button.join {
+	
+float: left;
+	
+padding: 7.5px 12px;
+	
+background: transparent;
+	
+border: 1px solid white;
+	
+border-radius: 4px;
+	
+color: white;
+	
+margin-left: 15px;
+	
+font-size: 13px;
+}
+
+.fixedMobile .menuSection {
+	
+border-bottom: 1px solid white;
+	
+margin-bottom: 15px;
+}
+
+.fixedMobile .menuSection h2 {
+	
+padding-bottom: 7px;
+	
+font-size: 16.5px;
+	
+letter-spacing: -1.19px;
+	
+text-align: center;
+	
+color: white;
+}
+
+.fixedMobile .mobileCall {
+	
+border: 1px solid white;
+	
+padding: 14px 14px;
+	
+overflow: hidden;
+	
+margin: 55px 0 10px;
+}
+
+.fixedMobile .mobileCall h2 {
+	
+font-size: 16.5px;
+	
+font-weight: bold;
+	
+color: white;
+	
+float: left;
+	
+padding: 0;
+	
+letter-spacing: -0.59px;
+	
+margin-bottom: 0;
+}
+
+.fixedMobile .mobileCall h2.colors {
+	
+margin-left: 17px;
+	
+color: orange;
+}
+
+.fixedMobile .mobileLogin h3:first-of-type {
+}
+
+.fixedMobile .menuSection.last {
+    border-bottom: none;
+}
+
+.pickOn {
+   color: #73ef16 !important;
+   opacity: 1.0 !important;
+}
+

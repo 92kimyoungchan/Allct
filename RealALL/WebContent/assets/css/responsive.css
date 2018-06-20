@@ -617,6 +617,9 @@
 	ul.ul-theory .mobile-join {
 		display: block;
 	}
+	ul.ul-theory li > a {
+		text-align:center;
+	}
 	
 	
 	

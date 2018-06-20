@@ -33,7 +33,11 @@
 		<li class="contentElement"><a href="/RealALL/myMenu/myWork.jsp">나의 시험이력</a></li>
 		<li class="contentElement"><a href="/RealALL/myMenu/myResearch.jsp">사전설문조사</a></li>
 		<li class="contentElement"><a href="/RealALL/myMenu/myModifyBefore.jsp">회원정보수정-비밀번호검증</a></li>
-		<li class="contentElement"><a href="/RealALL/myMenu/myModifyAfter.jsp">회원탈퇴-비밀번호검증</a></li>
+		<li class="contentElement"><a href="/RealALL/myMenu/myIdGet.jsp">아이디찾기</a></li>
+		<li class="contentElement"><a href="/RealALL/myMenu/myPasswordGet.jsp">비밀번호 찾기</a></li>
+		<li class="contentElement"><a href="/RealALL/myMenu/myPasswordSet.jsp">비밀번호 수정</a></li>
+		<li class="contentElement"><a href="/RealALL/myMenu/myChangeDone.jsp">변경완료</a></li>
+		
 
 	</ul>
 	<div class="divider"></div>

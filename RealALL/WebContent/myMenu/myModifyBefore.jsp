@@ -21,9 +21,8 @@
 	<div class="container">
 		<div class="row-noneflex">
 			<div class="main">
-				<%@ include file="../include/myMenu_x-sidebar.jsp"%>
 
-				<div class="subP minHeight">
+				<div class="subP wide minHeight">
 
 					<div class="subPage">
 						<h2>회원정보수정</h2>
