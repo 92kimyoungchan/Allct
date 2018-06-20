@@ -705,7 +705,71 @@ span.admin-test-complete {
 span.admin-test-Recruiting {
     color: blue;
 }
-
 span.admin-test-recruited {
     color: coral;
+}
+
+/* 팝업 관리 */  
+.admin-pop_up-container {
+    display:  inline-block;
+}
+
+.am-admin-pop_up-left {
+    float: left;
+    width: 200px;
+    /* padding: 0px 10px 1px 11px; */
+}
+
+.am-admin-pop_up-right {
+    float: left;
+    width: calc(100% - 250px);
+    height: auto;
+    margin-left: 50px;
+}
+
+.am-admin-image-wrapper {
+    border:  1px solid black;
+    height: 200px;
+    width: 200px;
+    /* margin-right:  30px; */
+}
+
+input.admin-inupt-underline {
+	width: 85px;
+    border: none;
+    border-bottom: 1px solid #9a9696;
+}
+
+.am-admin-image-btn-wrapper {
+    text-align:  center;
+    margin-top: 20px;
+}
+.admin-pop_up-container {
+    width: 100%;
+}
+
+div.am-admin-pop_up-right > div:nth-child(3) > div > input[type="text"] {
+    width: 100px;
+}
+
+div.am-admin-pop_up-right > div:nth-child(3) > div > span {
+    font-size: 13px;
+}
+button {}
+
+.am-admin-image-btn-wrapper > button {
+    color: #75756a;
+    border: none;
+    border: 2px solid #b6b2b2;
+    
+}
+
+.am-admin-pop_up_content-wrap {
+    width: 100%;
+    font-weight: bold;
+    padding: 17px 0;
+}
+
+.admin-pop_up-container {
+    width: 100%;
 }
