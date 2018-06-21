@@ -13,6 +13,13 @@
 .labelCheck:hover input ~ .checkmark {
 	background-color: #3ae660;
 }
+.menu-header {
+	background-color: #3caa69!important;
+}
+
+.admin-header {
+	background-color: #3caa69;
+}
 /* am-h Ã«Â¶â‚¬Ã«Â¶â€ž*/
 div.am-h-title>h1 {
 	float: left;
@@ -352,8 +359,8 @@ span.admin-calender-form-span {
 }
 
 .doyoung-search-icon {
-	border: 1.9px solid #1c9035;
-	background: #1c9035;
+    border: 1.9px solid #3caa69;
+    background: #3caa69;
 	padding: 5px;
 	color: white;
 }
@@ -390,7 +397,7 @@ button.ad-btn.ad-m-btn-delete {
 }
 
 button.ad-btn.ad-m-btn-create {
-	background-color: #1c9035;
+	background-color: #3caa69;
 }
 
 .am-h-content .consent .labelCheck {
@@ -690,7 +697,7 @@ textarea.admin-review-content-textarea {
 }
 
 button.super-btn {
-	background-color: #45bcf4;
+	background-color: #2da5e1;
 }
 
 span.admin-test-complete {

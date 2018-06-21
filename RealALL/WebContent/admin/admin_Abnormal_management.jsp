@@ -12,15 +12,7 @@
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->  
-<style type="text/css">  
-.menu-header {
-	background-color: #22af2d;
-}
 
-.admin-header {
-	background-color: #22af2d;
-}
-</style>
 </head>
 <body>
 	<%@ include file="../include/admin_header-widget.jsp"%>
