@@ -177,7 +177,6 @@
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
-	<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script type="text/javascript" src="../assets/js/recruit.js"></script>
 	<script type="text/javascript" src="../assets/js/select.js"></script>
 	<script type="text/javascript" src="../assets/js/structure.js"></script>
