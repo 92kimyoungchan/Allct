@@ -1,0 +1,436 @@
+<html><head>
+<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script defer="" src="assets/js/fontawesome-all.js"></script>
+<title>Insert title here</title>
+
+<style>
+
+nav {
+   padding: 40px 100px;
+}
+
+.brand-logo {
+   float: left;
+   background: url(assets/images/ian-logoM.png) no-repeat;
+   padding: 0px 135px 0;
+   height: 47px;
+    margin-left: 208px;
+    
+    
+}
+
+ul {
+/* 리스트 목록 옆 동그라미 표시 없애기 */
+   list-style: none;
+}
+
+ul>li {
+   /* 공간패딩 */
+   padding: 15px 0;
+   /* float: right; */
+   display:inline-block; /* 리스트 한줄정렬 */
+}
+
+ul>li>a {
+   /*  좌우패딩 */
+   padding: 5px;
+}
+
+#outer-box {
+   width: 300px;
+   height: 194px;
+   display: block;
+   position: relative;
+   margin-bottom: 600px;
+}
+
+#outer-box img {
+   width: 1890px;
+    height: 700px;
+    
+}
+
+#outer-box #inner-box {
+   background: #596d89;
+   height: 700px;
+    width: 1890px;
+   /*  */
+   opacity: 0;
+   top: 0;
+   left: 0;
+   position: absolute;
+   padding: 0;
+   transition: opacity .5s; /* 덧씌운 그림 사라지는 속도 */
+   display: -webkit-flex;
+   display: flex;
+   -webkit-align-items: center;
+   align-items: center;
+   -webkit-justify-content: center;
+   justify-content: center;
+}
+
+#outer-box #inner-box p {
+   color: #fff;
+   /* line-height: 150px; */
+   font-family: 'arial';
+   text-align: center;
+}
+
+#outer-box #inner-box p:before {
+   content: "MADE FOR DESIGNERS \A";
+   font-weight: bold;
+   font-size: 30px;
+   text-align: center;
+   white-space: pre;
+}
+
+#outer-box:hover #inner-box {
+   /* 투명도 변경  */
+   opacity: .9;
+   transition: opacity .5s;
+}
+
+.content p {
+   text-align: center;
+}
+
+.content p:before {
+   content: "Beautiful, Clean.Responsive. \A";
+   font-weight: bold;
+   font-size: 30px;
+   text-align: center;
+   white-space: pre;
+   color: #5666a7;
+}
+
+.wrapper {
+   width:100%;
+   margin: 50px auto 0;
+   height: 320px;
+   display: flex;
+   padding: 0px 200px 0px 200px;
+}
+
+.col {
+    width: calc(100% / 3);
+    font-size: 35px;
+    padding: 10px;
+    display: inline-block;
+    line-height: 25px;
+}
+
+.col2 {
+   width: calc(100% / 3);
+    padding: 0 10px;
+    font-size: 35px;
+    display: inline-block;
+    line-height: 25px;
+    margin-right: 0px;
+    position: absolute;
+}
+
+.col p {
+   font-size: 13px;
+    float: left;
+    text-align: left;
+    margin: 13px 0 0 55px
+}
+
+.col2 p {
+   font-size: 13px;
+    float: left;
+    text-align: left;
+    margin: 13px 0 0 55px
+}
+
+#portsub {
+   width: calc(100% / 2);
+   display: inline-flex;
+   text-align: left;
+}
+
+#portsub img {
+    width: 300px;
+    height: 200px;
+}
+
+.portfolio {
+   text-align: center;
+   background-color: #f1f1f1;
+   margin: 55px 110px -25px 110px;
+   margin-right: 50px;
+    padding: 30px;
+}
+
+.portfolio2 {
+   text-align: center;
+   margin: 0px 110px 0px 110px;
+   margin-right: 50px;
+   padding: 30px;
+   display: inline-table;
+  
+}
+
+.portfolio p {
+   font-weight: bold;
+   font-size: 30px;
+   margin-right: 373px;
+}
+
+.portsub p {
+   font-size: 13px;
+}
+
+.footer {
+	margin: 50px;
+	display: -webkit-flex;
+    display: flex;
+   -webkit-justify-content: center;
+    justify-content: center;
+    padding: 70px;
+
+}
+
+div.footersub {
+	flex:1;
+	display: inline-table;
+	margin: 30px 30px 30px 30px;
+	font-size: 20px;
+}
+
+col.glyphicon {
+	font-size: 40px;
+	color: #36efbd;
+}
+
+footersub.glyphicon {
+	font-size: 40px;
+}
+
+hr.two {
+	border:none;
+	border:1px dashed black;
+
+}
+
+/* #flex2:before {
+   content: "BUSINESS CARDS \A";
+   font-weight: bold;
+   font-size: 30px;
+   text-align: center;
+   white-space: pre;
+} */
+
+.body {
+	margin: 0px;
+}
+
+</style>
+
+</head>
+<body>
+
+<nav>
+
+<a class="brand-logo" href=""></a>
+
+      <ul class="topnav" id="myTopnav">
+         <li><a class="" href="" id="home"><span>HOME</span></a></li>
+         <li><a class="" href="" id="portfolio"><span>PORTFOLIO</span></a></li>
+         <li><a class="" href="" id="blog">BLOG</a></li>
+         <li><a class="" href="" id="pages">PAGES</a></li>
+         <li><a class="" href="" id="features">FEATURES</a></li>
+         <li><a class="" href="" id="mega menu">MEGA MENU</a></li>
+         <li><a class="" href="" id="contact">CONTACT</a></li>
+      </ul>
+</nav>
+
+<div id="outer-box">
+<p><img src="https://www.bartshealth.nhs.uk/media/images/versions/img94joktmu78931.jpg">
+</p><div id="inner-box">
+<p>Create your online portfolio in minutes with the professionally and lovingly designed REEN
+<br>website template. Customize your site with wersatile and easy to use features.<br><br><br>
+<button type="button" class="btn btn-success">Success</button>
+</p>
+</div>
+</div>
+
+<div class="content">
+<p>
+<br>
+REEN is a high-quality solution for those who want a beautiful website in no time.<br>
+It's fully responsive and will adapt itself to any mobile device. iPad, iPhone, Android,<br>
+it doesn't matter. Your content will always looks its absolute best.
+</p>
+</div>
+
+<br>
+<br>
+
+<div class="wrapper">
+<div class="col">
+<span class="glyphicon glyphicon-heart-empty" aria-hidden="true"></span>
+<span>Passion</span>
+<br>
+
+<p>REEN is a high-quality solution for<br> those who want a beautiful website<br> in no time.
+It's fully responsive and will<br> adapt itself to any mobile device.<br> iPad, iPhone, Android,<br>
+it doesn't matter.</p>
+
+</div>
+<div class="col">
+<span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+<span>Creativity</span>
+<br>
+<p>REEN is a high-quality solution for<br> those who want a beautiful website<br> in no time.
+It's fully responsive and will<br> adapt itself to any mobile device.<br> iPad, iPhone, Android,<br>
+it doesn't matter.</p>
+</div>
+
+<div class="col">
+<span class="glyphicon glyphicon-star-empty" aria-hidden="true"></span>
+<span>Quality</span>
+<br>
+<p>REEN is a high-quality solution for<br> those who want a beautiful website<br> in no time.
+It's fully responsive and will<br> adapt itself to any mobile device.<br> iPad, iPhone, Android,<br>
+it doesn't matter.</p>
+</div>
+</div>
+
+<hr>
+
+<div class="portfolio"><span>
+<p><span>RECENT FROM PORTFOLIO</span></p>
+<br>
+<div class="portfolio2">
+<div id="portsub">
+<img src="assets/images/kakaoimage.jpg">&nbsp;&nbsp;
+<span style="
+    float: left;
+"><b>BUSINESS CARDS</b><br>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn">Basic</button>
+<br><br>
+Lorem ipsum doloe sit amet das<br>
+consectetuer adipiscing elit. ad<br>
+diam nonummy nibh euismodos<br>
+tincidwnt ut faoreet dolore atir.</span>
+</div>
+
+<div id="portsub">
+<img src="assets/images/kakaoimage.jpg">&nbsp;&nbsp;
+<span style="
+    float: left;
+"><b>MOO MINICARDS</b><br>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn">Basic</button>
+<br><br>
+Lorem ipsum doloe sit amet das<br>
+consectetuer adipiscing elit. ad<br>
+diam nonummy nibh euismodos<br>
+tincidwnt ut faoreet dolore atir.</span>
+</div>
+</div>
+
+<br>
+
+<div class="portfolio2">
+<div id="portsub">
+<img src="assets/images/kakaoimage.jpg">&nbsp;&nbsp;
+<span style="
+    float: left;
+"><b>SAY IT IN PRINT</b><br>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn">Basic</button>
+<br><br>
+Lorem ipsum doloe sit amet das<br>
+consectetuer adipiscing elit. ad<br>
+diam nonummy nibh euismodos<br>
+tincidwnt ut faoreet dolore atir.</span>
+</div>
+
+<div id="portsub">
+<img src="assets/images/kakaoimage.jpg">&nbsp;&nbsp;
+<span style="
+    float: left;
+"><b>GRAPHICS IN PRINT</b><br>
+<button type="button" class="btn btn-success">Success</button>
+<button type="button" class="btn">Basic</button>
+<br><br>
+Lorem ipsum doloe sit amet das<br>
+consectetuer adipiscing elit. ad<br>
+diam nonummy nibh euismodos<br>
+tincidwnt ut faoreet dolore atir.</span>
+</div>
+</div>
+<br>
+<br>
+</span>
+
+</div>
+
+<br><br>
+<hr>
+
+<div class="footer">
+<div class="footersub">
+<b><h1>LITTLE ABOUT US</h1></b><br>
+<b>Sed posuere</b> consectetur est at.<br>
+Nulla vitae elit libero.<b>a pharetra.</b><br>
+Lorem ipsum dolor sit amet, conse<br>
+<b>ctetuer adipiscing elit.</b><br><br>
+
+<b><h1>FOLLOW US</h1></b>
+<i class="fab fa-facebook-f" style="color:#e0e0e0;"></i>&nbsp;
+<i class="fab fa-twitter" style="color:#e0e0e0;"></i>&nbsp;
+<i class="fas fa-wifi" style="color:#e0e0e0;"></i>&nbsp;
+<i class="fas fa-code-branch" style="color:#e0e0e0;"></i>&nbsp;
+<i class="fas fa-basketball-ball" style="color:#e0e0e0;"></i>&nbsp;
+<i class="fas fa-truck-loading" style="color:#e0e0e0;"></i>
+
+</div>
+
+
+&nbsp;&nbsp;
+
+<div class="footersub">
+<b><h1>ARCHIVES</h1></b><br>
+March 2012
+<hr class="two">
+February 2012
+<hr class="two">
+January 2012
+<hr class="two">
+December 2011
+
+</div>
+
+&nbsp;&nbsp;
+
+<div class="footersub">
+<b><h1>CONTACT US</h1></b><br>
+<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;
+info@premiumcoding.com<br><br><br>
+
+<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>&nbsp;
+800 756 156<br><br><br>
+
+<span class="glyphicon glyphicon-modal-window" aria-hidden="true"></span>&nbsp;
++386408007561<br><br><br>
+</div>
+
+<div class="footersub">
+<b><h1>SIGN TO NEWSLETTER</h1></b><br>
+<input type="text" placeholder="Name" style="height:30px; width:100%;"><br><br>
+<input type="text" placeholder="Email" style="height:30px; width:100%;"><br><br>
+<button type="button" class="btn btn-info" style="float:right;">Info</button>
+
+</div>
+</div>
+
+</body></html>
