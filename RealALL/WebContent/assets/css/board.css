@@ -532,3 +532,69 @@ div.subP-clinical-status {
     float: right;
     margin-bottom: 75px;
 }
+
+/* board_faq.jsp 자주하는 질문 페이지 */
+
+div.board-faq > .board-faq-bottom {
+
+}
+
+div.board-faq > table {
+	border-top: 2px solid;
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+    height: 30%;
+}
+
+div.board-faq > table > tbody > tr {
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+}
+
+div.board-faq > table > tbody > tr > th {
+    width: 60px;
+    text-align: center;
+}
+
+div.board-faq > table > tbody > tr > td {
+	
+}
+
+.faq-table-body> th.is-checked {
+	color: #32b76e !important
+}
+
+.faq-table-body> td.is-checked {
+	color: #32b76e !important
+}
+
+.faqView > span {
+	float: right;
+	margin-right: 10px;
+}
+
+.faq-hidden {
+    background-color: #f0f5f9;
+}
+
+.faq-hidden th {
+	color:  #32b76e;
+	vertical-align: top;
+    padding-top: 23px;
+}
+
+.faq-hidden td {
+	padding: 20px 0;
+}
+div.board-faq > table > tbody > tr > th:nth-child(1) {
+	height: 50px;
+}
+
+.faq-hidden {
+	font-weight: bold;
+}
+.faq-hidden > td > p {
+	font-weight: bold;
+    font-size: 15px;
+    margin: 0;
+}

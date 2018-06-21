@@ -14,15 +14,6 @@
 <!-- 김도영 블랙리스트 (Black List)  -->  
 
 
-<style type="text/css">  
-.menu-header {
-	background-color: #22af2d;
-}
-
-.admin-header {
-	background-color: #22af2d;
-}
-</style>
 </head>
 <body>
 	<%@ include file="../include/admin_header-widget.jsp"%>

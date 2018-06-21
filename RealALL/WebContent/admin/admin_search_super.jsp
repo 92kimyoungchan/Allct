@@ -17,15 +17,7 @@ checkbox table
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->
-<style type="text/css">
-.menu-header {
-	background-color: #22af2d;
-}
 
-.admin-header {
-	background-color: #22af2d;
-}
-</style>
 </head>
 <body>
 	<%@ include file="../include/admin_header-widget.jsp"%>
@@ -321,7 +313,7 @@ checkbox table
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-ing">시험진행중</span></td>
 											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
@@ -343,7 +335,7 @@ checkbox table
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-recruited">모집마감</span></td>
 											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
@@ -365,7 +357,7 @@ checkbox table
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-Recruiting">모집중</span></td>
 											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
@@ -387,53 +379,10 @@ checkbox table
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td>시험진행중</td>
+											<td><span class ="admin-test-complete">완료</span></td>
 											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
 										</tr>
 
-
-
-										<tr class="ad-table-body">
-											<td>
-												<div class="consent ad-consent">
-													<label class="labelCheck" for="ad-tr-4"> <input
-														type="checkbox" id="ad-tr-4" name="" class="info" value="" />
-														<span class="checkmark"></span>
-													</label>
-												</div>
-											</td>
-											<td>admin72</td>
-											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
-											<td>18-05-10~18-05-20</td>
-											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
-											<td>18-05-10</td>
-											<td>시험진행중</td>
-											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
-										</tr>
-
- 
-
-										<tr class="ad-table-body">
-											<td>
-												<div class="consent ad-consent">
-													<label class="labelCheck" for="ad-tr-5"> <input
-														type="checkbox" id="ad-tr-5" name="" class="info" value="" />
-														<span class="checkmark"></span>
-													</label>
-												</div>  
-											</td>
-											<td>admin72</td>
-											<td>생동성</td>
-											<td>1형생물학적동등성시험</td>
-											<td>18-05-10~18-05-20</td>
-											<td><span id="">30</span>/<span id="">50</span></td>
-											<td>베스티안 추천병원</td>
-											<td>18-05-10</td>
-											<td>시험진행중</td>
-											<td><button class="am-btn-memberView super-btn">명단보기</button></td>
-										</tr>
 
 
 										</tbody>
