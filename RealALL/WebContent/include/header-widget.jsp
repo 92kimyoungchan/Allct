@@ -53,8 +53,8 @@
 					<li><a href="" class="">고객센터</a>
 						<ul class="drop-menu">
 							<li><a href="/RealALL/board/board_notice.jsp">공지사항</a></li>
-							<li><a href="/RealALL/board/board_news.jsp">교육 및 뉴스</a></li>
-							<li><a href="">자주하는 질문</a></li>
+							<li><a href="/RealALL/board/board_news.jsp">문의 및 상담</a></li>
+							<li><a href="/RealALL/board/board_faq.jsp">자주하는 질문</a></li>
 						</ul></li>
 					<li class="uber"><a class="uberbtn"><i
 							class="fas fa-align-justify"></i></a>

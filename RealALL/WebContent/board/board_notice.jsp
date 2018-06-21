@@ -25,12 +25,14 @@
 				<div class="subP">
 
 					<div class="subPage">
+					<div class="subPage b-bottom">
 						<h2>공지사항</h2>
 						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">MY페이지</a></span><span>><a
-								href="">회원정보수정</a></span>
+							<a><i class="fas fa-home"></i>홈</a><span>><a href="">고객센터</a></span><span>><a
+								href="">공지사항</a></span>
 						</div>
 
+					</div>
 					</div>
 
 
@@ -40,11 +42,11 @@
 
 
 							<div class="select-group">
-								<select id="">
+								<!-- <select id="">
 									<option value="hide">최신순</option>
 									<option value="" rel="icon-temperature">최신순</option>
 									<option value="" rel="icon-temperature">마감임박순</option>
-								</select><select id="">
+								</select> --><select id="">
 									<option value="hide">20개씩</option>
 									<option value="">10개씩</option>
 									<option value="">20개씩</option>
