@@ -124,10 +124,10 @@ $('.labelCheck').on('click',function() {
 		var $input = $('#'+clickId);
 		$input.prop('checked',false);
 		filter.remove();
-		/*$input.next().css({
+		$input.next().css({
 			background:"transparent",
 			color:"inherit"
-		}) */
+		}) 
 	}
 	
 	

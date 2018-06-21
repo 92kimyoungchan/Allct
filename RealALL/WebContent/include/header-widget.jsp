@@ -11,7 +11,9 @@
 	</ul>
 
 </div> -->
+<div class="exit"><i class="fas fa-times"></i></div>
 <div class="fixedMobile">
+
 				<div class="mobileLogin">
 				<h2>ALLct에 오신 것을 환영합니다.</h2>
 				<input>
@@ -63,7 +65,7 @@
 
 				<div class="brand-logo">
 				<a href="/RealALL/index.jsp">
-					<img src="/RealALL/assets/images/allct-logo.png"></a>
+					<img src="/RealALL/assets/images/all-logo.png"></a>
 				</div>
 				<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
 				
