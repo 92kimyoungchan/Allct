@@ -191,10 +191,7 @@
 						</div>
 						<div></div>
 
-
-						
-					</div>
-					<table class="table">
+<table class="table">
 							<thead>
 								<tr class="table-header">
 									<th><div class="firstBox">
@@ -204,6 +201,9 @@
 									<th>모집공고</th>
 									<th>기관명</th>
 									<th>마감일</th>
+								 <th class="mobileTh"><div class="firstBox">
+											<i class="far fa-star"></i>
+										</div></th> 
 
 
 								</tr>
@@ -237,11 +237,16 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
+										 <td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -273,11 +278,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 								</tr>
 								<tr id="bookmark3">
@@ -308,11 +317,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -344,11 +357,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -380,11 +397,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -416,11 +437,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -452,11 +477,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 								</tr>
 								<tr id="bookmark8">
@@ -487,11 +516,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -523,11 +556,15 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
@@ -559,16 +596,23 @@
 									<td><div class="table-text">
 											<span>베스티안부천병원</span>
 										</div></td>
-									<td><div class="table-text date">
+									<td class="dateSet"><div class="table-text date">
 											<span class="date">2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
-										</div></td>
+										</div></td><td class="text-center mobileTd">
+										<div class="firstBox">
+											<i class="far fa-star"></i>
+										</div>
+									</td> 
 
 
 								</tr>
 							</tbody>
 						</table>
+						
+					</div>
+					
 
 					<ul id="pagination-demo" class="pagination-sm"></ul>
 
