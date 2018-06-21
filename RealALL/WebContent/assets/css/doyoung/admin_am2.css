@@ -23,6 +23,7 @@
 /* am-h Ã«Â¶â‚¬Ã«Â¶â€ž*/
 div.am-h-title>h1 {
 	float: left;
+	font-weight: 500;
 }
 
 div#am-h-htn-form:after {
@@ -169,7 +170,7 @@ ul.am-h-state {
 }
 
 .am-ab-table-wrap {
-	
+    margin-top: 15px;
 }
 
 div.am-ab-t-set>button {
@@ -209,7 +210,7 @@ tr.ad-table-body {
 tr.ad-table-body td {
 	padding: 10px 0px 10px 0px;
 	text-align: center;
-	font-weight: 800;
+	font-weight: 500;
 }
 
 .blackListTableBody {
@@ -220,7 +221,7 @@ tr.ad-table-body td {
 .blackListTableBody td {
 	padding: 8px 10px 8px 10px;
 	text-align: center;
-	font-weight: 600;
+	font-weight: 500;
 	font-size: 15px;
 }
 
@@ -377,7 +378,7 @@ span.am-h-title-span {
 }
 
 .am-btn-memberView {
-	background: #1c9035;
+	background: #3caa69;
 	border-radius: 7.5px;
 	padding: 9px 15px;
 	color: white;
@@ -436,7 +437,7 @@ span.admin-calender-form-span:nth-child(4) {
 
 .am-tabs>li>a::after {
 	content: "";
-	background: #1c9035;
+	background: #3caa69;
 	height: 2px;
 	position: absolute;
 	width: 100%;
@@ -447,7 +448,7 @@ span.admin-calender-form-span:nth-child(4) {
 }
 
 ul.am-tabs li.active {
-	color: #1c9035;
+	color: #3caa69;
 }
 
 .am-tabs li {
@@ -515,7 +516,7 @@ button.ad-btn.ad-m-btn-notice {
 }
 
 button.ad-btn.ad-m-btn-sms {
-	background-color: #22af2d;
+	background-color: #3caa69;
 	font-weight: bold;
 }
 
@@ -549,8 +550,8 @@ button.ad-table-delete-btn {
 
 button.ad-blackList-btn {
 	background-color: #7b7676;
-	padding: 13px 11px;
-	border-radius: 16%;
+	padding: 9px 7px;
+	border-radius: 8%;
 	border: none;
 	color: white;
 }
@@ -572,10 +573,10 @@ button.ad-blackList-btn {
 }
 
 button.ad-review-btn.btn {
-	background-color: #2ab848;
+	background-color: #3caa69;
 	color: white;
-	border-radius: 15%;
-	padding: 8px 11px;
+	border-radius: 7%;
+	padding: 7px 11px;
 }
 
 /*MODAL*/
@@ -616,10 +617,10 @@ div#admin-review ~ div {
 
 .modal-content.admin-modal-content:before {
 	content: "";
-	background: #1c9035;
+	background: #3caa69;
 	height: 14px;
 	width: 100%;
-	border: 9px solid #1c9035;
+	border: 9px solid #3caa69;
 }
 
 .modal-body.admin-modal-body {
@@ -635,7 +636,7 @@ div#admin-review ~ div {
 .modal-cancel-btn {
 	text-align: center;
 	padding: 9px 36px;
-	background-color: #22af2d;
+	background-color: #3caa69;
 	border: none;
 	color: white;
 }
@@ -712,6 +713,15 @@ span.admin-test-recruited {
 	color: coral;
 }
 
+.admin-function-btn-Form {
+    display:  inline-block;
+}
+
+.admin-function-btn-Form > button {
+    float: left;
+    margin-right: 4px;
+    /* padding-right: 1px; */
+}
 /* 팝업 관리 */
 .admin-pop_up-container {
 	display: inline-block;
@@ -765,9 +775,8 @@ button {
 }
 
 .am-admin-image-btn-wrapper>button {
-	color: #75756a;
-	border: none;
-	border: 2px solid #b6b2b2;
+	color: E4E4E4;
+	border: 2px solid E4E4E4;
 }
 
 .am-admin-pop_up_content-wrap {
@@ -817,8 +826,11 @@ th.admin-agree-check:after {
 }
 
 @media screen and (max-width:1199px) {
+	.ad-table-header th {
+ 	   font-size: 15px;
+}
 	.blackListTableBody td {
-		font-size: 12px;
+		font-size: 13px;
 	}
 	.subP_admin .menu-header li>a {
 		padding: 0 20px;
@@ -828,7 +840,7 @@ th.admin-agree-check:after {
 		padding: 11px 6px;
 	}
 	.content {
-    padding: 25px;
+    padding: 50px 25px;
 	}
 	button.ad-review-btn.btn {
     	padding: 5px 11px;
@@ -856,4 +868,22 @@ th.admin-agree-check:after {
 	.admin-pop_up-content{
 		padding: 11px;
 	}
+	.am-ab {
+    	padding: 10 15px;
+	}
+	div.am-ab-title>label {
+    	font-size: 19px;
+	}
+	
+	.am-ab-title {
+    margin-bottom: 19px;
+    margin-top: 9px;
+}
+	
+	.admin-function-btn-Form > button {
+    font-size: 10px;
+    padding: 6px 6px;
+    }
+	
+	
 }

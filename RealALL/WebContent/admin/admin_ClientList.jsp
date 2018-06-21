@@ -11,7 +11,7 @@
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
-<!-- 김도영 공고관리 (Announcement Management)  -->  
+<!-- 김도영 의뢰자 회원관리  -->  
 
 </head>
 <body>
@@ -27,7 +27,7 @@
 						<div class="content">
 							<div class="am-header">
 								<div class="am-h-title">
-									<h1>전체회원목록</h1>
+									<h1>의뢰자 회원관리</h1>
 								</div>
 							</div>
 

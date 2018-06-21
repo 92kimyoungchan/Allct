@@ -364,7 +364,7 @@
 							<div class="am-ab-btn-form">
 								<button class="ad-btn ad-m-btn-notice">알림톡전송</button>
 								<button class="ad-btn ad-m-btn-sms">SMS전송</button>
-								<button class="ad-btn ad-m-btn-blacklist">블랙리스트 추가</button>
+								<button class="ad-btn ad-m-btn-delete">선택 삭제</button>
 								<button class="ad-btn ad-m-btn-list">목록으로</button>
 							</div>
 						</div>
@@ -519,38 +519,5 @@
 
 </body>
 </html>
- <!--  
- 
- 
-.admin-modal-contents {
-    padding: 10px 15px;
-    width: 100%;
-    font-weight: bold;
-}
-
-
-.admin-review-subject {
-    width: 80px;
-}
-
-.admin-review-score {
-    width: calc(100% - 100px);
-}
-
-textarea.admin-review-content-textarea {
-    background-color: #f4f4f4;
-    width: 100%;
-    height:  100px;
-}
-
-
-.consent.admin-modal-consent {
-    width: calc((100% - 100px)/2);
-    margin: 0px;
-    float: left;
-    margin-right: 40px;
-}
- 
- -->
 
 
