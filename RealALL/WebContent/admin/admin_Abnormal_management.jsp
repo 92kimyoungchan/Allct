@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="../assets/css/bootstrap.css">
 <link rel="stylesheet" href="../assets/css/owl.carousel.css">
 <link rel="stylesheet" href="../assets/css/style.css">
-<link rel="stylesheet" href="../assets/css/responsive.css">
+<link rel="stylesheet" href="../assets/css/resp	onsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->  
@@ -46,7 +46,7 @@
 								<div class="am-ab-title">
 									<label>총 <span id ="">20</span>명</label>
 								</div>
-
+						</div>
 								<div class="am-ab-title-right">
 									<div class="am-ab-title-selectForm">
 										<select id ="">
@@ -95,7 +95,7 @@
 												<th>성별</th>
 												<th>나이</th>
 												<th>현재상태</th>
-												<th>수신동의여부</th>
+												<th class ="admin-agree-check"></th>
 												<th>참여횟수</th>
 												<th></th>
 											</tr>
@@ -325,8 +325,6 @@
 				</div>
 			</div>
 		</div>
-	</div>
-	</div>
 
 
 
