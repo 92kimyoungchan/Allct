@@ -104,6 +104,14 @@
 	
 	/* 임상시험 소개 관련 페이지 */
 	
+	div.clinical_info_imgBox .clinical_imgBox {
+	    margin-top: 40px;
+	}
+	
+	div.subP-clinical-title {
+		width: 100%;
+	}
+	
 	.subP-clinical-title h2 {
 		float: none;
 		text-align: center;
@@ -114,6 +122,7 @@
 	.clinical_content_box .info-article {
 		margin-bottom: 131px;
 	}
+	
 	
 	
 	
