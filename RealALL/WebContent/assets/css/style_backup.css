@@ -2414,57 +2414,58 @@ div.tab-content .filter-area:last-child {
 	background: pink;
 }
 
-.table thead>tr>th {
+.recruit-box .table thead>tr>th {
 	border-bottom: none;
 	text-align: center;
 	font-size: 15px;
 	vertical-align: middle;
 }
 
-.table thead>tr>th:first-of-type {
+.recruit-box .table thead>tr>th:first-of-type {
 	text-align: unset !important;
 }
-.table tbody>tr>td:first-of-type {
+
+.recruit-box .table tbody>tr>td:first-of-type {
 	padding: 34px 16px !important
 }
 
-.table tbody>tr>td:last-of-type {
+.recruit-box .table tbody>tr>td:last-of-type {
 	padding: 34px 16px !important
 }
 
-.table tbody>tr>td:not(:first-of-type){
+.recruit-box .table tbody>tr>td:not(:first-of-type){
 	vertical-align: middle;
 	padding: 34px 0px;
 }
 
-.table tbody>tr>td:not(:nth-of-type(3)) {
+.recruit-box .table tbody>tr>td:not(:nth-of-type(3)) {
 	text-align: center;
 }
 
-.table tbody>tr>td:nth-of-type(4),  .table tbody>tr>td:nth-of-type(5)
+.recruit-box .table tbody>tr>td:nth-of-type(4), .recruit-box .table tbody>tr>td:nth-of-type(5)
 	{
 	
 }
 
-.table tbody>tr>td.myWork {
+.recruit-box .table tbody>tr>td.myWork {
 	
 }
 
-.table tbody>tr>td:first-child {
+.recruit-box .table tbody>tr>td:first-child {
 	vertical-align: middle;
 	text-align: unset !important;
 	min-width: 70px;
 }
 
-.table tbody>tr>.text-center {
+.recruit-box .table tbody>tr>.text-center {
 	position: relative
 }
 
-.table tbody>tr {
+.recruit-box .table tbody>tr {
 	border-bottom: 1px solid #ddd;
 }
 
-.table tbody>tr>td .mark {
+.recruit-box .table tbody>tr>td .mark {
 	display: block;
 	background: url(../images/icon/icn-s.png) no-repeat;
 	width: 25px;
@@ -2475,22 +2476,22 @@ div.tab-content .filter-area:last-child {
 	left: 62px;
 }
 
-.table tbody>tr>td .firstBox .visible {
+.recruit-box .table tbody>tr>td .firstBox .visible {
 	color: #9b9b9b;
 	font-size: 13px;
 	display: inline-block !important;
 	margin: 0 auto;
 }
 
-.table tbody>tr>td .secondBox .m-capsule-green,
-	.table tbody>tr>td .secondBox .m-capsule-blue {
+.recruit-box .table tbody>tr>td .secondBox .m-capsule-green,
+	.recruit-box .table tbody>tr>td .secondBox .m-capsule-blue {
 	float: left;
 	font-size: 14px;
 	margin-right: 8px;
 	margin-bottom: 5px;
 }
 
-.table tbody>tr>td .secondBox .nameText-box {
+.recruit-box .table tbody>tr>td .secondBox .nameText-box {
 	float: left;
 	font-size: 14px;
 }
@@ -2499,28 +2500,29 @@ div.tab-content .filter-area:last-child {
 	margin-bottom: 5px;
 }
 
- .table tbody>tr>td .secondBox .clear {
+.recruit-box .table tbody>tr>td .secondBox .clear {
 	font-size: 12px;
 	font-weight: bold
 }
 
- .table tbody>tr>td .secondBox .clear h6 {
+.recruit-box .table tbody>tr>td .secondBox .clear h6 {
 	margin-bottom: 10px;
 	font-size: 16px;
 	line-height: 1.5em;
 	font-weight: bold;
+	width: 410px;
 	text-overflow: ellipsis;
 	overflow: hidden;
 	white-space: nowrap;
 }
 
- .table tbody>tr>td .secondBox .clear ul {
+.recruit-box .table tbody>tr>td .secondBox .clear ul {
 	margin: 0;
 	padding: 0;
 	color: #9b9b9b
 }
 
-.table .secondBox {
+.recruit-box .table .secondBox {
 	padding-left: 15px;
 	width: 100%;
 	float: left;
@@ -2546,7 +2548,7 @@ div.tab-content .filter-area:last-child {
 	font-weight: bold;
 }
 
-.table .button-box {
+.recruit-box .table .button-box {
 	
 }
 
@@ -3000,6 +3002,19 @@ section.join .button-box {
 	display: block;
 }
 
+/* Style the checkmark/indicator
+.labelRadio .checkmark:after {
+    left: 8px;
+    top: 5px;
+    width: 8px;
+    height: 12px;
+    border: solid white;
+    border-width: 0 4px 4px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+ */
 .terms-area .consent label>i {
 	vertical-align: middle;
 	font-size: 22px;
@@ -4935,8 +4950,4 @@ div.separateBtn button {
 
 .mobileButton button {
 	width:100%;
-}
-
-.w100 {
-	
 }

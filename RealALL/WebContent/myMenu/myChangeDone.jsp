@@ -24,39 +24,28 @@
 
 				<div class="subP wide minHeight">
 
-					<div class="subPage">
-						<h2>회원탈퇴</h2>
-						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">지원하기</a></span><span>><a
-								href="">공고작성</a></span>
-						</div>
-						<div class="infoMenu">
-							<span>본인확인을 위해 아이디와 비밀번호를 한 번 더 입력해 주세요.<br>항상 비밀번호는
-								타인에게 노출되지 않도록 주의해 주세요.
-							</span>
-						</div>
+					<div class="subPage center">
+						
 
-
-
-					</div>
-					<div class="memberM before">
-						<div class="articleM">
-							<div class="repeatModify">
-							<p><span>비밀번호</span><input></p>
+						<div class="join-done">
+							<img src="../assets/images/check-icon.png">
+							<div class="complate">
+								<h2>
+									Allct<strong>회원가입이 완료</strong>되었습니다.
+								</h2>
+								<p>Allct에 회원가입을 하시면 모집공고를 열람 하실 수 있습니다.</p>
+								<div class="button-box">
+									<button onclick="location.href='../index.jsp'">메인으로</button>
+									<button onclick="location.href='LogIn.jsp'">로그인하기</button>
+								</div>
 							</div>
+
+
+
 						</div>
 
-
-
-
-
- 
 					</div>
-					<p class="button-top">ALLCT 회원탈퇴를 진행합니다.</p>
-					<div class="button-box modify">
-							<button>탈퇴하기</button>
-							
-						</div>
+
 				</div>
 			</div>
 

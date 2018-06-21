@@ -12,17 +12,6 @@
 <link rel="stylesheet" href="../assets/css/responsive.css">
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 <!-- 김도영 지원자 관리 (Application Management)  -->
-<style type="text/css">
-.menu-header {
-	background-color: #22af2d;
-}
-
-.admin-header {
-	background-color: #22af2d;
-}
-
-
-</style>
 
 </head>
 <body>
@@ -87,6 +76,7 @@
 										</button>
 									</div>
 								</div>
+								<div class="admin-clear"></div>
 								<div class="am-ab-table-wrap">
 									<table class="ab-table">
 										<thead>
@@ -104,7 +94,7 @@
 												<th>성별</th>
 												<th>나이</th>
 												<th>현재상태</th>
-												<th>수신동의여부</th>
+												<th class ="admin-agree-check"></th>
 												<th>참여횟수</th>
 												<th>기능</th>
 											</tr>

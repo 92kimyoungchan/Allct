@@ -24,40 +24,40 @@
 
 				<div class="subP wide minHeight">
 
-					<div class="subPage">
-						<h2>회원탈퇴</h2>
-						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">지원하기</a></span><span>><a
-								href="">공고작성</a></span>
-						</div>
+					<div class="subPage center">
+						<h2>비밀번호찾기</h2>
+						
 						<div class="infoMenu">
-							<span>본인확인을 위해 아이디와 비밀번호를 한 번 더 입력해 주세요.<br>항상 비밀번호는
-								타인에게 노출되지 않도록 주의해 주세요.
+							<span>비밀번호를 잊어버리셨나요? 휴대폰 인증을 통해 찾아보실 수 있습니다.
 							</span>
 						</div>
 
 
-
+						
 					</div>
-					<div class="memberM before">
-						<div class="articleM">
-							<div class="repeatModify">
-							<p><span>비밀번호</span><input></p>
+					<h2>아이디 찾기</h2>
+					<div class="getInfoWrapper">
+					<div class="getInfo float">
+					<div class="article">
+							<label>아이디</label>
+							<div class="input-block">
+								<input type="text"><div class="divider"></div>
+								<p class="">가입하셨던 아이디를 입력해주세요.</p>
+
 							</div>
 						</div>
+					
+					
 
-
-
-
-
- 
+			 
 					</div>
-					<p class="button-top">ALLCT 회원탈퇴를 진행합니다.</p>
-					<div class="button-box modify">
-							<button>탈퇴하기</button>
-							
+					</div>
+					<h3>*아이디를 잊어버리셨나요? </h3> <h3 class="pointGreen">아이디찾기</h3>
+					<div class="button-box separateBtn">
+						<button>휴대폰 인증</button>
+
 						</div>
-				</div>
+					</div>
 			</div>
 
 

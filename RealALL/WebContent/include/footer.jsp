@@ -6,14 +6,14 @@
 		<div class="row-noneflex">
 			<div class="brand-logo-s">
 				<div class="img-pmaker">
-					<img src="/RealALL/assets/images/allct-logo.png">
+					<img src="/RealALL/assets/images/all-logoFooter.png">
 				</div>
 			</div>
 			<div class="content-left">
 				<div class="mobile">
 					<div class="brand-logo-s">
 						<div class="img-pmaker">
-							<img src="/RealALL/assets/images/allct-logo.png">
+							<img src="/RealALL/assets/images/all-logoFooter.png">
 						</div>
 					</div>
 				</div>
@@ -25,12 +25,12 @@
 				</p>
 				<p class="copyright">COPYRIGHT2018&copy; ALLCT,ALL RIGHTS RESERVED.</p>
 			</div>
-			<div class="content-right">
+			<!-- <div class="content-right">
 				<h2>대표번호</h2>
 				
 				<h1 class="hugefont">02-0303-0030</h1>
 				<h2>FAQ | CONTACT@Allct.co.kr</h2>
-			</div>
+			</div> -->
 			</div>
 		</div>
 	</footer>

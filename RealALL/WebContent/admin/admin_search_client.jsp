@@ -20,15 +20,7 @@ super 페이지 span
 <link rel="stylesheet" href="../assets/css/doyoung/admin_am2.css">
 
 <!-- 김도영 공고관리 (Announcement Management)  -->
-<style type="text/css">
-.menu-header {
-	background-color: #22af2d;
-}
 
-.admin-header {
-	background-color: #22af2d;
-}
-</style>
 </head>
 <body>
 	<%@ include file="../include/admin_header-widget.jsp"%>
@@ -256,7 +248,7 @@ super 페이지 span
 											<td><span id="">30</span>/<span id="">50</span></td>
 											<td>베스티안 추천병원</td>
 											<td>18-05-10</td>
-											<td><span class ="admin-test-recruited">모집완료</span></td>
+											<td><span class ="admin-test-recruited">모집마감</span></td>
 											<td><button class="am-btn-memberView">명단보기</button></td>
 										</tr>
 

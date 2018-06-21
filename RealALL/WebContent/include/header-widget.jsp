@@ -1,6 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<div id="floatMenu">
+<!-- <div id="floatMenu">
 	<ul>
 		<li><a href=""><img
 				src="/RealALL/assets/images/icn_quick1.png"><span>메뉴1</span></a></li>
@@ -10,7 +10,47 @@
 				src="/RealALL/assets/images/icn_quick5.png"><span>메뉴3</span></a></li>
 	</ul>
 
-</div>
+</div> -->
+<div class="exit"><i class="fas fa-times"></i></div>
+<div class="fixedMobile">
+
+				<div class="mobileLogin">
+				<h2>ALLct에 오신 것을 환영합니다.</h2>
+				<input>
+				<input>
+				<div class="button-box">
+				<button>로그인</button>
+				</div>
+				<h3>*아이디를 잊어버리셨나요? </h3><h3 class="pointGreen">아이디찾기</h3>
+				<div class="LoginSpan">
+				<span>Allct가 만들어가는 건강한 미래<br>
+				지금 새로운 연구에 참여해보세요!</span>
+				</div>
+				<button class="join">회원가입</button>
+				</div>
+				
+				<div class="menuSection">
+				<h2>임상시험이란?</h2>
+				</div>
+					
+				<div class="menuSection">
+				<h2>모집공고</h2>
+				</div>	
+					
+				<div class="menuSection">
+				<h2>정보안내</h2>
+				</div>	
+					
+				<div class="menuSection">
+				<h2>고객센터</h2>
+				</div>	
+				
+				<div class="mobileCall">
+				<h2>대표전화</h2><h2 class="colors">1588-1588</h2>
+				</div>							
+				
+				</div>
+				
 <div class="top-area">
 	<header>
 		<div class="container">
@@ -25,9 +65,15 @@
 
 				<div class="brand-logo">
 				<a href="/RealALL/index.jsp">
-					<img src="/RealALL/assets/images/allct-logo.png"></a>
+					<img src="/RealALL/assets/images/all-logo.png"></a>
 				</div>
 				<a id="mobilemenu"><i class="fas fa-align-justify"></i></a>
+				
+				
+				
+				
+				
+				
 				<ul class="ul-theory">
 					<li><a href="" class="">allct</a>
 						<ul class="drop-menu">

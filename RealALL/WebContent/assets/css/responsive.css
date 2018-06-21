@@ -60,22 +60,28 @@
 }
 
 @media screen and (max-width:425px) {
+	.img-box {
+		padding:0 12%;
+	}
 .img-box .img-set3 {
 		width:100%;
 		margin-right:0;
 		margin-bottom:15px;
-		padding:0 8%;
-		
 	}
 	.overlay-wrap {
-		width:84%;
+		width: 100%;
 	}
 	
 	.hoverDiv .img-box .img-set3 img {
 		padding:0;
 	}
 	.img-set3 .overlay-wrap .overlay-item {
-		top:calc(47.5% - 92px);
+		top: calc(50% - 76px);
+		padding: 0;
+	}
+	
+	.recruit-header .input-search-box input {
+		width:140px;
 	}
 	
 }
@@ -97,6 +103,8 @@
 	
 	.hoverDiv .img-box {
 		padding:0 20px;
+		width: 60%;
+		margin: 50px auto 0px;
 	}
 	.hoverDiv .img-box .img-set3 img {
 		padding:0;
@@ -244,9 +252,13 @@
 
 @media screen and (min-width:768px) and (max-width:991px) {
 	
+	.table tbody>tr>td .secondBox .clear h6 {
+		width:370px;
+	}
+	
 	.img-set3 .overlay-wrap .overlay-item {
 		padding:0;
-		top:calc(55% - 91px);
+		top: calc(50% - 73px);
 	}
 	.img-set3 .overlay-wrap .overlay-item h2 {
 		font-size:16px;
@@ -260,8 +272,12 @@
 		width: 720px;
 	}
 	
+	.advertisement .adsection.num1 {
+		padding: 0 3.75%;
+	}
+	
 	.advertisement .adsection.num2 {
-		padding-left:5%;
+		padding: 0 3.75%;
 	}
 }
 
@@ -269,8 +285,30 @@
 	.containerBox {
 		max-width:960px;
 		padding:22px 0;
+	}div.carousel-overlay-wrap .carousel-overlay {
+		top:calc(45% - 74px);
 	}
 	
+	.item-grid .item-set:nth-of-type(3n) {
+	margin-right: 0;
+	}
+	.item-grid .item-set {
+	width: 32.3%;
+	margin-right: 1.5%;
+	float: left;
+	margin-bottom: 25px;
+	border-left: 10px solid #3caa69;
+	
+}
+
+.x-sidebar {
+	
+}
+
+div.subP {
+
+}
+
 }
 @media screen and (min-width:992px) and (max-width:1199px) {
 	.uber-section {
@@ -293,7 +331,9 @@
 @media only screen and (max-width: 645px) {
 
 	
-	
+	.advertisement .adsection h2.second {
+		font-size:16px;
+	}
 	section.another {
 		padding: 8% 4% 8%;
 	}
@@ -314,9 +354,13 @@
 	.img-box .img-set4:nth-of-type(2n) {
 		margin-right: 0;
 	}
-	.advertisement .adsection {
+	.advertisement .adsection.num1 {
+		left: 0;
+		padding: 0 5%;
+	}
+	
+	.advertisement .adsection.num2 {
 		left: 0%;
-		width: 100%;
 		padding: 0 5%;
 	}
 	.advertisement .adsection h2 {
@@ -327,7 +371,10 @@
 		
 	}
 	.advertisement .adsection a {
-		
+		margin-top:25px;
+	}
+	div.subP {
+		padding:0 10px;
 	}
 }
 
@@ -336,7 +383,7 @@
 		
 		.img-set3 .overlay-wrap .overlay-item {
       padding:0;
-      top:calc(50% - 86px);
+      top: calc(50% - 68px);
    }
    .img-set3 .overlay-wrap .overlay-item h2 {
       font-size:14px;
@@ -348,7 +395,16 @@
    }
 		
 		.advertisement .adsection.num2 {
-		left:27%;
+		right: 0;
+		width: 450px;
+		left: calc(60.5% - 225px);
+		padding: 0 3.5%;
+	}
+			.advertisement .adsection.num1 {
+		left: calc(67.5% - 200px);
+		width: 400px;
+		right: 0;
+		padding: 0 3.5%;
 	}
 	.containerBox {
 		padding:22px 0px;
@@ -404,7 +460,7 @@
 	width: 48%;
 	margin-right: 2%;
 	float: left;
-	padding-bottom:25px;
+	margin-bottom:25px;
 }
 
 .item-grid .item-set:nth-of-type(2n) {
@@ -468,6 +524,58 @@
 		display: block;
 		padding: 5%;
 	}
+	
+	.tab-hashtag ul {
+		width:calc(100% - 160px);
+		border-right:1px solid #a7a7a7;
+	}
+	
+	.tab-hashtagTab {
+			display:block;
+	}
+
+	.table tbody>tr>td .secondBox .clear h6 {
+		max-width:170px;
+	}
+	
+	
+	.recruit-header button:first-child {
+		margin-right:10px;
+		padding:6px 12px;
+	}
+	.recruit-header .input-search {
+		padding:8px 2px 8px 18px;
+		height:43px;
+	}
+	
+	.recruit-header .input-search-box {
+		margin-right:5px;
+	}
+	
+	.select-styled {
+		padding:8px 28px 8px 18px;
+		height:43px;
+	}
+	
+	.tab-hashtag .searchRecruit {
+		display:none;
+	}
+	
+	.mobileButton {
+		display:block;
+	}
+	
+	.w100 {
+		width:100%;
+	}
+	.table tbody>tr>td:nth-of-type(2) {
+		display:none;
+	}
+	.table thead>tr>th:nth-of-type(2) {
+	display:none;
+	}
+	
+	
 }
 
 @media only screen and (max-width: 645px) {
@@ -486,14 +594,101 @@
 	.item-grid .item-set.mobile {
 		display:none;
 	}
+	
+	.img-box .img-set3 {
+		width:100%;
+		margin-right:0;
+		margin-bottom: 25px;
+	}
+	
+	.recruit-box .select-group {
+		clear:both;
+		margin:30px 0 10px;
+	}
+	
+	.recruit-header button:first-child {
+		margin-right:5px;
+		padding:6px 4px;
+	}
+	.recruit-header .input-search-box {
+		margin-right:5px;
+	}
+	.recruit-header .input-search {
+		padding:8px 0px 8px 4px;
+	}
+	.recruit-box .select-group {
+		clear:both;
+		margin:30px 0 10px;
+	}
+	
+	.recruit-box {
+		padding:0 8px;
+	}
+	.labelCheck {
+		margin-bottom:6px;
+		margin-right:3px;
+	}
+	
+	
 }
 
 
 @media only screen and (min-width: 646px) {
 	section.advertisement {
-		min-height: 300px;
+		min-height: 280px;
+	}
+	
+
+	
+	
+}
+@media screen and (min-width:646px) and (max-width:767px) {
+
+		.img-set3 .overlay-wrap .overlay-item {
+	top: calc(50% - 53.5px);
+	}
+	.img-set3 .overlay-wrap .overlay-item img {
+	width: 40px;
+	margin-bottom: 7px;
+	}
+	.img-set3 .overlay-wrap .overlay-item h2 {
+	}
+	
+}
+	
+	
+
+@media only screen and (max-height: 642px) {
+	.fixedMobile {
+		
+		overflow-y:scroll;
+		height:100%;
 	}
 }
+
+@media screen and (min-width:768px) and (max-width:830px) {
+	.advertisement .adsection.num1 {
+		left: 42%;
+		top: 50;
+	}
+	.advertisement .adsection.num2 {
+		left: 36%;
+		top: 50;
+	}
+}
+
+@media screen and (min-width:830px) and (max-width:991px) {
+	.advertisement .adsection.num1 {
+		left: 45%;
+		top: 50;
+	}
+	.advertisement .adsection.num2 {
+		left: 40%;
+		top: 50;
+	}
+}
+
+
 @media screen and (min-width:768px) and (max-width:991px) {
 	
 	
@@ -511,10 +706,7 @@
 	.carousel-overlay span {
 		font-size: 19.5px;
 	}
-	.advertisement .adsection {
-		left: 40%;
-		top: 50;
-	}
+	
 	div.owl-theme .owl-dots {
 		
 	}
@@ -617,33 +809,30 @@
 	ul.ul-theory .mobile-join {
 		display: block;
 	}
+	ul.ul-theory li > a {
+		text-align:center;
+	}
 	
+	
+	.x-sidebar {
+		display:none;
+	}
+
+	div.subP {
+		width:100%;
+		float:right;
+		
+	}
 	
 	
 	
 }
 
-@media screen and (min-width:992px) {
 
-	
-	div.carousel-overlay-wrap .carousel-overlay {
-		top:calc(45% - 74px);
-	}
-	
-	.item-grid .item-set:nth-of-type(3n) {
-	margin-right: 0;
-	}
-	.item-grid .item-set {
-	width: 30.666%;
-	margin-right: 4%;
-	float: left;
-	padding-bottom:25px;
-}
 
 
 section.another {
-	padding: 5.8% 17% 5.8%;
-	
+	padding: 5.8% 15% 5.8%;
 }
 
 
@@ -691,6 +880,12 @@ section.another {
 			top:calc(57.5% - 92px);
 			padding:0px 10px;
 	}
+	.table tbody>tr>td .secondBox .clear h6 {
+		width:345px;
+	}
+	
+	
+	
 	
 	
 
@@ -698,6 +893,10 @@ section.another {
 	@media screen and (min-width:1199px) {
 	.advertisement .adsection {
 		padding:0 45px;
+	}
+	
+	.table-text span.date {
+		display:block;
 	}
 	
 }

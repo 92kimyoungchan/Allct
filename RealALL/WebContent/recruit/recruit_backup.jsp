@@ -102,31 +102,63 @@
 
 									<div class="filter-area">
 										<div class="filter-article">
-											<a href="">시험종류</a>
+											<a href="">임상시험종류</a>
 										</div>
 										
 									
 										
 										
-										
-										
 										<div class="article-item">
-											<label class="labelRadio" for="inputCheck11">임상시험<input
-												type="radio" id="inputCheck11" name="type" value="임상시험"/> <span
-												class="checkmark"></span></label> <label class="labelRadio"
-												for="inputCheck12">생동성<input type="radio"
-												id="inputCheck12" name="type" value="생동성"/> <span
-												class="checkmark"></span></label>
-												<label class="labelRadio" for="inputCheck13">모두포함<input
-												type="radio" id="inputCheck13" name="recipient" value="모두포함"/> <span
-												class="checkmark"></span></label>
+											<input type="checkbox" id="inputCheck11" name="type"
+												value="임상시험1상" /> <label class="labelCheck"
+												for="inputCheck11">임상시험(건강한 성인 - 1상)</label> <input
+												type="checkbox" id="inputCheck12" name="type" value="임상시험" />
+											<label class="labelCheck" for="inputCheck12">임상시험</label> <input
+												type="checkbox" id="inputCheck13" name="type" value="생동성시험" />
+											<label class="labelCheck" for="inputCheck13">생동성시험</label>
 
 										</div>
 									</div>
 
+									<div class="filter-area">
+										<div class="filter-article">
+											<a href="">기간</a>
+										</div>
+										
 									
+													
+										
+										<div class="article-item">
+											<label class="labelRadio" for="inputCheck14">주말<input
+												type="radio" id="inputCheck14" name="period" value="주말"/> <span
+												class="checkmark"></span></label> <label class="labelRadio"
+												for="inputCheck15">평일<input type="radio"
+												id="inputCheck15" name="period" value="평일"/> <span
+												class="checkmark"></span></label>
+												<label class="labelRadio" for="inputCheck16">모든요일<input
+												type="radio" id="inputCheck16" name="period" value="모든요일"/> <span
+												class="checkmark"></span></label> 
 
-									
+										</div>
+									</div>
+
+									<div class="filter-area">
+										<div class="filter-article">
+											<a href="">시간</a>
+										</div>
+										<div class="article-item">
+											<input type="checkbox" id="inputCheck17" name="time"
+												value="24시간" /> <label class="labelCheck" for="inputCheck17">24시간</label>
+
+											<input type="checkbox" id="inputCheck18" name="time"
+												value="48시간" /> <label class="labelCheck" for="inputCheck18">48시간</label>
+
+											<input type="checkbox" id="inputCheck19" name="time"
+												value="72시간" /> <label class="labelCheck" for="inputCheck19">72시간</label>
+													<input type="checkbox" id="inputCheck20" name="time"
+												value="96시간" /> <label class="labelCheck" for="inputCheck20">96시간</label>
+										</div>
+									</div>
 								</div>
 
 								<div class="tab-hashtag">
@@ -140,8 +172,6 @@
 										</p>
 									</div>
 								</div>
-								
-								<div class="button-box mobileButton"><button class="allct" onclick="location.href='joinTerms.jsp'">검색</button></div>
 
 
 
@@ -189,12 +219,9 @@
 
 
 						</div>
-						<div></div>
 
 
-						
-					</div>
-					<table class="table">
+						<table class="table">
 							<thead>
 								<tr class="table-header">
 									<th><div class="firstBox">
@@ -238,7 +265,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -274,7 +301,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -309,7 +336,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -345,7 +372,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -381,7 +408,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -417,7 +444,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -453,7 +480,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -488,7 +515,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -524,7 +551,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -560,7 +587,7 @@
 											<span>베스티안부천병원</span>
 										</div></td>
 									<td><div class="table-text date">
-											<span class="date">2016-06-07</span>
+											<span>2016-06-07</span>
 											<div class="spanSeparate"></div>
 											<span>10일전</span>
 										</div></td>
@@ -569,6 +596,7 @@
 								</tr>
 							</tbody>
 						</table>
+					</div>
 
 					<ul id="pagination-demo" class="pagination-sm"></ul>
 
@@ -586,6 +614,7 @@
 
 	<script type="text/javascript" src="../assets/js/jquery-1.9.1.min.js"></script>
 	<script type="text/javascript" src="../assets/js/pagination.min.js"></script>
+	<script defer src="../assets/js/fontawesome-all.js"></script>
 	<script type="text/javascript" src="../assets/js/recruit.js"></script>
 	<script type="text/javascript" src="../assets/js/select.js"></script>
 	<script type="text/javascript" src="../assets/js/structure.js"></script>

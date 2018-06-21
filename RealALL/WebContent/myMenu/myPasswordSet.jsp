@@ -24,40 +24,50 @@
 
 				<div class="subP wide minHeight">
 
-					<div class="subPage">
-						<h2>회원탈퇴</h2>
-						<div class="small_navigation">
-							<a><i class="fas fa-home"></i>홈</a><span>><a href="">지원하기</a></span><span>><a
-								href="">공고작성</a></span>
-						</div>
+					<div class="subPage center">
+						<h2>새로운 비밀번호 설정</h2>
+						
 						<div class="infoMenu">
-							<span>본인확인을 위해 아이디와 비밀번호를 한 번 더 입력해 주세요.<br>항상 비밀번호는
-								타인에게 노출되지 않도록 주의해 주세요.
+							<span>새로운 비밀번호를 설정하세요. 비밀번호는 복잡할수록 안전합니다.
 							</span>
 						</div>
 
 
-
+						
 					</div>
-					<div class="memberM before">
-						<div class="articleM">
-							<div class="repeatModify">
-							<p><span>비밀번호</span><input></p>
+					<h2>새로운 비밀번호 설정</h2>
+					<div class="getInfoWrapper">
+					<div class="getInfo floatSpan">
+					<div class="article">
+							<label>새 비밀번호</label>
+							<div class="input-block">
+								<input type="text"><span style="padding: 0.5 0; line-height: 1.2;">영문,숫자,특수문자(!@#$%^&*)<br>3가지
+									이상 조합으로 9~16자 이어야 합니다.
+								</span><div class="divider"></div>
+								<p class="">필수정보 사항입니다.</p>
+
 							</div>
 						</div>
+						<div class="article">
+							<label>비밀번호확인</label>
+							<div class="input-block">
+								<input type="text"><div class="divider"></div>
+								<p class="">일치하지 않습니다.</p>
 
-
-
-
-
- 
-					</div>
-					<p class="button-top">ALLCT 회원탈퇴를 진행합니다.</p>
-					<div class="button-box modify">
-							<button>탈퇴하기</button>
-							
+							</div>
 						</div>
-				</div>
+					
+					
+
+			 
+					</div>
+					</div>
+					<h3>*아이디를 잊어버리셨나요? </h3> <h3 class="pointGreen">아이디찾기</h3>
+					<div class="button-box separateBtn">
+						<button>휴대폰 인증</button>
+
+						</div>
+					</div>
 			</div>
 
 
