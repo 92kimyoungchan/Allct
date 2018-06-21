@@ -1,0 +1,364 @@
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+}
+
+h1 {
+	font-size: 2.4rem;
+	line-height: 3rem;
+	letter-spacing: 4px;
+	padding-bottom: 6px;
+	/* font-family ï¿½ï¿½ï¿½ï¿½ */
+	font-family: Gugi-R;
+}
+
+h2 {
+	font-size: 22px;
+}
+
+nav {
+	
+padding-bottom: 10px;
+}
+
+nav:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.brand-logo {
+	float: left;
+}
+
+ul {
+	list-style: none;
+	padding: 0px;
+	float: right;
+	margin: 0;
+}
+
+ul>li {
+
+	padding: 15px 0;
+	display: inline-block;
+}
+
+ul>li>a {
+	padding: 0 5px;
+}
+
+#outer-box {
+	width: 100%;
+	height: 500px;
+	background-image: url("../images/venice.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: block;
+	position: relative;
+	margin-bottom: 30px;
+}
+
+#outer-box img {
+	width: 100%;
+	height: auto;
+}
+
+#outer-box #inner-box {
+	background: #596d89;
+	height: auto;
+	width: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 0;
+	height: 100%;
+	transition: opacity .5s;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.overlap-item {
+	text-align: center;
+	top: calc(50% - 78px);
+	position: relative;
+}
+
+#outer-box #inner-box p {
+	color: #fff;
+	font-family: 'arial';
+	text-align: center;
+}
+
+#outer-box #inner-box p:before {
+	content: "MADE FOR DESIGNERS \A";
+	font-weight: bold;
+	font-size: 30px;
+	text-align: center;
+	white-space: pre;
+}
+
+#outer-box:hover #inner-box {
+
+	opacity: .9;
+	transition: opacity .5s;
+}
+
+.content {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.content p {
+	
+}
+
+.content span {
+	
+}
+
+/* .content p:before {
+	content: "Beautiful, Clean.Responsive. \A";
+	font-weight: bold;
+	font-size: 30px;
+	fon text-align: center;
+	white-space: pre;
+	color: #5666a7;
+} */
+
+.wrapper {
+	width: 100%;
+	margin: 55px;
+	height: 320px;
+	display: inline-block;
+	padding: 0px 200px 0px 200px;
+}
+
+.col_set {
+	
+}
+
+.col_set:after {
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.col {
+	font-size: 20px;
+	line-height: 30px;
+	width: 30.6666%;
+	float: left;
+	margin-right: 4%;
+}
+
+
+.col p {
+	font-size: 13px;
+	float: left;
+	text-align: left;
+	margin: 13px 0 0 55px
+}
+
+.col .col_sub {
+	float: left;
+	width: 50px;
+}
+
+
+div.col .col_sub span {
+	font-size: 50px;
+	color: #30dab4;
+}
+
+.col .col_content {
+	padding: 0 25px;
+	width: calc(100% - 50px);
+	float: left;
+	text-align: justify;
+	letter-spacing: -1.2px;
+}
+
+.col .col_content h2 {
+	margin-bottom: 20px;
+}
+
+.col .col_content span {
+	
+}
+
+.col2 p {
+	font-size: 13px;
+	float: left;
+	text-align: left;
+	margin: 13px 0 0 55px
+}
+
+.portfolio2:after {
+	clear:both;
+	display:block;
+	content:"";
+}
+.portfolio2 {
+	
+}
+
+.portfolio2 .portsub {
+	background-color: #ffffff;
+	border: 1px solid #f1f1f1;
+	width: 48%;
+	margin-right: 4%;
+	float: left;
+	margin-bottom: 30px;
+	height: 240px;
+}
+
+.portfolio2 .portsub:nth-of-type(2n) {
+	margin-right: 0;
+}
+
+.portsub img {
+	float: left;
+}
+
+.portfolio2 .portsub .port_content {
+	display:table-cell;
+	vertical-align: middle;
+}
+.portsub .content-box {
+	display:table;
+	height:100%;
+	float: left;
+	width: calc(100% - 140px);
+}
+.portfolio2 .portsub .port_content h2 {
+	margin-bottom: 20px;
+	font-size:21px;
+}
+
+.portfolio2 .portsub .port_content button {
+	margin-bottom: 20px;
+}
+
+.portfolio2 .portsub .port_content span {
+	
+}
+
+.portfolio {
+	text-align: center;
+	background-color: #f1f1f1;
+	padding: 30px;
+}
+
+#portfolio-title {
+	margin: 50px 0 10px;
+}
+
+.portfolio h1 {
+	font-weight: bold;
+	margin: 0;
+	text-align: left;
+	padding-left: 70px;
+}
+.portfolio h1 > strong {
+	color:green;
+}
+
+body>div.portfolio>div:nth-child(4)>div:nth-child(1) {
+	margin-right: 35px;
+}
+
+body>div.portfolio>div:nth-child(6)>div:nth-child(1) {
+	margin-right: 35px;
+}
+
+.portfolio p {
+	font-weight: bold;
+	font-size: 30px;
+	margin-right: 373px;
+}
+
+.portsub p {
+	font-size: 13px;
+}
+
+.footer {
+	padding: 0 30px;
+}
+
+div.footersub {
+	font-size: 20px;
+	width: 22%;
+	margin-right:4%;
+	float: left;
+	padding: 0 25px;
+}
+
+div.footersub p > span {
+	padding-right:8px;	
+}
+
+div.footersub:last-of-type {
+	margin-right:0;
+}
+div.footer .footersub p {
+	
+}
+
+div.footer .footersub p > b {
+	
+}
+
+div.footer .footersub .icon {
+	
+}
+
+div.footer .footersub svg {
+	margin:0 5px;
+	}
+
+
+hr.two {
+	border: none;
+	border: 1px dashed black;
+}
+
+.body {
+	margin: 0px;
+}
+
+div.footer .footersub span {
+	font-size: 40px;
+	float: left;
+}
+
+div>button.btn {
+	margin-top: 20px;
+}
+
+input[type="text"] {
+	height: 50px;
+	width: 100%;
+	border: none;
+	background-color: #eceaea;
+}
+
+.portsub .portsub-imgbox {
+	
+width: 140px;
+	
+float: left;
+}
+
+.portsub .portsub-imgbox img {
+	width:100%;
+	height: 100%;
+}
+
+.portfolio2 .portsub .port_content span:before {
+    clear: both;
+    content: "";
+    display: block;
+}

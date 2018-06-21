@@ -1,0 +1,36 @@
+@font-face {
+	font-family: 'KoPuBatang-M';
+	src: url('KoPub Batang Medium.eot');
+	src: url('KoPub Batang Medium.eot?#iefix') format('embedded-opentype');
+	src: url('KoPub Batang Medium.woff') format('woff');
+/* 	src: url('KoPub Batang Medium.ttf') format('truetype');
+ */	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KoPuDotum-L';
+	src: url('KoPub Dotum Light.eot');
+	src: url('KoPub Dotum Light.eot?#iefix') format('embedded-opentype');
+	src: url('KoPub Dotum Light.woff') format('woff');
+/* 	src: url('KoPub Dotum Light.ttf') format('truetype');
+ */	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'KoPuDotum-B';
+	src: url('KoPub Dotum Bold.eot');
+	src: url('KoPub Dotum Bold.eot?#iefix') format('embedded-opentype');
+	src: url('KoPub Dotum Bold.woff') format('woff');
+/* 	src: url('KoPub Dotum Bold.ttf') format('truetype');
+ */	font-weight: normal;
+	font-style: normal;
+}
+
+
+
+
+
+
+
